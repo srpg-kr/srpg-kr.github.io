@@ -1,0 +1,48 @@
+/* App Layout */
+.App {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+h1 {
+  margin:0;
+}
+
+/* Main content area */
+.content {
+  width: calc(100% - 250px); /* Shrinks when sidebar is open */
+  top: 0;
+  flex-grow: 1;
+  margin-left: 250px; /* Adjusted for sidebar */
+  padding: 0; /* Remove padding */
+  transition: margin-left 0.3s ease-in-out, width 0.3s ease-in-out;
+}
+
+.csvTitle {
+  text-align: center;
+}
+
+/* Adjust when sidebar is closed */
+.sidebar.closed + .content {
+  width: 100%;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Remove any extra padding on body */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Dark Mode Styling */
+body.dark-mode {
+  background-color: #222;
+  color: white;
+}
+
+body.dark-mode .content {
+  background-color: #333;
+  color: white;
+}
