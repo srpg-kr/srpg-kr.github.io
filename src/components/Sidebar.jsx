@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FaSun, FaMoon, FaChevronDown, FaChevronRight } from "react-icons/fa";
-import "../styles/Sidebar.css";
+import "../styles/sidebar.css";
 
 const CATEGORIES = [
   ["M", "메인 스토리"],
