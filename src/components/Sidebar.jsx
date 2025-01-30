@@ -5,7 +5,7 @@ import "../styles/sidebar.css";
 const CATEGORIES = [
   ["M", "메인 스토리"],
   ["A", "이벤트"],
-  ["F", "일상"],
+  ["F", "일지"],
   ["P", "엘모 서버룸"],
   ["T", "호감도"],
   ["CN_A", "중국판"],
@@ -24,11 +24,11 @@ function categorizeFiles(files) {
         let matched = false;
         
         for (let [prefix, category] of CATEGORIES) {
-        if (file.startsWith(prefix) && /\d/.test(file[prefix.length])) {
-            categorized[category].push(file);
-            matched = true;
-            break;
-        }
+          if (file.file.startsWith(prefix) && /\d/.test(file.file[prefix.length])) {
+              categorized[category].push(file);
+              matched = true;
+              break;
+          }
         }
         
         if (!matched) {
@@ -39,7 +39,7 @@ function categorizeFiles(files) {
     return categorized;
 }
 
-function Sidebar({ onFileSelect, fileList, toggleTheme, isDarkMode }) {
+function Sidebar({ fileList, toggleTheme, isDarkMode }) {
     const [isOpen, setIsOpen] = useState(true); // Sidebar starts open
 
     // Categorize files on load
@@ -48,7 +48,7 @@ function Sidebar({ onFileSelect, fileList, toggleTheme, isDarkMode }) {
     // Track which categories are expanded
     const [expandedCategories, setExpandedCategories] = useState(
         Object.keys(categorizedFiles).reduce((acc, key) => {
-        acc[key] = false; // Default all categories to open
+        acc[key] = false; // Default all categories to close
         return acc;
         }, {})
     );
@@ -87,11 +87,10 @@ function Sidebar({ onFileSelect, fileList, toggleTheme, isDarkMode }) {
 
             {/* Expand/Collapse Content */}
             <div className={`category-list ${expandedCategories[category] ? "expanded" : "collapsed"}`}>
-              {files.map((fileName) => {
-                const displayName = fileName.replace(".book.csv", "");
+              {files.map((fileObj) => {
                 return (
-                  <button key={fileName} onClick={() => onFileSelect(fileName)}>
-                    {displayName}
+                  <button key={fileObj.file} onClick={() => window.location.hash = fileObj.file}>
+                    {fileObj.shortName}
                   </button>
                 );
               })}

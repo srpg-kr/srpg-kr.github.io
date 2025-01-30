@@ -1,7 +1,8 @@
 import React from 'react';
 import "../styles/datatable.css";
 
-function DataTable({ csvData, isDarkMode, loading }) {
+function DataTable({ csvTitle, csvData, isDarkMode, loading, isFirstLoad }) {
+
   if (loading) {
     return (
       <div className="loading-container">
@@ -11,29 +12,47 @@ function DataTable({ csvData, isDarkMode, loading }) {
     );
   }
 
-  if (!csvData || csvData.length === 0) return null;
+  if (!csvData || csvData.length === 0){
+    if (isFirstLoad == true){
+      return (
+        <div className='empty-table'>좌측 사이드바를 열고 보고싶은 스토리를 선택해주세요.</div>
+      );
+    }
+    else {
+      return (
+        <div className='empty-table error'>로드에 실패했거나 비어있는 테이블입니다!</div>
+      );
+    }
+  }
 
   return (
-    <table className={`data-table ${isDarkMode ? "dark-mode" : ""}`}>
-      <thead>
-        <tr>
-          {Object.keys(csvData[0]).map((header) => (
-            <th key={header}>{header}</th>
-          ))}
-        </tr>
-      </thead>
-      <tbody>
-        {csvData.map((row, rowIndex) => (
-          <tr key={rowIndex}>
-            {Object.keys(row).map((col) => (
-              <td key={col}>
-                {transformText(row[col]) /* We'll implement transformText below */}
-              </td>
+    <div>
+      <div className='csvTitle'>
+        <br/>
+        <h1>{csvTitle}</h1>
+        <br/>
+      </div>
+      <table className={`data-table ${isDarkMode ? "dark-mode" : ""}`}>
+        <thead>
+          <tr>
+            {Object.keys(csvData[0]).map((header) => (
+              <th key={header}>{header}</th>
             ))}
           </tr>
-        ))}
-      </tbody>
-    </table>
+        </thead>
+        <tbody>
+          {csvData.map((row, rowIndex) => (
+            <tr key={rowIndex}>
+              {Object.keys(row).map((col) => (
+                <td key={col}>
+                  {transformText(row[col]) /* We'll implement transformText below */}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   );
 }
 

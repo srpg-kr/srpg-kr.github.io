@@ -68,7 +68,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    height: 100vh;
+    text-align: center;
+    vertical-align: middle;
+    align-content: center;
   }
   
   /* Loading Spinner Animation */
@@ -93,3 +96,15 @@
     border-top: 4px solid white;
   }
   
+  .empty-table {
+    font-size: 40px;
+    font-weight: bold;
+    height: 100vh;
+    text-align: center;
+    vertical-align: middle;
+    align-content: center;
+  }
+  
+  .empty-table.error {
+    color: #ff2828
+  }
