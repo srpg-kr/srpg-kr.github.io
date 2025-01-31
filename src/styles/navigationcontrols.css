@@ -1,0 +1,68 @@
+  .nav-controls {
+    position: fixed;
+    bottom: 10px;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-controls button {
+    outline: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    opacity: 0.8;
+    transition: transform 0.2s ease;
+  }
+  
+  .nav-controls button:hover {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  
+  .nav-controls button:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+    transform: none;
+  }
+
+  .nav-controls button:focus {
+    box-shadow: none;
+  }
+
+  .nav-controls button:active {
+    transform: scale(0.95);
+    border: none !important;
+  }
+  
+  /* Split controls to both sides */
+  .nav-controls.left {
+    left: 20px;
+    right: auto;
+  }
+  
+  .nav-controls.right {
+    right: 20px;
+    left: auto;
+  }
+
+  /* Adjust position when sidebar is open */
+  .sidebar.open ~ .nav-controls.left {
+    left: calc(20px + var(--sidebar-width)); /* Match your sidebar width */
+  }
+  
+  /* Add transition for smooth movement */
+  .nav-controls {
+    transition: left 0.3s ease-in-out;
+  }
+  
+  /* Dark mode styles */
+  .nav-controls.dark-mode button {
+    color: white;
+  }
+  
+  .nav-controls.dark-mode button:hover {
+    color: #ddd;
+  }

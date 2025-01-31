@@ -13,7 +13,10 @@
   }
   
   /* Second Column (Flexible Width & Left-Aligned) */
-  .data-table th:nth-child(2),
+  .data-table th:nth-child(2) {
+    width: auto; /* Flexible width */
+    text-align: center;
+  }
   .data-table td:nth-child(2) {
     width: auto; /* Flexible width */
     text-align: left;
@@ -22,6 +25,7 @@
   /* Default Light Mode Table */
   .data-table {
     width: 100%;
+    margin-bottom: 100px;
     border-collapse: collapse;
     background-color: white;
     color: black;

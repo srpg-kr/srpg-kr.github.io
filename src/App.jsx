@@ -2,15 +2,18 @@ import React, { useState, useEffect } from "react";
 import Papa from 'papaparse';
 import Sidebar from './components/Sidebar';
 import DataTable from './components/DataTable';
+import NavigationControls from './components/NavigationControls';
+import { CATEGORIES, DEFAULT_CATEGORY, categorizeFiles } from './components/categories';
 import "./App.css";
 
 function App() {
   const [csvData, setCsvData] = useState([]);
   const [title, setTitle] = useState([]);
   const [fileList, setFileList] = useState([]);
+  const [categorizedFiles, setCategorizedFiles] = useState({});
+  const [flatNavList, setFlatNavList] = useState([]);
   const [fullNameMap, setFullNameMap] = useState([]);
   const [isDarkMode, setIsDarkMode] = useState(false);
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [loading, setLoading] = useState(false); // Track loading state
   const [isFirstLoad, setIsFirstLoad] = useState(true);
   const [allowLoad, setAllowLoad] = useState(false);
@@ -42,6 +45,22 @@ function App() {
       })
       .catch((err) => console.error("Error loading file list:", err));
   }, []);
+
+  // Categorize files and create navigation list whenever fileList changes
+  useEffect(() => {
+    const categorized = categorizeFiles(fileList);
+    setCategorizedFiles(categorized);
+    
+    // Create flat navigation list respecting category order
+    const orderedList = [];
+    CATEGORIES.forEach(([_, categoryName]) => {
+      if (categorized[categoryName]) {
+        orderedList.push(...categorized[categoryName]);
+      }
+    });
+    orderedList.push(...categorized[DEFAULT_CATEGORY]);
+    setFlatNavList(orderedList);
+  }, [fileList]);
 
   const handleFileSelect = (fileUrl, title) => {
     setIsFirstLoad(false);
@@ -101,13 +120,23 @@ function App() {
   return (
     <div className="App">
       <Sidebar
-        fileList={fileList}
+        categorizedFiles={categorizedFiles}
         toggleTheme={toggleTheme}
         isDarkMode={isDarkMode}
       />
-      <div className={`content ${isSidebarOpen ? "shifted" : ""}`}>
-          <DataTable csvTitle={title} csvData={csvData} isDarkMode={isDarkMode} loading={loading} isFirstLoad={isFirstLoad}/>
+      <div className={`content`}>
+          <DataTable 
+            csvTitle={title} 
+            csvData={csvData} 
+            isDarkMode={isDarkMode} 
+            loading={loading} 
+            isFirstLoad={isFirstLoad}/>
       </div>
+      <NavigationControls 
+        fileList={flatNavList}
+        isDarkMode={isDarkMode}
+        isFirstLoad={isFirstLoad}
+      />
     </div>
   );
 }
