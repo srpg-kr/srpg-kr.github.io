@@ -39,18 +39,18 @@
   
   /* Split controls to both sides */
   .nav-controls.left {
-    left: 20px;
+    left: 0.5%;
     right: auto;
   }
   
   .nav-controls.right {
-    right: 20px;
+    right: 0.5%;
     left: auto;
   }
 
   /* Adjust position when sidebar is open */
   .sidebar.open ~ .nav-controls.left {
-    left: calc(20px + var(--sidebar-width)); /* Match your sidebar width */
+    left: calc(0.5% + var(--sidebar-width)); /* Match your sidebar width */
   }
   
   /* Add transition for smooth movement */

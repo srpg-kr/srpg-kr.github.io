@@ -15,6 +15,11 @@
 /* Sidebar hidden state */
 .sidebar.closed {
     transform: translateX(-250px);
+    pointer-events: none;
+}
+
+.sidebar.open {
+  pointer-events: auto;
 }
 
 /* Sidebar Header */
@@ -74,6 +79,7 @@
     padding: 10px;
     font-size: 24px;
     cursor: pointer;
+    pointer-events: auto;
 }
 
   /* Sidebar Content - Scrollable */

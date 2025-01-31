@@ -1,9 +1,29 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { FaSun, FaMoon, FaChevronDown, FaChevronRight } from "react-icons/fa";
 import "../styles/sidebar.css";
 
 function Sidebar({ categorizedFiles, toggleTheme, isDarkMode }) {
     const [isOpen, setIsOpen] = useState(true); // Sidebar starts open
+    const sidebarRef = useRef(null);
+
+    // Click outside handler
+    useEffect(() => {
+      if (!isOpen) return;
+
+      const handleClickOutside = (event) => {
+        // Check if click is outside sidebar AND not on navigation controls
+        if (
+          sidebarRef.current && 
+          !sidebarRef.current.contains(event.target) &&
+          !event.target.closest('.nav-controls') // Add this line
+        ) {
+          setIsOpen(false);
+        }
+      };
+
+      document.addEventListener('click', handleClickOutside);
+      return () => document.removeEventListener('click', handleClickOutside);
+    }, [isOpen]);
 
     // Track which categories are expanded
     const [expandedCategories, setExpandedCategories] = useState(
@@ -21,7 +41,7 @@ function Sidebar({ categorizedFiles, toggleTheme, isDarkMode }) {
     };
   
     return (
-      <div className={`sidebar ${isOpen ? "open" : "closed"}`}>
+      <div ref={sidebarRef} className={`sidebar ${isOpen ? "open" : "closed"}`}>
         {/* Hamburger Button */}
         <button className="toggle-btn" onClick={() => setIsOpen(!isOpen)}>
           ☰
