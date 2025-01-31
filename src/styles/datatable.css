@@ -2,17 +2,20 @@
   table {
     width: 100%;
     border-collapse: collapse;
+    table-layout: fixed;
   }
   
   /* First Column (Fixed Width & Centered) */
-  td:first-child {
-    width: 150px; /* Adjust width as needed */
+  .data-table th:first-child,
+  .data-table td:first-child {
+    width: 150px; /* Fixed width */
     text-align: center;
   }
   
   /* Second Column (Flexible Width & Left-Aligned) */
-  td:nth-child(2) {
-    width: auto;
+  .data-table th:nth-child(2),
+  .data-table td:nth-child(2) {
+    width: auto; /* Flexible width */
     text-align: left;
   }
   
@@ -36,6 +39,12 @@
     background-color: #ebebeb;
     color: rgb(0, 0, 0);
     text-align: center;
+  }
+  
+  .data-table td {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 0;
   }
   
   /* Alternating Row Colors */
