@@ -36,15 +36,6 @@
     transform: scale(0.95);
     border: none !important;
   }
-  
-  /* Mobile First Approach */
-  .nav-controls {
-    position: fixed;
-    bottom: 20px;
-    z-index: 1000;
-    display: flex;
-    gap: 10px;
-  }
 
   .nav-controls.left {
     left: 10px;
