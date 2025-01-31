@@ -89,7 +89,10 @@ function Sidebar({ fileList, toggleTheme, isDarkMode }) {
             <div className={`category-list ${expandedCategories[category] ? "expanded" : "collapsed"}`}>
               {files.map((fileObj) => {
                 return (
-                  <button key={fileObj.file} onClick={() => window.location.hash = fileObj.file}>
+                  <button key={fileObj.file} onClick={() => {
+                    window.location.hash = fileObj.file;
+                    setIsOpen(false);
+                  }}>
                     {fileObj.shortName}
                   </button>
                 );
