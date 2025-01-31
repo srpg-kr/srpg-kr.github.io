@@ -12,7 +12,7 @@
     background: none;
     border: none;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 2.6rem;
     opacity: 0.8;
     transition: transform 0.2s ease;
   }
@@ -37,20 +37,68 @@
     border: none !important;
   }
   
-  /* Split controls to both sides */
-  .nav-controls.left {
-    left: 0.5%;
-    right: auto;
-  }
-  
-  .nav-controls.right {
-    right: 0.5%;
-    left: auto;
+  /* Mobile First Approach */
+  .nav-controls {
+    position: fixed;
+    bottom: 20px;
+    z-index: 1000;
+    display: flex;
+    gap: 10px;
   }
 
-  /* Adjust position when sidebar is open */
+  .nav-controls.left {
+    left: 10px;
+  }
+
+  .nav-controls.right {
+    right: 10px;
+  }
+
+  /* Adjust for sidebar open state */
   .sidebar.open ~ .nav-controls.left {
-    left: calc(0.5% + var(--sidebar-width)); /* Match your sidebar width */
+    left: calc(10px + var(--sidebar-width));
+  }
+
+  /* Mobile Optimization */
+  @media (max-width: 768px) {
+    .nav-controls {
+      bottom: 10px;
+    }
+  
+    .nav-controls button {
+      font-size: 2.4rem; /* Smaller buttons */
+      padding: 8px; /* Touch-friendly size */
+      margin: 0 5px; /* Prevent crowding */
+    }
+
+    .nav-controls.left {
+      left: 5px;
+    }
+
+    .nav-controls.right {
+      right: 5px;
+    }
+
+    .sidebar.open ~ .nav-controls.left {
+      left: calc(5px + var(--sidebar-width));
+      max-width: 90vw; /* Prevent overflow */
+    }
+
+    /* Handle very small screens */
+    @media (max-width: 480px) {
+        .nav-controls button {
+          font-size: 2.0rem;
+          padding: 6px;
+        }
+        
+        .nav-controls.left {
+          left: 2px;
+        }
+        
+        .nav-controls.right {
+          right: 2px;
+        }
+    }
   }
   
   /* Add transition for smooth movement */

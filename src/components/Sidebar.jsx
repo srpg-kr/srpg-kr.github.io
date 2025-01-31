@@ -68,8 +68,12 @@ function Sidebar({ categorizedFiles, toggleTheme, isDarkMode }) {
             {/* Expand/Collapse Content */}
             <div className={`category-list ${expandedCategories[category] ? "expanded" : "collapsed"}`}>
               {files.map((fileObj) => {
+                let selected = false;
+                if (window.location.hash && window.location.hash.substring(1) == fileObj.file){
+                  selected = true;
+                }
                 return (
-                  <button key={fileObj.file} onClick={() => {
+                  <button className={`${selected ? "selected" : ""}`} key={fileObj.file} onClick={() => {
                     window.location.hash = fileObj.file;
                     setIsOpen(false);
                   }}>

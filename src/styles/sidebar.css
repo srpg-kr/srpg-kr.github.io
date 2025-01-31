@@ -156,13 +156,19 @@
   /* Story Buttons */
   .category-list button {
     display: block;
-    width: 100%;
-    padding: 8px;
+    width: calc(100% - 4px);
     background: #2e2e2e;
     color: white;
     border: none;
     text-align: left;
     cursor: pointer;
+    margin: 4px;
+    margin-left: 2px;
+  }
+
+  .category-list button.selected {
+    outline: solid;
+    outline: 1px solid white;
   }
   
   .category-list button:hover {
