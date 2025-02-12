@@ -39,7 +39,7 @@ function App() {
 
         // Create a map where the key is `file.replace(".book.csv", "")`
         // and the value is the `fullName`
-        const nameMap = data.reduce((map, item) => {
+        const nameMap = files.reduce((map, item) => {
           // e.g. "A02001.book.csv" => "A02001"
           const key = item.file.replace('.book.csv', '');
           map[key] = item.fullName;
