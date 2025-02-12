@@ -24,7 +24,18 @@ function App() {
     //fetch('./parsed_books.json')
       .then((res) => res.json())
       .then((data) => {
-        setFileList(data)
+        const files = data.reduce((arr, item) => {
+          for (let i = item.numMin; i <= item.numMax; ++i) {
+            arr.push({
+              "shortName": `${item.shortName} - ${i}`,
+              "fullName": `${item.fullName} - ${i}`,
+              "file": item.file + i.toString().padStart(item.numDigits, "0")
+            });
+          }
+          return arr;
+        }, []); // Initialize with an empty array
+
+        setFileList(files)
 
         // Create a map where the key is `file.replace(".book.csv", "")`
         // and the value is the `fullName`
