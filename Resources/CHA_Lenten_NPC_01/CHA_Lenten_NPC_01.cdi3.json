@@ -1,0 +1,181 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右眼　开闭"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "",
+			"Name": "眼珠 缩放 冷阴"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "",
+			"Name": "效果切换 甘-阴"
+		},
+		{
+			"Id": "Param17",
+			"GroupId": "",
+			"Name": "皱眉 不甘愤怒"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "",
+			"Name": "高光隐藏 甘冷阴"
+		},
+		{
+			"Id": "Param9",
+			"GroupId": "",
+			"Name": "脸阴影 愤怒阴狠"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "",
+			"Name": "愤怒眼袋"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "眼珠 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "眼珠 Y"
+		},
+		{
+			"Id": "Param10",
+			"GroupId": "",
+			"Name": "左上眼睑"
+		},
+		{
+			"Id": "Param11",
+			"GroupId": "",
+			"Name": "左下眼睑"
+		},
+		{
+			"Id": "Param18",
+			"GroupId": "",
+			"Name": "右上眼睑"
+		},
+		{
+			"Id": "Param19",
+			"GroupId": "",
+			"Name": "右下眼睑"
+		},
+		{
+			"Id": "Param12",
+			"GroupId": "",
+			"Name": "右眉头"
+		},
+		{
+			"Id": "Param13",
+			"GroupId": "",
+			"Name": "右眉尾"
+		},
+		{
+			"Id": "Param15",
+			"GroupId": "",
+			"Name": "左眉头"
+		},
+		{
+			"Id": "Param16",
+			"GroupId": "",
+			"Name": "左眉尾"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "左眉上下"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "",
+			"Name": "左眉　左右"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "",
+			"Name": "右眉　左右"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "嘴 伸缩 4点"
+		},
+		{
+			"Id": "ParamMouthForm2",
+			"GroupId": "",
+			"Name": "嘴　形变"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴　张开和闭合"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part8",
+			"Name": "表情+"
+		},
+		{
+			"Id": "Part9",
+			"Name": "眉毛 发上睫毛"
+		},
+		{
+			"Id": "Part14",
+			"Name": "眼袋"
+		},
+		{
+			"Id": "Part12",
+			"Name": "眼睛R"
+		},
+		{
+			"Id": "Part10",
+			"Name": "五官"
+		},
+		{
+			"Id": "Part11",
+			"Name": "嘴"
+		},
+		{
+			"Id": "Part13",
+			"Name": "眼睛L"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"Param12",
+			"Param13"
+		],
+		[
+			"Param15",
+			"Param16"
+		]
+	]
+}

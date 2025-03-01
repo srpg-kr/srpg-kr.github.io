@@ -1,0 +1,58 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "CHA_Lotta_SR_01.moc3",
+		"Textures": [
+			"CHA_Lotta_SR_01.2048/texture_00.png"
+		],
+		"DisplayInfo": "CHA_Lotta_SR_01.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "EMO_Lotta_Anxiety_01.exp3.json",
+				"File": "expressions/EMO_Lotta_Anxiety_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Lotta_Confused_01.exp3.json",
+				"File": "expressions/EMO_Lotta_Confused_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Lotta_Happy_01.exp3.json",
+				"File": "expressions/EMO_Lotta_Happy_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Lotta_Idle_01.exp3.json",
+				"File": "expressions/EMO_Lotta_Idle_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Lotta_Serious_01.exp3.json",
+				"File": "expressions/EMO_Lotta_Serious_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Lotta_Smile_01.exp3.json",
+				"File": "expressions/EMO_Lotta_Smile_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Lotta_Worry_01.exp3.json",
+				"File": "expressions/EMO_Lotta_Worry_01.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	],
+	"HitAreas": []
+}

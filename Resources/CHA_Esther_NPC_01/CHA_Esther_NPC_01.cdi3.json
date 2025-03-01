@@ -1,0 +1,255 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "Paramcankaocanshu",
+			"GroupId": "",
+			"Name": "参考参数"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "参数38"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "ParamGroup",
+			"Name": "左眉　左右"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "ParamGroup",
+			"Name": "左眉   上下"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "ParamGroup",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "Param14",
+			"GroupId": "ParamGroup",
+			"Name": "左眉眉头变形"
+		},
+		{
+			"Id": "Param15",
+			"GroupId": "ParamGroup",
+			"Name": "左眉眉尾变形"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "ParamGroup",
+			"Name": "右眉　左右"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "ParamGroup",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "ParamGroup",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "Param16",
+			"GroupId": "ParamGroup",
+			"Name": "右眉眉头变形"
+		},
+		{
+			"Id": "Param17",
+			"GroupId": "ParamGroup",
+			"Name": "右眉眉尾变形"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "ParamGroup2",
+			"Name": "L眼开闭"
+		},
+		{
+			"Id": "Param3Lshangyanjian",
+			"GroupId": "ParamGroup2",
+			"Name": "L上眼睑"
+		},
+		{
+			"Id": "Param3Lxiayanjian",
+			"GroupId": "ParamGroup2",
+			"Name": "L下眼睑"
+		},
+		{
+			"Id": "Param3Lneiyanjiao",
+			"GroupId": "ParamGroup2",
+			"Name": "L内眼角"
+		},
+		{
+			"Id": "Param3Lwaiyanjiao",
+			"GroupId": "ParamGroup2",
+			"Name": "L外眼角"
+		},
+		{
+			"Id": "Param3Lxiayanpi",
+			"GroupId": "ParamGroup2",
+			"Name": "L下眼皮"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "ParamGroup2",
+			"Name": "R眼开闭"
+		},
+		{
+			"Id": "Param3Rshangyanjian",
+			"GroupId": "ParamGroup2",
+			"Name": "R上眼睑"
+		},
+		{
+			"Id": "Param3Rxiayanjian",
+			"GroupId": "ParamGroup2",
+			"Name": "R下眼睑"
+		},
+		{
+			"Id": "Param3Rneiyanjiao",
+			"GroupId": "ParamGroup2",
+			"Name": "R内眼角"
+		},
+		{
+			"Id": "Param3Rwaiyanjiao",
+			"GroupId": "ParamGroup2",
+			"Name": "R外眼角"
+		},
+		{
+			"Id": "Param3Rxiayanpi",
+			"GroupId": "ParamGroup2",
+			"Name": "R下眼皮"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "ParamGroup2",
+			"Name": "L眼珠 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "ParamGroup2",
+			"Name": "L眼珠 Y"
+		},
+		{
+			"Id": "ParamREyeBallX",
+			"GroupId": "ParamGroup2",
+			"Name": "R眼珠 X"
+		},
+		{
+			"Id": "Param2REyeBallY",
+			"GroupId": "ParamGroup2",
+			"Name": "R眼珠 Y"
+		},
+		{
+			"Id": "Param10",
+			"GroupId": "ParamGroup2",
+			"Name": "瞳孔缩放"
+		},
+		{
+			"Id": "ParamMouthForm1",
+			"GroupId": "ParamGroup3",
+			"Name": "闭嘴　变形"
+		},
+		{
+			"Id": "Param2bizuibianxing2",
+			"GroupId": "ParamGroup3",
+			"Name": "闭嘴变形2"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "ParamGroup3",
+			"Name": "嘴　张开和闭合"
+		},
+		{
+			"Id": "Param2zhoumei",
+			"GroupId": "ParamGroup4",
+			"Name": "皱眉"
+		},
+		{
+			"Id": "Param20",
+			"GroupId": "ParamGroup4",
+			"Name": "流汗"
+		},
+		{
+			"Id": "Param3zhengjingyan",
+			"GroupId": "ParamGroup4",
+			"Name": "震惊眼"
+		},
+		{
+			"Id": "Param2ongkonglachang",
+			"GroupId": "ParamGroup4",
+			"Name": "瞳孔拉长"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "眉毛"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "眼睛"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "嘴"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "表情特效"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part5",
+			"Name": "Idle待机待机"
+		},
+		{
+			"Id": "Part6",
+			"Name": "L眼"
+		},
+		{
+			"Id": "Part7",
+			"Name": "R眼"
+		},
+		{
+			"Id": "Part8",
+			"Name": "张嘴 副本"
+		},
+		{
+			"Id": "Part9",
+			"Name": "闭嘴"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"Param14",
+			"Param15"
+		],
+		[
+			"ParamBrowRX",
+			"ParamBrowRY"
+		],
+		[
+			"Param16",
+			"Param17"
+		],
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		],
+		[
+			"ParamREyeBallX",
+			"Param2REyeBallY"
+		],
+		[
+			"ParamMouthForm1",
+			"Param2bizuibianxing2"
+		]
+	]
+}

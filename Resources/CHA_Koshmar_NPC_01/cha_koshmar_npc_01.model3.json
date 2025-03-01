@@ -1,0 +1,64 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "CHA_Koshmar_NPC_01.moc3",
+		"Textures": [
+			"CHA_Koshmar_NPC_01.2048/texture_00.png"
+		],
+		"DisplayInfo": "CHA_Koshmar_NPC_01.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "EMO_Koshmar_Idle_01.exp3",
+				"File": "expressions/EMO_Koshmar_Idle_01.exp3.exp3.json"
+			},
+			{
+				"Name": "EMO_Koshmar_Smile_01.exp3",
+				"File": "expressions/EMO_Koshmar_Smile_01.exp3.exp3.json"
+			},
+			{
+				"Name": "EMO_Koshmar_Mad_01.exp3",
+				"File": "expressions/EMO_Koshmar_Mad_01.exp3.exp3.json"
+			},
+			{
+				"Name": "EMO_Koshmar_Happy_01.exp3",
+				"File": "expressions/EMO_Koshmar_Happy_01.exp3.exp3.json"
+			}
+		],
+		"Motions": {
+			"": [
+				{
+					"File": "motions/Mouthopen_10s.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				},
+				{
+					"File": "motions/Mouthopen_2s.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				},
+				{
+					"File": "motions/Mouthopen_5s.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	],
+	"HitAreas": []
+}

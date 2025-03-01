@@ -1,0 +1,228 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "Param12",
+			"GroupId": "",
+			"Name": "流汗"
+		},
+		{
+			"Id": "Param10",
+			"GroupId": "",
+			"Name": "眼泪"
+		},
+		{
+			"Id": "Param11",
+			"GroupId": "",
+			"Name": "脸红"
+		},
+		{
+			"Id": "Param14",
+			"GroupId": "",
+			"Name": "眉线"
+		},
+		{
+			"Id": "Param15",
+			"GroupId": "",
+			"Name": "眉线变形"
+		},
+		{
+			"Id": "Param16",
+			"GroupId": "",
+			"Name": "眉线变形右"
+		},
+		{
+			"Id": "Param17",
+			"GroupId": "",
+			"Name": "左眉线x"
+		},
+		{
+			"Id": "Param18",
+			"GroupId": "",
+			"Name": "左眉线y"
+		},
+		{
+			"Id": "Param19",
+			"GroupId": "",
+			"Name": "右眉线x"
+		},
+		{
+			"Id": "Param20",
+			"GroupId": "",
+			"Name": "右眉线y"
+		},
+		{
+			"Id": "Param21",
+			"GroupId": "",
+			"Name": "左眉线角度"
+		},
+		{
+			"Id": "Param22",
+			"GroupId": "",
+			"Name": "右眉线角度"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "",
+			"Name": "左眼　微笑"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右眼"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "",
+			"Name": "右眼　微笑"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "眼球 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "眼球 Y"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "左眉上下"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "",
+			"Name": "左眉　左右"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "",
+			"Name": "右眉　左右"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "",
+			"Name": "左眉　変形"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "",
+			"Name": "左眉变形1"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "",
+			"Name": "右眉变形1"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "左上眼脸"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "右上眼脸"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "左眼眶"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "",
+			"Name": "左眼眶1"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "右眼眶"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "",
+			"Name": "右眼眶1"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "嘴部　变形"
+		},
+		{
+			"Id": "Param9",
+			"GroupId": "",
+			"Name": "嘴变形1"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴巴　张开和闭合"
+		},
+		{
+			"Id": "Param13",
+			"GroupId": "",
+			"Name": "嘴缩放"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part",
+			"Name": "左眼"
+		},
+		{
+			"Id": "Part2",
+			"Name": "右眼"
+		},
+		{
+			"Id": "Part3",
+			"Name": "嘴"
+		},
+		{
+			"Id": "PartSketch0",
+			"Name": "[ 参考图 ]"
+		},
+		{
+			"Id": "Part4",
+			"Name": "文件夹2"
+		},
+		{
+			"Id": "Part5",
+			"Name": "文件夹1"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamMouthForm",
+			"Param9"
+		]
+	]
+}

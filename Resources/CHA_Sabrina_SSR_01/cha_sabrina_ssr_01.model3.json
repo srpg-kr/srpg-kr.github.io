@@ -1,0 +1,81 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "CHA_Sabrina_SSR_01.moc3",
+		"Textures": [
+			"CHA_Sabrina_SSR_01.2048/texture_00.png"
+		],
+		"DisplayInfo": "CHA_Sabrina_SSR_01.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "EMO_Sabrina_Embarrassed_01.exp3.json",
+				"File": "expressions/EMO_Sabrina_Embarrassed_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Sabrina_Excited_01.exp3.json",
+				"File": "expressions/EMO_Sabrina_Excited_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Sabrina_happy_01.exp3.json",
+				"File": "expressions/EMO_Sabrina_happy_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Sabrina_Idle_01.exp3.json",
+				"File": "expressions/EMO_Sabrina_Idle_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Sabrina_Nervous_01.exp3.json",
+				"File": "expressions/EMO_Sabrina_Nervous_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Sabrina_Serious_01.exp3.json",
+				"File": "expressions/EMO_Sabrina_Serious_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Sabrina_Surprised_01.exp3.json",
+				"File": "expressions/EMO_Sabrina_Surprised_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Sabrina_Thinking_01.exp3.json",
+				"File": "expressions/EMO_Sabrina_Thinking_01.exp3.json"
+			}
+		],
+		"Motions": {
+			"": [
+				{
+					"File": "motions/Mouthopen_10s.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				},
+				{
+					"File": "motions/Mouthopen_2s.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				},
+				{
+					"File": "motions/Mouthopen_5s.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	],
+	"HitAreas": []
+}

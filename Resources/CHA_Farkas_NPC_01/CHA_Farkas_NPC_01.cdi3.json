@@ -1,0 +1,53 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "ParamYJJ",
+			"GroupId": "",
+			"Name": "眼睛惊讶"
+		},
+		{
+			"Id": "ParamMouthForm2",
+			"GroupId": "",
+			"Name": "常惊笑"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴　张开和闭合"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右眼   开闭"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part10",
+			"Name": "CHA_Farkas_NPC_01.psd"
+		},
+		{
+			"Id": "Part",
+			"Name": "表情参考"
+		},
+		{
+			"Id": "Part2",
+			"Name": "左眼"
+		},
+		{
+			"Id": "Part3",
+			"Name": "右眼"
+		},
+		{
+			"Id": "Part4",
+			"Name": "嘴"
+		}
+	]
+}

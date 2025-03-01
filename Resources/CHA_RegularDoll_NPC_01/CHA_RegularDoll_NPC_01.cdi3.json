@@ -1,0 +1,56 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "ParamGroup3",
+			"Name": "嘴　变形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "ParamGroup3",
+			"Name": "嘴　张开和闭合"
+		},
+		{
+			"Id": "Paramhan",
+			"GroupId": "ParamGroup4",
+			"Name": "汗水"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "嘴"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "表情特效"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part13",
+			"Name": "普通人形贴图.psd"
+		},
+		{
+			"Id": "Part10",
+			"Name": "罗莎琳贴图.psd"
+		},
+		{
+			"Id": "Part11",
+			"Name": "参考"
+		},
+		{
+			"Id": "Part12",
+			"Name": "嘴"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamMouthForm",
+			"ParamMouthOpenY"
+		]
+	]
+}

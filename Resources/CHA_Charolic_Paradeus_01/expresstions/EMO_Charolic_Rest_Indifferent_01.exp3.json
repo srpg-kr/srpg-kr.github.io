@@ -1,0 +1,102 @@
+{
+	"Type": "Live2D Expression",
+	"FadeInTime": 0.15,
+	"FadeOutTime": 0.15,
+	"Parameters": [
+		{
+			"Id": "ParamMouthForm",
+			"Value": -0.745,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"Value": 0.195,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"Value": -0.02,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"Value": -0.116,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"Value": 0.356,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"Value": 0.233,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"Value": 0.279,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"Value": 0.186,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamEyehigtlight",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamEyeszoom",
+			"Value": 0.208,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"Value": 0.488,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamEyeY",
+			"Value": 0.356,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamEyeX",
+			"Value": -0.396,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"Value": 1,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"Value": -0.054,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"Value": 0.987,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"Value": -0.104,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamCheek",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param2",
+			"Value": 0,
+			"Blend": "Add"
+		}
+	]
+}

@@ -1,0 +1,338 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "Param21",
+			"GroupId": "ParamGroup",
+			"Name": "面具"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "ParamGroup",
+			"Name": "汗珠"
+		},
+		{
+			"Id": "Param24",
+			"GroupId": "ParamGroup",
+			"Name": "黑眼圈"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "ParamGroup",
+			"Name": "痛苦"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "ParamGroup",
+			"Name": "满意"
+		},
+		{
+			"Id": "Param25",
+			"GroupId": "ParamGroup",
+			"Name": "大笑"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "ParamGroup",
+			"Name": "虚弱"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "ParamGroup",
+			"Name": "思索"
+		},
+		{
+			"Id": "Param23",
+			"GroupId": "ParamGroup",
+			"Name": "愤怒"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "ParamGroup",
+			"Name": "生气"
+		},
+		{
+			"Id": "Param22",
+			"GroupId": "ParamGroup",
+			"Name": "惊讶"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "ParamGroup",
+			"Name": "严肃"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "ParamGroup2",
+			"Name": "左眉　上下"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "ParamGroup2",
+			"Name": "左眉　左右"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "ParamGroup2",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "ParamGroup2",
+			"Name": "左眉　変形"
+		},
+		{
+			"Id": "ParamBrowLForm2",
+			"GroupId": "ParamGroup2",
+			"Name": "左眉　変形2"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "ParamGroup3",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "ParamGroup3",
+			"Name": "右眉　左右"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "ParamGroup3",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "ParamGroup3",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "ParamBrowRForm2",
+			"GroupId": "ParamGroup3",
+			"Name": "右眉　変形2"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "ParamGroup4",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "Param28",
+			"GroupId": "ParamGroup4",
+			"Name": "左眼常开"
+		},
+		{
+			"Id": "Param26",
+			"GroupId": "ParamGroup4",
+			"Name": "左眼0-o"
+		},
+		{
+			"Id": "Param9",
+			"GroupId": "ParamGroup4",
+			"Name": "左眼珠缩放"
+		},
+		{
+			"Id": "Param11",
+			"GroupId": "ParamGroup4",
+			"Name": "左眼珠旋转"
+		},
+		{
+			"Id": "Param13",
+			"GroupId": "ParamGroup4",
+			"Name": "左眼眶"
+		},
+		{
+			"Id": "Param15",
+			"GroupId": "ParamGroup4",
+			"Name": "左上眼脸"
+		},
+		{
+			"Id": "Param17",
+			"GroupId": "ParamGroup4",
+			"Name": "左下眼脸"
+		},
+		{
+			"Id": "Param20",
+			"GroupId": "ParamGroup4",
+			"Name": "左下眼脸2"
+		},
+		{
+			"Id": "Param27",
+			"GroupId": "ParamGroup5",
+			"Name": "右眼0-o"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "ParamGroup5",
+			"Name": "右眼   开闭"
+		},
+		{
+			"Id": "Param10",
+			"GroupId": "ParamGroup5",
+			"Name": "右眼珠缩放"
+		},
+		{
+			"Id": "Param12",
+			"GroupId": "ParamGroup5",
+			"Name": "右眼珠旋转"
+		},
+		{
+			"Id": "Param14",
+			"GroupId": "ParamGroup5",
+			"Name": "右眼眶"
+		},
+		{
+			"Id": "Param16",
+			"GroupId": "ParamGroup5",
+			"Name": "右上眼脸"
+		},
+		{
+			"Id": "Param18",
+			"GroupId": "ParamGroup5",
+			"Name": "右下眼脸"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "眼球 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "眼球 Y"
+		},
+		{
+			"Id": "ParamEyeBallX2",
+			"GroupId": "",
+			"Name": "眼球 X2"
+		},
+		{
+			"Id": "ParamEyeBallY2",
+			"GroupId": "",
+			"Name": "眼球 Y2"
+		},
+		{
+			"Id": "ParamEyeSmile",
+			"GroupId": "",
+			"Name": "眼笑"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "",
+			"Name": "嘴变形1"
+		},
+		{
+			"Id": "Param19",
+			"GroupId": "",
+			"Name": "嘴2"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴巴　张开和闭合"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "表情"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "左眉"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "右眉"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "左眼"
+		},
+		{
+			"Id": "ParamGroup5",
+			"GroupId": "",
+			"Name": "右眼"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part",
+			"Name": "表情"
+		},
+		{
+			"Id": "CHA_Dmitriy_NPC_01",
+			"Name": "CHA_Dmitriy_NPC_01"
+		},
+		{
+			"Id": "Part3",
+			"Name": "Pain痛苦"
+		},
+		{
+			"Id": "Part7",
+			"Name": "Smile满意"
+		},
+		{
+			"Id": "Part8",
+			"Name": "Jolly痛快大笑"
+		},
+		{
+			"Id": "Part5",
+			"Name": "Weak失神，虚弱"
+		},
+		{
+			"Id": "Part6",
+			"Name": "Think思索"
+		},
+		{
+			"Id": "Part9",
+			"Name": "Rage愤怒"
+		},
+		{
+			"Id": "Part4",
+			"Name": "Surprised惊讶"
+		},
+		{
+			"Id": "Part10",
+			"Name": "Angry生气"
+		},
+		{
+			"Id": "Part2",
+			"Name": "Serious严肃"
+		},
+		{
+			"Id": "Part11",
+			"Name": "Idle待机"
+		},
+		{
+			"Id": "Part13",
+			"Name": "表情"
+		},
+		{
+			"Id": "l",
+			"Name": "l"
+		},
+		{
+			"Id": "r",
+			"Name": "r"
+		},
+		{
+			"Id": "Part12",
+			"Name": "口"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		],
+		[
+			"ParamEyeBallX2",
+			"ParamEyeBallY2"
+		]
+	]
+}

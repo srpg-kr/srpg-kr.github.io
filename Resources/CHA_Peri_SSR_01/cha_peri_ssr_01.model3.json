@@ -1,0 +1,82 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "CHA_Peri_SSR_01.moc3",
+		"Textures": [
+			"CHA_Peri_SSR_01.2048/texture_00.png"
+		],
+		"DisplayInfo": "CHA_Peri_SSR_01.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "EMO_Peri_Angry_01",
+				"File": "expressions/EMO_Peri_Angry_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Peri_Ashamed_01",
+				"File": "expressions/EMO_Peri_Ashamed_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Peri_Crying_01",
+				"File": "expressions/EMO_Peri_Crying_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Peri_Happiness_01",
+				"File": "expressions/EMO_Peri_Happiness_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Peri_Happy_01",
+				"File": "expressions/EMO_Peri_Happy_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Peri_Hesitate_01",
+				"File": "expressions/EMO_Peri_Hesitate_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Peri_Panic_01",
+				"File": "expressions/EMO_Peri_Panic_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Peri_Serious_01",
+				"File": "expressions/EMO_Peri_Serious_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Peri_Shocked_01",
+				"File": "expressions/EMO_Peri_Shocked_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Peri_Smirk_01",
+				"File": "expressions/EMO_Peri_Smirk_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Peri_Thinking_01",
+				"File": "expressions/EMO_Peri_Thinking_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Peri_ldle_01",
+				"File": "expressions/EMO_Peri_ldle_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Peri_Cry2_01.exp3.json",
+				"File": "expressions/EMO_Peri_Cry2_01.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	],
+	"HitAreas": []
+}

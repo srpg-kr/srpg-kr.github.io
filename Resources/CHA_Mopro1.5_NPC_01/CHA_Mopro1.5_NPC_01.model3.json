@@ -1,0 +1,22 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "CHA_Mopro1.5_NPC_01.moc3",
+		"Textures": [
+			"CHA_Mopro1.5_NPC_01.1024/texture_00.png"
+		],
+		"DisplayInfo": "CHA_Mopro1.5_NPC_01.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}

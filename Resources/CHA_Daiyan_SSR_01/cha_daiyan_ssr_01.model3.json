@@ -1,0 +1,77 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "CHA_Daiyan_SSR_01.moc3",
+		"Textures": [
+			"CHA_Daiyan_SSR_01.2048/texture_00.png"
+		],
+		"DisplayInfo": "CHA_Daiyan_SSR_01.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "EMO_Daiyan_Angry_01.exp3.json",
+				"File": "expressions/EMO_Daiyan_Angry_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Daiyan_Eager_01.exp3.json",
+				"File": "expressions/EMO_Daiyan_Eager_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Daiyan_Happy_01.exp3.json",
+				"File": "expressions/EMO_Daiyan_Happy_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Daiyan_Helpless_01.exp3.json",
+				"File": "expressions/EMO_Daiyan_Helpless_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Daiyan_Idle_01.exp3.json",
+				"File": "expressions/EMO_Daiyan_Idle_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Daiyan_Sad_01.exp3.json",
+				"File": "expressions/EMO_Daiyan_Sad_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Daiyan_Serious_01.exp3.json",
+				"File": "expressions/EMO_Daiyan_Serious_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Daiyan_Surprised_01.exp3.json",
+				"File": "expressions/EMO_Daiyan_Surprised_01.exp3.json"
+			}
+		],
+		"Motions": {
+			"": [
+				{
+					"File": "motions/Mouthopen_10s.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				},
+				{
+					"File": "motions/Mouthopen_2s.motion3.json"
+				},
+				{
+					"File": "motions/Mouthopen_5s.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	],
+	"HitAreas": []
+}

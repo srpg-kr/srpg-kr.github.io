@@ -1,0 +1,86 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "CHA_Helena_NPC_02.moc3",
+		"Textures": [
+			"CHA_Helena_NPC_02.2048/texture_00.png"
+		],
+		"DisplayInfo": "CHA_Helena_NPC_02.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "EMO_Helena_Idle_01",
+				"File": "expressions/EMO_Helena_Idle_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Helena_Serious_01",
+				"File": "expressions/EMO_Helena_Serious_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Helena_Surprised_01",
+				"File": "expressions/EMO_Helena_Surprised_01.exp3.json"
+			}
+		],
+		"Motions": {
+			"": [
+				{
+					"File": "motions/Balloff.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				},
+				{
+					"File": "motions/BalloffContinue.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				},
+				{
+					"File": "motions/Ballon.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				},
+				{
+					"File": "motions/BallonContinue.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				},
+				{
+					"File": "motions/Mouthopen_10s.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				},
+				{
+					"File": "motions/Mouthopen_2s.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				},
+				{
+					"File": "motions/Mouthopen_5s.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				},
+				{
+					"File": "motions/Noball.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	],
+	"HitAreas": []
+}

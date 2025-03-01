@@ -1,0 +1,71 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "CHA_RNDmale_NPC_02.moc3",
+		"Textures": [
+			"CHA_RNDmale_NPC_02.2048/texture_00.png"
+		],
+		"DisplayInfo": "CHA_RNDmale_NPC_02.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "EMO_RNDmale_Angry_01.exp3.json",
+				"File": "expressions/EMO_RNDmale_Angry_01.exp3.json"
+			},
+			{
+				"Name": "EMO_RNDmale_Happy_01.exp3.json",
+				"File": "expressions/EMO_RNDmale_Happy_01.exp3.json"
+			},
+			{
+				"Name": "EMO_RNDmale_Idle_01.exp3.json",
+				"File": "expressions/EMO_RNDmale_Idle_01.exp3.json"
+			}
+		],
+		"Motions": {
+			"": [
+				{
+					"File": "motions/A.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				},
+				{
+					"File": "motions/Mouthopen_10s.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				},
+				{
+					"File": "motions/Mouthopen_2s.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				},
+				{
+					"File": "motions/Mouthopen_5s.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				},
+				{
+					"File": "motions/N.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	],
+	"HitAreas": []
+}

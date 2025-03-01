@@ -1,0 +1,206 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "Param20",
+			"GroupId": "",
+			"Name": "位置"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "开心红晕"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "失落皱眉"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右眼"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "眼球 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "眼球 Y"
+		},
+		{
+			"Id": "Param14",
+			"GroupId": "",
+			"Name": "左眼珠缩放"
+		},
+		{
+			"Id": "Param15",
+			"GroupId": "",
+			"Name": "右眼珠缩放"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "",
+			"Name": "左眉　左右"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "",
+			"Name": "右眉　左右"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "左眉上下"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "右眉　上下 生气 思考 认真 开心 惊讶"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "Param11",
+			"GroupId": "",
+			"Name": "右眉变形1"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "",
+			"Name": "左眉　変形"
+		},
+		{
+			"Id": "Param10",
+			"GroupId": "",
+			"Name": "左眉变形1"
+		},
+		{
+			"Id": "Param16",
+			"GroupId": "",
+			"Name": "左上眼脸"
+		},
+		{
+			"Id": "Param17",
+			"GroupId": "",
+			"Name": "右上眼脸"
+		},
+		{
+			"Id": "Param18",
+			"GroupId": "",
+			"Name": "左下眼脸"
+		},
+		{
+			"Id": "Param19",
+			"GroupId": "",
+			"Name": "右下眼脸"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "嘴部　变形 1"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "",
+			"Name": "嘴变形2"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴巴　张开和闭合"
+		},
+		{
+			"Id": "Param12",
+			"GroupId": "",
+			"Name": "左眼眶"
+		},
+		{
+			"Id": "Param13",
+			"GroupId": "",
+			"Name": "右眼眶"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part",
+			"Name": "拆分"
+		},
+		{
+			"Id": "Part2",
+			"Name": "表情all"
+		},
+		{
+			"Id": "Part3",
+			"Name": "表情嘴"
+		},
+		{
+			"Id": "Part6",
+			"Name": "嘴拆分"
+		},
+		{
+			"Id": "Part7",
+			"Name": "刘海 眼睛"
+		},
+		{
+			"Id": "Part8",
+			"Name": "眉眼上"
+		},
+		{
+			"Id": "Part9",
+			"Name": "上层睫毛"
+		},
+		{
+			"Id": "Part10",
+			"Name": "刘海 中"
+		},
+		{
+			"Id": "Part11",
+			"Name": "眼R"
+		},
+		{
+			"Id": "Part12",
+			"Name": "眼L"
+		},
+		{
+			"Id": "Part13",
+			"Name": "眉影"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamBrowRForm",
+			"Param11"
+		],
+		[
+			"ParamBrowLForm",
+			"Param10"
+		],
+		[
+			"ParamMouthForm",
+			"Param6"
+		]
+	]
+}

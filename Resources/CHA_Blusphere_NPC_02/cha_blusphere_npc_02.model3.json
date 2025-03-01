@@ -1,0 +1,46 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "CHA_Blusphere_NPC_02.moc3",
+		"Textures": [
+			"CHA_Blusphere_NPC_02.2048/texture_00.png"
+		],
+		"DisplayInfo": "CHA_Blusphere_NPC_02.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "EMO_Blusphere_Idel_02.exp3.json",
+				"File": "expressions/EMO_Blusphere_Idel_02.exp3.json"
+			}
+		],
+		"Motions": {
+			"": [
+				{
+					"File": "motions/Mouthopen_10s.motion3.json"
+				},
+				{
+					"File": "motions/Mouthopen_2s.motion3.json"
+				},
+				{
+					"File": "motions/Mouthopen_5s.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	],
+	"HitAreas": []
+}

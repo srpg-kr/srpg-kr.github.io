@@ -1,0 +1,90 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "CHA_Lind_SSR_01.moc3",
+		"Textures": [
+			"CHA_Lind_SSR_01.2048/texture_00.png",
+			"CHA_Lind_SSR_01.2048/texture_01.png"
+		],
+		"DisplayInfo": "CHA_Lind_SSR_01.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "EMO_Lind_Angry_01",
+				"File": "expressions/EMO_Lind_Angry_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Lind_Anxiety_01",
+				"File": "expressions/EMO_Lind_Anxiety_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Lind_Bored_01",
+				"File": "expressions/EMO_Lind_Bored_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Lind_Idle_01",
+				"File": "expressions/EMO_Lind_Idle_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Lind_Sad_01",
+				"File": "expressions/EMO_Lind_Sad_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Lind_Seriou_01",
+				"File": "expressions/EMO_Lind_Seriou_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Lind_Shy_01",
+				"File": "expressions/EMO_Lind_Shy_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Lind_Smile_01",
+				"File": "expressions/EMO_Lind_Smile_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Lind_Surprised_01",
+				"File": "expressions/EMO_Lind_Surprised_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Lind_Think_01",
+				"File": "expressions/EMO_Lind_Think_01.exp3.json"
+			}
+		],
+		"Motions": {
+			"": [
+				{
+					"File": "motions/Mouthopen_10s.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				},
+				{
+					"File": "motions/Mouthopen_2s.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				},
+				{
+					"File": "motions/Mouthopen_5s.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	],
+	"HitAreas": []
+}

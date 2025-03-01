@@ -1,0 +1,54 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -9061345702200503935
+  },
+  "m_Name": "CHA_Lind_SSR_01.expressionList",
+  "CubismExpressionObjects": [
+    {
+      "m_FileID": 3,
+      "m_PathID": -8020283387734416791
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -3632610133808492719
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 638531615245124838
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 1772585330387146864
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 7397639300941592843
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -4953163339947228362
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 7526797169007370821
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 6868046628710144365
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 8037933833706761954
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -412655197725155933
+    }
+  ]
+}

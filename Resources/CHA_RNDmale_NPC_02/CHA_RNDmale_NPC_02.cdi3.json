@@ -1,0 +1,107 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右眼"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "帽子"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "愤怒"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "hp"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "嘴部　变形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴巴　张开和闭合"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part17",
+			"Name": "111.psd"
+		},
+		{
+			"Id": "Part11",
+			"Name": "男性路人拆分.psd"
+		},
+		{
+			"Id": "Part",
+			"Name": "帽子"
+		},
+		{
+			"Id": "Part14",
+			"Name": "图层组3"
+		},
+		{
+			"Id": "Part2",
+			"Name": "眼"
+		},
+		{
+			"Id": "Part3",
+			"Name": "嘴"
+		},
+		{
+			"Id": "PartSketch0",
+			"Name": "[ 参考图 ]"
+		},
+		{
+			"Id": "Part13",
+			"Name": "愤怒"
+		},
+		{
+			"Id": "Part6",
+			"Name": "开心"
+		},
+		{
+			"Id": "Part7",
+			"Name": "愤怒"
+		},
+		{
+			"Id": "Part8",
+			"Name": "图层组3"
+		},
+		{
+			"Id": "Part15",
+			"Name": "图层组1"
+		},
+		{
+			"Id": "Part16",
+			"Name": "图层组2"
+		},
+		{
+			"Id": "Part4",
+			"Name": "图层组1"
+		},
+		{
+			"Id": "Part9",
+			"Name": "图层组1"
+		},
+		{
+			"Id": "Part10",
+			"Name": "图层组2"
+		}
+	]
+}

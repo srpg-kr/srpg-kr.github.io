@@ -1,0 +1,152 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右眼"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "眼球 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "眼球 Y"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "左眉上下"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "",
+			"Name": "左眉　変形"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "Param12",
+			"GroupId": "",
+			"Name": "左眼眶"
+		},
+		{
+			"Id": "Param13",
+			"GroupId": "",
+			"Name": "右眼眶"
+		},
+		{
+			"Id": "Param16",
+			"GroupId": "",
+			"Name": "左上眼脸"
+		},
+		{
+			"Id": "Param17",
+			"GroupId": "",
+			"Name": "右上眼脸"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "嘴部　变形"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "",
+			"Name": "嘴变形1"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴巴　张开和闭合"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "",
+			"Name": "w—m"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "表情"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part11",
+			"Name": "大小.png"
+		},
+		{
+			"Id": "Part",
+			"Name": "图层组1"
+		},
+		{
+			"Id": "r",
+			"Name": "r"
+		},
+		{
+			"Id": "Part10",
+			"Name": "图层组1"
+		},
+		{
+			"Id": "Part2",
+			"Name": "微笑Smile"
+		},
+		{
+			"Id": "Part4",
+			"Name": "生气Angry"
+		},
+		{
+			"Id": "Part6",
+			"Name": "忧愁Sad"
+		},
+		{
+			"Id": "Part8",
+			"Name": "待机Idle"
+		},
+		{
+			"Id": "Part3",
+			"Name": "张口"
+		},
+		{
+			"Id": "Part5",
+			"Name": "张口"
+		},
+		{
+			"Id": "Part7",
+			"Name": "张口"
+		},
+		{
+			"Id": "Part9",
+			"Name": "张口"
+		}
+	]
+}

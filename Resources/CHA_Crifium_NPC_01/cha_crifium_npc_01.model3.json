@@ -1,0 +1,36 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "CHA_Crifium_NPC_01.moc3",
+		"Textures": [
+			"CHA_Crifium_NPC_01.2048/texture_00.png"
+		],
+		"DisplayInfo": "CHA_Crifium_NPC_01.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "EMO_Unitas_Idle_03.exp3.json",
+				"File": "expressions/EMO_Unitas_Idle_03.exp3.json"
+			}
+		],
+		"Motions": {
+			"": [
+				{
+					"File": "motions/Mouthopen_10s.motion3.json"
+				},
+				{
+					"File": "motions/Mouthopen_2s.motion3.json"
+				},
+				{
+					"File": "motions/Mouthopen_5s.motion3.json"
+				},
+				{
+					"File": "motions/OFF.motion3.json"
+				},
+				{
+					"File": "motions/ON.motion3.json"
+				}
+			]
+		}
+	},
+	"HitAreas": []
+}

@@ -1,0 +1,103 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "CHA_Charolic_Rest_01.moc3",
+		"Textures": [
+			"CHA_Charolic_Rest_01.2048/texture_00.png"
+		],
+		"DisplayInfo": "CHA_Charolic_Rest_01.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "EMO_Charolic_Rest_Angry_01.exp3.json",
+				"File": "expresstions/EMO_Charolic_Rest_Angry_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Charolic_Rest_Awkward_01.exp3.json",
+				"File": "expresstions/EMO_Charolic_Rest_Awkward_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Charolic_Rest_Disdain_01.exp3.json",
+				"File": "expresstions/EMO_Charolic_Rest_Disdain_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Charolic_Rest_Idle_01.exp3.json",
+				"File": "expresstions/EMO_Charolic_Rest_Idle_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Charolic_Rest_Indifferent_01.exp3.json",
+				"File": "expresstions/EMO_Charolic_Rest_Indifferent_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Charolic_Rest_Proud_01.exp3.json",
+				"File": "expresstions/EMO_Charolic_Rest_Proud_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Charolic_Rest_Rage_01.exp3.json",
+				"File": "expresstions/EMO_Charolic_Rest_Rage_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Charolic_Rest_Ridicule_01.exp3.json",
+				"File": "expresstions/EMO_Charolic_Rest_Ridicule_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Charolic_Rest_Serious_01.exp3.json",
+				"File": "expresstions/EMO_Charolic_Rest_Serious_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Charolic_Rest_Shy_01.exp3.json",
+				"File": "expresstions/EMO_Charolic_Rest_Shy_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Charolic_Rest_Smile_01.exp3.json",
+				"File": "expresstions/EMO_Charolic_Rest_Smile_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Charolic_Rest_Surprised_01.exp3.json",
+				"File": "expresstions/EMO_Charolic_Rest_Surprised_01.exp3.json"
+			}
+		],
+		"Motions": {
+			"": [
+				{
+					"File": "motions/Mouthopen_10s.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				},
+				{
+					"File": "motions/Mouthopen_2s.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				},
+				{
+					"File": "motions/Mouthopen_5s.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				},
+				{
+					"File": "motions/OFF.motion3.json"
+				},
+				{
+					"File": "motions/ON.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	],
+	"HitAreas": []
+}

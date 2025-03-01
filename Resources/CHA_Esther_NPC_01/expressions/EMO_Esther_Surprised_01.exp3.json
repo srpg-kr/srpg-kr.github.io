@@ -1,0 +1,187 @@
+{
+	"Type": "Live2D Expression",
+	"FadeInTime": 0.15,
+	"FadeOutTime": 0.15,
+	"Parameters": [
+		{
+			"Id": "Paramcankaocanshu",
+			"Value": 5.302,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"Value": 12.698,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"Value": -4.605,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param14",
+			"Value": 6.122,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param15",
+			"Value": -19.953,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"Value": 2.93,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"Value": 25.256,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"Value": -0.698,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param16",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param17",
+			"Value": -4.326,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param3Lshangyanjian",
+			"Value": 29.163,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param3Lxiayanjian",
+			"Value": -18.98,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param3Lneiyanjiao",
+			"Value": 30,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param3Lwaiyanjiao",
+			"Value": 19.116,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param3Lxiayanpi",
+			"Value": -9.184,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"Value": -0.065,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param3Rshangyanjian",
+			"Value": 24.977,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param3Rxiayanjian",
+			"Value": -24.49,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param3Rneiyanjiao",
+			"Value": 30,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param3Rwaiyanjiao",
+			"Value": 16.326,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"Value": 0.698,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param3Rxiayanpi",
+			"Value": 6.279,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"Value": -2.93,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamREyeBallX",
+			"Value": -0.14,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param2REyeBallY",
+			"Value": -2.093,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param10",
+			"Value": -20.233,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param2zhoumei",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamMouthForm1",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param20",
+			"Value": 1,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param3zhengjingyan",
+			"Value": 60,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param2bizuibianxing2",
+			"Value": 30,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param2ongkonglachang",
+			"Value": 28.186,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"Value": 0,
+			"Blend": "Add"
+		}
+	]
+}

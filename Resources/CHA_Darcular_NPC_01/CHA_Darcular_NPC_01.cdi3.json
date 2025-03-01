@@ -1,0 +1,108 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "脸部阴影"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "a"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "",
+			"Name": "左眼　微笑"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "左眼眼角"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右眼"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "",
+			"Name": "右眼　微笑"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "右眼眼角"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "",
+			"Name": "左眉　変形"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "嘴部　变形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴巴　张开和闭合"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part9",
+			"Name": "texture_00.png"
+		},
+		{
+			"Id": "Part8",
+			"Name": "第一章补充.psd"
+		},
+		{
+			"Id": "Part7",
+			"Name": "黑眼.psd"
+		},
+		{
+			"Id": "Part6",
+			"Name": "黑眼.psd"
+		},
+		{
+			"Id": "Part5",
+			"Name": "黑眼表情.psd"
+		},
+		{
+			"Id": "Part4",
+			"Name": "黑眼.psd"
+		},
+		{
+			"Id": "Part",
+			"Name": "黑眼"
+		},
+		{
+			"Id": "PartSketch0",
+			"Name": "[ 参考图 ]"
+		},
+		{
+			"Id": "Part3",
+			"Name": "黑眼"
+		},
+		{
+			"Id": "Part2",
+			"Name": "头"
+		}
+	]
+}

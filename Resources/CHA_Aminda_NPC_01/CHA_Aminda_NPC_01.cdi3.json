@@ -1,0 +1,190 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "眼珠 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "眼珠 Y"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "眼珠缩放"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "眼珠形变"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "",
+			"Name": "眼眶"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "上眼眶1"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "",
+			"Name": "上眼眶2"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "下眼眶1"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "",
+			"Name": "下眼眶2"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "左眉上下"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "",
+			"Name": "左眉　左右"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "",
+			"Name": "右眉　左右"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "",
+			"Name": "左眉　変形"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "",
+			"Name": "左眉　変形2"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "Param9",
+			"GroupId": "",
+			"Name": "右眉　変形2"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "嘴　变形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴　张开和闭合"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part",
+			"Name": "EMO_Aminda_Idle_01待机"
+		},
+		{
+			"Id": "Part2",
+			"Name": "眼睛"
+		},
+		{
+			"Id": "Part3",
+			"Name": "嘴"
+		},
+		{
+			"Id": "Part4",
+			"Name": "沮丧"
+		},
+		{
+			"Id": "Part7",
+			"Name": "思考"
+		},
+		{
+			"Id": "Part10",
+			"Name": "狡黠"
+		},
+		{
+			"Id": "Part13",
+			"Name": "惊讶"
+		},
+		{
+			"Id": "Part16",
+			"Name": "默认"
+		},
+		{
+			"Id": "Part5",
+			"Name": "沮丧_闭嘴"
+		},
+		{
+			"Id": "Part6",
+			"Name": "沮丧_张嘴"
+		},
+		{
+			"Id": "Part8",
+			"Name": "思考_闭嘴"
+		},
+		{
+			"Id": "Part9",
+			"Name": "思考_张嘴"
+		},
+		{
+			"Id": "Part11",
+			"Name": "狡黠_闭嘴"
+		},
+		{
+			"Id": "Part14",
+			"Name": "惊讶_闭嘴"
+		},
+		{
+			"Id": "Part17",
+			"Name": "闭嘴"
+		},
+		{
+			"Id": "Part15",
+			"Name": "惊讶_张嘴"
+		},
+		{
+			"Id": "Part12",
+			"Name": "狡黠_张嘴"
+		},
+		{
+			"Id": "Part18",
+			"Name": "张嘴"
+		}
+	]
+}

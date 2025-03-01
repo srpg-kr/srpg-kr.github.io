@@ -1,0 +1,163 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "左眼角"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "嘲讽"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右眼"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "右眼角"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "嘲讽"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "眼球 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "眼球 Y"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "",
+			"Name": "眼球缩放"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "",
+			"Name": "肌肉线"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "左眉上下"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "",
+			"Name": "嘴"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "",
+			"Name": "左眉　変形"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "嘴部　变形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴巴　张开和闭合"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part13",
+			"Name": "委托人.psd"
+		},
+		{
+			"Id": "Part18",
+			"Name": "委托人.psd"
+		},
+		{
+			"Id": "Part12",
+			"Name": "LIVE2D规范画布调整尺寸 - 副本.psd"
+		},
+		{
+			"Id": "Part9",
+			"Name": "委托人.psd"
+		},
+		{
+			"Id": "Part8",
+			"Name": "委托人 - 副本 (2).psd"
+		},
+		{
+			"Id": "Part7",
+			"Name": "委托人 - 副本 (2).psd"
+		},
+		{
+			"Id": "Part6",
+			"Name": "委托人 - 副本.psd"
+		},
+		{
+			"Id": "Part5",
+			"Name": "委托人.psd"
+		},
+		{
+			"Id": "Part",
+			"Name": "委托人-新"
+		},
+		{
+			"Id": "PartSketch0",
+			"Name": "[ 参考图 ]"
+		},
+		{
+			"Id": "Part10",
+			"Name": "第二章"
+		},
+		{
+			"Id": "Part4",
+			"Name": "委托人-新"
+		},
+		{
+			"Id": "Part2",
+			"Name": "脸"
+		},
+		{
+			"Id": "Part11",
+			"Name": "委托人-新"
+		},
+		{
+			"Id": "Part3",
+			"Name": "前发"
+		}
+	]
+}

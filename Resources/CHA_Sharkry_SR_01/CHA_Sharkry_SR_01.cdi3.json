@@ -1,0 +1,256 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "Param20",
+			"GroupId": "",
+			"Name": "红晕x"
+		},
+		{
+			"Id": "Param21",
+			"GroupId": "",
+			"Name": "红晕y"
+		},
+		{
+			"Id": "Param9",
+			"GroupId": "",
+			"Name": "红晕"
+		},
+		{
+			"Id": "Param10",
+			"GroupId": "",
+			"Name": "眼泪"
+		},
+		{
+			"Id": "Param11",
+			"GroupId": "",
+			"Name": "悲伤 红晕"
+		},
+		{
+			"Id": "Param12",
+			"GroupId": "",
+			"Name": "眉头褶皱"
+		},
+		{
+			"Id": "Param18",
+			"GroupId": "",
+			"Name": "眼睛高光"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "",
+			"Name": "左眉　左右"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "左眉上下"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "",
+			"Name": "右眉　左右"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "",
+			"Name": "左眉　変形"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "",
+			"Name": "左眼　微笑"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "左上眼皮"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "左下眼皮"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "左内眼角"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "",
+			"Name": "左外眼角"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右眼"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "",
+			"Name": "右眼　微笑"
+		},
+		{
+			"Id": "Param1",
+			"GroupId": "",
+			"Name": "右上眼皮"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "右下眼皮"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "",
+			"Name": "右内眼角"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "",
+			"Name": "右外眼角"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "",
+			"Name": "眼球缩放"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "眼球 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "眼球 Y"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "嘴部　变形"
+		},
+		{
+			"Id": "KOUQ",
+			"GroupId": "",
+			"Name": "嘴部 变形 2"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴巴　张开和闭合"
+		},
+		{
+			"Id": "Param13",
+			"GroupId": "",
+			"Name": "嘴X"
+		},
+		{
+			"Id": "Param14",
+			"GroupId": "",
+			"Name": "嘴Y"
+		},
+		{
+			"Id": "Param19",
+			"GroupId": "",
+			"Name": "嘴缩放"
+		},
+		{
+			"Id": "Param15",
+			"GroupId": "",
+			"Name": "口腔X"
+		},
+		{
+			"Id": "Param16",
+			"GroupId": "",
+			"Name": "口腔Y"
+		},
+		{
+			"Id": "Param17",
+			"GroupId": "",
+			"Name": "口腔缩放"
+		},
+		{
+			"Id": "Param22",
+			"GroupId": "",
+			"Name": "smirk"
+		},
+		{
+			"Id": "Param24",
+			"GroupId": "",
+			"Name": "Happy"
+		},
+		{
+			"Id": "Param25",
+			"GroupId": "",
+			"Name": "cute"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part2",
+			"Name": "夏克里表情修改.psd"
+		},
+		{
+			"Id": "Part",
+			"Name": "夏克里"
+		},
+		{
+			"Id": "Part3",
+			"Name": "头"
+		},
+		{
+			"Id": "Part4",
+			"Name": "眼"
+		},
+		{
+			"Id": "Part5",
+			"Name": "左眼"
+		},
+		{
+			"Id": "Part6",
+			"Name": "右眼"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		],
+		[
+			"ParamMouthForm",
+			"KOUQ"
+		],
+		[
+			"Param15",
+			"Param16"
+		]
+	]
+}
