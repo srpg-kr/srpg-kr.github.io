@@ -23,29 +23,55 @@
     background-color: #2b2b2b;
     color: white;
     transition: transform 0.3s ease-in-out;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
     padding: 0; /* Remove top padding */
-    width: 250px;
+    width: fit-content;
     height: 100vh;
     box-sizing: border-box;
-    overflow-y: auto;
+    position: fixed;
+    z-index: 10;
   }
 
-  .l2d-panel-header {
+  .l2d-panel-control {
     display: flex;
     align-items: center;
     justify-content: space-between; /* Aligns text and button */
-    padding: 4px 15px;
-    font-size: 18px;
-    font-weight: bold;
+    padding: 0px 15px;
+    flex: 0 0 auto; /* do not shrink or grow */
+  }
+
+  .l2d-panel-control h2 {
+    text-align: right;
   }
   
   /* Right panel: fixed width, scrollable if needed */
   .l2d-panel.right {
     right: 0;
-    width: 320px;
+    width: 280px;
     left: auto;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .l2d-panel.right select {
+    width: 100%;
+  }
+
+  .l2d-panel-opacity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+  }
+
+  .l2d-panel-opacity div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Aligns text and button */
+    padding: 0px 0px 0.5rem 0px;
+    flex: 0 0 auto; /* do not shrink or grow */
+  }
+
+  .l2d-panel-opacity input{
+    width: 100%;
   }
   
   /* Main canvas area takes remaining space */
