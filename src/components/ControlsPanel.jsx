@@ -24,29 +24,10 @@ function ControlsPanel({ refreshFlag }) {
       // Mark parameter as enabled if its current value differs from defaultValue.
       const synced = params.map((p) => ({
         ...p,
+        value: p.value,
         enabled: p.value !== p.defaultValue,
       }));
       setParameters(synced);
-    }
-  };
-
-  const resetParameters = () => {
-    const model = LAppDelegate.getInstance()
-                      .getSubdelegate()
-                      .getLive2DManager()
-                      .getModel(0);
-    if (model && model.getParameters) {
-      const params = model.getParameters();
-      const syncedParams = params.map((p) => ({
-        ...p,
-        value: p.defaultValue,
-        enabled: false,
-      }));
-      setParameters(syncedParams);
-      parameters.forEach(element => {
-        model.setParameterValueById(element.id, 0);
-      });
-      storeExpParameters();
     }
   };
 
@@ -120,7 +101,7 @@ function ControlsPanel({ refreshFlag }) {
         refreshControls();
         clearInterval(intervalId);
       }
-    }, 200);
+    }, 50);
     return () => clearInterval(intervalId);
   }, []);
 
@@ -133,13 +114,12 @@ function ControlsPanel({ refreshFlag }) {
       .getLive2DManager()
       .getModel(0);
     if (model) {
-      resetParameters();
       model.setExpression(expression);
       setTimeout(() => {
         syncParameters();
         storeExpParameters();
         syncEyeBlink(model);
-      }, 200);
+      }, 50);
     }
   };
 
@@ -189,18 +169,11 @@ function ControlsPanel({ refreshFlag }) {
       .getModel(0);
     if (model && parameters[index].enabled && expParameters[index]) {
       if (!parameters[index].isEye) {
-        // Calculate the delta from the baseline.
-        const delta = newValue - expParameters[index].value;
-        model.setParameterValueById(parameters[index].id, delta);
-        
-        for (let i = 0; i < parameters.length; ++i) {
-            if (i != index && parameters[i].enabled){
-                model.setParameterValueById(parameters[i].id, parameters[i].value - expParameters[i].value);
-            }
-        };
+        model.setCustomParameterValueById(parameters[index].id, newValue);
       }
       else {
-        model.setEyeForcedValue(parameters[index].id, newValue / expParameters[index].value);
+        model.setCustomParameterValueById(parameters[index].id, newValue);
+        model.setEyeForcedValue(parameters[index].id, newValue);
       }
     }
   };
@@ -220,23 +193,18 @@ function ControlsPanel({ refreshFlag }) {
       if (!parameters[index].isEye){
         // When disabling, revert to the baseline value.
         if (parameters[index].enabled) {
-          model.setParameterValueById(parameters[index].id, 0);
+            model.setCustomParameterValueById(parameters[index].id, expParameters[index].value);
         } else {
-          // Otherwise, leave the current value.
-          model.setParameterValueById(parameters[index].id, parameters[index].value - expParameters[index].value);
+            model.setCustomParameterValueById(parameters[index].id, parameters[index].value);
         }
-        
-        for (let i = 0; i < parameters.length; ++i) {
-          if (i != index && parameters[i].enabled){
-              model.setParameterValueById(parameters[i].id, parameters[i].value - expParameters[i].value);
-          }
-        };
       }
       else {
         if (parameters[index].enabled) {
-          model.setEyeForcedValue(parameters[index].id, 1.0);
+            model.setCustomParameterValueById(parameters[index].id, expParameters[index].value);
+            model.setEyeForcedValue(parameters[index].id, expParameters[index].value);
         } else {
-          model.setEyeForcedValue(parameters[index].id, parameters[index].value / expParameters[index].value);
+            model.setCustomParameterValueById(parameters[index].id, parameters[index].value);
+            model.setEyeForcedValue(parameters[index].id, parameters[index].value);
         }
       }
     }

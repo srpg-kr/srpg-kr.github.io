@@ -274,7 +274,7 @@ export class CubismMotionQueueManager {
 
         continue;
       }
-
+      
       // ------ 値を反映する ------
       motion.updateParameters(model, motionQueueEntry, userTimeSeconds);
       updated = true;

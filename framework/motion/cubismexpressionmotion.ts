@@ -49,6 +49,39 @@ export class CubismExpressionMotion extends ACubismMotion {
     return expression;
   }
 
+  public static createEmpty() {
+    const expression: CubismExpressionMotion = new CubismExpressionMotion();
+    expression._fadeInSeconds = 0.1;
+    expression._fadeOutSeconds = 0.1;
+    return expression;
+  }
+
+  public fillEmptyParameters(model: CubismModel) {
+    this._parameters.clear();
+    for (let i = 0; i < model.getParameterCount(); ++i){
+      let expParam = new ExpressionParameter();
+      expParam.parameterId = model.getParameterId(i);
+      expParam.blendType = ExpressionBlendType.Additive;
+      expParam.value = 0;
+      this._parameters.pushBack(expParam);
+    }
+  }
+
+  public setParameterValueByIndex(model: CubismModel, index: number, value: number){
+    if (index >= this._parameters._size) return;
+    this._parameters.at(index).value = value - model.getParameterDefaultValue(index);
+  }
+
+  public setParameterValueById(model: CubismModel, id: CubismIdHandle, value: number) {
+    for (let i = 0; i < this._parameters._size; ++i){
+      if (this._parameters.at(i).parameterId != id){
+        continue;
+      }
+      this._parameters.at(i).value = value - model.getParameterDefaultValue(i);
+      return;
+    }
+  }
+
   /**
    * モデルのパラメータの更新の実行
    * @param model 対象のモデル
@@ -236,6 +269,33 @@ export class CubismExpressionMotion extends ACubismMotion {
    */
   public getExpressionParameters() {
     return this._parameters;
+  }
+
+  private calculateActualValue(model: CubismModel, param: ExpressionParameter): number {
+    if (param.blendType == ExpressionBlendType.Additive){
+      return model.getParameterDefaultValue(model.getParameterIndex(param.parameterId)) + param.value;
+    }
+    else if (param.blendType == ExpressionBlendType.Multiply){
+      return model.getParameterDefaultValue(model.getParameterIndex(param.parameterId)) * param.value;
+    }
+    return param.value;
+  }
+
+  public getParameterValueByIndex(model: CubismModel, index: number): number {
+    if (index >= this._parameters._size) return 0;
+    const param = this._parameters.at(index);
+    return this.calculateActualValue(model, param);
+  }
+
+  public getParameterValueById(model: CubismModel, id: CubismIdHandle): number {
+    for (let i = 0; i < this._parameters._size; ++i){
+      if (this._parameters.at(i).parameterId != id){
+        continue;
+      }
+      const param = this._parameters.at(i);
+      return this.calculateActualValue(model, param);
+    }
+    return model.getParameterDefaultValue(model.getParameterIndex(id));
   }
 
   /**

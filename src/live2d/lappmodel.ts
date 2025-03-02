@@ -44,6 +44,7 @@ import { LAppWavFileHandler } from './lappwavfilehandler';
 import { CubismMoc } from '@framework/model/cubismmoc';
 import { LAppDelegate } from './lappdelegate';
 import { LAppSubdelegate } from './lappsubdelegate';
+import { CubismExpressionMotion } from '../../framework/motion/cubismexpressionmotion';
 
 enum LoadStep {
   LoadAssets,
@@ -146,6 +147,8 @@ export class LAppModel extends CubismUserModel {
 
     // Expression
     const loadCubismExpression = (): void => {
+      this._customExpression.fillEmptyParameters(this._model);
+      this._isUsingCustom = false;
       if (this._modelSetting.getExpressionCount() > 0) {
         const count: number = this._modelSetting.getExpressionCount();
 
@@ -354,9 +357,11 @@ export class LAppModel extends CubismUserModel {
         this._modelSetting.getEyeBlinkParameterCount();
 
       for (let i = 0; i < eyeBlinkIdCount; ++i) {
+        const id = this._modelSetting.getEyeBlinkParameterId(i);
         this._eyeBlinkIds.pushBack(
-          this._modelSetting.getEyeBlinkParameterId(i)
+          id
         );
+        this._eyeBlink.setForcedValue(id, this._model.getParameterDefaultValue(this._model.getParameterIndex(id)));
       }
 
       this._state = LoadStep.SetupLipSyncIds;
@@ -510,31 +515,26 @@ export class LAppModel extends CubismUserModel {
 
     //--------------------------------------------------------------------------
     this._model.loadParameters(); // 前回セーブされた状態をロード
-    if (this._motionManager.isFinished()) {
-      // モーションの再生がない場合、待機モーションの中からランダムで再生する
-      this.startRandomMotion(
-        LAppDefine.MotionGroupIdle,
-        LAppDefine.PriorityIdle
-      );
-    } else {
+    if (!this._motionManager.isFinished()) {
       motionUpdated = this._motionManager.updateMotion(
         this._model,
         deltaTimeSeconds
       ); // モーションを更新
     }
     this._model.saveParameters(); // 状態を保存
-    //--------------------------------------------------------------------------
+
+
+    if (this._expressionManager != null) {
+      this._expressionManager.updateMotion(this._model, deltaTimeSeconds); // 表情でパラメータ更新（相対変化）
+    }
 
     // まばたき
     if (this._eyeBlink != null) {
       // メインモーションの更新がないとき
       this._eyeBlink.updateParameters(this._model, deltaTimeSeconds, this._doEyeBlink); // 目パチ
     }
-
-    if (this._expressionManager != null) {
-      this._expressionManager.updateMotion(this._model, deltaTimeSeconds); // 表情でパラメータ更新（相対変化）
-    }
-
+    //--------------------------------------------------------------------------
+    /*
     // ドラッグによる変化
     // ドラッグによる顔の向きの調整
     this._model.addParameterValueById(this._idParamAngleX, this._dragX * 30); // -30から30の値を加える
@@ -579,7 +579,7 @@ export class LAppModel extends CubismUserModel {
     // ポーズの設定
     if (this._pose != null) {
       this._pose.updateParameters(this._model, deltaTimeSeconds);
-    }
+    }*/
 
     this._model.update();
   }
@@ -712,11 +712,33 @@ export class LAppModel extends CubismUserModel {
     }
 
     if (motion != null) {
+      this._isUsingCustom = false;
       this._expressionManager.startMotion(motion, false);
+      this._currentExpression = motion;
+      for (let i = 0; i < this._eyeBlinkIds.getSize(); ++i) {
+        const id = this._eyeBlinkIds.at(i);
+        this._eyeBlink.setForcedValue(id, motion.getParameterValueById(this._model, id));
+      }
     } else {
       if (this._debugMode) {
         LAppPal.printMessage(`[APP]expression[${expressionId}] is null`);
       }
+    }
+  }
+
+  public syncCustomExpression(): void {
+    for (let i = 0; i < this._model.getParameterCount(); ++i) {
+      this._customExpression.setParameterValueByIndex(this._model, i, this._model.getParameterValueByIndex(i));
+    }
+  }
+
+  public setUseCustomExpression(): void {
+    if (!this._isUsingCustom){
+      console.log("Switched to custom expression");
+      this.syncCustomExpression();
+      this._isUsingCustom = true;
+      this._currentExpression = this._customExpression;
+      this._expressionManager.startMotion(this._customExpression, false);
     }
   }
 
@@ -784,12 +806,11 @@ export class LAppModel extends CubismUserModel {
 
       // ex) idle_0
       const name = `${group}_${i}`;
-      if (this._debugMode) {
+      if (LAppDefine.DebugLogEnable) {
         LAppPal.printMessage(
           `[APP]load motion: ${motionFileName} => [${name}]`
         );
       }
-
       fetch(`${this._modelHomeDir}${motionFileName}`)
         .then(response => {
           if (response.ok) {
@@ -802,45 +823,62 @@ export class LAppModel extends CubismUserModel {
           }
         })
         .then(arrayBuffer => {
-          const tmpMotion: CubismMotion = this.loadMotion(
-            arrayBuffer,
-            arrayBuffer.byteLength,
-            name,
-            null,
-            null,
-            this._modelSetting,
-            group,
-            i
-          );
-
-          if (tmpMotion != null) {
-            tmpMotion.setEffectIds(this._eyeBlinkIds, this._lipSyncIds);
-
-            if (this._motions.getValue(name) != null) {
-              ACubismMotion.delete(this._motions.getValue(name));
-            }
-
-            this._motions.setValue(name, tmpMotion);
-
-            this._motionCount++;
-            if (this._motionCount >= this._allMotionCount) {
-              this._state = LoadStep.LoadTexture;
-
-              // 全てのモーションを停止する
-              this._motionManager.stopAllMotions();
-
-              this._updating = false;
-              this._initialized = true;
-
-              this.createRenderer();
-              this.setupTextures();
-              this.getRenderer().startUp(
-                this._subdelegate.getGlManager().getGl()
+          if (arrayBuffer?.byteLength > 0){
+            try {
+              const tmpMotion: CubismMotion = this.loadMotion(
+                arrayBuffer,
+                arrayBuffer.byteLength,
+                name,
+                null,
+                null,
+                this._modelSetting,
+                group,
+                i
               );
+  
+              if (tmpMotion != null) {
+                tmpMotion.setEffectIds(this._eyeBlinkIds, this._lipSyncIds);
+    
+                if (this._motions.getValue(name) != null) {
+                  ACubismMotion.delete(this._motions.getValue(name));
+                }
+    
+                this._motions.setValue(name, tmpMotion);
+    
+                this._motionCount++;
+              } else {
+                // loadMotionできなかった場合はモーションの総数がずれるので1つ減らす
+                this._allMotionCount--;
+              }
             }
-          } else {
-            // loadMotionできなかった場合はモーションの総数がずれるので1つ減らす
+            catch (error) {
+              if (LAppDefine.DebugLogEnable) {
+                LAppPal.printMessage(
+                  `[APP]Failed to load motion`
+                );
+              }
+              this._allMotionCount--;
+            }
+          }
+          else {
             this._allMotionCount--;
+          }
+        })
+        .then(() => {
+          if (this._motionCount >= this._allMotionCount) {
+            this._state = LoadStep.LoadTexture;
+
+            // 全てのモーションを停止する
+            this._motionManager.stopAllMotions();
+
+            this._updating = false;
+            this._initialized = true;
+
+            this.createRenderer();
+            this.setupTextures();
+            this.getRenderer().startUp(
+              this._subdelegate.getGlManager().getGl()
+            );
           }
         });
     }
@@ -969,10 +1007,13 @@ export class LAppModel extends CubismUserModel {
     for (let i = 0; i < count; i++) {
       // Make sure your getParameterId(i) returns a string
       const paramId: CubismIdHandle = this._model.getParameterId(i);
-      const paramValue: number = this._model.getParameterValueByIndex(i);
       const paramDefaultValue: number = this._model.getParameterDefaultValue(i);
       const paramMin: number = this._model.getParameterMinimumValue(i);
       const paramMax: number = this._model.getParameterMaximumValue(i);
+      let paramValue: number = paramDefaultValue;
+      if (this._currentExpression != null){
+        paramValue = this._currentExpression.getParameterValueById(this._model, paramId);
+      }
       let paramIsEye: boolean = false;
       for (let j = 0; j < this._eyeBlinkIds.getSize(); ++j) {
         if (this._eyeBlinkIds.at(j) === paramId){
@@ -980,7 +1021,7 @@ export class LAppModel extends CubismUserModel {
           break;
         }
       }
-  
+    
       params.push({
         id: paramId,
         value: paramValue,
@@ -990,7 +1031,6 @@ export class LAppModel extends CubismUserModel {
         isEye: paramIsEye
       });
     }
-    
     return params;
   }
 
@@ -1011,58 +1051,16 @@ export class LAppModel extends CubismUserModel {
    * @param value パラメータの値
    * @param weight 重み
    */
-  public setParameterValueById(
+  public setCustomParameterValueById(
     parameterId: CubismIdHandle,
-    value: number,
-    weight = 1.0
+    value: number
   ): void {
-    const index: number = this._model.getParameterIndex(parameterId);
-    this._model.setParameterValueByIndex(index, value, weight);
-    this._model.saveParameters();
-  }
-
-  /**
-   * パラメータの値の加算(index)
-   * @param parameterIndex パラメータインデックス
-   * @param value 加算する値
-   * @param weight 重み
-   */
-  public addParameterValueByIndex(
-    parameterIndex: number,
-    value: number,
-    weight = 1.0
-  ): void {
-    this._model.setParameterValueByIndex(
-      parameterIndex,
-      this._model.getParameterValueByIndex(parameterIndex) + value * weight
-    );
-    this._model.saveParameters();
-  }
-
-  /**
-   * パラメータの値の加算(id)
-   * @param parameterId パラメータＩＤ
-   * @param value 加算する値
-   * @param weight 重み
-   */
-  public addParameterValueById(
-    parameterId: any,
-    value: number,
-    weight = 1.0
-  ): void {
-    const index: number = this._model.getParameterIndex(parameterId);
-    this._model.addParameterValueByIndex(index, value, weight);
-    this._model.saveParameters();
+    this.setUseCustomExpression();
+    this._customExpression.setParameterValueById(this._model, parameterId, value);
   }
 
   public setEyeBlink(shouldBlink: boolean){
     this._doEyeBlink = shouldBlink;
-    
-    if (this._eyeBlink != null){
-      for (let i = 0; i < this._eyeBlinkIds.getSize(); ++i) {
-        this._eyeBlink.setForcedValue(this._eyeBlinkIds.at(i), 1.0);
-      }
-    }
   }
 
   public setEyeForcedValue(paramsId: CubismHandle, value: number) {
@@ -1084,6 +1082,9 @@ export class LAppModel extends CubismUserModel {
     this._eyeBlinkIds = new csmVector<CubismIdHandle>();
     this._lipSyncIds = new csmVector<CubismIdHandle>();
 
+    this._customExpression = CubismExpressionMotion.createEmpty();
+    this._isUsingCustom = false;
+    this._currentExpression = null;
     this._motions = new csmMap<string, ACubismMotion>();
     this._expressions = new csmMap<string, ACubismMotion>();
 
@@ -1132,6 +1133,9 @@ export class LAppModel extends CubismUserModel {
   _eyeBlinkIds: csmVector<CubismIdHandle>; // モデルに設定された瞬き機能用パラメータID
   _lipSyncIds: csmVector<CubismIdHandle>; // モデルに設定されたリップシンク機能用パラメータID
 
+  _customExpression: CubismExpressionMotion;
+  _currentExpression: ACubismMotion;
+  _isUsingCustom: boolean;
   _motions: csmMap<string, ACubismMotion>; // 読み込まれているモーションのリスト
   _expressions: csmMap<string, ACubismMotion>; // 読み込まれている表情のリスト
 

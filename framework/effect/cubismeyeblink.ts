@@ -168,7 +168,8 @@ export class CubismEyeBlink {
       }
   
       for (let i = 0; i < this._parameterIds.getSize(); ++i) {
-        model.setParameterValueById(this._parameterIds.at(i), parameterValue);
+        let id = this._parameterIds.at(i);
+        model.setParameterValueById(id, parameterValue * this._parameterForcedValues.at(i));
       }
     }
     else {
@@ -218,7 +219,7 @@ export class CubismEyeBlink {
 
   _blinkingState: number; // 現在の状態
   _parameterIds: csmVector<CubismIdHandle>; // 操作対象のパラメータのIDのリスト
-  _parameterForcedValues: csmVector<number>; // 操作対象のパラメータのIDのリスト
+  _parameterForcedValues: csmVector<number>;
   _nextBlinkingTime: number; // 次のまばたきの時刻[秒]
   _stateStartTimeSeconds: number; // 現在の状態が開始した時刻[秒]
   _blinkingIntervalSeconds: number; // まばたきの間隔[秒]
