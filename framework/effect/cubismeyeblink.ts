@@ -82,12 +82,13 @@ export class CubismEyeBlink {
     return this._blinkingState == EyeState.EyeState_Interval;
   }
 
-  public forceOpenEyes(model: CubismModel) {
+  public setForcedValue(parameterId: CubismIdHandle, value: number) {
     for (let i = 0; i < this._parameterIds.getSize(); ++i) {
-      console.log(this._parameterIds);
-      model.setParameterValueById(this._parameterIds.at(i), 1);
+      if (this._parameterIds.at(i) === parameterId){
+        this._parameterForcedValues.set(i, value);
+        break;
+      }
     }
-    model.saveParameters();
   }
 
   /**
@@ -95,78 +96,85 @@ export class CubismEyeBlink {
    * @param model 対象のモデル
    * @param deltaTimeSeconds デルタ時間[秒]
    */
-  public updateParameters(model: CubismModel, deltaTimeSeconds: number): void {
+  public updateParameters(model: CubismModel, deltaTimeSeconds: number, doEyeBlink: boolean = true): void {
     this._userTimeSeconds += deltaTimeSeconds;
     let parameterValue: number;
     let t = 0.0;
     const blinkingState: EyeState = this._blinkingState;
 
-    switch (blinkingState) {
-      case EyeState.EyeState_Closing:
-        t =
-          (this._userTimeSeconds - this._stateStartTimeSeconds) /
-          this._closingSeconds;
-
-        if (t >= 1.0) {
-          t = 1.0;
-          this._blinkingState = EyeState.EyeState_Closed;
-          this._stateStartTimeSeconds = this._userTimeSeconds;
-        }
-
-        parameterValue = 1.0 - t;
-
-        break;
-      case EyeState.EyeState_Closed:
-        t =
-          (this._userTimeSeconds - this._stateStartTimeSeconds) /
-          this._closedSeconds;
-
-        if (t >= 1.0) {
-          this._blinkingState = EyeState.EyeState_Opening;
-          this._stateStartTimeSeconds = this._userTimeSeconds;
-        }
-
-        parameterValue = 0.0;
-
-        break;
-      case EyeState.EyeState_Opening:
-        t =
-          (this._userTimeSeconds - this._stateStartTimeSeconds) /
-          this._openingSeconds;
-
-        if (t >= 1.0) {
-          t = 1.0;
+    if (doEyeBlink){
+      switch (blinkingState) {
+        case EyeState.EyeState_Closing:
+          t =
+            (this._userTimeSeconds - this._stateStartTimeSeconds) /
+            this._closingSeconds;
+  
+          if (t >= 1.0) {
+            t = 1.0;
+            this._blinkingState = EyeState.EyeState_Closed;
+            this._stateStartTimeSeconds = this._userTimeSeconds;
+          }
+  
+          parameterValue = 1.0 - t;
+  
+          break;
+        case EyeState.EyeState_Closed:
+          t =
+            (this._userTimeSeconds - this._stateStartTimeSeconds) /
+            this._closedSeconds;
+  
+          if (t >= 1.0) {
+            this._blinkingState = EyeState.EyeState_Opening;
+            this._stateStartTimeSeconds = this._userTimeSeconds;
+          }
+  
+          parameterValue = 0.0;
+  
+          break;
+        case EyeState.EyeState_Opening:
+          t =
+            (this._userTimeSeconds - this._stateStartTimeSeconds) /
+            this._openingSeconds;
+  
+          if (t >= 1.0) {
+            t = 1.0;
+            this._blinkingState = EyeState.EyeState_Interval;
+            this._nextBlinkingTime = this.determinNextBlinkingTiming();
+          }
+  
+          parameterValue = t;
+  
+          break;
+        case EyeState.EyeState_Interval:
+          if (this._nextBlinkingTime < this._userTimeSeconds) {
+            this._blinkingState = EyeState.EyeState_Closing;
+            this._stateStartTimeSeconds = this._userTimeSeconds;
+          }
+  
+          parameterValue = 1.0;
+  
+          break;
+        case EyeState.EyeState_First:
+        default:
           this._blinkingState = EyeState.EyeState_Interval;
           this._nextBlinkingTime = this.determinNextBlinkingTiming();
-        }
+  
+          parameterValue = 1.0;
+          break;
+      }
 
-        parameterValue = t;
-
-        break;
-      case EyeState.EyeState_Interval:
-        if (this._nextBlinkingTime < this._userTimeSeconds) {
-          this._blinkingState = EyeState.EyeState_Closing;
-          this._stateStartTimeSeconds = this._userTimeSeconds;
-        }
-
-        parameterValue = 1.0;
-
-        break;
-      case EyeState.EyeState_First:
-      default:
-        this._blinkingState = EyeState.EyeState_Interval;
-        this._nextBlinkingTime = this.determinNextBlinkingTiming();
-
-        parameterValue = 1.0;
-        break;
+      if (!CubismEyeBlink.CloseIfZero) {
+        parameterValue = -parameterValue;
+      }
+  
+      for (let i = 0; i < this._parameterIds.getSize(); ++i) {
+        model.setParameterValueById(this._parameterIds.at(i), parameterValue);
+      }
     }
-
-    if (!CubismEyeBlink.CloseIfZero) {
-      parameterValue = -parameterValue;
-    }
-
-    for (let i = 0; i < this._parameterIds.getSize(); ++i) {
-      model.setParameterValueById(this._parameterIds.at(i), parameterValue);
+    else {
+      for (let i = 0; i < this._parameterIds.getSize(); ++i) {
+        model.setParameterValueById(this._parameterIds.at(i), this._parameterForcedValues.at(i));
+      }
     }
   }
 
@@ -184,6 +192,7 @@ export class CubismEyeBlink {
     this._openingSeconds = 0.15;
     this._userTimeSeconds = 0.0;
     this._parameterIds = new csmVector<CubismIdHandle>();
+    this._parameterForcedValues = new csmVector<number>();
 
     if (modelSetting == null) {
       return;
@@ -191,6 +200,7 @@ export class CubismEyeBlink {
 
     for (let i = 0; i < modelSetting.getEyeBlinkParameterCount(); ++i) {
       this._parameterIds.pushBack(modelSetting.getEyeBlinkParameterId(i));
+      this._parameterForcedValues.pushBack(1.0);
     }
   }
 
@@ -208,6 +218,7 @@ export class CubismEyeBlink {
 
   _blinkingState: number; // 現在の状態
   _parameterIds: csmVector<CubismIdHandle>; // 操作対象のパラメータのIDのリスト
+  _parameterForcedValues: csmVector<number>; // 操作対象のパラメータのIDのリスト
   _nextBlinkingTime: number; // 次のまばたきの時刻[秒]
   _stateStartTimeSeconds: number; // 現在の状態が開始した時刻[秒]
   _blinkingIntervalSeconds: number; // まばたきの間隔[秒]

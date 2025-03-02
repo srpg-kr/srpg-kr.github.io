@@ -188,8 +188,6 @@ export class LAppView {
 
     const viewX: number = this.transformViewX(this._touchManager.getX());
     const viewY: number = this.transformViewY(this._touchManager.getY());
-    console.log(this._viewMatrix)
-    console.log(viewX);
 
     lapplive2dmanager.onTouch(viewX, viewY);
   }

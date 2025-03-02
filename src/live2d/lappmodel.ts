@@ -527,10 +527,8 @@ export class LAppModel extends CubismUserModel {
 
     // まばたき
     if (this._eyeBlink != null) {
-      if (!this._eyeBlink.isOpen() || this._doEyeBlink) {
-        // メインモーションの更新がないとき
-        this._eyeBlink.updateParameters(this._model, deltaTimeSeconds); // 目パチ
-      }
+      // メインモーションの更新がないとき
+      this._eyeBlink.updateParameters(this._model, deltaTimeSeconds, this._doEyeBlink); // 目パチ
     }
 
     if (this._expressionManager != null) {
@@ -996,6 +994,17 @@ export class LAppModel extends CubismUserModel {
     return params;
   }
 
+    /**
+     * パラメータの値の取得
+     * @param parameterId    パラメータのID
+     * @return パラメータの値
+     */
+    public getParameterValueById(parameterId: CubismIdHandle): number {
+      // 高速化のためにparameterIndexを取得できる機構になっているが、外部からの設定の時は呼び出し頻度が低いため不要
+      const parameterIndex: number = this._model.getParameterIndex(parameterId);
+      return this._model.getParameterValueByIndex(parameterIndex);
+    }
+
   /**
    * パラメータの値の設定
    * @param parameterId パラメータのID
@@ -1048,8 +1057,17 @@ export class LAppModel extends CubismUserModel {
 
   public setEyeBlink(shouldBlink: boolean){
     this._doEyeBlink = shouldBlink;
-    if (!shouldBlink && this._eyeBlink != null){
-      this._eyeBlink.forceOpenEyes(this._model);
+    
+    if (this._eyeBlink != null){
+      for (let i = 0; i < this._eyeBlinkIds.getSize(); ++i) {
+        this._eyeBlink.setForcedValue(this._eyeBlinkIds.at(i), 1.0);
+      }
+    }
+  }
+
+  public setEyeForcedValue(paramsId: CubismHandle, value: number) {
+    if (this._eyeBlink != null){
+      this._eyeBlink.setForcedValue(paramsId, value);
     }
   }
 

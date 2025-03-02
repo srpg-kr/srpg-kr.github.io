@@ -66,16 +66,6 @@ function ControlsPanel({ refreshFlag }) {
 
   const syncEyeBlink = (model) => {
     model.setEyeBlink(eyeBlink);
-    if (!eyeBlink) {
-        const params = model.getParameters();
-        params.forEach(element => {
-            if (element.isEye){
-                element.value = 1.0;
-                element.enabled = true;
-            }
-        });
-        setParameters(params);
-    }
   }
 
   // This function refreshes the entire controls panel.
@@ -112,7 +102,7 @@ function ControlsPanel({ refreshFlag }) {
             syncEyeBlink(model);
             clearInterval(intervalId);
         }
-    }, 500);
+    }, 100);
   };
 
   useEffect(() => {
@@ -130,7 +120,7 @@ function ControlsPanel({ refreshFlag }) {
         refreshControls();
         clearInterval(intervalId);
       }
-    }, 500);
+    }, 200);
     return () => clearInterval(intervalId);
   }, []);
 
@@ -198,15 +188,20 @@ function ControlsPanel({ refreshFlag }) {
       .getLive2DManager()
       .getModel(0);
     if (model && parameters[index].enabled && expParameters[index]) {
-      // Calculate the delta from the baseline.
-      const delta = newValue - expParameters[index].value;
-      model.setParameterValueById(parameters[index].id, delta);
-      
-      for (let i = 0; i < parameters.length; ++i) {
-        if (i != index && parameters[i].enabled){
-            model.setParameterValueById(parameters[i].id, parameters[i].value - expParameters[i].value);
-        }
-      };
+      if (!parameters[index].isEye) {
+        // Calculate the delta from the baseline.
+        const delta = newValue - expParameters[index].value;
+        model.setParameterValueById(parameters[index].id, delta);
+        
+        for (let i = 0; i < parameters.length; ++i) {
+            if (i != index && parameters[i].enabled){
+                model.setParameterValueById(parameters[i].id, parameters[i].value - expParameters[i].value);
+            }
+        };
+      }
+      else {
+        model.setEyeForcedValue(parameters[index].id, newValue / expParameters[index].value);
+      }
     }
   };
 
@@ -222,19 +217,28 @@ function ControlsPanel({ refreshFlag }) {
       .getLive2DManager()
       .getModel(0);
     if (model) {
-      // When disabling, revert to the baseline value.
-      if (parameters[index].enabled) {
-        model.setParameterValueById(parameters[index].id, 0);
-      } else {
-        // Otherwise, leave the current value.
-        model.setParameterValueById(parameters[index].id, parameters[index].value - expParameters[index].value);
-      }
-      
-      for (let i = 0; i < parameters.length; ++i) {
-        if (i != index && parameters[i].enabled){
-            model.setParameterValueById(parameters[i].id, parameters[i].value - expParameters[i].value);
+      if (!parameters[index].isEye){
+        // When disabling, revert to the baseline value.
+        if (parameters[index].enabled) {
+          model.setParameterValueById(parameters[index].id, 0);
+        } else {
+          // Otherwise, leave the current value.
+          model.setParameterValueById(parameters[index].id, parameters[index].value - expParameters[index].value);
         }
-      };
+        
+        for (let i = 0; i < parameters.length; ++i) {
+          if (i != index && parameters[i].enabled){
+              model.setParameterValueById(parameters[i].id, parameters[i].value - expParameters[i].value);
+          }
+        };
+      }
+      else {
+        if (parameters[index].enabled) {
+          model.setEyeForcedValue(parameters[index].id, 1.0);
+        } else {
+          model.setEyeForcedValue(parameters[index].id, parameters[index].value / expParameters[index].value);
+        }
+      }
     }
   };
 
