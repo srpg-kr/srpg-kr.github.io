@@ -48,7 +48,61 @@ const Live2DViewer = () => {
       canvas.removeEventListener('wheel', handleWheel);
     };
   }, []);
+
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
   
+    let initialDistance = null;
+  
+    const getDistance = (touches) => {
+      const dx = touches[0].clientX - touches[1].clientX;
+      const dy = touches[0].clientY - touches[1].clientY;
+      return Math.hypot(dx, dy);
+    };
+  
+    const handleTouchStart = (e) => {
+      if (e.touches.length === 2) {
+        e.preventDefault();
+        initialDistance = getDistance(e.touches);
+      }
+    };
+  
+    const handleTouchMove = (e) => {
+      if (e.touches.length === 2 && initialDistance) {
+        e.preventDefault();
+        const currentDistance = getDistance(e.touches);
+        const multiplier = currentDistance / initialDistance;
+  
+        const live2dManager = LAppDelegate.getInstance()
+                                .getSubdelegate()
+                                .getLive2DManager();
+        if (live2dManager && live2dManager.adjustZoom) {
+          live2dManager.adjustZoom(multiplier);
+        }
+        // Update initialDistance so that subsequent changes are relative.
+        initialDistance = currentDistance;
+      }
+    };
+  
+    const handleTouchEnd = (e) => {
+      if (e.touches.length < 2) {
+        initialDistance = null;
+      }
+    };
+  
+    canvas.addEventListener('touchstart', handleTouchStart, { passive: false });
+    canvas.addEventListener('touchmove', handleTouchMove, { passive: false });
+    canvas.addEventListener('touchend', handleTouchEnd, { passive: false });
+    canvas.addEventListener('touchcancel', handleTouchEnd, { passive: false });
+  
+    return () => {
+      canvas.removeEventListener('touchstart', handleTouchStart);
+      canvas.removeEventListener('touchmove', handleTouchMove);
+      canvas.removeEventListener('touchend', handleTouchEnd);
+      canvas.removeEventListener('touchcancel', handleTouchEnd);
+    };
+  }, []);
 
   return (
     <canvas
