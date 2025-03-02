@@ -12,9 +12,6 @@ const Live2DViewer = () => {
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
-    
-    canvas.width = canvas.parentElement.clientWidth;
-    canvas.height = canvas.parentElement.clientHeight;
 
     // Pass the canvas element to LAppDelegate for initialization.
     if (!LAppDelegate.getInstance().initialize(canvas)) {
@@ -56,6 +53,7 @@ const Live2DViewer = () => {
   return (
     <canvas
     ref={canvasRef}
+    className='l2d-canvas'
     />
   );
 };

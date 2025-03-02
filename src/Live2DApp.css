@@ -40,6 +40,14 @@
     font-weight: bold;
   }
   
+  /* Right panel: fixed width, scrollable if needed */
+  .l2d-panel.right {
+    right: 0;
+    width: 320px;
+    left: auto;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
   /* Main canvas area takes remaining space */
   .main-canvas-container {
     flex: 1;
@@ -47,12 +55,12 @@
     overflow: hidden;
     /* no extra background needed if you want to see the canvas fill the area */
   }
-  
-  /* Right panel: fixed width, scrollable if needed */
-  .l2d-panel.right {
-    right: 0;
-    width: 320px;
-    left: auto;
-    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+
+  .l2d-canvas {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
   }
   
