@@ -150,7 +150,7 @@ export class LAppLive2DManager {
     // ディレクトリ名とmodel3.jsonの名前を一致させておくこと。
     const model: string = LAppDefine.ModelDir[index];
     const modelPath: string = LAppDefine.ResourcesPath + model + '/';
-    let modelJsonName: string = LAppDefine.ModelDir[index];
+    let modelJsonName: string = LAppDefine.ModelDir[index].toLowerCase();
     modelJsonName += '.model3.json';
 
     this.releaseAllModel();
