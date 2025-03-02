@@ -1,4 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
+import { FaPerson } from "react-icons/fa6";
+import { VscSettings } from "react-icons/vsc";
 import './Live2DApp.css';
 import './styles/sidebar.css';
 import Live2DViewer from './components/Live2DViewer';
@@ -10,6 +12,8 @@ function Live2DApp() {
     const [modelList, setModelList] = useState([]);
     const [refreshFlag, setRefreshFlag] = useState(false);
     const [controlsOpacity, setControlsOpacity] = useState(1.0);
+    const [isLPanelOpen, setIsLPanelOpen] = useState(false);
+    const [isRPanelOpen, setIsRPanelOpen] = useState(false);
     const rightPanelRef = useRef(null);
 
     useEffect(() => {
@@ -41,7 +45,10 @@ function Live2DApp() {
     return (
       <div className="app-container">
         {/* Left Panel: Models Sidebar */}
-        <div className="l2d-panel">
+        <div className={`l2d-panel ${isLPanelOpen ? "open" : "closed"}`}>
+          <button className="toggle-btn" onClick={() => setIsLPanelOpen(!isLPanelOpen)}>
+            <FaPerson />
+          </button>
           <div className="l2d-panel-control">
             <h2>Models</h2>
           </div>
@@ -65,7 +72,10 @@ function Live2DApp() {
         </div>
   
         {/* Right Panel: Controls */}
-        <div className="l2d-panel right" ref={rightPanelRef}>
+        <div className={`l2d-panel right ${isRPanelOpen ? "open" : "closed"}`}  ref={rightPanelRef}>
+          <button className="toggle-btn right" onClick={() => setIsRPanelOpen(!isRPanelOpen)}>
+            <VscSettings />
+          </button>
           <div className="sidebar-content">
             <ControlsPanel refreshFlag={refreshFlag} />
           </div>

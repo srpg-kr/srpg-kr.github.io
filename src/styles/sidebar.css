@@ -83,6 +83,11 @@
     pointer-events: auto;
 }
 
+.toggle-btn.right {
+    left: auto;
+    right: 100%;
+}
+
   /* Sidebar Content - Scrollable */
   .sidebar-content {
     overflow-y: auto;
