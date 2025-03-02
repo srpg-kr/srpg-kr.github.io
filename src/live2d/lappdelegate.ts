@@ -48,12 +48,15 @@ export class LAppDelegate {
    * ポインタがアクティブになるときに呼ばれる。
    */
   private onPointerBegan(e: PointerEvent): void {
-    for (
-      let ite = this._subdelegates.begin();
-      ite.notEqual(this._subdelegates.end());
-      ite.preIncrement()
-    ) {
-      ite.ptr().onPointBegan(e.pageX, e.pageY);
+    if (this._capturingPointerId === -1){
+      for (
+        let ite = this._subdelegates.begin();
+        ite.notEqual(this._subdelegates.end());
+        ite.preIncrement()
+      ) {
+          this._capturingPointerId = e.pointerId;
+          ite.ptr().onPointBegan(e.pageX, e.pageY);
+      }
     }
   }
 
@@ -61,12 +64,14 @@ export class LAppDelegate {
    * ポインタが動いたら呼ばれる。
    */
   private onPointerMoved(e: PointerEvent): void {
-    for (
-      let ite = this._subdelegates.begin();
-      ite.notEqual(this._subdelegates.end());
-      ite.preIncrement()
-    ) {
-      ite.ptr().onPointMoved(e.pageX, e.pageY);
+    if (this._capturingPointerId === e.pointerId){
+      for (
+        let ite = this._subdelegates.begin();
+        ite.notEqual(this._subdelegates.end());
+        ite.preIncrement()
+      ) {
+          ite.ptr().onPointMoved(e.pageX, e.pageY);
+      }
     }
   }
 
@@ -74,6 +79,7 @@ export class LAppDelegate {
    * ポインタがアクティブでなくなったときに呼ばれる。
    */
   private onPointerEnded(e: PointerEvent): void {
+    this._capturingPointerId = -1;
     for (
       let ite = this._subdelegates.begin();
       ite.notEqual(this._subdelegates.end());
@@ -87,6 +93,7 @@ export class LAppDelegate {
    * ポインタがキャンセルされると呼ばれる。
    */
   private onPointerCancel(e: PointerEvent): void {
+    this._capturingPointerId = -1;
     for (
       let ite = this._subdelegates.begin();
       ite.notEqual(this._subdelegates.end());
@@ -284,6 +291,7 @@ export class LAppDelegate {
     this._cubismOption = new Option();
     this._subdelegates = new csmVector<LAppSubdelegate>();
     this._canvases = new csmVector<HTMLCanvasElement>();
+    this._capturingPointerId = -1;
   }
 
   /**
@@ -320,4 +328,6 @@ export class LAppDelegate {
    * 登録済みイベントリスナー 関数オブジェクト
    */
   private pointCancelEventListener: (this: HTMLCanvasElement, ev: PointerEvent) => void;
+
+  private _capturingPointerId: number;
 }

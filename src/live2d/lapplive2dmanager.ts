@@ -34,7 +34,6 @@ export class LAppLive2DManager {
    * @param y 画面のY座標
    */
   public onTouch(x: number, y: number): void {
-    this._numTouch++;
     const model: LAppModel = this._models.at(0);
     if (model) {
       this._shouldDrag = true;
@@ -51,7 +50,7 @@ export class LAppLive2DManager {
    */
   public onDrag(x: number, y: number): void {
     const model: LAppModel = this._models.at(0);
-    if (this._shouldDrag && this._numTouch == 1 && model && x != 0 && y != 0) {
+    if (this._shouldDrag && model && x != 0 && y != 0) {
       this._translate.x += x - this._lastDrag.x;
       this._translate.y += y - this._lastDrag.y;
       this._lastDrag.x = x;
@@ -67,7 +66,6 @@ export class LAppLive2DManager {
    * @param y 画面のY座標
    */
   public onTap(x: number, y: number): void {
-    this._numTouch--;
     if (LAppDefine.DebugLogEnable) {
       LAppPal.printMessage(
         `[APP]tap point: {x: ${x.toFixed(2)} y: ${y.toFixed(2)}}`
@@ -241,7 +239,6 @@ export class LAppLive2DManager {
   private _lastDrag: CubismVector2;
   private _shouldDrag: boolean = false;
   private _zoom: number = 1;
-  private _numTouch: number = 0;
 
   // モーション再生開始のコールバック関数
   beganMotion = (self: ACubismMotion): void => {
