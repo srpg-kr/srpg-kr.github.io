@@ -16,20 +16,44 @@ function ScreenshotModal({ onClose, onSave }) {
       const ch = canvas.clientHeight;
       setAspectRatio(ch / cw);
 
-      // Load saved values from localStorage or use canvas dimensions.
-      const savedWidth = localStorage.getItem('screenshotWidth') || cw;
-      const savedHeight = localStorage.getItem('screenshotHeight') || ch;
-      setWidth(savedWidth);
-      setHeight(savedHeight);
-
       const savedUseAspect = localStorage.getItem('useAspect');
       if (savedUseAspect !== null) {
         setUseAspect(savedUseAspect === 'true');
       } else {
         setUseAspect(true);
       }
+
+      // Load saved values from localStorage or use canvas dimensions.
+      const savedWidth = localStorage.getItem('screenshotWidth') || cw;
+      let savedHeight = localStorage.getItem('screenshotHeight') || ch;
+      if (savedUseAspect === 'true') {
+        savedHeight = Math.round(savedWidth * ch / cw);
+      }
+      setWidth(savedWidth);
+      setHeight(savedHeight);
     }
   }, []);
+
+  // Attach ResizeObserver to update aspect ratio and height on canvas resize.
+  useEffect(() => {
+      const canvas = document.querySelector('.l2d-canvas');
+      if (!canvas) return;
+      
+      const observer = new ResizeObserver((entries) => {
+        if (useAspect) {
+          const cw = canvas.clientWidth;
+          const ch = canvas.clientHeight;
+          setAspectRatio(ch / cw);
+          // Recalculate height based on current width and new aspect ratio.
+          const newHeight = width * ch / cw;
+          setHeight(Math.round(newHeight));
+        }
+      });
+      observer.observe(canvas);
+      return () => {
+        observer.disconnect();
+      };
+    }, [width, useAspect]);
 
   const handleWidthChange = (e) => {
     const newWidth = e.target.value;
@@ -44,6 +68,8 @@ function ScreenshotModal({ onClose, onSave }) {
   const handleCheckboxChange = () => {
     const newUseAspect = !useAspect;
     setUseAspect(newUseAspect);
+    const newHeight = width * aspectRatio;
+    setHeight(Math.round(newHeight));
     localStorage.setItem('useAspect', newUseAspect);
   };
 
