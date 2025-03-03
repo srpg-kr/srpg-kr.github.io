@@ -137,6 +137,16 @@ function ControlsPanel({ refreshFlag }) {
     }
   };
 
+  const onMotionFinished = (motion) => {
+    const model = LAppDelegate.getInstance()
+      .getSubdelegate()
+      .getLive2DManager()
+      .getModel(0);
+    if (model) {
+      model.resetParameters();
+    }
+  }
+
   // Motion selection handler: start the chosen motion.
   const handleMotionChange = (e) => {
     const motionKey = e.target.value; // Expected format: "Group_Index"
@@ -150,7 +160,7 @@ function ControlsPanel({ refreshFlag }) {
         .getModel(0);
       if (model) {
         // Example: priority 2.
-        model.startMotion(group, index, 2);
+        model.startMotion(group, index, 2, onMotionFinished);
       }
     }
   };

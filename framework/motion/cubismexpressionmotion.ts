@@ -298,6 +298,16 @@ export class CubismExpressionMotion extends ACubismMotion {
     return model.getParameterDefaultValue(model.getParameterIndex(id));
   }
 
+  public hasParameterForId(id: CubismIdHandle): boolean {
+    for (let i = 0; i < this._parameters._size; ++i){
+      if (this._parameters.at(i).parameterId != id){
+        continue;
+      }
+      return true;
+    }
+    return false;
+  }
+
   /**
    * @brief 表情のフェードの値を取得
    *

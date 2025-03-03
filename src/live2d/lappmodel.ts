@@ -728,7 +728,12 @@ export class LAppModel extends CubismUserModel {
 
   public syncCustomExpression(): void {
     for (let i = 0; i < this._model.getParameterCount(); ++i) {
-      this._customExpression.setParameterValueByIndex(this._model, i, this._model.getParameterValueByIndex(i));
+      let value = this._model.getParameterDefaultValue(i);
+      let id = this._model.getParameterId(i);
+      if (this._currentExpression != null && this._currentExpression.hasParameterForId(id)){
+        value = this._currentExpression.getParameterValueById(this._model, id);
+      }
+      this._customExpression.setParameterValueByIndex(this._model, i, value);
     }
   }
 
@@ -1067,6 +1072,14 @@ export class LAppModel extends CubismUserModel {
     if (this._eyeBlink != null){
       this._eyeBlink.setForcedValue(paramsId, value);
     }
+  }
+
+  public resetParameters() {
+    this._model.loadParameters();
+    for (let i = 0; i < this._model.getParameterCount(); ++i) {
+      this._model.setParameterValueByIndex(i, this._model.getParameterDefaultValue(i));
+    }
+    this._model.saveParameters();
   }
 
   /**
