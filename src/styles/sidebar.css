@@ -71,6 +71,8 @@
 
 /* Hamburger Button */
 .toggle-btn {
+    aspect-ratio: 1 / 1;
+    display: flex;
     position: absolute;
     top: 15px;
     left: 100%;
