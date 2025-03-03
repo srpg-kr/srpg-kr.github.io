@@ -106,3 +106,36 @@
     touch-action: none;
   }
   
+  .button-container {
+    min-width: 250px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 5;
+  }
+  
+  .capture-screenshot-btn,
+  .screenshot-settings-btn {
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+
+  .screenshot-settings-btn {
+    aspect-ratio: 1 / 1;
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .capture-screenshot-btn:hover,
+  .screenshot-settings-btn:hover {
+    opacity: 1;
+  }

@@ -50,6 +50,14 @@ export class LAppSubdelegate {
     this._glManager = null;
   }
 
+  public reInitializeWebGL(preserveBuffer: boolean): WebGLRenderingContext | WebGL2RenderingContext | null {
+    if (this._glManager != null){
+      this._glManager.initialize(this._canvas, preserveBuffer);
+      return this._glManager.getGl();
+    }
+    return null;
+  }
+
   /**
    * APPに必要な物を初期化する。
    */
