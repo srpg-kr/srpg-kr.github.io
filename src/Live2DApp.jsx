@@ -52,9 +52,14 @@ function Live2DApp() {
 
     const originalWidth = canvas.style.width;
     const originalHeight = canvas.style.height;
+    const cw = canvas.clientWidth;
+    const ch = canvas.clientHeight;
     // Use dimensions from local storage or defaults
-    const savedWidth = localStorage.getItem('screenshotWidth') || '1500';
-    const savedHeight = localStorage.getItem('screenshotHeight') || '1500';
+    const savedWidth = localStorage.getItem('screenshotWidth') || cw;
+    let savedHeight = localStorage.getItem('screenshotHeight') || ch;
+    if ((localStorage.getItem('useAspect') || 'true') === 'true') {
+      savedHeight = Math.round(savedWidth * ch / cw);
+    }
     canvas.style.setProperty('width', `${savedWidth / window.devicePixelRatio}px`, 'important');
     canvas.style.setProperty('height', `${savedHeight / window.devicePixelRatio}px`, 'important')
 
