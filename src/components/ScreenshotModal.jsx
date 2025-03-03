@@ -1,11 +1,14 @@
 // src/components/ScreenshotModal.jsx
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import '../styles/screenshotmodal.css';
 
 function ScreenshotModal({ onClose, onSave }) {
   const [width, setWidth] = useState('');
   const [height, setHeight] = useState('');
-  const [useAspect, setUseAspect] = useState(true);
+  const initialUseAspect = localStorage.getItem('useAspect');
+  const [useAspect, setUseAspect] = useState(
+    initialUseAspect !== null ? initialUseAspect === 'true' : true
+  );
   const [aspectRatio, setAspectRatio] = useState(1);
 
   useEffect(() => {
@@ -68,9 +71,11 @@ function ScreenshotModal({ onClose, onSave }) {
   const handleCheckboxChange = () => {
     const newUseAspect = !useAspect;
     setUseAspect(newUseAspect);
-    const newHeight = width * aspectRatio;
-    setHeight(Math.round(newHeight));
     localStorage.setItem('useAspect', newUseAspect);
+    if (newUseAspect) {
+      const newHeight = width * aspectRatio;
+      setHeight(Math.round(newHeight));
+    }
   };
 
   const handleSave = () => {
