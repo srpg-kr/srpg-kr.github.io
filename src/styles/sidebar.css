@@ -83,6 +83,7 @@
     font-size: 24px;
     cursor: pointer;
     pointer-events: auto;
+    line-height: 1.25rem;
 }
 
 .toggle-btn.right {
