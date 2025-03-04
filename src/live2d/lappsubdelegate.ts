@@ -27,6 +27,7 @@ export class LAppSubdelegate {
     this._view = new LAppView();
     this._frameBuffer = null;
     this._captured = false;
+    this._clearColor = new Float32Array([1.0, 1.0, 1.0, 1.0]);
   }
 
   /**
@@ -137,7 +138,7 @@ export class LAppSubdelegate {
     const gl = this._glManager.getGl();
 
     // 画面の初期化
-    gl.clearColor(1.0, 1.0, 1.0, 1.0);
+    gl.clearColor(this._clearColor[0], this._clearColor[1], this._clearColor[2], this._clearColor[3]);
 
     // 深度テストを有効化
     gl.enable(gl.DEPTH_TEST);
@@ -218,6 +219,13 @@ export class LAppSubdelegate {
     gl.useProgram(programId);
 
     return programId;
+  }
+
+  public setClearColor(r: number, g: number, b: number, a: number) {
+    this._clearColor[0] = r;
+    this._clearColor[1] = g;
+    this._clearColor[2] = b;
+    this._clearColor[3] = a;
   }
 
   public getTextureManager(): LAppTextureManager {
@@ -338,6 +346,7 @@ export class LAppSubdelegate {
   private _frameBuffer: WebGLFramebuffer;
   private _glManager: LAppGlManager;
   private _live2dManager: LAppLive2DManager;
+  private _clearColor: Float32Array;
 
   /**
    * ResizeObserver

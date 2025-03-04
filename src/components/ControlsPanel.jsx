@@ -1,9 +1,13 @@
 // src/components/ControlsPanel.jsx
 import React, { useState, useEffect } from 'react';
 import { LAppDelegate } from '../live2d/lappdelegate';
-import { LAppModel } from '../live2d/lappmodel';
+import { ColorPicker, useColor } from "react-color-palette";
+import "react-color-palette/css";
+import '../styles/controlspanel.css';
 
 function ControlsPanel({ refreshFlag }) {
+  const [isColorPickerOpen, setIsColorPickerOpen] = useState(false);
+  const [bgColor, setBgColor] = useColor(localStorage.getItem("bgcolor") || "#ffffffff");
   const [expressions, setExpressions] = useState([]);
   const [motionGroups, setMotionGroups] = useState([]);
   const [motions, setMotions] = useState([]);
@@ -231,8 +235,32 @@ function ControlsPanel({ refreshFlag }) {
     }
   }
 
+  const handleBGColorChange = (currentColor) => {
+    localStorage.setItem("bgcolor", currentColor.hex)
+    const subdelegate = LAppDelegate.getInstance()
+      .getSubdelegate()
+    if (subdelegate) {
+      subdelegate.setClearColor(currentColor.rgb.r / 255.0, 
+        currentColor.rgb.g / 255.0, 
+        currentColor.rgb.b / 255.0, 
+        currentColor.rgb.a);
+    }
+  }
+
   return (
     <div>
+      <h2>Background</h2>
+      <button onClick={() => setIsColorPickerOpen(!isColorPickerOpen)}>Change Color</button>
+      { isColorPickerOpen && (
+        <div>
+          <div className="color-picker-overlay" onClick={() => setIsColorPickerOpen(false)}>
+          </div>
+          <div  className="color-picker-container">
+            <ColorPicker color={bgColor} onChange={setBgColor} 
+            onChangeComplete={handleBGColorChange}/>
+          </div>
+        </div>
+      )}
       <h2>Expressions</h2>
       <select onChange={handleExpressionChange}>
       <option value="">-- Select Expression --</option>

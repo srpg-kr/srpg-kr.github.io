@@ -2,12 +2,14 @@
 import React, { useRef, useEffect } from 'react';
 // Import sample classes from the Cubism Web Samples (assume they have been compiled and are accessible)
 import { LAppDelegate } from '../live2d/lappdelegate';
+import { useColor } from "react-color-palette";
 
 const Live2DViewer = () => {
   // Create a ref if you plan to supply your own canvas.
   // Note: In the original main.ts (&#8203;:contentReference[oaicite:1]{index=1}) the LAppDelegate does not require a canvas,
   // so if needed you may adjust LAppDelegate to accept a canvas element.
   const canvasRef = useRef(null);
+  const [bgColor, setBgColor] = useColor(localStorage.getItem("bgcolor") || "#ffffffff");
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -21,6 +23,15 @@ const Live2DViewer = () => {
 
     // Start the main loop (this sets up the update and render cycle)
     LAppDelegate.getInstance().run();
+
+    const subdelegate = LAppDelegate.getInstance()
+      .getSubdelegate()
+    if (subdelegate) {
+      subdelegate.setClearColor(bgColor.rgb.r / 255.0, 
+        bgColor.rgb.g / 255.0, 
+        bgColor.rgb.b / 255.0, 
+        bgColor.rgb.a);
+    }
 
     // Cleanup on unmount.
     return () => {
