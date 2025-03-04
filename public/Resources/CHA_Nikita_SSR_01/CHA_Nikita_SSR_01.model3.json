@@ -1,0 +1,81 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "CHA_Nikita_SSR_01.moc3",
+		"Textures": [
+			"CHA_Nikita_SSR_01.2048/texture_00.png"
+		],
+		"DisplayInfo": "CHA_Nikita_SSR_01.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "EMO_Nikita_Dazed_01.exp3.json",
+				"File": "expressions/EMO_Nikita_Dazed_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Nikita_Embarrassed_01.exp3.json",
+				"File": "expressions/EMO_Nikita_Embarrassed_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Nikita_Happy_01.exp3.json",
+				"File": "expressions/EMO_Nikita_Happy_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Nikita_Idle_01.exp3.json",
+				"File": "expressions/EMO_Nikita_Idle_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Nikita_Loss_01.exp3.json",
+				"File": "expressions/EMO_Nikita_Loss_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Nikita_Serious_01.exp3.json",
+				"File": "expressions/EMO_Nikita_Serious_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Nikita_Shy_01.exp3.json",
+				"File": "expressions/EMO_Nikita_Shy_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Nikita_Surprised_01.exp3.json",
+				"File": "expressions/EMO_Nikita_Surprised_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Nikita_Thinking_01.exp3.json",
+				"File": "expressions/EMO_Nikita_Thinking_01.exp3.json"
+			}
+		],
+		"Motions": {
+			"": [
+				{
+					"File": "motions/Mouthopen_10s.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				},
+				{
+					"File": "motions/Mouthopen_2s.motion3.json"
+				},
+				{
+					"File": "motions/Mouthopen_5s.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	],
+	"HitAreas": []
+}

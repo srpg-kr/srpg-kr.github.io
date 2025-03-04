@@ -1,0 +1,30 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴　张开和闭合"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "嘴变形"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part5",
+			"Name": "CHA_Green_NormalBoy01_NPC_01.psd(未找到对应图层)"
+		},
+		{
+			"Id": "Part",
+			"Name": "开口"
+		},
+		{
+			"Id": "Part4",
+			"Name": "开口"
+		}
+	]
+}
