@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { FaPerson } from "react-icons/fa6";
 import { VscSettings } from "react-icons/vsc";
-import { FaWrench } from 'react-icons/fa';
+import { FaWrench, FaExpand, FaCompress } from 'react-icons/fa';
 import './Live2DApp.css';
 import './styles/sidebar.css';
 import Live2DViewer from './components/Live2DViewer';
@@ -17,6 +17,7 @@ function Live2DApp() {
   const [controlsOpacity, setControlsOpacity] = useState(1.0);
   const [isLPanelOpen, setIsLPanelOpen] = useState(false);
   const [isRPanelOpen, setIsRPanelOpen] = useState(false);
+  const [isFullscreen, setIsFullscreen] = useState(false);
   const rightPanelRef = useRef(null);
 
   useEffect(() => {
@@ -86,6 +87,26 @@ function Live2DApp() {
     subdelegate.onResize();
   };
 
+  const handleFullscreenToggle = () => {
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen();
+    } else {
+      document.exitFullscreen();
+    }
+  };
+
+  useEffect(() => {
+    const handleFullscreenChange = () => {
+      setIsFullscreen(!!document.fullscreenElement);
+    };
+
+    document.addEventListener('fullscreenchange', handleFullscreenChange);
+
+    return () => {
+      document.removeEventListener('fullscreenchange', handleFullscreenChange);
+    };
+  }, []);
+
   return (
     <div className="app-container">
       {/* Left Panel: Models Sidebar */}
@@ -119,6 +140,12 @@ function Live2DApp() {
             onClick={handleCaptureScreenshot}
           >
             Capture Screenshot
+          </button>
+          <button
+            className="screenshot-settings-btn"
+            onClick={handleFullscreenToggle}
+          >
+            {isFullscreen ? <FaCompress /> : <FaExpand />}
           </button>
           <button
             className="screenshot-settings-btn"
