@@ -1,0 +1,152 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "Param6",
+			"GroupId": "",
+			"Name": "愤怒部件"
+		},
+		{
+			"Id": "Param9",
+			"GroupId": "",
+			"Name": "忧虑部件"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "眼白阴影"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右眼　开闭"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "眼珠 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "眼珠 Y"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "",
+			"Name": "眼珠缩小"
+		},
+		{
+			"Id": "Param13",
+			"GroupId": "",
+			"Name": "高光缩小"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "左眼眶"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "",
+			"Name": "左眼头"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "",
+			"Name": "右眼眶"
+		},
+		{
+			"Id": "Param10",
+			"GroupId": "",
+			"Name": "右眼头"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "左眉上下"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "",
+			"Name": "左眉头"
+		},
+		{
+			"Id": "ParamBrowLForm2",
+			"GroupId": "",
+			"Name": "左眉尾"
+		},
+		{
+			"Id": "ParamBrowLForm3",
+			"GroupId": "",
+			"Name": "右眉头"
+		},
+		{
+			"Id": "ParamBrowLForm4",
+			"GroupId": "",
+			"Name": "右眉尾"
+		},
+		{
+			"Id": "ParamMouthForm2",
+			"GroupId": "",
+			"Name": "嘴　变形2"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "嘴　变形1"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴　张开和闭合"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part2",
+			"Name": "待机五官"
+		},
+		{
+			"Id": "Part4",
+			"Name": "眼睛L"
+		},
+		{
+			"Id": "Part3",
+			"Name": "眼睛R"
+		},
+		{
+			"Id": "Part5",
+			"Name": "张嘴"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		],
+		[
+			"ParamBrowLForm",
+			"ParamBrowLForm2"
+		],
+		[
+			"ParamBrowLForm3",
+			"ParamBrowLForm4"
+		],
+		[
+			"ParamMouthForm2",
+			"ParamMouthForm"
+		]
+	]
+}

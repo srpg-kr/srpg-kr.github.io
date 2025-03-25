@@ -1,0 +1,39 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右眼　开闭"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴　张开和闭合"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "CHA_G11_Suit_MaidUniform",
+			"Name": "CHA_G11_Suit_MaidUniform"
+		},
+		{
+			"Id": "Part",
+			"Name": "嘴巴"
+		},
+		{
+			"Id": "Part3",
+			"Name": "眼睛R"
+		},
+		{
+			"Id": "Part2",
+			"Name": "眼睛L"
+		}
+	]
+}

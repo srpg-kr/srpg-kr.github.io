@@ -48,6 +48,7 @@ export const PowerImageName = 'CloseNormal.png';
 // モデルを配置したディレクトリ名の配列
 // ディレクトリ名とmodel3.jsonの名前を一致させておくこと
 export const ModelDir: string[] = [
+  "CHA_Alf_SSR_01",
   "CHA_Aminda_NPC_01",
   "CHA_Andoris_SSR_01",
   "CHA_AnshangQ_NPC_01",
@@ -70,6 +71,7 @@ export const ModelDir: string[] = [
   "CHA_Charolic_SSR_01",
   "CHA_Cheeta_SR_01",
   "CHA_Clukay_SSR_01",
+  "CHA_Cocoon_NPC_01",
   "CHA_Colphne_N_01",
   "CHA_Colphne_Paradeus_01",
   "CHA_Colphne_Rest_01",
@@ -87,9 +89,11 @@ export const ModelDir: string[] = [
   "CHA_Drachen_NPC_01",
   "CHA_Dusevnyj_SSR_01",
   "CHA_Esther_NPC_01",
+  "CHA_Fadei_NPC_01",
   "CHA_Farkas_NPC_01",
   "CHA_Faye_SSR_01",
   "CHA_Flagg_NPC_01",
+  "CHA_G11_Suit_MaidUniform",
   "CHA_Green_NormalBoy01_NPC_01",
   "CHA_Green_NormalFemale01_NPC_01",
   "CHA_Green_NormalGirl01_NPC_01",
@@ -115,11 +119,13 @@ export const ModelDir: string[] = [
   "CHA_Kalina_NPC_01",
   "CHA_Koshmar_NPC_01",
   "CHA_Ksenia_SR_01",
+  "CHA_Laibnis_NPC_01",
   "CHA_Lampetia_NPC_01",
   "CHA_Lenna_SSR_01",
   "CHA_Lenna_SSR_02",
   "CHA_Lenten_NPC_01",
   "CHA_Levva_NPC_01",
+  "CHA_Levva_SSR_01",
   "CHA_Liaison_NPC_01",
   "CHA_Lieutenant_NPC_01",
   "CHA_Lind_SSR_01",
@@ -159,8 +165,10 @@ export const ModelDir: string[] = [
   "CHA_RegularDoll_NPC_01",
   "CHA_RNDmale_NPC_01",
   "CHA_RNDmale_NPC_02",
+  "CHA_Robella_SSR_01",
   "CHA_Rosaline_NPC_01",
   "CHA_Ruchey_SSR_01",
+  "CHA_Rurik_NPC_01",
   "CHA_Sabrina_SSR_01",
   "CHA_Saga_NPC_01",
   "CHA_Sexdwarf_NPC_01",
@@ -169,6 +177,7 @@ export const ModelDir: string[] = [
   "CHA_Sharkry_SSR_01",
   "CHA_Soldier01_NPC_01",
   "CHA_Soldier01_NPC_02",
+  "CHA_Sop_NPC_01",
   "CHA_Springfield_NPC_01",
   "CHA_Springfield_NPC_SP",
   "CHA_Springfield_SSR_01",
@@ -192,6 +201,7 @@ export const ModelDir: string[] = [
   "CHA_Yellow_NormalMale01_NPC_01",
   "CHA_Yoohee_SSR_01",
   "CHA_Zhaohui_SSR_01",
+  "CHA_Zimmermann_NPC_01",
 ];
 export const ModelDirSize: number = ModelDir.length;
 

@@ -1,0 +1,195 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右眼   开闭"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "眼珠 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "眼珠 Y"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "左眉上下"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "",
+			"Name": "左眉　左右"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "",
+			"Name": "右眉　左右"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "",
+			"Name": "左眉　変形"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "",
+			"Name": "右眼上眼眶左"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "",
+			"Name": "右眼上眼眶右"
+		},
+		{
+			"Id": "Param10",
+			"GroupId": "",
+			"Name": "右眼上眼眶上下"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "",
+			"Name": "右眼下眼眶左"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "",
+			"Name": "右眼下眼眶右"
+		},
+		{
+			"Id": "Param9",
+			"GroupId": "",
+			"Name": "右眼下眼眶上下"
+		},
+		{
+			"Id": "Param11",
+			"GroupId": "",
+			"Name": "左眼上眼眶左"
+		},
+		{
+			"Id": "Param12",
+			"GroupId": "",
+			"Name": "左眼上眼眶右"
+		},
+		{
+			"Id": "Param13",
+			"GroupId": "",
+			"Name": "左眼上眼眶上下"
+		},
+		{
+			"Id": "Param14",
+			"GroupId": "",
+			"Name": "左眼下眼眶左"
+		},
+		{
+			"Id": "Param15",
+			"GroupId": "",
+			"Name": "左眼下眼眶右"
+		},
+		{
+			"Id": "Param16",
+			"GroupId": "",
+			"Name": "左眼下眼眶上下"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "消沉眼球"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "警惕眼球"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "嘴　变形"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "嘴　变形2"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴　张开和闭合"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "CHA_Alf_SSR_01",
+			"Name": "CHA_Alf_SSR_01"
+		},
+		{
+			"Id": "Part",
+			"Name": "Idle待机"
+		},
+		{
+			"Id": "Part2",
+			"Name": "眉"
+		},
+		{
+			"Id": "Part3",
+			"Name": "遮挡"
+		},
+		{
+			"Id": "Part4",
+			"Name": "五官"
+		},
+		{
+			"Id": "Part5",
+			"Name": "右眼"
+		},
+		{
+			"Id": "Part6",
+			"Name": "左眼"
+		},
+		{
+			"Id": "Part8",
+			"Name": "闭嘴"
+		},
+		{
+			"Id": "Part7",
+			"Name": "张嘴"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamMouthForm",
+			"Param4"
+		]
+	]
+}

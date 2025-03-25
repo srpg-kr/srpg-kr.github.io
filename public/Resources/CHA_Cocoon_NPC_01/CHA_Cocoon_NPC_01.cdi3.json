@@ -1,0 +1,113 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "眼珠 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "眼珠 Y"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "眼珠 S"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "眼珠形变"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "左眉上下"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "",
+			"Name": "左眉　左右"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "",
+			"Name": "左眉　変形"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "认同眼"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "思考眼"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "嘴　变形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴　张开和闭合"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "CHA_Cocoon_NPC_01",
+			"Name": "CHA_Cocoon_NPC_01"
+		},
+		{
+			"Id": "Part",
+			"Name": "Idle待机"
+		},
+		{
+			"Id": "Part2",
+			"Name": "遮挡"
+		},
+		{
+			"Id": "Part3",
+			"Name": "五官"
+		},
+		{
+			"Id": "Part4",
+			"Name": "左眼"
+		},
+		{
+			"Id": "Part7",
+			"Name": "嘴"
+		},
+		{
+			"Id": "Part5",
+			"Name": "闭眼"
+		},
+		{
+			"Id": "Part6",
+			"Name": "半睁眼"
+		},
+		{
+			"Id": "Part9",
+			"Name": "闭口"
+		},
+		{
+			"Id": "Part8",
+			"Name": "张口"
+		}
+	]
+}
