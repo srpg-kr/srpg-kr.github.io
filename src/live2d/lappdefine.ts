@@ -58,6 +58,7 @@ export const ModelDir: string[] = [
   "CHA_Bibi_NPC_02",
   "CHA_Bibi_NPC_03",
   "CHA_Biyoca_SSR_01",
+  "CHA_BlackGroza_NPC_01",
   "CHA_Blusphere_NPC_01",
   "CHA_Blusphere_NPC_02",
   "CHA_Bowen_NPC_01",
@@ -156,6 +157,7 @@ export const ModelDir: string[] = [
   "CHA_Niter_NPC_01",
   "CHA_Nyto_NPC_01",
   "CHA_Papasha_SSR_01",
+  "CHA_Pavel_NPC_01",
   "CHA_Peritya_SSR_01",
   "CHA_Peri_SSR_01",
   "CHA_Persicaria_NPC_01",
@@ -202,6 +204,7 @@ export const ModelDir: string[] = [
   "CHA_Yoohee_SSR_01",
   "CHA_Zhaohui_SSR_01",
   "CHA_Zimmermann_NPC_01",
+  "CHA_Zimmermann_NPC_02",
 ];
 export const ModelDirSize: number = ModelDir.length;
 

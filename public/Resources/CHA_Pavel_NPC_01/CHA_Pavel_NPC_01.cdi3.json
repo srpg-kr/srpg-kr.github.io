@@ -1,0 +1,151 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "Param6",
+			"GroupId": "",
+			"Name": "愤怒部件"
+		},
+		{
+			"Id": "Param12",
+			"GroupId": "",
+			"Name": "尴尬部件"
+		},
+		{
+			"Id": "ParamMouthForm2",
+			"GroupId": "",
+			"Name": "嘴　变形2"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "嘴　变形1"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴　张开和闭合"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右眼　开闭"
+		},
+		{
+			"Id": "Param10",
+			"GroupId": "",
+			"Name": "缩眼珠"
+		},
+		{
+			"Id": "Param11",
+			"GroupId": "",
+			"Name": "高光缩"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "眼珠 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "眼珠 Y"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "左眼眶"
+		},
+		{
+			"Id": "Param9",
+			"GroupId": "",
+			"Name": "左眼皮"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "",
+			"Name": "右眼眶"
+		},
+		{
+			"Id": "Param13",
+			"GroupId": "",
+			"Name": "右眼皮"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "左眉上下"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "",
+			"Name": "左眉头"
+		},
+		{
+			"Id": "ParamBrowLForm2",
+			"GroupId": "",
+			"Name": "左眉尾"
+		},
+		{
+			"Id": "ParamBrowLForm3",
+			"GroupId": "",
+			"Name": "右眉头"
+		},
+		{
+			"Id": "ParamBrowLForm4",
+			"GroupId": "",
+			"Name": "右眉尾"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part2",
+			"Name": "Angry愤怒"
+		},
+		{
+			"Id": "Part4",
+			"Name": "Embarrassed尴尬"
+		},
+		{
+			"Id": "Part5",
+			"Name": "Idle待机"
+		},
+		{
+			"Id": "Part6",
+			"Name": "开口"
+		},
+		{
+			"Id": "Part7",
+			"Name": "左眼"
+		},
+		{
+			"Id": "Part8",
+			"Name": "右眼"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamMouthForm2",
+			"ParamMouthForm"
+		],
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		],
+		[
+			"ParamBrowLForm",
+			"ParamBrowLForm2"
+		]
+	]
+}

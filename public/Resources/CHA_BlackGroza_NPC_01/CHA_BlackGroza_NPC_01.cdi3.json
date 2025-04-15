@@ -1,0 +1,30 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴　张开和闭合"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "CHA_BlackGroza_NPC_01",
+			"Name": "CHA_BlackGroza_NPC_01"
+		},
+		{
+			"Id": "Part",
+			"Name": "嘴巴"
+		},
+		{
+			"Id": "Part2",
+			"Name": "眼睛"
+		}
+	]
+}
