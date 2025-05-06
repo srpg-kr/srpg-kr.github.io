@@ -1,0 +1,197 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "ParamGroup",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "ParamGroup",
+			"Name": "右眼　开闭"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "ParamGroup",
+			"Name": "眼珠 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "ParamGroup",
+			"Name": "眼珠 Y"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "ParamGroup",
+			"Name": "眼珠 S"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "ParamGroup",
+			"Name": "左眉   上下"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "ParamGroup",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "ParamGroup",
+			"Name": "左眉　左右"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "ParamGroup",
+			"Name": "右眉　左右"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "ParamGroup",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "ParamGroup",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "ParamGroup",
+			"Name": "左眉　変形"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "ParamGroup",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "ParamGroup",
+			"Name": "左眼眶张合"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "ParamGroup",
+			"Name": "左眼下眼眶"
+		},
+		{
+			"Id": "Param9",
+			"GroupId": "ParamGroup",
+			"Name": "左眼上眼眶"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "ParamGroup",
+			"Name": "右眼眶张合"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "ParamGroup",
+			"Name": "右眼下眼眶"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "ParamGroup",
+			"Name": "右眼上眼眶"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "ParamGroup",
+			"Name": "担忧"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "ParamGroup",
+			"Name": "挣扎"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "ParamGroup",
+			"Name": "嘴　变形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "ParamGroup",
+			"Name": "嘴　张开和闭合"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "exp"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part",
+			"Name": "莱娅"
+		},
+		{
+			"Id": "Part2",
+			"Name": "遮盖"
+		},
+		{
+			"Id": "Part7",
+			"Name": "五官"
+		},
+		{
+			"Id": "Part3",
+			"Name": "眉毛"
+		},
+		{
+			"Id": "Part8",
+			"Name": "嘴"
+		},
+		{
+			"Id": "Part16",
+			"Name": "右眼"
+		},
+		{
+			"Id": "Part17",
+			"Name": "左眼"
+		},
+		{
+			"Id": "Part4",
+			"Name": "挣扎_眉毛"
+		},
+		{
+			"Id": "Part5",
+			"Name": "担忧_眉毛"
+		},
+		{
+			"Id": "Part6",
+			"Name": "待机_眉毛"
+		},
+		{
+			"Id": "Part9",
+			"Name": "挣扎嘴"
+		},
+		{
+			"Id": "Part11",
+			"Name": "担忧嘴"
+		},
+		{
+			"Id": "Part13",
+			"Name": "待机嘴"
+		},
+		{
+			"Id": "Part10",
+			"Name": "挣扎_张嘴"
+		},
+		{
+			"Id": "Part12",
+			"Name": "担忧_张嘴"
+		},
+		{
+			"Id": "Part14",
+			"Name": "张嘴_待机"
+		},
+		{
+			"Id": "Part15",
+			"Name": "闭嘴_待机"
+		}
+	]
+}
