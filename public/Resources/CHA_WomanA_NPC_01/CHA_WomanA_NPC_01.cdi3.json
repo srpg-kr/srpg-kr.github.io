@@ -1,0 +1,137 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右眼"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "",
+			"Name": "右眼　微笑"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "汗"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "右眼_切换"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "右眼珠_切换2"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "右眼珠_切换3"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "眼珠 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "眼珠 Y"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "",
+			"Name": "右眉　左右"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "嘴　变形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴　张开和闭合"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "",
+			"Name": "脸颊泛红"
+		},
+		{
+			"Id": "ParamCheek2",
+			"GroupId": "",
+			"Name": "脸颊泛红2"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "",
+			"Name": "脸黑"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "CHA_WomanA_NPC_01",
+			"Name": "CHA_WomanA_NPC_01"
+		},
+		{
+			"Id": "Part",
+			"Name": "图层组1(2)"
+		},
+		{
+			"Id": "Part2",
+			"Name": "Guard戒备"
+		},
+		{
+			"Id": "Part4",
+			"Name": "Excited兴奋"
+		},
+		{
+			"Id": "Part5",
+			"Name": "Happiness高兴"
+		},
+		{
+			"Id": "Part8",
+			"Name": "Idle待机"
+		},
+		{
+			"Id": "Part3",
+			"Name": "Guard戒备开口"
+		},
+		{
+			"Id": "Part6",
+			"Name": "Happiness高兴开口"
+		},
+		{
+			"Id": "Part7",
+			"Name": "图层组2"
+		},
+		{
+			"Id": "Part9",
+			"Name": "图层组1"
+		},
+		{
+			"Id": "Part10",
+			"Name": "闭口"
+		}
+	]
+}
