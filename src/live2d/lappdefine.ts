@@ -48,6 +48,8 @@ export const PowerImageName = 'CloseNormal.png';
 // モデルを配置したディレクトリ名の配列
 // ディレクトリ名とmodel3.jsonの名前を一致させておくこと
 export const ModelDir: string[] = [
+    "CHA_6P62_BOSS_01",
+    "CHA_Acicular_NPC_01",
     "CHA_Alf_SSR_01",
     "CHA_Aminda_NPC_01",
     "CHA_Andoris_SSR_01",
@@ -71,6 +73,7 @@ export const ModelDir: string[] = [
     "CHA_Charolic_SR_01",
     "CHA_Charolic_SSR_01",
     "CHA_Cheeta_SR_01",
+    "CHA_Chiloveig_NPC_02",
     "CHA_Clukay_SSR_01",
     "CHA_Cocoon_NPC_01",
     "CHA_Colphne_N_01",
@@ -123,6 +126,7 @@ export const ModelDir: string[] = [
     "CHA_Kalina_NPC_01",
     "CHA_Karl_NPC_01",
     "CHA_Koshmar_NPC_01",
+    "CHA_Kryuger_NPC_01",
     "CHA_Ksenia_SR_01",
     "CHA_Laibnis_NPC_01",
     "CHA_Lampetia_NPC_01",
@@ -209,6 +213,7 @@ export const ModelDir: string[] = [
     "CHA_Vepley_SR_01",
     "CHA_Vepley_SSR_01",
     "CHA_Vladimir_NPC_01",
+    "CHA_Voymastina_SSR_01",
     "CHA_Welrod_SSR_01",
     "CHA_WomanA_NPC_01",
     "CHA_Yakov_NPC_01",

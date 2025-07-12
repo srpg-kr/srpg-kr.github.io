@@ -1,0 +1,74 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "CHA_Voymastina_SSR_01.moc3",
+		"Textures": [
+			"CHA_Voymastina_SSR_01.2048/texture_00.png"
+		],
+		"DisplayInfo": "CHA_Voymastina_SSR_01.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "EMO_Voymastina_Astonish_01",
+				"File": "expressions/EMO_Voymastina_Astonish_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Voymastina_Disagree_01",
+				"File": "expressions/EMO_Voymastina_Disagree_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Voymastina_Eager_01",
+				"File": "expressions/EMO_Voymastina_Eager_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Voymastina_Idle_01",
+				"File": "expressions/EMO_Voymastina_Idle_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Voymastina_Satisfied_01",
+				"File": "expressions/EMO_Voymastina_Satisfied_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Voymastina_Supperss_01",
+				"File": "expressions/EMO_Voymastina_Supperss_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Voymastina_Surprised_01",
+				"File": "expressions/EMO_Voymastina_Surprised_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Voymastina_Think_01",
+				"File": "expressions/EMO_Voymastina_Think_01.exp3.json"
+			}
+		],
+		"Motions": {
+			"": [
+				{
+					"File": "motions/Mouthopen_10s.motion3.json"
+				},
+				{
+					"File": "motions/Mouthopen_2s.motion3.json"
+				},
+				{
+					"File": "motions/Mouthopen_5s.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	],
+	"HitAreas": []
+}

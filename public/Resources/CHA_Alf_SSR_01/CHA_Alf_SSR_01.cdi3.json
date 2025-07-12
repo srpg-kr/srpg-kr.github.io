@@ -57,14 +57,39 @@
 			"Name": "左眉　変形"
 		},
 		{
+			"Id": "ParamBrowLForm2",
+			"GroupId": "",
+			"Name": "左眉　変形2"
+		},
+		{
 			"Id": "ParamBrowRForm",
 			"GroupId": "",
 			"Name": "右眉　変形"
 		},
 		{
+			"Id": "ParamBrowRForm2",
+			"GroupId": "",
+			"Name": "右眉　変形2"
+		},
+		{
+			"Id": "Param24",
+			"GroupId": "",
+			"Name": "shadow_change"
+		},
+		{
+			"Id": "Param17",
+			"GroupId": "",
+			"Name": "meizhong"
+		},
+		{
 			"Id": "Param5",
 			"GroupId": "",
 			"Name": "右眼上眼眶左"
+		},
+		{
+			"Id": "Param25",
+			"GroupId": "",
+			"Name": "右眼上眼眶左2"
 		},
 		{
 			"Id": "Param6",
@@ -85,6 +110,11 @@
 			"Id": "Param8",
 			"GroupId": "",
 			"Name": "右眼下眼眶右"
+		},
+		{
+			"Id": "Param18",
+			"GroupId": "",
+			"Name": "右眼下眼眶中"
 		},
 		{
 			"Id": "Param9",
@@ -122,6 +152,26 @@
 			"Name": "左眼下眼眶上下"
 		},
 		{
+			"Id": "Param20",
+			"GroupId": "",
+			"Name": "焦急眉毛"
+		},
+		{
+			"Id": "Param23",
+			"GroupId": "",
+			"Name": "happiness"
+		},
+		{
+			"Id": "Param21",
+			"GroupId": "",
+			"Name": "pain"
+		},
+		{
+			"Id": "Param22",
+			"GroupId": "",
+			"Name": "angry"
+		},
+		{
 			"Id": "Param2",
 			"GroupId": "",
 			"Name": "消沉眼球"
@@ -130,6 +180,11 @@
 			"Id": "Param3",
 			"GroupId": "",
 			"Name": "警惕眼球"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "惊讶眼球"
 		},
 		{
 			"Id": "ParamMouthForm",
@@ -142,6 +197,11 @@
 			"Name": "嘴　变形2"
 		},
 		{
+			"Id": "Param19",
+			"GroupId": "",
+			"Name": "zui_lasheng"
+		},
+		{
 			"Id": "ParamMouthOpenY",
 			"GroupId": "",
 			"Name": "嘴　张开和闭合"
@@ -150,8 +210,48 @@
 	"ParameterGroups": [],
 	"Parts": [
 		{
+			"Id": "Part19",
+			"Name": "Nervous焦急（后面都是新增"
+		},
+		{
+			"Id": "Part20",
+			"Name": "CHA_Alf_SSR_new.psd(未找到对应图层)"
+		},
+		{
+			"Id": "Part14",
+			"Name": "CHA_Alf_SSR_new.psd"
+		},
+		{
 			"Id": "CHA_Alf_SSR_01",
 			"Name": "CHA_Alf_SSR_01"
+		},
+		{
+			"Id": "Part16",
+			"Name": "Pain痛苦"
+		},
+		{
+			"Id": "Part17",
+			"Name": "Angry愤怒"
+		},
+		{
+			"Id": "Part9",
+			"Name": "Happiness欣慰"
+		},
+		{
+			"Id": "Part10",
+			"Name": "Pain痛苦"
+		},
+		{
+			"Id": "Part11",
+			"Name": "Angry愤怒"
+		},
+		{
+			"Id": "Part12",
+			"Name": "Shock惊讶"
+		},
+		{
+			"Id": "Part13",
+			"Name": "Nervous焦急（后面都是新增"
 		},
 		{
 			"Id": "Part",
@@ -185,11 +285,5 @@
 			"Id": "Part7",
 			"Name": "张嘴"
 		}
-	],
-	"CombinedParameters": [
-		[
-			"ParamMouthForm",
-			"Param4"
-		]
 	]
 }

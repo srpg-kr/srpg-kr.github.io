@@ -1,0 +1,202 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右眼"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "眼变形"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "眼睛阴影"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "眼珠大小"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "",
+			"Name": "眼珠变形"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "眼珠 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "眼珠 Y"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "Param9",
+			"GroupId": "",
+			"Name": "右眉毛X"
+		},
+		{
+			"Id": "Param10",
+			"GroupId": "",
+			"Name": "右眉毛Y"
+		},
+		{
+			"Id": "Param11",
+			"GroupId": "",
+			"Name": "右眉毛Z"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "",
+			"Name": "眉毛变形"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "",
+			"Name": "强忍眉毛"
+		},
+		{
+			"Id": "Param24",
+			"GroupId": "",
+			"Name": "惊异眉毛"
+		},
+		{
+			"Id": "Param25",
+			"GroupId": "",
+			"Name": "急切眉毛"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "",
+			"Name": "上眼内"
+		},
+		{
+			"Id": "Param13",
+			"GroupId": "",
+			"Name": "上眼外"
+		},
+		{
+			"Id": "Param12",
+			"GroupId": "",
+			"Name": "下眼外"
+		},
+		{
+			"Id": "Param14",
+			"GroupId": "",
+			"Name": "下眼内"
+		},
+		{
+			"Id": "Param26",
+			"GroupId": "",
+			"Name": "急切"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "强忍汗"
+		},
+		{
+			"Id": "Param15",
+			"GroupId": "",
+			"Name": "欣慰汗"
+		},
+		{
+			"Id": "ParamMouthForm2",
+			"GroupId": "",
+			"Name": "嘴上下"
+		},
+		{
+			"Id": "ParamMouthForm3",
+			"GroupId": "",
+			"Name": "嘴唇上下"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "嘴　变形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴　张开和闭合"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part5",
+			"Name": "参考"
+		},
+		{
+			"Id": "Part",
+			"Name": "CHA_Voymastina_SSR_01"
+		},
+		{
+			"Id": "Part2",
+			"Name": "文件夹1(2)"
+		},
+		{
+			"Id": "Part7",
+			"Name": "文件夹1"
+		},
+		{
+			"Id": "Part8",
+			"Name": "Supperss强忍"
+		},
+		{
+			"Id": "Part10",
+			"Name": "Disagree不赞同"
+		},
+		{
+			"Id": "Part11",
+			"Name": "Idle待机"
+		},
+		{
+			"Id": "Part29",
+			"Name": "CHA_Voymastina_SSR_01.psd(未找到对应图层)"
+		},
+		{
+			"Id": "Part3",
+			"Name": "Idle待机(7)"
+		},
+		{
+			"Id": "Part9",
+			"Name": "咬牙"
+		},
+		{
+			"Id": "Part12",
+			"Name": "文件夹2"
+		},
+		{
+			"Id": "Part15",
+			"Name": "组 1"
+		},
+		{
+			"Id": "Part4",
+			"Name": "开口"
+		},
+		{
+			"Id": "Part13",
+			"Name": "Idle待机eye"
+		},
+		{
+			"Id": "Part14",
+			"Name": "Idle待机开口"
+		},
+		{
+			"Id": "Part16",
+			"Name": "文件夹1(2)"
+		}
+	]
+}

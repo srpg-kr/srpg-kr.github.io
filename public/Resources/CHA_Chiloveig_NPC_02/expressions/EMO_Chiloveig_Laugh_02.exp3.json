@@ -9,7 +9,17 @@
 			"Blend": "Add"
 		},
 		{
+			"Id": "ParamEyeLSmile",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
 			"Id": "ParamEyeROpen",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamEyeRSmile",
 			"Value": 0,
 			"Blend": "Add"
 		},
@@ -55,27 +65,17 @@
 		},
 		{
 			"Id": "ParamBrowLForm",
-			"Value": -1,
-			"Blend": "Add"
-		},
-		{
-			"Id": "ParamBrowLForm2",
 			"Value": 0,
 			"Blend": "Add"
 		},
 		{
-			"Id": "ParamBrowRForm2",
+			"Id": "ParamBrowRForm",
 			"Value": 0,
 			"Blend": "Add"
 		},
 		{
-			"Id": "Param17",
-			"Value": -30,
-			"Blend": "Add"
-		},
-		{
-			"Id": "Param5",
-			"Value": 0,
+			"Id": "ParamMouthForm",
+			"Value": 1,
 			"Blend": "Add"
 		},
 		{
@@ -84,22 +84,22 @@
 			"Blend": "Add"
 		},
 		{
-			"Id": "Param10",
-			"Value": 0,
+			"Id": "Param",
+			"Value": 1,
 			"Blend": "Add"
 		},
 		{
 			"Id": "Param7",
+			"Value": 1,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param2",
 			"Value": 0,
 			"Blend": "Add"
 		},
 		{
 			"Id": "Param8",
-			"Value": 30,
-			"Blend": "Add"
-		},
-		{
-			"Id": "Param18",
 			"Value": 0,
 			"Blend": "Add"
 		},
@@ -109,7 +109,22 @@
 			"Blend": "Add"
 		},
 		{
+			"Id": "Param3",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param10",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
 			"Id": "Param11",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param4",
 			"Value": 0,
 			"Blend": "Add"
 		},
@@ -119,87 +134,17 @@
 			"Blend": "Add"
 		},
 		{
-			"Id": "Param13",
+			"Id": "Param5",
 			"Value": 0,
 			"Blend": "Add"
 		},
 		{
 			"Id": "Param14",
-			"Value": 30,
-			"Blend": "Add"
-		},
-		{
-			"Id": "Param15",
 			"Value": 0,
 			"Blend": "Add"
 		},
 		{
-			"Id": "Param16",
-			"Value": 0,
-			"Blend": "Add"
-		},
-		{
-			"Id": "Param20",
-			"Value": 0,
-			"Blend": "Add"
-		},
-		{
-			"Id": "Param23",
-			"Value": 0,
-			"Blend": "Add"
-		},
-		{
-			"Id": "Param21",
-			"Value": 0,
-			"Blend": "Add"
-		},
-		{
-			"Id": "Param22",
-			"Value": 0,
-			"Blend": "Add"
-		},
-		{
-			"Id": "Param2",
-			"Value": 30,
-			"Blend": "Add"
-		},
-		{
-			"Id": "Param3",
-			"Value": 0,
-			"Blend": "Add"
-		},
-		{
-			"Id": "Param",
-			"Value": 0,
-			"Blend": "Add"
-		},
-		{
-			"Id": "ParamMouthForm",
-			"Value": -1,
-			"Blend": "Add"
-		},
-		{
-			"Id": "Param4",
-			"Value": 0,
-			"Blend": "Add"
-		},
-		{
-			"Id": "Param19",
-			"Value": 0,
-			"Blend": "Add"
-		},
-		{
-			"Id": "ParamBrowRForm",
-			"Value": -1,
-			"Blend": "Add"
-		},
-		{
-			"Id": "Param24",
-			"Value": 0,
-			"Blend": "Add"
-		},
-		{
-			"Id": "Param25",
+			"Id": "ParamMouthOpenY",
 			"Value": 0,
 			"Blend": "Add"
 		}
