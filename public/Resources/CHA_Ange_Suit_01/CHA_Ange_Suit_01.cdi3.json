@@ -1,0 +1,51 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamMouthForm1",
+			"GroupId": "",
+			"Name": "闭嘴　变形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴　张开和闭合"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "生气"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "痛苦"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "眼开闭"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part",
+			"Name": "参考"
+		},
+		{
+			"Id": "Part2",
+			"Name": "Idle待机"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamMouthForm1",
+			"ParamMouthOpenY"
+		],
+		[
+			"Param4",
+			"Param3"
+		]
+	]
+}

@@ -1,0 +1,73 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "CHA_Chiloveig_NPC_01.moc3",
+		"Textures": [
+			"CHA_Chiloveig_NPC_01.2048/texture_00.png"
+		],
+		"DisplayInfo": "CHA_Chiloveig_NPC_01.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "EMO_Chiloveig_Challenge_02",
+				"File": "expressions/EMO_Chiloveig_Challenge_02.exp3.json"
+			},
+			{
+				"Name": "EMO_Chiloveig_Curious_02",
+				"File": "expressions/EMO_Chiloveig_Curious_02.exp3.json"
+			},
+			{
+				"Name": "EMO_Chiloveig_Idle_02",
+				"File": "expressions/EMO_Chiloveig_Idle_02.exp3.json"
+			},
+			{
+				"Name": "EMO_Chiloveig_Laugh_02",
+				"File": "expressions/EMO_Chiloveig_Laugh_02.exp3.json"
+			},
+			{
+				"Name": "EMO_Chiloveig_Smile_02",
+				"File": "expressions/EMO_Chiloveig_Smile_02.exp3.json"
+			},
+			{
+				"Name": "EMO_Chiloveig_Surprise_02",
+				"File": "expressions/EMO_Chiloveig_Surprise_02.exp3.json"
+			}
+		],
+		"Motions": {
+			"": [
+				{
+					"File": "motions/Mouthopen_10s.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				},
+				{
+					"File": "motions/Mouthopen_2s.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				},
+				{
+					"File": "motions/Mouthopen_5s.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	],
+	"HitAreas": []
+}

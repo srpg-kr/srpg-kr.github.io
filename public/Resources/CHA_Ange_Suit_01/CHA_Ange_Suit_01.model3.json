@@ -1,0 +1,41 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "CHA_Ange_Suit_01.moc3",
+		"Textures": [
+			"CHA_Ange_Suit_01.2048/texture_00.png"
+		],
+		"DisplayInfo": "CHA_Ange_Suit_01.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "EMO_Ange_Angry_01.exp3.json",
+				"File": "expressions/EMO_Ange_Angry_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Ange_Idle_01.exp3.json",
+				"File": "expressions/EMO_Ange_Idle_01.exp3.json"
+			},
+			{
+				"Name": "EMO_Ange_Pain_01.exp3.json",
+				"File": "expressions/EMO_Ange_Pain_01.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"Param"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	],
+	"HitAreas": []
+}
