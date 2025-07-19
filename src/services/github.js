@@ -38,8 +38,11 @@ export async function getIssues(token) {
       repo,
       state: 'open',
     });
-    // Filter issues by title prefix
-    return response.data.filter(issue => issue.title.startsWith('[Translation Suggestion]'));
+    // Filter issues by title prefix and exclude those with the 'accepted' label
+    return response.data.filter(issue => 
+      issue.title.startsWith('[Translation Suggestion]') && 
+      !issue.labels.some(label => label.name === 'accepted')
+    );
   } catch (error) {
     console.error('Error fetching issues:', error);
     if (error.status === 401) {
