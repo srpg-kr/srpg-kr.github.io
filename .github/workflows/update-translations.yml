@@ -15,10 +15,10 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 22
 
       - name: Install action dependencies
-        run: npm install --prefix functions
+        run: npm install @octokit/rest
 
       # --------------------------------------------------------------------
       # 1️⃣  Collect all “translation‑accepted” issues and update JSON
