@@ -46,7 +46,7 @@ jobs:
             const translationsPath = path.join(process.env.GITHUB_WORKSPACE, 'public', 'translation_data.json');
             const translations = fs.existsSync(translationsPath)
               ? JSON.parse(fs.readFileSync(translationsPath, 'utf8').replace(/^\uFEFF/, ''))
-              : {};
+              : [];
 
             const processed = [];
 
@@ -58,7 +58,9 @@ jobs:
               const kr = (body.match(/\*\*Suggested Translation \(KR\):\*\*\s*\n```([\s\S]*?)```/) || [])[1]?.trim();
 
               if (cn && kr) {
-                translations[cn] = kr;
+                const idx = translations.findIndex(([key]) => key === cn);
+                if (idx >= 0) translations[idx][1] = kr;
+                else translations.push([cn, kr]);
                 processed.push(issue.number);
                 console.log(`✓ ${issue.number} → added/updated translation`);
               }
