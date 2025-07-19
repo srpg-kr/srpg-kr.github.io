@@ -65,7 +65,7 @@ jobs:
             }
 
             if (processed.length) {
-              fs.writeFileSync(translationsPath, JSON.stringify(translations, null, 2));
+              fs.writeFileSync(translationsPath, JSON.stringify(translations, null, 4));
               console.log('translation_data.json written');
 
               // expose processed issue numbers to later steps
