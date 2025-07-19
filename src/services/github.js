@@ -2,7 +2,7 @@ import { Octokit } from 'octokit';
 
 export function loginWithGitHub() {
   const currentPath = window.location.pathname;
-  window.location.replace(`/.netlify/functions/auth?redirect_to=${encodeURIComponent(currentPath)}`);
+  window.location.replace(`https://jolly-capybara-ff83c3.netlify.app/.netlify/functions/auth?redirect_to=${encodeURIComponent(currentPath)}`);
 }
 
 export async function handleGitHubRedirect() {
