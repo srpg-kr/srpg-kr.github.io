@@ -1,7 +1,7 @@
 exports.handler = async (event) => {
     const GITHUB_CLIENT_ID = process.env.GITHUB_CLIENT_ID;
     const redirectTo = event.queryStringParameters.redirect_to || '/';
-    const redirect_uri = `${process.env.FRONTEND_URL}/.netlify/functions/callback`;
+    const redirect_uri = `https://jolly-capybara-ff83c3.netlify.app/.netlify/functions/callback`;
     const scope = 'repo';
     const state = `some_random_string_${encodeURIComponent(redirectTo)}`; // Encode redirectTo into state
 
