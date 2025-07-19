@@ -68,6 +68,7 @@ function Translations() {
           originalIndex: index + 1, // Add 1 to make it 1-based
         }));
         setTranslations(translationsWithIndex);
+        console.log('Translations loaded with index:', translationsWithIndex);
         setLoading(false);
       })
       .catch((err) => {
