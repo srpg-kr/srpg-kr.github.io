@@ -26,7 +26,7 @@ exports.handler = async (event) => {
     return {
         statusCode: 302,
         headers: {
-            Location: `${redirectTo}#token=${accessToken}`,
+            Location: `${process.env.FRONTEND_URL}${redirectTo}#token=${accessToken}`
         },
     };
 };
