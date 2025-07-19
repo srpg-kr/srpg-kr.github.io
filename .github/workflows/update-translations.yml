@@ -18,7 +18,7 @@ jobs:
           node-version: 18
 
       - name: Install action dependencies
-        run: npm ci --prefix functions
+        run: npm install --prefix functions
 
       # --------------------------------------------------------------------
       # 1️⃣  Collect all “translation‑accepted” issues and update JSON
