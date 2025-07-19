@@ -7,148 +7,111 @@ jobs:
   update-translations:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # To commit changes
-      issues: write   # To update issue titles
+      contents: write        # commit to the repo
+      issues: write          # relabel / close issues
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: '18' # Use a Node.js version compatible with your project
+          node-version: 18
 
-      - name: Install dependencies for functions
-        run: |
-          cd functions
-          npm install
-
-      - name: Fetch and Process Issues
+      # --------------------------------------------------------------------
+      # 1️⃣  Collect all “translation‑accepted” issues and update JSON
+      # --------------------------------------------------------------------
+      - name: Fetch and process accepted issues
         id: process_issues
-        run: |
-          node -e "
-            const { Octokit } = require('@octokit/rest');
-            const fs = require('fs');
-            const path = require('path');
-
-            const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
-            const owner = 'srpg-kr';
-            const repo = 'srpg-kr.github.io';
-
-            async function run() {
-              console.log('Fetching accepted translation issues...');
-              const issuesResponse = await octokit.rest.issues.listForRepo({
-                owner,
-                repo,
-                state: 'open', // Look for open issues
-                labels: 'accepted', // Filter by 'accepted' label
-                per_page: 100,
-              });
-
-              let updatedTranslations = {};
-              try {
-                const translationsPath = path.join(process.env.GITHUB_WORKSPACE, 'public', 'translation_data.json');
-                updatedTranslations = JSON.parse(fs.readFileSync(translationsPath, 'utf8'));
-              } catch (error) {
-                console.warn('translation_data.json not found or empty, starting with empty object.');
-              }
-
-              const issuesToPatch = [];
-
-              for (const issue of issuesResponse.data) {
-                if (issue.title.startsWith('[Accepted] [Translation Suggestion]')) {
-                  console.log(`Processing issue #${issue.number}: ${issue.title}`);
-                  const body = issue.body;
-                  
-                  // Regex to extract content from markdown code blocks
-                  const originalCnMatch = body.match(/\*\*Original Text \(CN\):\*\*\n\`\`\`\n([\s\S]*?)\n\`\`\`/);
-                  const suggestedKrMatch = body.match(/\*\*Suggested Translation \(KR\):\*\*\n\`\`\`\n([\s\S]*?)\n\`\`\`/);
-
-                  if (originalCnMatch && suggestedKrMatch) {
-                    const cnText = originalCnMatch[1].trim();
-                    const suggestedKrText = suggestedKrMatch[1].trim();
-
-                    if (cnText && suggestedKrText) {
-                      updatedTranslations[cnText] = suggestedKrText;
-                      issuesToPatch.push(issue);
-                      console.log(`Updated translation for '${cnText}' to '${suggestedKrText}'`);
-                    }
-                  }
-                }
-              }
-
-              if (issuesToPatch.length > 0) {
-                const translationsPath = path.join(process.env.GITHUB_WORKSPACE, 'public', 'translation_data.json');
-                fs.writeFileSync(translationsPath, JSON.stringify(updatedTranslations, null, 2), 'utf8');
-                console.log('translation_data.json updated successfully.');
-                
-                // Output issues to patch for the next step
-                console.log(`::set-output name=issues_to_patch::${JSON.stringify(issuesToPatch.map(i => ({ number: i.number, title: i.title })))}`);
-              } else {
-                console.log('No accepted translation issues found to process.');
-                console.log('::set-output name=issues_to_patch::[]');
-              }
-            }
-
-            run().catch(error => {
-              console.error('Error in processing issues:', error);
-              process.exit(1);
-            });
-          "
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GITHUB_TOKEN is automatically provided by GitHub Actions
-
-      - name: Commit updated translation_data.json
-        if: fromJson(steps.process_issues.outputs.issues_to_patch).length > 0
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/translation_data.json
-          git commit -m "feat(translations): Apply accepted translation suggestions" || echo "No changes to commit"
-          git push
-
-      - name: Update Processed Issues
-        if: fromJson(steps.process_issues.outputs.issues_to_patch).length > 0
-        run: |
-          node -e "
-            const { Octokit } = require('@octokit/rest');
-            const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
-            const owner = 'srpg-kr';
-            const repo = 'srpg-kr.github.io';
-            const issuesToPatch = JSON.parse(process.env.ISSUES_TO_PATCH);
-
-            async function run() {
-              for (const issue of issuesToPatch) {
-                // Remove 'accepted' label and add 'patched' label
-                await octokit.rest.issues.removeLabel({
-                  owner,
-                  repo,
-                  issue_number: issue.number,
-                  name: 'accepted',
-                });
-                await octokit.rest.issues.addLabels({
-                  owner,
-                  repo,
-                  issue_number: issue.number,
-                  labels: ['patched'],
-                });
-                // Close the issue
-                await octokit.rest.issues.update({
-                  owner,
-                  repo,
-                  issue_number: issue.number,
-                  state: 'closed',
-                });
-              }
-              console.log('Issues updated successfully.');
-            }
-
-            run().catch(error => {
-              console.error('Error in updating issues:', error);
-              process.exit(1);
-            });
-          "
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ISSUES_TO_PATCH: ${{ steps.process_issues.outputs.issues_to_patch }}
+        run: |
+          node <<'NODE'
+          const { Octokit } = require('@octokit/rest');
+          const fs   = require('fs');
+          const path = require('path');
+
+          const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+          const owner   = 'srpg-kr';
+          const repo    = 'srpg-kr.github.io';
+
+          (async () => {
+            const issues = await octokit.paginate(
+              octokit.rest.issues.listForRepo,
+              { owner, repo, state: 'open', labels: 'accepted', per_page: 100 }
+            );
+
+            const translationsPath = path.join(process.env.GITHUB_WORKSPACE, 'public', 'translation_data.json');
+            const translations = fs.existsSync(translationsPath)
+              ? JSON.parse(fs.readFileSync(translationsPath, 'utf8'))
+              : {};
+
+            const processed = [];
+
+            for (const issue of issues) {
+              const body = issue.body || '';
+
+              // pull CN and KR text from fenced blocks
+              const cn = (body.match(/\*\*Original Text \(CN\):\*\*\s*\n```([\s\S]*?)```/) || [])[1]?.trim();
+              const kr = (body.match(/\*\*Suggested Translation \(KR\):\*\*\s*\n```([\s\S]*?)```/) || [])[1]?.trim();
+
+              if (cn && kr) {
+                translations[cn] = kr;
+                processed.push(issue.number);
+                console.log(`✓ ${issue.number} → added/updated translation`);
+              }
+            }
+
+            if (processed.length) {
+              fs.writeFileSync(translationsPath, JSON.stringify(translations, null, 2));
+              console.log('translation_data.json written');
+
+              // expose processed issue numbers to later steps
+              fs.appendFileSync(process.env.GITHUB_OUTPUT,
+                `issues_to_patch=${JSON.stringify(processed)}\n`);
+            } else {
+              console.log('No matching issues found');
+              fs.appendFileSync(process.env.GITHUB_OUTPUT, 'issues_to_patch=[]\n');
+            }
+          })().catch(err => { console.error(err); process.exit(1); });
+          NODE
+
+      # --------------------------------------------------------------------
+      # 2️⃣  Commit the updated JSON file (if anything changed)
+      # --------------------------------------------------------------------
+      - name: Commit updated translation_data.json
+        if: steps.process_issues.outputs.issues_to_patch != '[]'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/translation_data.json
+          git commit -m "chore: apply accepted translation suggestions" || echo "Nothing to commit"
+          git push
+
+      # --------------------------------------------------------------------
+      # 3️⃣  Relabel and close processed issues
+      # --------------------------------------------------------------------
+      - name: Relabel & close issues
+        if: steps.process_issues.outputs.issues_to_patch != '[]'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: srpg-kr
+          REPO:  srpg-kr.github.io
+          ISSUE_LIST: ${{ steps.process_issues.outputs.issues_to_patch }}
+        run: |
+          node <<'NODE'
+          const { Octokit } = require('@octokit/rest');
+          const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+          const owner = process.env.OWNER;
+          const repo  = process.env.REPO;
+          const nums  = JSON.parse(process.env.ISSUE_LIST);
+
+          (async () => {
+            for (const number of nums) {
+              await octokit.rest.issues.removeLabel({ owner, repo, issue_number: number, name: 'accepted' })
+                .catch(() => {});               // ignore if label already gone
+              await octokit.rest.issues.addLabels({ owner, repo, issue_number: number, labels: ['patched'] });
+              await octokit.rest.issues.update({ owner, repo, issue_number: number, state: 'closed' });
+              console.log(`✓ #${number} patched & closed`);
+            }
+          })().catch(err => { console.error(err); process.exit(1); });
+          NODE
