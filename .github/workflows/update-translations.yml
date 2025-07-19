@@ -45,7 +45,7 @@ jobs:
 
             const translationsPath = path.join(process.env.GITHUB_WORKSPACE, 'public', 'translation_data.json');
             const translations = fs.existsSync(translationsPath)
-              ? JSON.parse(fs.readFileSync(translationsPath, 'utf8'))
+              ? JSON.parse(fs.readFileSync(translationsPath, 'utf8').replace(/^\uFEFF/, ''))
               : {};
 
             const processed = [];
