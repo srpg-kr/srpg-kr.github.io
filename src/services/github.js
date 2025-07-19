@@ -171,3 +171,21 @@ export async function dispatchWorkflow(token, workflowId, ref = 'main') {
     return false;
   }
 }
+
+export async function checkAdminPermissions(token) {
+  const octokit = new Octokit({ auth: token });
+  const owner = 'srpg-kr';
+  const repo = 'srpg-kr.github.io';
+
+  try {
+    const { data } = await octokit.request('GET /repos/{owner}/{repo}/collaborators/{username}/permission', {
+      owner,
+      repo,
+      username: (await octokit.rest.users.getAuthenticated()).data.login,
+    });
+    return data.permission === 'admin';
+  } catch (error) {
+    console.error('Error checking admin permissions:', error);
+    return false;
+  }
+}
