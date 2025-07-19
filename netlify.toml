@@ -1,0 +1,5 @@
+[build]
+  functions = "functions" # Specifies the directory where your serverless functions are located
+
+[build.environment]
+  GITHUB_CLIENT_ID = "Ov23liNwL6XGeUbRwD5V"

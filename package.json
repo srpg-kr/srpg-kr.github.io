@@ -10,11 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@octokit/rest": "^22.0.0",
+    "node-fetch": "^2.7.0",
+    "octokit": "^5.0.3",
     "papaparse": "^5.5.2",
     "react": "^18.3.1",
     "react-color-palette": "^7.3.0",
     "react-dom": "^18.3.1",
-    "react-icons": "^5.4.0"
+    "react-icons": "^5.4.0",
+    "react-router-dom": "^7.7.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
@@ -25,7 +29,21 @@
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.16",
+    "follow-redirects": "^1.15.9",
     "globals": "^15.14.0",
     "vite": "^6.0.5"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srpg-kr/srpg-kr.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srpg-kr/srpg-kr.github.io/issues"
+  },
+  "homepage": "https://github.com/srpg-kr/srpg-kr.github.io#readme"
 }

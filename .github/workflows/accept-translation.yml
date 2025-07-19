@@ -1,0 +1,52 @@
+name: Accept Translation Suggestion
+
+on:
+  issues:
+    types:
+      - labeled
+
+jobs:
+  update-json:
+    # Only run if the added label is 'translation-accepted'
+    if: github.event.label.name == 'translation-accepted'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+        with:
+          # We need to fetch the history to be able to push back to the repo
+          fetch-depth: 0
+          # Use a token with write permissions
+          token: ${{ secrets.PAT_TOKEN }} # Using a PAT to trigger subsequent workflows
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18' # Match your project's Node version
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Update translation file
+        run: node scripts/update-translation.js
+        env:
+          GITHUB_ISSUE_NUMBER: ${{ github.event.issue.number }}
+          GITHUB_ISSUE_BODY: ${{ github.event.issue.body }}
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+
+      - name: Configure Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Commit and push changes
+        run: |
+          git add public/translation_data.json
+          # Check if there are changes to commit
+          if ! git diff --staged --quiet; then
+            git commit -m "feat(i18n): Accept translation for issue #${{ github.event.issue.number }}" -m "Suggestion accepted via admin panel."
+            git push
+          else
+            echo "No changes to commit."
+          fi
