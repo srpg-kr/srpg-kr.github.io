@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { createSuggestionIssue, getGitHubToken, loginWithGitHub, logout } from '../services/github';
 
 function Translations() {
-  const [translations, setTranslations] = useState({});
+  const [translations, setTranslations] = useState([]);
   const [loading, setLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
   const [searchQuery, setSearchQuery] = useState('');
@@ -35,10 +35,10 @@ function Translations() {
   }, []);
 
   useEffect(() => {
-    const allTranslations = Object.entries(translations);
-    const filtered = allTranslations.filter(([cn, kr]) => 
-      cn.toLowerCase().includes(searchQuery.toLowerCase()) || 
-      kr.toLowerCase().includes(searchQuery.toLowerCase())
+    const allTranslations = translations;
+    const filtered = allTranslations.filter(item => 
+      item.cn.toLowerCase().includes(searchQuery.toLowerCase()) || 
+      item.kr.toLowerCase().includes(searchQuery.toLowerCase())
     );
     setFilteredTranslations(filtered);
     setCurrentPage(1); // Reset to first page on new search
@@ -62,7 +62,12 @@ function Translations() {
     fetch('/translation_data.json')
       .then((res) => res.json())
       .then((data) => {
-        setTranslations(data);
+        const translationsWithIndex = Object.entries(data).map(([cn, kr], index) => ({
+          cn,
+          kr,
+          originalIndex: index + 1, // Add 1 to make it 1-based
+        }));
+        setTranslations(translationsWithIndex);
         setLoading(false);
       })
       .catch((err) => {
@@ -134,30 +139,32 @@ function Translations() {
         <button onClick={goToNextPage} disabled={currentPage === totalPages}>Next</button>
         <button onClick={goToLastPage} disabled={currentPage === totalPages}>Last</button>
         <input 
-          type="number" 
-          min="1" 
-          max={totalPages} 
-          defaultValue={currentPage} 
-          onBlur={(e) => goToPage(e.target.value)} 
-          style={{ width: '50px', marginLeft: '1rem' }}
-        />
+            type="number" 
+            min="1" 
+            max={totalPages} 
+            value={currentPage} 
+            onChange={(e) => goToPage(e.target.value)} 
+            style={{ width: '50px', marginLeft: '1rem' }}
+          />
       </div>
 
       <table style={{ width: '100%', borderCollapse: 'collapse' }}>
         <thead>
           <tr>
+            <th style={{ border: '1px solid #ccc', padding: '8px', textAlign: 'left' }}>Index</th>
             <th style={{ border: '1px solid #ccc', padding: '8px', textAlign: 'left' }}>Chinese (Original)</th>
             <th style={{ border: '1px solid #ccc', padding: '8px', textAlign: 'left' }}>Korean (Translated)</th>
             <th style={{ border: '1px solid #ccc', padding: '8px', textAlign: 'left' }}>Actions</th>
           </tr>
         </thead>
         <tbody>
-          {filteredTranslations.slice((currentPage - 1) * ENTRIES_PER_PAGE, currentPage * ENTRIES_PER_PAGE).map(([cn, kr]) => (
-            <tr key={cn}>
-              <td style={{ border: '1px solid #ccc', padding: '8px' }}>{cn}</td>
-              <td style={{ border: '1px solid #ccc', padding: '8px' }}>{kr}</td>
+          {filteredTranslations.slice((currentPage - 1) * ENTRIES_PER_PAGE, currentPage * ENTRIES_PER_PAGE).map((item) => (
+            <tr key={item.cn}>
+              <td style={{ border: '1px solid #ccc', padding: '8px' }}>{item.originalIndex}</td>
+              <td style={{ border: '1px solid #ccc', padding: '8px' }}>{item.cn}</td>
+              <td style={{ border: '1px solid #ccc', padding: '8px' }}>{item.kr}</td>
               <td style={{ border: '1px solid #ccc', padding: '8px' }}>
-                <button onClick={() => handleSuggestChange(cn, kr)}>
+                <button onClick={() => handleSuggestChange(item.cn, item.kr)}>
                   Suggest Change
                 </button>
               </td>
