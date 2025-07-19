@@ -42,6 +42,9 @@ export async function getIssues(token) {
     return response.data.filter(issue => issue.title.startsWith('[Translation Suggestion]'));
   } catch (error) {
     console.error('Error fetching issues:', error);
+    if (error.status === 401) {
+      console.error('Authentication failed. Please ensure your GitHub token is valid and has the correct permissions (repo scope).');
+    }
     return [];
   }
 }

@@ -85,8 +85,12 @@ function Translations() {
     }
 
     try {
-      await createSuggestionIssue(token, cnText, krText, suggestedText);
-      alert('Suggestion submitted successfully!');
+      const result = await createSuggestionIssue(token, cnText, krText, suggestedText);
+      if (result) {
+        alert('Suggestion submitted successfully!');
+      } else {
+        alert('Failed to submit suggestion. Please check console for errors.');
+      }
     } catch (error) {
       console.error('Error submitting suggestion:', error);
       alert('Failed to submit suggestion. Please try again later.');
