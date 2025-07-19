@@ -20,7 +20,9 @@ jobs:
           node-version: '18' # Use a Node.js version compatible with your project
 
       - name: Install dependencies for functions
-        run: npm install --prefix functions
+        run: |
+          cd functions
+          npm install
 
       - name: Fetch and Process Issues
         id: process_issues
