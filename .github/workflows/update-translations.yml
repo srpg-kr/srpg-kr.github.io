@@ -54,8 +54,8 @@ jobs:
               const body = issue.body || '';
 
               // pull CN and KR text from fenced blocks
-              const cn = (body.match(/\*\*Original Text \(CN\):\*\*\s*\n```([\s\S]*?)```/) || [])[1]?.trim().replace('\\n', '\n');
-              const kr = (body.match(/\*\*Suggested Translation \(KR\):\*\*\s*\n```([\s\S]*?)```/) || [])[1]?.trim().replace('\\n', '\n');
+              const cn = (body.match(/\*\*Original Text \(CN\):\*\*\s*\n```([\s\S]*?)```/) || [])[1]?.trim();
+              const kr = (body.match(/\*\*Suggested Translation \(KR\):\*\*\s*\n```([\s\S]*?)```/) || [])[1]?.trim().replaceAll('\\n', '\n');
 
               if (cn && kr) {
                 translations[cn] = kr;
