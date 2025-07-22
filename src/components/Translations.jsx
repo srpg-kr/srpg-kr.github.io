@@ -162,8 +162,8 @@ function Translations() {
           {filteredTranslations.slice((currentPage - 1) * ENTRIES_PER_PAGE, currentPage * ENTRIES_PER_PAGE).map((item) => (
             <tr key={item.cn}>
               <td style={{ border: '1px solid #ccc', padding: '8px' }}>{item.originalIndex}</td>
-              <td style={{ border: '1px solid #ccc', padding: '8px' }}>{item.cn}</td>
-              <td style={{ border: '1px solid #ccc', padding: '8px' }}>{item.kr}</td>
+              <td style={{ border: '1px solid #ccc', padding: '8px' }}>{item.cn.replace(/\n/g, '\\n')}</td>
+              <td style={{ border: '1px solid #ccc', padding: '8px' }}>{item.kr.replace(/\n/g, '\\n')}</td>
               <td style={{ border: '1px solid #ccc', padding: '8px' }}>
                 <button onClick={() => handleSuggestChange(item.cn, item.kr)}>
                   Suggest Change
