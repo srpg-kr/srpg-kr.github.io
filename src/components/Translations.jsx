@@ -84,7 +84,7 @@ function Translations() {
       return;
     }
 
-    const suggestedText = prompt('Enter your suggested Korean translation:', krText);
+    const suggestedText = prompt('Enter your suggested Korean translation:', krText.replace(/\n/g, '\\n'));
     if (suggestedText === null || suggestedText.trim() === '') {
       alert('Suggestion cancelled or empty.');
       return;
