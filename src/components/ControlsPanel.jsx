@@ -5,6 +5,51 @@ import { ColorPicker, useColor } from "react-color-palette";
 import "react-color-palette/css";
 import '../styles/controlspanel.css';
 
+function BuyMeACoffeeButton({ user }) {
+  const handleClick = () => {
+    window.open(`https://www.buymeacoffee.com/${user}`, '_blank', 'noopener');
+  };
+
+  return (
+    <button
+      type="button"
+      onClick={handleClick}
+      style={{
+        display: 'inline-flex',
+        alignItems: 'center',
+        gap: '0.75rem',
+        backgroundColor: '#ffdd00',
+        color: '#0d0c22',
+        padding: '0.6rem 1.4rem',
+        border: 'none',
+        borderRadius: '999px',
+        fontWeight: 700,
+        fontSize: '0.95rem',
+        cursor: 'pointer',
+        boxShadow: '0 4px 12px rgba(0,0,0,0.18)',
+        transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+      }}
+      onMouseEnter={(event) => {
+        event.currentTarget.style.transform = 'translateY(-1px)';
+        event.currentTarget.style.boxShadow = '0 6px 14px rgba(0,0,0,0.2)';
+      }}
+      onMouseLeave={(event) => {
+        event.currentTarget.style.transform = 'translateY(0)';
+        event.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.18)';
+      }}
+    >
+      <img
+        src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"
+        alt=""
+        width="22"
+        height="22"
+        style={{ display: 'block' }}
+      />
+      Buy me a coffee
+    </button>
+  );
+}
+
 function ControlsPanel({ refreshFlag }) {
   const [isColorPickerOpen, setIsColorPickerOpen] = useState(false);
   const [bgColor, setBgColor] = useColor(localStorage.getItem("bgcolor") || "#ffffffff");
@@ -361,6 +406,7 @@ function ControlsPanel({ refreshFlag }) {
 
   return (
     <div>
+      <BuyMeACoffeeButton user="jarari" />
       <h2>Background</h2>
       <button onClick={() => setIsColorPickerOpen(!isColorPickerOpen)}>Change Color</button>
       { isColorPickerOpen && (
