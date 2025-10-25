@@ -1,0 +1,460 @@
+{
+  "Version": 3,
+  "Parameters": [
+    {
+      "Id": "hou1",
+      "GroupId": "",
+      "Name": "后X"
+    },
+    {
+      "Id": "hou2",
+      "GroupId": "",
+      "Name": "后"
+    },
+    {
+      "Id": "Param",
+      "GroupId": "",
+      "Name": "食指"
+    },
+    {
+      "Id": "Param10",
+      "GroupId": "",
+      "Name": "body1"
+    },
+    {
+      "Id": "Param11",
+      "GroupId": "",
+      "Name": "body2"
+    },
+    {
+      "Id": "Param12",
+      "GroupId": "",
+      "Name": "yanqiu 1"
+    },
+    {
+      "Id": "Param13",
+      "GroupId": "",
+      "Name": "yanqiu 2"
+    },
+    {
+      "Id": "Param14",
+      "GroupId": "",
+      "Name": "脚L"
+    },
+    {
+      "Id": "Param15",
+      "GroupId": "",
+      "Name": "脚R"
+    },
+    {
+      "Id": "Param16",
+      "GroupId": "",
+      "Name": "daimao w1"
+    },
+    {
+      "Id": "Param17",
+      "GroupId": "",
+      "Name": "daimao w2"
+    },
+    {
+      "Id": "Param18",
+      "GroupId": "",
+      "Name": "cefa w1"
+    },
+    {
+      "Id": "Param19",
+      "GroupId": "",
+      "Name": "cefa w2"
+    },
+    {
+      "Id": "Param2",
+      "GroupId": "",
+      "Name": "qianfa1"
+    },
+    {
+      "Id": "Param20",
+      "GroupId": "",
+      "Name": "y"
+    },
+    {
+      "Id": "Param21",
+      "GroupId": "",
+      "Name": "body3"
+    },
+    {
+      "Id": "Param22",
+      "GroupId": "",
+      "Name": "body4"
+    },
+    {
+      "Id": "Param23",
+      "GroupId": "",
+      "Name": "整体控制"
+    },
+    {
+      "Id": "Param3",
+      "GroupId": "",
+      "Name": "中指"
+    },
+    {
+      "Id": "Param4",
+      "GroupId": "",
+      "Name": "无名"
+    },
+    {
+      "Id": "Param5",
+      "GroupId": "",
+      "Name": "小指"
+    },
+    {
+      "Id": "Param6",
+      "GroupId": "",
+      "Name": "qianfa2"
+    },
+    {
+      "Id": "Param7",
+      "GroupId": "",
+      "Name": "hudiejie1"
+    },
+    {
+      "Id": "Param8",
+      "GroupId": "",
+      "Name": "hudiejie2"
+    },
+    {
+      "Id": "Param9",
+      "GroupId": "",
+      "Name": "yin"
+    },
+    {
+      "Id": "ParamAngleX",
+      "GroupId": "",
+      "Name": "角度 X"
+    },
+    {
+      "Id": "ParamAngleY",
+      "GroupId": "",
+      "Name": "角度 Y"
+    },
+    {
+      "Id": "ParamAngleZ",
+      "GroupId": "",
+      "Name": "角度 Z"
+    },
+    {
+      "Id": "ParamBodyAngleX",
+      "GroupId": "",
+      "Name": "身体旋转 X"
+    },
+    {
+      "Id": "ParamBodyAngleY",
+      "GroupId": "",
+      "Name": "身体旋转 Y"
+    },
+    {
+      "Id": "ParamBodyAngleZ",
+      "GroupId": "",
+      "Name": "身体旋转 Z"
+    },
+    {
+      "Id": "ParamBreath",
+      "GroupId": "",
+      "Name": "呼吸"
+    },
+    {
+      "Id": "ParamBrowLAngle",
+      "GroupId": "",
+      "Name": "左眉 角度"
+    },
+    {
+      "Id": "ParamBrowLForm",
+      "GroupId": "",
+      "Name": "左眉 変形"
+    },
+    {
+      "Id": "ParamBrowLX",
+      "GroupId": "",
+      "Name": "左眉 左右"
+    },
+    {
+      "Id": "ParamBrowLY",
+      "GroupId": "",
+      "Name": "左眉 上下"
+    },
+    {
+      "Id": "ParamBrowRAngle",
+      "GroupId": "",
+      "Name": "右眉 角度"
+    },
+    {
+      "Id": "ParamBrowRForm",
+      "GroupId": "",
+      "Name": "右眉 変形"
+    },
+    {
+      "Id": "ParamBrowRX",
+      "GroupId": "",
+      "Name": "右眉 左右"
+    },
+    {
+      "Id": "ParamBrowRY",
+      "GroupId": "",
+      "Name": "右眉 上下"
+    },
+    {
+      "Id": "ParamCheek",
+      "GroupId": "",
+      "Name": "脸颊泛红"
+    },
+    {
+      "Id": "ParamEyeBallX",
+      "GroupId": "",
+      "Name": "眼珠 X"
+    },
+    {
+      "Id": "ParamEyeBallY",
+      "GroupId": "",
+      "Name": "眼珠 Y"
+    },
+    {
+      "Id": "ParamEyeLOpen",
+      "GroupId": "",
+      "Name": "左眼 开闭"
+    },
+    {
+      "Id": "ParamEyeLSmile",
+      "GroupId": "",
+      "Name": "左眼 微笑"
+    },
+    {
+      "Id": "ParamEyeROpen",
+      "GroupId": "",
+      "Name": "右眼 开闭"
+    },
+    {
+      "Id": "ParamEyeRSmile",
+      "GroupId": "",
+      "Name": "右眼 微笑"
+    },
+    {
+      "Id": "ParamMouthForm",
+      "GroupId": "",
+      "Name": "嘴 变形"
+    },
+    {
+      "Id": "ParamMouthOpenY",
+      "GroupId": "",
+      "Name": "嘴 开闭"
+    },
+    {
+      "Id": "qian1",
+      "GroupId": "",
+      "Name": "5"
+    },
+    {
+      "Id": "qian10",
+      "GroupId": "",
+      "Name": "1大小"
+    },
+    {
+      "Id": "qian11",
+      "GroupId": "",
+      "Name": "1"
+    },
+    {
+      "Id": "qian2",
+      "GroupId": "",
+      "Name": "0X"
+    },
+    {
+      "Id": "qian3",
+      "GroupId": "",
+      "Name": "0Y"
+    },
+    {
+      "Id": "qian4",
+      "GroupId": "",
+      "Name": "0大小"
+    },
+    {
+      "Id": "qian5",
+      "GroupId": "",
+      "Name": "0"
+    },
+    {
+      "Id": "qian6",
+      "GroupId": "",
+      "Name": "2Y"
+    },
+    {
+      "Id": "qian7",
+      "GroupId": "",
+      "Name": "2大小"
+    },
+    {
+      "Id": "qian8",
+      "GroupId": "",
+      "Name": "2"
+    },
+    {
+      "Id": "qian9",
+      "GroupId": "",
+      "Name": "1Y"
+    }
+  ],
+  "ParameterGroups": [],
+  "Parts": [
+    {
+      "Id": "back_hair",
+      "Name": "juese"
+    },
+    {
+      "Id": "back_hair1",
+      "Name": "face"
+    },
+    {
+      "Id": "back_hair2",
+      "Name": "back_hair1"
+    },
+    {
+      "Id": "biyan2",
+      "Name": "guajian"
+    },
+    {
+      "Id": "bi_babt",
+      "Name": "shoubi"
+    },
+    {
+      "Id": "bj",
+      "Name": "back_hair"
+    },
+    {
+      "Id": "Body",
+      "Name": "yanjing"
+    },
+    {
+      "Id": "body_down",
+      "Name": "lip"
+    },
+    {
+      "Id": "clothes",
+      "Name": "nose"
+    },
+    {
+      "Id": "collar",
+      "Name": "ear"
+    },
+    {
+      "Id": "daimao",
+      "Name": "R_shou1"
+    },
+    {
+      "Id": "ear",
+      "Name": "daimao"
+    },
+    {
+      "Id": "eyebrow",
+      "Name": "shu"
+    },
+    {
+      "Id": "face",
+      "Name": "wuguan"
+    },
+    {
+      "Id": "faqia",
+      "Name": "R_hand"
+    },
+    {
+      "Id": "front_hair",
+      "Name": "faqia"
+    },
+    {
+      "Id": "guajian",
+      "Name": "bi_babt"
+    },
+    {
+      "Id": "hudiejie",
+      "Name": "L_xiaobi"
+    },
+    {
+      "Id": "juese",
+      "Name": "ultra_qian"
+    },
+    {
+      "Id": "lip",
+      "Name": "L_eye"
+    },
+    {
+      "Id": "L_eye",
+      "Name": "biyan"
+    },
+    {
+      "Id": "L_hand",
+      "Name": "body_down"
+    },
+    {
+      "Id": "L_wrist",
+      "Name": "side_hair"
+    },
+    {
+      "Id": "L_xiaobi",
+      "Name": "clothes"
+    },
+    {
+      "Id": "neck",
+      "Name": "Body"
+    },
+    {
+      "Id": "nose",
+      "Name": "R_eye"
+    },
+    {
+      "Id": "Part2",
+      "Name": "zhuoyi"
+    },
+    {
+      "Id": "qj",
+      "Name": "UI"
+    },
+    {
+      "Id": "R_eye",
+      "Name": "eyebrow"
+    },
+    {
+      "Id": "R_hand",
+      "Name": "ultra_hou"
+    },
+    {
+      "Id": "R_shou1",
+      "Name": "bj"
+    },
+    {
+      "Id": "shoubi",
+      "Name": "neck"
+    },
+    {
+      "Id": "shu",
+      "Name": "back_hair2"
+    },
+    {
+      "Id": "side_hair",
+      "Name": "front_hair"
+    },
+    {
+      "Id": "wuguan",
+      "Name": "L_wrist"
+    },
+    {
+      "Id": "xiaozui",
+      "Name": "L_hand"
+    },
+    {
+      "Id": "yanjing",
+      "Name": "collar"
+    },
+    {
+      "Id": "zhuoyi",
+      "Name": "qj"
+    }
+  ]
+}

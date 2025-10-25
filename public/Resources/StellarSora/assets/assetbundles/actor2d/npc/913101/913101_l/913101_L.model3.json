@@ -1,0 +1,51 @@
+{
+  "Version": 3,
+  "Name": "913101_L",
+  "FileReferences": {
+    "Moc": "913101_L.moc3",
+    "Textures": [
+      "textures/texture_00.png",
+      "textures/texture_01.png"
+    ],
+    "Physics": "913101_L.physics3.json",
+    "Pose": null,
+    "DisplayInfo": "913101_L.cdi3.json",
+    "Motions": {
+      "idle": [
+        {
+          "File": "motions/idle.motion3.json"
+        }
+      ],
+      "idle in": [
+        {
+          "File": "motions/idle in.motion3.json"
+        }
+      ],
+      "touch_1": [
+        {
+          "File": "motions/touch_1.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeLOpen2",
+        "ParamEyeROpen",
+        "ParamEyeROpen2"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

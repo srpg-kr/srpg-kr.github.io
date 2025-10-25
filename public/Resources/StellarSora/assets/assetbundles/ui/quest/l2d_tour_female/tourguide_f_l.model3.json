@@ -1,0 +1,45 @@
+{
+  "Version": 3,
+  "Name": "tourguide_f_l",
+  "FileReferences": {
+    "Moc": "tourguide_f_l.moc3",
+    "Textures": [
+      "textures/texture_00.png",
+      "textures/texture_01.png",
+      "textures/texture_02.png"
+    ],
+    "Physics": "tourguide_f_l.physics3.json",
+    "Pose": null,
+    "DisplayInfo": "tourguide_f_l.cdi3.json",
+    "Motions": {
+      "tourguide_f_idle": [
+        {
+          "File": "motions/tourguide_f_idle.motion3.json"
+        }
+      ],
+      "tourguide_f_in": [
+        {
+          "File": "motions/tourguide_f_in.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

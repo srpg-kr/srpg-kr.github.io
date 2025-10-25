@@ -1,0 +1,131 @@
+{
+  "Version": 3,
+  "Parameters": [
+    {
+      "Id": "ParamAll",
+      "GroupId": "",
+      "Name": "全部摇"
+    },
+    {
+      "Id": "ParamAllSizeB",
+      "GroupId": "",
+      "Name": "B镜头大小"
+    },
+    {
+      "Id": "ParamAllXB",
+      "GroupId": "",
+      "Name": "B镜头X"
+    },
+    {
+      "Id": "ParamAllYB",
+      "GroupId": "",
+      "Name": "B镜头Y"
+    },
+    {
+      "Id": "ParamDollB",
+      "GroupId": "",
+      "Name": "B公仔"
+    },
+    {
+      "Id": "ParamFootAngleLB",
+      "GroupId": "",
+      "Name": "B左足旋转"
+    },
+    {
+      "Id": "ParamFootAngleRB",
+      "GroupId": "",
+      "Name": "B右足旋转"
+    },
+    {
+      "Id": "ParamFootRB",
+      "GroupId": "",
+      "Name": "B右足"
+    },
+    {
+      "Id": "ParamLegAngleLB",
+      "GroupId": "",
+      "Name": "B左腿旋转"
+    },
+    {
+      "Id": "ParamLegAngleRB",
+      "GroupId": "",
+      "Name": "B右腿旋转"
+    },
+    {
+      "Id": "ParamLegZRB",
+      "GroupId": "",
+      "Name": "B右腿Z"
+    },
+    {
+      "Id": "ParamShinkAngleLB",
+      "GroupId": "",
+      "Name": "B左小腿旋转"
+    },
+    {
+      "Id": "ParamShinkAngleRB",
+      "GroupId": "",
+      "Name": "B右小腿旋转"
+    },
+    {
+      "Id": "ParamShinkZRB",
+      "GroupId": "",
+      "Name": "B右小腿Z"
+    },
+    {
+      "Id": "ParamToeB1",
+      "GroupId": "",
+      "Name": "B脚趾1"
+    },
+    {
+      "Id": "ParamToeB2",
+      "GroupId": "",
+      "Name": "B脚趾2"
+    },
+    {
+      "Id": "ParamToeB3",
+      "GroupId": "",
+      "Name": "B脚趾3"
+    },
+    {
+      "Id": "ParamToeB4",
+      "GroupId": "",
+      "Name": "B脚趾4"
+    },
+    {
+      "Id": "ParamToeB5",
+      "GroupId": "",
+      "Name": "B脚趾5"
+    }
+  ],
+  "ParameterGroups": [],
+  "Parts": [
+    {
+      "Id": "B",
+      "Name": "B"
+    },
+    {
+      "Id": "B_L_shink_Skinning",
+      "Name": "B_L_shink(蒙皮)"
+    },
+    {
+      "Id": "B_L_toe_3_Skinning",
+      "Name": "B_L_toe_3(蒙皮)"
+    },
+    {
+      "Id": "B_L_toe_4_Skinning",
+      "Name": "B_L_toe_4(蒙皮)"
+    },
+    {
+      "Id": "B_L_toe_6_Skinning",
+      "Name": "B_L_toe_6(蒙皮)"
+    },
+    {
+      "Id": "B_R_foot_Skinning",
+      "Name": "B_R_foot(蒙皮)"
+    },
+    {
+      "Id": "B_R_shink_Skinning",
+      "Name": "B_R_shink(蒙皮)"
+    }
+  ]
+}

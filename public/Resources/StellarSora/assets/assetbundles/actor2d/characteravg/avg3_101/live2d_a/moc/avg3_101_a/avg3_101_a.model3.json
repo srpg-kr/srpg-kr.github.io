@@ -1,0 +1,34 @@
+{
+  "Version": 3,
+  "Name": "avg3_101_a",
+  "FileReferences": {
+    "Moc": "avg3_101_a.moc3",
+    "Textures": [
+      "textures/texture_00.png",
+      "textures/texture_01.png",
+      "textures/texture_02.png",
+      "textures/texture_03.png"
+    ],
+    "Physics": "avg3_101_a.physics3.json",
+    "Pose": null,
+    "DisplayInfo": "avg3_101_a.cdi3.json",
+    "Motions": {},
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

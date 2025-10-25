@@ -1,0 +1,33 @@
+{
+  "Version": 3,
+  "Name": "createplayer_M",
+  "FileReferences": {
+    "Moc": "createplayer_M.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": "createplayer_M.physics3.json",
+    "Pose": null,
+    "DisplayInfo": "createplayer_M.cdi3.json",
+    "Motions": {
+      "createplayer1_M_idle": [
+        {
+          "File": "motions/createplayer1_M_idle.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": []
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": []
+    }
+  ]
+}

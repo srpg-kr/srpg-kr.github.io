@@ -1,0 +1,702 @@
+{
+  "Version": 3,
+  "Parameters": [
+    {
+      "Id": "Param",
+      "GroupId": "",
+      "Name": "左 大臂"
+    },
+    {
+      "Id": "Param10",
+      "GroupId": "",
+      "Name": "裙子前wl"
+    },
+    {
+      "Id": "Param11",
+      "GroupId": "",
+      "Name": "星星 x"
+    },
+    {
+      "Id": "Param12",
+      "GroupId": "",
+      "Name": "星星 y"
+    },
+    {
+      "Id": "Param13",
+      "GroupId": "",
+      "Name": "星星 动画"
+    },
+    {
+      "Id": "Param14",
+      "GroupId": "",
+      "Name": "裙子前wl"
+    },
+    {
+      "Id": "Param15",
+      "GroupId": "",
+      "Name": "裙子后wl"
+    },
+    {
+      "Id": "Param16",
+      "GroupId": "",
+      "Name": "衣服蝴蝶结wl1"
+    },
+    {
+      "Id": "Param17",
+      "GroupId": "",
+      "Name": "衣服蝴蝶结wl2"
+    },
+    {
+      "Id": "Param18",
+      "GroupId": "",
+      "Name": "裙子后wl"
+    },
+    {
+      "Id": "Param19",
+      "GroupId": "",
+      "Name": "衣服蝴蝶结wl1"
+    },
+    {
+      "Id": "Param2",
+      "GroupId": "",
+      "Name": "左 小臂"
+    },
+    {
+      "Id": "Param20",
+      "GroupId": "",
+      "Name": "衣服蝴蝶结wl2"
+    },
+    {
+      "Id": "Param21",
+      "GroupId": "",
+      "Name": "衣服蝴蝶结wl1"
+    },
+    {
+      "Id": "Param22",
+      "GroupId": "",
+      "Name": "衣服蝴蝶结wl2"
+    },
+    {
+      "Id": "Param23",
+      "GroupId": "",
+      "Name": "发光"
+    },
+    {
+      "Id": "Param24",
+      "GroupId": "",
+      "Name": "发光"
+    },
+    {
+      "Id": "Param25",
+      "GroupId": "",
+      "Name": "嘴切"
+    },
+    {
+      "Id": "Param3",
+      "GroupId": "",
+      "Name": "左 手"
+    },
+    {
+      "Id": "Param4",
+      "GroupId": "",
+      "Name": "左 手动画"
+    },
+    {
+      "Id": "Param5",
+      "GroupId": "",
+      "Name": "左 手动画"
+    },
+    {
+      "Id": "Param58",
+      "GroupId": "",
+      "Name": "胸x"
+    },
+    {
+      "Id": "Param6",
+      "GroupId": "",
+      "Name": "右 大臂"
+    },
+    {
+      "Id": "Param61",
+      "GroupId": "",
+      "Name": "胸y"
+    },
+    {
+      "Id": "Param64",
+      "GroupId": "",
+      "Name": "【物理】全局"
+    },
+    {
+      "Id": "Param67",
+      "GroupId": "",
+      "Name": "左 眼睛wl"
+    },
+    {
+      "Id": "Param68",
+      "GroupId": "",
+      "Name": "右 眼睛wl"
+    },
+    {
+      "Id": "Param69",
+      "GroupId": "",
+      "Name": "左 眼睛wl"
+    },
+    {
+      "Id": "Param7",
+      "GroupId": "",
+      "Name": "右 小臂"
+    },
+    {
+      "Id": "Param70",
+      "GroupId": "",
+      "Name": "右 眼睛wl"
+    },
+    {
+      "Id": "Param71",
+      "GroupId": "",
+      "Name": "----------------------------------------------"
+    },
+    {
+      "Id": "Param75",
+      "GroupId": "",
+      "Name": "--------------------------------------------"
+    },
+    {
+      "Id": "Param76",
+      "GroupId": "",
+      "Name": "-------------------------------------------"
+    },
+    {
+      "Id": "Param77",
+      "GroupId": "",
+      "Name": "-----------------------------------------"
+    },
+    {
+      "Id": "Param8",
+      "GroupId": "",
+      "Name": "右 手"
+    },
+    {
+      "Id": "Param81",
+      "GroupId": "",
+      "Name": "星星 发光"
+    },
+    {
+      "Id": "Param9",
+      "GroupId": "",
+      "Name": "右 手动画"
+    },
+    {
+      "Id": "ParamAngleX",
+      "GroupId": "",
+      "Name": "角度 X"
+    },
+    {
+      "Id": "ParamAngleY",
+      "GroupId": "",
+      "Name": "角度 Y"
+    },
+    {
+      "Id": "ParamAngleZ",
+      "GroupId": "",
+      "Name": "角度 Z"
+    },
+    {
+      "Id": "ParamBodyAngleX",
+      "GroupId": "",
+      "Name": "身体旋转　X"
+    },
+    {
+      "Id": "ParamBodyAngleY",
+      "GroupId": "",
+      "Name": "身体旋转　Y"
+    },
+    {
+      "Id": "ParamBodyAngleZ",
+      "GroupId": "",
+      "Name": "身体旋转　Z"
+    },
+    {
+      "Id": "ParamBodyAngleZ2",
+      "GroupId": "",
+      "Name": "身体旋转　Z"
+    },
+    {
+      "Id": "ParamBodyAngleZ3",
+      "GroupId": "",
+      "Name": "身体旋转　Z"
+    },
+    {
+      "Id": "ParamBodyAngleZ4",
+      "GroupId": "",
+      "Name": "身体旋转　Z"
+    },
+    {
+      "Id": "ParamBreath",
+      "GroupId": "",
+      "Name": "呼吸"
+    },
+    {
+      "Id": "ParamBrowLForm",
+      "GroupId": "",
+      "Name": "左眉　変形"
+    },
+    {
+      "Id": "ParamBrowRForm",
+      "GroupId": "",
+      "Name": "右眉　変形"
+    },
+    {
+      "Id": "ParamEyeLOpen",
+      "GroupId": "",
+      "Name": "左眼　开闭"
+    },
+    {
+      "Id": "ParamEyeROpen",
+      "GroupId": "",
+      "Name": "右眼　开闭"
+    },
+    {
+      "Id": "ParamHairFront",
+      "GroupId": "",
+      "Name": "摇动 前发1"
+    },
+    {
+      "Id": "ParamHairFront10",
+      "GroupId": "",
+      "Name": "摇动 前发4"
+    },
+    {
+      "Id": "ParamHairFront11",
+      "GroupId": "",
+      "Name": "摇动 前发5"
+    },
+    {
+      "Id": "ParamHairFront12",
+      "GroupId": "",
+      "Name": "摇动 前发6"
+    },
+    {
+      "Id": "ParamHairFront14",
+      "GroupId": "",
+      "Name": "摇动 前发7"
+    },
+    {
+      "Id": "ParamHairFront15",
+      "GroupId": "",
+      "Name": "摇动 前发7"
+    },
+    {
+      "Id": "ParamHairFront16",
+      "GroupId": "",
+      "Name": "摇动 前发8"
+    },
+    {
+      "Id": "ParamHairFront17",
+      "GroupId": "",
+      "Name": "摇动 前发8"
+    },
+    {
+      "Id": "ParamHairFront18",
+      "GroupId": "",
+      "Name": "摇动 前发9"
+    },
+    {
+      "Id": "ParamHairFront2",
+      "GroupId": "",
+      "Name": "摇动 前发5"
+    },
+    {
+      "Id": "ParamHairFront20",
+      "GroupId": "",
+      "Name": "摇动 前发10"
+    },
+    {
+      "Id": "ParamHairFront21",
+      "GroupId": "",
+      "Name": "摇动 前发10"
+    },
+    {
+      "Id": "ParamHairFront22",
+      "GroupId": "",
+      "Name": "摇动 前发11"
+    },
+    {
+      "Id": "ParamHairFront23",
+      "GroupId": "",
+      "Name": "摇动 前发12"
+    },
+    {
+      "Id": "ParamHairFront24",
+      "GroupId": "",
+      "Name": "摇动 前发11"
+    },
+    {
+      "Id": "ParamHairFront25",
+      "GroupId": "",
+      "Name": "摇动 前发12"
+    },
+    {
+      "Id": "ParamHairFront26",
+      "GroupId": "",
+      "Name": "摇动 前发13"
+    },
+    {
+      "Id": "ParamHairFront27",
+      "GroupId": "",
+      "Name": "摇动 前发13"
+    },
+    {
+      "Id": "ParamHairFront28",
+      "GroupId": "",
+      "Name": "摇动 前发14"
+    },
+    {
+      "Id": "ParamHairFront29",
+      "GroupId": "",
+      "Name": "摇动 前发14"
+    },
+    {
+      "Id": "ParamHairFront3",
+      "GroupId": "",
+      "Name": "摇动 前发3"
+    },
+    {
+      "Id": "ParamHairFront30",
+      "GroupId": "",
+      "Name": "摇动 前发15"
+    },
+    {
+      "Id": "ParamHairFront31",
+      "GroupId": "",
+      "Name": "摇动 前发15"
+    },
+    {
+      "Id": "ParamHairFront32",
+      "GroupId": "",
+      "Name": "摇动 前发16"
+    },
+    {
+      "Id": "ParamHairFront33",
+      "GroupId": "",
+      "Name": "摇动 前发16"
+    },
+    {
+      "Id": "ParamHairFront34",
+      "GroupId": "",
+      "Name": "摇动 前发17"
+    },
+    {
+      "Id": "ParamHairFront35",
+      "GroupId": "",
+      "Name": "摇动 前发17"
+    },
+    {
+      "Id": "ParamHairFront36",
+      "GroupId": "",
+      "Name": "摇动 前发18"
+    },
+    {
+      "Id": "ParamHairFront37",
+      "GroupId": "",
+      "Name": "摇动 前发19"
+    },
+    {
+      "Id": "ParamHairFront38",
+      "GroupId": "",
+      "Name": "摇动 前发1"
+    },
+    {
+      "Id": "ParamHairFront39",
+      "GroupId": "",
+      "Name": "摇动 前发2"
+    },
+    {
+      "Id": "ParamHairFront4",
+      "GroupId": "",
+      "Name": "摇动 前发1"
+    },
+    {
+      "Id": "ParamHairFront40",
+      "GroupId": "",
+      "Name": "摇动 前发3"
+    },
+    {
+      "Id": "ParamHairFront41",
+      "GroupId": "",
+      "Name": "摇动 前发4"
+    },
+    {
+      "Id": "ParamHairFront42",
+      "GroupId": "",
+      "Name": "摇动 前发5"
+    },
+    {
+      "Id": "ParamHairFront43",
+      "GroupId": "",
+      "Name": "摇动 前发6"
+    },
+    {
+      "Id": "ParamHairFront44",
+      "GroupId": "",
+      "Name": "摇动 前发7"
+    },
+    {
+      "Id": "ParamHairFront45",
+      "GroupId": "",
+      "Name": "摇动 前发16-2"
+    },
+    {
+      "Id": "ParamHairFront46",
+      "GroupId": "",
+      "Name": "摇动 前发9"
+    },
+    {
+      "Id": "ParamHairFront47",
+      "GroupId": "",
+      "Name": "摇动 前发1-2"
+    },
+    {
+      "Id": "ParamHairFront48",
+      "GroupId": "",
+      "Name": "摇动 前发1-2"
+    },
+    {
+      "Id": "ParamHairFront49",
+      "GroupId": "",
+      "Name": "摇动 前发1-2"
+    },
+    {
+      "Id": "ParamHairFront5",
+      "GroupId": "",
+      "Name": "摇动 前发2"
+    },
+    {
+      "Id": "ParamHairFront50",
+      "GroupId": "",
+      "Name": "摇动 前发1-3"
+    },
+    {
+      "Id": "ParamHairFront51",
+      "GroupId": "",
+      "Name": "摇动 前发1-3"
+    },
+    {
+      "Id": "ParamHairFront52",
+      "GroupId": "",
+      "Name": "摇动 前发1-3"
+    },
+    {
+      "Id": "ParamHairFront53",
+      "GroupId": "",
+      "Name": "摇动 前发5"
+    },
+    {
+      "Id": "ParamHairFront54",
+      "GroupId": "",
+      "Name": "摇动 前发16-3"
+    },
+    {
+      "Id": "ParamHairFront55",
+      "GroupId": "",
+      "Name": "摇动 前发16-2"
+    },
+    {
+      "Id": "ParamHairFront56",
+      "GroupId": "",
+      "Name": "摇动 前发16-3"
+    },
+    {
+      "Id": "ParamHairFront57",
+      "GroupId": "",
+      "Name": "摇动 前发20"
+    },
+    {
+      "Id": "ParamHairFront58",
+      "GroupId": "",
+      "Name": "摇动 前发18"
+    },
+    {
+      "Id": "ParamHairFront59",
+      "GroupId": "",
+      "Name": "摇动 前发19"
+    },
+    {
+      "Id": "ParamHairFront6",
+      "GroupId": "",
+      "Name": "摇动 前发4"
+    },
+    {
+      "Id": "ParamHairFront60",
+      "GroupId": "",
+      "Name": "摇动 前发20"
+    },
+    {
+      "Id": "ParamHairFront61",
+      "GroupId": "",
+      "Name": "摇动 前发21"
+    },
+    {
+      "Id": "ParamHairFront62",
+      "GroupId": "",
+      "Name": "摇动 前发22"
+    },
+    {
+      "Id": "ParamHairFront63",
+      "GroupId": "",
+      "Name": "摇动 前发21"
+    },
+    {
+      "Id": "ParamHairFront64",
+      "GroupId": "",
+      "Name": "摇动 前发22"
+    },
+    {
+      "Id": "ParamHairFront65",
+      "GroupId": "",
+      "Name": "摇动 前发23"
+    },
+    {
+      "Id": "ParamHairFront66",
+      "GroupId": "",
+      "Name": "摇动 前发24"
+    },
+    {
+      "Id": "ParamHairFront67",
+      "GroupId": "",
+      "Name": "摇动 前发23"
+    },
+    {
+      "Id": "ParamHairFront68",
+      "GroupId": "",
+      "Name": "摇动 前发24"
+    },
+    {
+      "Id": "ParamHairFront69",
+      "GroupId": "",
+      "Name": "摇动 前发25"
+    },
+    {
+      "Id": "ParamHairFront7",
+      "GroupId": "",
+      "Name": "摇动 前发6"
+    },
+    {
+      "Id": "ParamHairFront70",
+      "GroupId": "",
+      "Name": "摇动 前发26"
+    },
+    {
+      "Id": "ParamHairFront71",
+      "GroupId": "",
+      "Name": "摇动 前发25"
+    },
+    {
+      "Id": "ParamHairFront72",
+      "GroupId": "",
+      "Name": "摇动 前发26"
+    },
+    {
+      "Id": "ParamHairFront8",
+      "GroupId": "",
+      "Name": "摇动 前发2"
+    },
+    {
+      "Id": "ParamHairFront9",
+      "GroupId": "",
+      "Name": "摇动 前发3"
+    },
+    {
+      "Id": "ParamMouthOpenY",
+      "GroupId": "",
+      "Name": "嘴　张开和闭合"
+    }
+  ],
+  "ParameterGroups": [],
+  "Parts": [
+    {
+      "Id": "ahoge",
+      "Name": "ahoge"
+    },
+    {
+      "Id": "body",
+      "Name": "body"
+    },
+    {
+      "Id": "face",
+      "Name": "face"
+    },
+    {
+      "Id": "hairback",
+      "Name": "hairback"
+    },
+    {
+      "Id": "hairfront",
+      "Name": "hairfront"
+    },
+    {
+      "Id": "L_hand",
+      "Name": "L_hand"
+    },
+    {
+      "Id": "Part",
+      "Name": "千都世"
+    },
+    {
+      "Id": "Part10",
+      "Name": "2_hairside"
+    },
+    {
+      "Id": "Part11",
+      "Name": "千都世"
+    },
+    {
+      "Id": "Part12",
+      "Name": "cloes eyes"
+    },
+    {
+      "Id": "Part13",
+      "Name": "2_R_eye2"
+    },
+    {
+      "Id": "Part2",
+      "Name": "facial features"
+    },
+    {
+      "Id": "Part21",
+      "Name": "千都世.psd(未找到对应图层)"
+    },
+    {
+      "Id": "Part6",
+      "Name": "open eyes"
+    },
+    {
+      "Id": "Part7",
+      "Name": "2_L_eye2"
+    },
+    {
+      "Id": "Part8",
+      "Name": "2_R_eye"
+    },
+    {
+      "Id": "Part9",
+      "Name": "1_hairside"
+    },
+    {
+      "Id": "R_hand",
+      "Name": "R_hand"
+    },
+    {
+      "Id": "R_palm",
+      "Name": "R_palm"
+    },
+    {
+      "Id": "R_palm2",
+      "Name": "R_palm"
+    },
+    {
+      "Id": "stone",
+      "Name": "stone"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "Version": 3,
+  "Meta": {
+    "Duration": 1.833,
+    "Fps": 30.0,
+    "Loop": true,
+    "AreBeziersRestricted": true,
+    "FadeInTime": 0.0,
+    "FadeOutTime": 0.0,
+    "CurveCount": 6,
+    "TotalSegmentCount": 13,
+    "TotalPointCount": 31,
+    "UserDataCount": 0,
+    "TotalUserDataSize": 0
+  },
+  "Curves": [
+    {
+      "Target": "Parameter",
+      "Id": "ParamAll",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
+      "Segments": [
+        0,
+        -30,
+        0,
+        0.867,
+        30,
+        0,
+        1.833,
+        -30
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamBodyAngleXB",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
+      "Segments": [
+        0,
+        -2,
+        0,
+        0.5,
+        -2,
+        1,
+        0.722,
+        -2,
+        0.945,
+        -5.996,
+        1.167,
+        -6.64,
+        1,
+        1.389,
+        -7.284,
+        1.611,
+        -7.18,
+        1.833,
+        -7.18
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamBodyAngleYB",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
+      "Segments": [
+        0,
+        -10,
+        0,
+        0.567,
+        -10,
+        1,
+        0.789,
+        -10,
+        1.011,
+        3.059,
+        1.233,
+        4,
+        1,
+        1.433,
+        4.847,
+        1.633,
+        4.64,
+        1.833,
+        4.64
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamBodyAngleZB",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
+      "Segments": [
+        0,
+        -5,
+        0,
+        0.5,
+        -5,
+        1,
+        0.722,
+        -5,
+        0.945,
+        -8.901,
+        1.167,
+        -9.5,
+        1,
+        1.389,
+        -10,
+        1.611,
+        -10,
+        1.833,
+        -10
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamWristAngleLB",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
+      "Segments": [
+        0,
+        0,
+        0,
+        1.833,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamFrontWristAngleLB",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
+      "Segments": [
+        0,
+        0,
+        0,
+        1.833,
+        0
+      ]
+    }
+  ],
+  "UserData": []
+}

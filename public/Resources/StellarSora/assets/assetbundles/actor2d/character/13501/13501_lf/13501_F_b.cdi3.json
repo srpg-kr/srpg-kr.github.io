@@ -1,0 +1,79 @@
+{
+  "Version": 3,
+  "Parameters": [
+    {
+      "Id": "ParamAllFB",
+      "GroupId": "",
+      "Name": "全部大小"
+    },
+    {
+      "Id": "ParamAllSizeS",
+      "GroupId": "",
+      "Name": "整体大小"
+    },
+    {
+      "Id": "ParamAllX",
+      "GroupId": "",
+      "Name": "全部X"
+    },
+    {
+      "Id": "ParamAllY",
+      "GroupId": "",
+      "Name": "全部Y"
+    },
+    {
+      "Id": "ParamFinger",
+      "GroupId": "",
+      "Name": "指"
+    },
+    {
+      "Id": "ParamHand",
+      "GroupId": "",
+      "Name": "手"
+    },
+    {
+      "Id": "ParamSleeve",
+      "GroupId": "",
+      "Name": "袖"
+    },
+    {
+      "Id": "ParamWrist",
+      "GroupId": "",
+      "Name": "腕"
+    },
+    {
+      "Id": "Param_Angle_Rotation15",
+      "GroupId": "",
+      "Name": "[0]袖"
+    },
+    {
+      "Id": "Param_Angle_Rotation16",
+      "GroupId": "",
+      "Name": "[1]袖"
+    },
+    {
+      "Id": "Param_Angle_Rotation17",
+      "GroupId": "",
+      "Name": "[2]袖"
+    }
+  ],
+  "ParameterGroups": [],
+  "Parts": [
+    {
+      "Id": "sleeve_1_Skinning",
+      "Name": "[ 参考图 ]"
+    },
+    {
+      "Id": "sleeve_2_Skinning",
+      "Name": "sleeve_1(蒙皮)"
+    },
+    {
+      "Id": "sleeve_4_Skinning",
+      "Name": "sleeve_2(蒙皮)"
+    },
+    {
+      "Id": "wuyu_B",
+      "Name": "wuyu_B"
+    }
+  ]
+}

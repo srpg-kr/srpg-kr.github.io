@@ -1,0 +1,64 @@
+{
+  "Version": 3,
+  "Name": "917202_L",
+  "FileReferences": {
+    "Moc": "917202_L.moc3",
+    "Textures": [
+      "textures/texture_00.png",
+      "textures/texture_01.png"
+    ],
+    "Physics": "917202_L.physics3.json",
+    "Pose": null,
+    "DisplayInfo": "917202_L.cdi3.json",
+    "Motions": {
+      "chat_a": [
+        {
+          "File": "motions/chat_a.motion3.json"
+        }
+      ],
+      "chat_b": [
+        {
+          "File": "motions/chat_b.motion3.json"
+        }
+      ],
+      "chat_c": [
+        {
+          "File": "motions/chat_c.motion3.json"
+        }
+      ],
+      "chat_d": [
+        {
+          "File": "motions/chat_d.motion3.json"
+        }
+      ],
+      "idle": [
+        {
+          "File": "motions/idle.motion3.json"
+        }
+      ],
+      "touch_a": [
+        {
+          "File": "motions/touch_a.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

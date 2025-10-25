@@ -1,0 +1,60 @@
+{
+  "Version": 3,
+  "Name": "13401_F_a",
+  "FileReferences": {
+    "Moc": "13401_F_a.moc3",
+    "Textures": [
+      "textures/texture_00.png",
+      "textures/texture_01.png",
+      "textures/texture_02.png"
+    ],
+    "Physics": "13401_F_a.physics3.json",
+    "Pose": null,
+    "DisplayInfo": "13401_F_a.cdi3.json",
+    "Motions": {
+      "full_1": [
+        {
+          "File": "motions/full_1.motion3.json"
+        }
+      ],
+      "full_2": [
+        {
+          "File": "motions/full_2.motion3.json"
+        }
+      ],
+      "full_4": [
+        {
+          "File": "motions/full_4.motion3.json"
+        }
+      ],
+      "full_idle": [
+        {
+          "File": "motions/full_idle.motion3.json"
+        }
+      ],
+      "idle": [
+        {
+          "File": "motions/idle.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

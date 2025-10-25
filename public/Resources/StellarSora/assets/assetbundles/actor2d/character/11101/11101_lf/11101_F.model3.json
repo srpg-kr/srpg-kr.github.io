@@ -1,0 +1,149 @@
+{
+  "Version": 3,
+  "Name": "11101_F",
+  "FileReferences": {
+    "Moc": "11101_F.moc3",
+    "Textures": [
+      "textures/texture_00.png",
+      "textures/texture_01.png"
+    ],
+    "Physics": "11101_F.physics3.json",
+    "Pose": null,
+    "DisplayInfo": "11101_F.cdi3.json",
+    "Motions": {
+      "full_1": [
+        {
+          "File": "motions/full_1.motion3.json"
+        }
+      ],
+      "full_2": [
+        {
+          "File": "motions/full_2.motion3.json"
+        }
+      ],
+      "idle": [
+        {
+          "File": "motions/idle.motion3.json"
+        }
+      ],
+      "idle_a_cn": [
+        {
+          "File": "motions/idle_a_cn.motion3.json"
+        }
+      ],
+      "idle_a_jp": [
+        {
+          "File": "motions/idle_a_jp.motion3.json"
+        }
+      ],
+      "idle_b_cn": [
+        {
+          "File": "motions/idle_b_cn.motion3.json"
+        }
+      ],
+      "idle_b_jp": [
+        {
+          "File": "motions/idle_b_jp.motion3.json"
+        }
+      ],
+      "idle_c_cn": [
+        {
+          "File": "motions/idle_c_cn.motion3.json"
+        }
+      ],
+      "idle_c_jp": [
+        {
+          "File": "motions/idle_c_jp.motion3.json"
+        }
+      ],
+      "idle_d_cn": [
+        {
+          "File": "motions/idle_d_cn.motion3.json"
+        }
+      ],
+      "idle_d_jp": [
+        {
+          "File": "motions/idle_d_jp.motion3.json"
+        }
+      ],
+      "special_a": [
+        {
+          "File": "motions/special_a.motion3.json"
+        }
+      ],
+      "special_b": [
+        {
+          "File": "motions/special_b.motion3.json"
+        }
+      ],
+      "vo_111_ui_fullscreen_001_cn": [
+        {
+          "File": "motions/vo_111_ui_fullscreen_001_cn.motion3.json"
+        }
+      ],
+      "vo_111_ui_fullscreen_002_cn": [
+        {
+          "File": "motions/vo_111_ui_fullscreen_002_cn.motion3.json"
+        }
+      ],
+      "vo_cgstory_111_a_cn": [
+        {
+          "File": "motions/vo_cgstory_111_a_cn.motion3.json"
+        }
+      ],
+      "vo_cgstory_111_a_jp": [
+        {
+          "File": "motions/vo_cgstory_111_a_jp.motion3.json"
+        }
+      ],
+      "vo_cgstory_111_b_cn": [
+        {
+          "File": "motions/vo_cgstory_111_b_cn.motion3.json"
+        }
+      ],
+      "vo_cgstory_111_b_jp": [
+        {
+          "File": "motions/vo_cgstory_111_b_jp.motion3.json"
+        }
+      ],
+      "vo_cgstory_111_c_cn": [
+        {
+          "File": "motions/vo_cgstory_111_c_cn.motion3.json"
+        }
+      ],
+      "vo_cgstory_111_c_jp": [
+        {
+          "File": "motions/vo_cgstory_111_c_jp.motion3.json"
+        }
+      ],
+      "vo_cgstory_111_d_cn": [
+        {
+          "File": "motions/vo_cgstory_111_d_cn.motion3.json"
+        }
+      ],
+      "vo_cgstory_111_d_jp": [
+        {
+          "File": "motions/vo_cgstory_111_d_jp.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

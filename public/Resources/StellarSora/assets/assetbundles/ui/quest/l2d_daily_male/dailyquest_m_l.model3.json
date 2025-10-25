@@ -1,0 +1,40 @@
+{
+  "Version": 3,
+  "Name": "dailyquest_m_l",
+  "FileReferences": {
+    "Moc": "dailyquest_m_l.moc3",
+    "Textures": [
+      "textures/texture_00.png",
+      "textures/texture_01.png",
+      "textures/texture_02.png"
+    ],
+    "Physics": "dailyquest_m_l.physics3.json",
+    "Pose": null,
+    "DisplayInfo": "dailyquest_m_l.cdi3.json",
+    "Motions": {
+      "dailyquest_m_idle": [
+        {
+          "File": "motions/dailyquest_m_idle.motion3.json"
+        }
+      ],
+      "dailyquest_m_in": [
+        {
+          "File": "motions/dailyquest_m_in.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": []
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": []
+    }
+  ]
+}

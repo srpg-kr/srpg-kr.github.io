@@ -1,0 +1,33 @@
+{
+  "Version": 3,
+  "Name": "13202_L_b",
+  "FileReferences": {
+    "Moc": "13202_L_b.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": "13202_L_b.physics3.json",
+    "Pose": null,
+    "DisplayInfo": "13202_L_b.cdi3.json",
+    "Motions": {
+      "idle": [
+        {
+          "File": "motions/idle.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": []
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": []
+    }
+  ]
+}

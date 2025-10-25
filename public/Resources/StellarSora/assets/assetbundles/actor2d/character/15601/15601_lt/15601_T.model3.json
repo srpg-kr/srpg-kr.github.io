@@ -1,0 +1,54 @@
+{
+  "Version": 3,
+  "Name": "15601_T",
+  "FileReferences": {
+    "Moc": "15601_T.moc3",
+    "Textures": [
+      "textures/texture_00.png",
+      "textures/texture_01.png"
+    ],
+    "Physics": null,
+    "Pose": null,
+    "DisplayInfo": "15601_T.cdi3.json",
+    "Motions": {
+      "idle_0": [
+        {
+          "File": "motions/idle_0.motion3.json"
+        }
+      ],
+      "idle_0a": [
+        {
+          "File": "motions/idle_0a.motion3.json"
+        }
+      ],
+      "idle_1": [
+        {
+          "File": "motions/idle_1.motion3.json"
+        }
+      ],
+      "idle_2": [
+        {
+          "File": "motions/idle_2.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

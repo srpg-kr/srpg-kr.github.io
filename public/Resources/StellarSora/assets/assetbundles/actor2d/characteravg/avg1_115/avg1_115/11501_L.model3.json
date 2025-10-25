@@ -1,0 +1,57 @@
+{
+  "Version": 3,
+  "Name": "11501_L",
+  "FileReferences": {
+    "Moc": "11501_L.moc3",
+    "Textures": [
+      "textures/texture_00.png",
+      "textures/texture_01.png"
+    ],
+    "Physics": "11501_L.physics3.json",
+    "Pose": null,
+    "DisplayInfo": "11501_L.cdi3.json",
+    "Motions": {
+      "idle": [
+        {
+          "File": "motions/idle.motion3.json"
+        }
+      ],
+      "presents_a": [
+        {
+          "File": "motions/presents_a.motion3.json"
+        }
+      ],
+      "ultra": [
+        {
+          "File": "motions/ultra.motion3.json"
+        }
+      ],
+      "vo_115_ui_standee_001": [
+        {
+          "File": "motions/vo_115_ui_standee_001.motion3.json"
+        }
+      ],
+      "vo_115_ui_standee_002": [
+        {
+          "File": "motions/vo_115_ui_standee_002.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": []
+    }
+  ]
+}
