@@ -10,7 +10,7 @@ import ScreenshotModal from './components/ScreenshotModal';
 import { getAvailableModels } from './live2d/lappdefine';
 import { LAppDelegate } from './live2d/lappdelegate';
 
-function Live2DApp() {
+function Live2DApp({ gameId = 0 }) {
   const [modelList, setModelList] = useState([]);
   const [refreshFlag, setRefreshFlag] = useState(false);
   const [isScreenshotModalOpen, setIsScreenshotModalOpen] = useState(false);
@@ -19,12 +19,39 @@ function Live2DApp() {
   const [isRPanelOpen, setIsRPanelOpen] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const rightPanelRef = useRef(null);
+  const [delegateReadyTick, setDelegateReadyTick] = useState(0);
 
   useEffect(() => {
-    // Retrieve available models from LAppDefine and update state.
-    const models = getAvailableModels();
+    const models = getAvailableModels(gameId);
     setModelList(models);
-  }, []);
+
+    let subdelegate = null;
+    try {
+      subdelegate = LAppDelegate.getInstance().getSubdelegate();
+    } catch (err) {
+      subdelegate = null;
+    }
+    if (subdelegate) {
+      const manager = subdelegate.getLive2DManager();
+      if (manager && typeof manager.setGameIndex === 'function') {
+        const currentGameIndex =
+          typeof manager.getGameIndex === 'function'
+            ? manager.getGameIndex()
+            : gameId;
+        if (currentGameIndex !== gameId) {
+          manager.setGameIndex(gameId);
+          setRefreshFlag(prev => !prev);
+        }
+      }
+      return;
+    }
+
+    const timer = setTimeout(() => {
+      setDelegateReadyTick((prev) => prev + 1);
+    }, 100);
+
+    return () => clearTimeout(timer);
+  }, [gameId, delegateReadyTick]);
 
   // Handler to load a new model when a button is clicked.
   const handleModelSelect = (modelIndex) => {
@@ -34,16 +61,31 @@ function Live2DApp() {
     const live2dManager = LAppDelegate.getInstance()
       .getSubdelegate()
       .getLive2DManager();
-    if (live2dManager && live2dManager.addModel) {
-      live2dManager.addModel(modelIndex);
-      setRefreshFlag(prev => !prev);
+    if (!live2dManager) {
+      return;
     }
+
+    const available = modelList;
+    if (!available || available.length === 0) {
+      return;
+    }
+
+    if (typeof live2dManager.setGameIndex === 'function') {
+      live2dManager.setGameIndex(gameId);
+    }
+
+    const normalizedIndex =
+      ((modelIndex % available.length) + available.length) % available.length;
+    live2dManager.addModel(normalizedIndex);
+    setRefreshFlag(prev => !prev);
   };
 
   const handleOpacityChange = (newValue) => {
     setControlsOpacity(newValue);
     const rightPanel = rightPanelRef.current;
-    rightPanel.style.opacity = newValue;
+    if (rightPanel) {
+      rightPanel.style.opacity = newValue;
+    }
   };
 
   // Capture screenshot handler (existing implementation).
@@ -121,10 +163,10 @@ function Live2DApp() {
           <div className="category-list">
             {modelList.map((model, index) => (
               <button
-                key={`${model}-${index}`}
+                key={`${model.id}-${index}`}
                 onClick={() => handleModelSelect(index)}
               >
-                {model}
+                {model.displayName}
               </button>
             ))}
           </div>

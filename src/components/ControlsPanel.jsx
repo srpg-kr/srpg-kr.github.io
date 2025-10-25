@@ -12,9 +12,16 @@ function ControlsPanel({ refreshFlag }) {
   const [motionGroups, setMotionGroups] = useState([]);
   const [motions, setMotions] = useState([]);
   const [selectedMotionGroup, setSelectedMotionGroup] = useState('');
+  const [selectedMotion, setSelectedMotion] = useState('');
   const [parameters, setParameters] = useState([]);
   const [expParameters, setExpParameters] = useState([]);
   const [eyeBlink, setEyeBlink] = useState(true);
+  const [angleX, setAngleX] = useState(0);
+  const [angleY, setAngleY] = useState(0);
+  const [angleZ, setAngleZ] = useState(0);
+  const [bodyAngleX, setBodyAngleX] = useState(0);
+  const [bodyAngleY, setBodyAngleY] = useState(0);
+  const [bodyAngleZ, setBodyAngleZ] = useState(0);
 
   // This function synchronizes parameters with the current state of the model.
   // It updates both parameters and the baseline expression parameters.
@@ -68,11 +75,19 @@ function ControlsPanel({ refreshFlag }) {
             // Update motion groups and motions.
             const groups = model.getAvailableMotionGroups();
             setMotionGroups(groups);
-            if (groups.length > 0) {
-                setSelectedMotionGroup(groups[0]);
-                const groupMotions = model.getAvailableMotions(groups[0]);
-                setMotions(groupMotions);
-            }
+            const hasGroups = groups.length > 0;
+            const resolvedGroup = groups.includes(selectedMotionGroup)
+              ? selectedMotionGroup
+              : (hasGroups ? groups[0] : '');
+            setSelectedMotionGroup(resolvedGroup);
+            const groupMotions = hasGroups
+              ? model.getAvailableMotions(resolvedGroup)
+              : [];
+            setMotions(groupMotions);
+            const resolvedMotion = groupMotions.includes(selectedMotion)
+              ? selectedMotion
+              : (groupMotions[0] || '');
+            setSelectedMotion(resolvedMotion);
 
             // Update parameters and also store them as baseline.
             if (model.getParameters) {
@@ -83,6 +98,26 @@ function ControlsPanel({ refreshFlag }) {
                 }));
                 setParameters(synced);
                 setExpParameters(synced.map((p) => ({ ...p })));
+            }
+            if (typeof model.getAngles === 'function') {
+                const currentAngles = model.getAngles();
+                setAngleX(currentAngles?.x ?? 0);
+                setAngleY(currentAngles?.y ?? 0);
+                setAngleZ(currentAngles?.z ?? 0);
+            } else {
+                setAngleX(model._dragX ?? 0);
+                setAngleY(model._dragY ?? 0);
+                setAngleZ(model._dragZ ?? 0);
+            }
+            if (typeof model.getBodyAngles === 'function') {
+                const currentBodyAngles = model.getBodyAngles();
+                setBodyAngleX(currentBodyAngles?.x ?? 0);
+                setBodyAngleY(currentBodyAngles?.y ?? 0);
+                setBodyAngleZ(currentBodyAngles?.z ?? 0);
+            } else {
+                setBodyAngleX(model._bodyAngleX ?? 0);
+                setBodyAngleY(model._bodyAngleY ?? 0);
+                setBodyAngleZ(model._bodyAngleZ ?? 0);
             }
             syncEyeBlink(model);
             clearInterval(intervalId);
@@ -138,33 +173,110 @@ function ControlsPanel({ refreshFlag }) {
     if (model) {
       const groupMotions = model.getAvailableMotions(group);
       setMotions(groupMotions);
+      setSelectedMotion(groupMotions[0] || '');
     }
   };
 
   const onMotionFinished = (motion) => {
+  }
+
+  // Motion selection handler: store the currently chosen motion.
+  const handleMotionChange = (e) => {
+    const motionKey = e.target.value; // Expected format: "Group_Index"
+    setSelectedMotion(motionKey);
+  };
+
+  const handleStartMotion = () => {
+    if (!selectedMotion) return;
+    const separator = selectedMotion.lastIndexOf('_');
+    if (separator === -1) {
+      return;
+    }
+    const group = selectedMotion.substring(0, separator);
+    const index = parseInt(selectedMotion.substring(separator + 1), 10);
+    if (Number.isNaN(index)) {
+      return;
+    }
     const model = LAppDelegate.getInstance()
       .getSubdelegate()
       .getLive2DManager()
       .getModel(0);
     if (model) {
-      model.resetParameters();
+      model.startMotion(group, index, 3, onMotionFinished);
     }
-  }
+  };
 
-  // Motion selection handler: start the chosen motion.
-  const handleMotionChange = (e) => {
-    const motionKey = e.target.value; // Expected format: "Group_Index"
-    const parts = motionKey.split('_');
-    if (parts.length === 2) {
-      const group = parts[0];
-      const index = parseInt(parts[1], 10);
-      const model = LAppDelegate.getInstance()
-        .getSubdelegate()
-        .getLive2DManager()
-        .getModel(0);
-      if (model) {
-        // Example: priority 2.
-        model.startMotion(group, index, 2, onMotionFinished);
+  const handleStopMotion = () => {
+    const model = LAppDelegate.getInstance()
+      .getSubdelegate()
+      .getLive2DManager()
+      .getModel(0);
+    if (model && typeof model.stopAllMotions === 'function') {
+      model.stopAllMotions();
+      if (typeof model.resetParameters === 'function') {
+        model.resetParameters();
+      }
+    }
+  };
+
+  const handleAngleChange = (axis, value) => {
+    const clamped = Math.max(-1, Math.min(1, value));
+    if (Number.isNaN(clamped)) {
+      return;
+    }
+    const model = LAppDelegate.getInstance()
+      .getSubdelegate()
+      .getLive2DManager()
+      .getModel(0);
+    const nextAngles = {
+      x: axis === 'x' ? clamped : angleX,
+      y: axis === 'y' ? clamped : angleY,
+      z: axis === 'z' ? clamped : angleZ,
+    };
+    setAngleX(nextAngles.x);
+    setAngleY(nextAngles.y);
+    setAngleZ(nextAngles.z);
+    if (model) {
+      if (typeof model.setAngles === 'function') {
+        model.setAngles(nextAngles.x, nextAngles.y, nextAngles.z);
+      } else if (typeof model.setDrag === 'function') {
+        model.setDrag(nextAngles.x, nextAngles.y, nextAngles.z);
+      } else {
+        model._dragX = nextAngles.x;
+        model._dragY = nextAngles.y;
+        model._dragZ = nextAngles.z;
+      }
+    }
+  };
+
+  const handleBodyAngleChange = (axis, value) => {
+    const clamped = Math.max(-1, Math.min(1, value));
+    if (Number.isNaN(clamped)) {
+      return;
+    }
+    const model = LAppDelegate.getInstance()
+      .getSubdelegate()
+      .getLive2DManager()
+      .getModel(0);
+    const nextBodyAngles = {
+      x: axis === 'x' ? clamped : bodyAngleX,
+      y: axis === 'y' ? clamped : bodyAngleY,
+      z: axis === 'z' ? clamped : bodyAngleZ,
+    };
+    setBodyAngleX(nextBodyAngles.x);
+    setBodyAngleY(nextBodyAngles.y);
+    setBodyAngleZ(nextBodyAngles.z);
+    if (model) {
+      if (typeof model.setBodyAngles === 'function') {
+        model.setBodyAngles(
+          nextBodyAngles.x,
+          nextBodyAngles.y,
+          nextBodyAngles.z
+        );
+      } else {
+        model._bodyAngleX = nextBodyAngles.x;
+        model._bodyAngleY = nextBodyAngles.y;
+        model._bodyAngleZ = nextBodyAngles.z;
       }
     }
   };
@@ -284,13 +396,177 @@ function ControlsPanel({ refreshFlag }) {
       </div>
       <div>
         <label>Motion:</label>
-        <select onChange={handleMotionChange}>
+        <select value={selectedMotion} onChange={handleMotionChange}>
+          <option value="">-- Select Motion --</option>
           {motions.map((motion, idx) => (
             <option key={`${motion}-${idx}`} value={motion}>
               {motion}
             </option>
           ))}
         </select>
+      </div>
+      <div style={{ marginTop: '0.5rem', display: 'flex', gap: '0.5rem' }}>
+        <button onClick={handleStartMotion} disabled={!selectedMotion}>
+          Start Motion
+        </button>
+        <button onClick={handleStopMotion}>
+          Stop Motion
+        </button>
+      </div>
+
+      <h2>Angles</h2>
+      <label style={{ fontWeight: 'bold', display: 'block', marginBottom: '0.5rem' }}>Angle</label>
+      <div style={{ marginBottom: '0.5rem' }}>
+        <label>Angle X:</label>
+        <br />
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+          <input
+            type="range"
+            min="-1"
+            max="1"
+            step="0.01"
+            value={angleX}
+            onChange={(e) => handleAngleChange('x', parseFloat(e.target.value))}
+            style={{ flex: 1 }}
+          />
+          <span style={{ textAlign: 'right' }}>
+            {angleX.toFixed(2)}
+          </span>
+          <button
+            type="button"
+            onClick={() => handleAngleChange('x', 0)}
+            style={{ flex: '0 0 auto', width: 'auto' }}
+          >
+            Reset
+          </button>
+        </div>
+      </div>
+      <div style={{ marginBottom: '0.5rem' }}>
+        <label>Angle Y:</label>
+        <br />
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+          <input
+            type="range"
+            min="-1"
+            max="1"
+            step="0.01"
+            value={angleY}
+            onChange={(e) => handleAngleChange('y', parseFloat(e.target.value))}
+            style={{ flex: 1 }}
+          />
+          <span style={{ textAlign: 'right' }}>
+            {angleY.toFixed(2)}
+          </span>
+          <button
+            type="button"
+            onClick={() => handleAngleChange('y', 0)}
+            style={{ flex: '0 0 auto', width: 'auto' }}
+          >
+            Reset
+          </button>
+        </div>
+      </div>
+      <div style={{ marginBottom: '0.75rem' }}>
+        <label>Angle Z:</label>
+        <br />
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+          <input
+            type="range"
+            min="-1"
+            max="1"
+            step="0.01"
+            value={angleZ}
+            onChange={(e) => handleAngleChange('z', parseFloat(e.target.value))}
+            style={{ flex: 1 }}
+          />
+          <span style={{ textAlign: 'right' }}>
+            {angleZ.toFixed(2)}
+          </span>
+          <button
+            type="button"
+            onClick={() => handleAngleChange('z', 0)}
+            style={{ flex: '0 0 auto', width: 'auto' }}
+          >
+            Reset
+          </button>
+        </div>
+      </div>
+
+      <label style={{ fontWeight: 'bold', display: 'block', marginBottom: '0.5rem' }}>Body Angle</label>
+      <div style={{ marginBottom: '0.5rem' }}>
+        <label>Body X:</label>
+        <br />
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+          <input
+            type="range"
+            min="-1"
+            max="1"
+            step="0.01"
+            value={bodyAngleX}
+            onChange={(e) => handleBodyAngleChange('x', parseFloat(e.target.value))}
+            style={{ flex: 1 }}
+          />
+          <span style={{ textAlign: 'right' }}>
+            {bodyAngleX.toFixed(2)}
+          </span>
+          <button
+            type="button"
+            onClick={() => handleBodyAngleChange('x', 0)}
+            style={{ flex: '0 0 auto', width: 'auto' }}
+          >
+            Reset
+          </button>
+        </div>
+      </div>
+      <div style={{ marginBottom: '0.5rem' }}>
+        <label>Body Y:</label>
+        <br />
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+          <input
+            type="range"
+            min="-1"
+            max="1"
+            step="0.01"
+            value={bodyAngleY}
+            onChange={(e) => handleBodyAngleChange('y', parseFloat(e.target.value))}
+            style={{ flex: 1 }}
+          />
+          <span style={{ textAlign: 'right' }}>
+            {bodyAngleY.toFixed(2)}
+          </span>
+          <button
+            type="button"
+            onClick={() => handleBodyAngleChange('y', 0)}
+            style={{ flex: '0 0 auto', width: 'auto' }}
+          >
+            Reset
+          </button>
+        </div>
+      </div>
+      <div style={{ marginBottom: '0.75rem' }}>
+        <label>Body Z:</label>
+        <br />
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+          <input
+            type="range"
+            min="-1"
+            max="1"
+            step="0.01"
+            value={bodyAngleZ}
+            onChange={(e) => handleBodyAngleChange('z', parseFloat(e.target.value))}
+            style={{ flex: 1 }}
+          />
+          <span style={{ textAlign: 'right' }}>
+            {bodyAngleZ.toFixed(2)}
+          </span>
+          <button
+            type="button"
+            onClick={() => handleBodyAngleChange('z', 0)}
+            style={{ flex: '0 0 auto', width: 'auto' }}
+          >
+            Reset
+          </button>
+        </div>
       </div>
 
       <h2>Eye Blink</h2>

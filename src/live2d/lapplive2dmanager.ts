@@ -129,7 +129,13 @@ export class LAppLive2DManager {
    * サンプルアプリケーションではモデルセットの切り替えを行う。
    */
   public nextScene(): void {
-    const no: number = (this._sceneIndex + 1) % LAppDefine.ModelDirSize;
+    const available = LAppDefine.getAvailableModels(this._gameIndex);
+    if (available.length === 0) {
+      this.releaseAllModel();
+      this._sceneIndex = 0;
+      return;
+    }
+    const no: number = (this._sceneIndex + 1) % available.length;
     this.changeScene(no);
   }
 
@@ -141,22 +147,32 @@ export class LAppLive2DManager {
   private changeScene(index: number): void {
     this._sceneIndex = index;
 
+    if (!this._subdelegate) {
+      return;
+    }
+
     if (LAppDefine.DebugLogEnable) {
       LAppPal.printMessage(`[APP]model index: ${this._sceneIndex}`);
     }
 
-    // ModelDir[]に保持したディレクトリ名から
-    // model3.jsonのパスを決定する。
-    // ディレクトリ名とmodel3.jsonの名前を一致させておくこと。
-    const model: string = LAppDefine.ModelDir[index];
-    const modelPath: string = LAppDefine.ResourcesPath + model + '/';
-    let modelJsonName: string = LAppDefine.ModelDir[index];
-    modelJsonName += '.model3.json';
+    const models = LAppDefine.getAvailableModels(this._gameIndex);
+    if (models.length === 0) {
+      this.releaseAllModel();
+      return;
+    }
+    const entry = models[index % models.length];
+    const source = this.resolveModelSource(entry.id, entry.sourceType);
+    if (!source) {
+      if (LAppDefine.DebugLogEnable) {
+        LAppPal.printMessage(`[APP]Failed to resolve model source for ${entry.id}`);
+      }
+      return;
+    }
 
     this.releaseAllModel();
     const instance = new LAppModel();
     instance.setSubdelegate(this._subdelegate);
-    instance.loadAssets(modelPath, modelJsonName);
+    instance.loadAssets(source.dir, source.file);
     this._models.pushBack(instance);
   }
 
@@ -170,12 +186,22 @@ export class LAppLive2DManager {
    * モデルの追加
    */
   public addModel(sceneIndex: number = 0): void {
-    this._sceneIndex = sceneIndex;
+    const available = LAppDefine.getAvailableModels(this._gameIndex);
+    if (available.length === 0) {
+      this.releaseAllModel();
+      this._sceneIndex = 0;
+      return;
+    }
+    this._sceneIndex = ((sceneIndex % available.length) + available.length) % available.length;
     this.changeScene(this._sceneIndex);
   }
 
   public getModel(index: number = 0) : LAppModel {
     return this._models.at(index);
+  }
+
+  public getGameIndex(): number {
+    return this._gameIndex;
   }
 
   public adjustZoom(zoom: number): void {
@@ -211,6 +237,7 @@ export class LAppLive2DManager {
     this._lastDrag = new CubismVector2();
     this._models = new csmVector<LAppModel>();
     this._sceneIndex = 0;
+    this._gameIndex = 0;
   }
 
   /**
@@ -227,6 +254,24 @@ export class LAppLive2DManager {
     this.changeScene(this._sceneIndex);
   }
 
+  public setGameIndex(gameIndex: number): void {
+    if (this._gameIndex === gameIndex) {
+      return;
+    }
+    this._gameIndex = gameIndex;
+    const available = LAppDefine.getAvailableModels(this._gameIndex);
+    if (available.length === 0) {
+      this.releaseAllModel();
+      this._sceneIndex = 0;
+      return;
+    }
+    this._sceneIndex = 0;
+    if (!this._subdelegate) {
+      return;
+    }
+    this.changeScene(this._sceneIndex);
+  }
+
   /**
    * 自身が所属するSubdelegate
    */
@@ -235,10 +280,39 @@ export class LAppLive2DManager {
   _viewMatrix: CubismMatrix44; // モデル描画に用いるview行列
   _models: csmVector<LAppModel>; // モデルインスタンスのコンテナ
   private _sceneIndex: number; // 表示するシーンのインデックス値
+  private _gameIndex: number;
   private _translate: CubismVector2;
   private _lastDrag: CubismVector2;
   private _shouldDrag: boolean = false;
   private _zoom: number = 1;
+
+  private resolveModelSource(id: string, sourceType: LAppDefine.ModelSourceType): { dir: string; file: string } | null {
+    if (!id) {
+      return null;
+    }
+
+    const normalized = id.replace(/\\/g, '/');
+
+    if (sourceType === 'model3') {
+      const dir = `${LAppDefine.ResourcesPath}${normalized}/`;
+      const file = `${normalized}.model3.json`;
+      return { dir, file };
+    }
+
+    if (sourceType === 'moc3') {
+      const lastSlash = normalized.lastIndexOf('/');
+      if (lastSlash === -1) {
+        return null;
+      }
+      const base = normalized.substring(0, lastSlash + 1);
+      const filename = normalized.substring(lastSlash + 1);
+      const dir = `../${LAppDefine.ResourcesPath}${base}`;
+      const file = `${filename}.model3.json`;
+      return { dir, file };
+    }
+
+    return null;
+  }
 
   // モーション再生開始のコールバック関数
   beganMotion = (self: ACubismMotion): void => {

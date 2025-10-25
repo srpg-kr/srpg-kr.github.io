@@ -16,21 +16,26 @@ const Live2DViewer = () => {
     if (!canvas) return;
 
     // Pass the canvas element to LAppDelegate for initialization.
-    if (!LAppDelegate.getInstance().initialize(canvas)) {
+    const delegate = LAppDelegate.getInstance();
+    if (!delegate.initialize(canvas)) {
       console.error("Live2D initialization failed.");
       return;
     }
 
     // Start the main loop (this sets up the update and render cycle)
-    LAppDelegate.getInstance().run();
+    delegate.run();
 
-    const subdelegate = LAppDelegate.getInstance()
-      .getSubdelegate()
+    const gameId = Number(window.__LIVE2D_GAME_ID__ ?? 0);
+    const subdelegate = delegate.getSubdelegate();
     if (subdelegate) {
       subdelegate.setClearColor(bgColor.rgb.r / 255.0, 
         bgColor.rgb.g / 255.0, 
         bgColor.rgb.b / 255.0, 
         bgColor.rgb.a);
+      const manager = subdelegate.getLive2DManager();
+      if (manager && typeof manager.setGameIndex === 'function') {
+        manager.setGameIndex(gameId);
+      }
     }
 
     // Cleanup on unmount.

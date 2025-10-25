@@ -27,6 +27,7 @@ import {
   CubismMotionQueueEntryHandle,
   InvalidMotionQueueEntryHandleValue
 } from '@framework/motion/cubismmotionqueuemanager';
+import { CubismMotionQueueEntry } from '@framework/motion/cubismmotionqueueentry';
 import { csmMap } from '@framework/type/csmmap';
 import { csmRect } from '@framework/type/csmrectf';
 import { csmString } from '@framework/type/csmstring';
@@ -506,9 +507,9 @@ export class LAppModel extends CubismUserModel {
     const deltaTimeSeconds: number = LAppPal.getDeltaTime();
     this._userTimeSeconds += deltaTimeSeconds;
 
-    this._dragManager.update(deltaTimeSeconds);
+    /*this._dragManager.update(deltaTimeSeconds);
     this._dragX = this._dragManager.getX();
-    this._dragY = this._dragManager.getY();
+    this._dragY = this._dragManager.getY();*/
 
     // モーションによるパラメータ更新の有無
     let motionUpdated = false;
@@ -529,30 +530,34 @@ export class LAppModel extends CubismUserModel {
     }
 
     // まばたき
-    if (this._eyeBlink != null) {
+    if (this._eyeBlink != null && !this.activeMotionControlsEyes()) {
       // メインモーションの更新がないとき
       this._eyeBlink.updateParameters(this._model, deltaTimeSeconds, this._doEyeBlink); // 目パチ
     }
-    //--------------------------------------------------------------------------
-    /*
     // ドラッグによる変化
     // ドラッグによる顔の向きの調整
     this._model.addParameterValueById(this._idParamAngleX, this._dragX * 30); // -30から30の値を加える
     this._model.addParameterValueById(this._idParamAngleY, this._dragY * 30);
-    this._model.addParameterValueById(
-      this._idParamAngleZ,
-      this._dragX * this._dragY * -30
-    );
+    this._model.addParameterValueById(this._idParamAngleZ, this._dragZ * 30);
 
     // ドラッグによる体の向きの調整
     this._model.addParameterValueById(
       this._idParamBodyAngleX,
-      this._dragX * 10
+      this._bodyAngleX * 10
     ); // -10から10の値を加える
+    this._model.addParameterValueById(
+      this._idParamBodyAngleY,
+      this._bodyAngleY * 10
+    );
+    this._model.addParameterValueById(
+      this._idParamBodyAngleZ,
+      this._bodyAngleZ * 10
+    );
 
     // ドラッグによる目の向きの調整
     this._model.addParameterValueById(this._idParamEyeBallX, this._dragX); // -1から1の値を加える
     this._model.addParameterValueById(this._idParamEyeBallY, this._dragY);
+    //--------------------------------------------------------------------------
 
     // 呼吸など
     if (this._breath != null) {
@@ -579,7 +584,7 @@ export class LAppModel extends CubismUserModel {
     // ポーズの設定
     if (this._pose != null) {
       this._pose.updateParameters(this._model, deltaTimeSeconds);
-    }*/
+    }
 
     this._model.update();
   }
@@ -644,6 +649,17 @@ export class LAppModel extends CubismUserModel {
           }
 
           motion.setEffectIds(this._eyeBlinkIds, this._lipSyncIds);
+          let hasEyeParameters = false;
+          if (this._eyeBlinkIds != null) {
+            for (let eyeIndex = 0; eyeIndex < this._eyeBlinkIds.getSize(); ++eyeIndex) {
+              const eyeId = this._eyeBlinkIds.at(eyeIndex);
+              if (motion.containsParameterId(eyeId)) {
+                hasEyeParameters = true;
+                break;
+              }
+            }
+          }
+          motion.setHasEyeParameters(hasEyeParameters);
           autoDelete = true; // 終了時にメモリから削除
         });
     } else {
@@ -843,6 +859,17 @@ export class LAppModel extends CubismUserModel {
   
               if (tmpMotion != null) {
                 tmpMotion.setEffectIds(this._eyeBlinkIds, this._lipSyncIds);
+                let hasEyeParameters = false;
+                if (this._eyeBlinkIds != null) {
+                  for (let eyeIndex = 0; eyeIndex < this._eyeBlinkIds.getSize(); ++eyeIndex) {
+                    const eyeId = this._eyeBlinkIds.at(eyeIndex);
+                    if (tmpMotion.containsParameterId(eyeId)) {
+                      hasEyeParameters = true;
+                      break;
+                    }
+                  }
+                }
+                tmpMotion.setHasEyeParameters(hasEyeParameters);
     
                 if (this._motions.getValue(name) != null) {
                   ACubismMotion.delete(this._motions.getValue(name));
@@ -1074,6 +1101,75 @@ export class LAppModel extends CubismUserModel {
     }
   }
 
+  private clampNormalized(value: number): number {
+    return Math.max(-1, Math.min(1, value));
+  }
+
+  public setAngles(x: number, y: number, z: number): void {
+    const clampedX = this.clampNormalized(x);
+    const clampedY = this.clampNormalized(y);
+    const clampedZ = this.clampNormalized(z);
+    this._dragX = clampedX;
+    this._dragY = clampedY;
+    this._dragZ = clampedZ;
+    if (this._dragManager) {
+      this._dragManager.set(clampedX, clampedY);
+    }
+  }
+
+  public getAngles(): { x: number; y: number; z: number } {
+    return { x: this._dragX, y: this._dragY, z: this._dragZ };
+  }
+
+  public setBodyAngles(x: number, y: number, z: number): void {
+    this._bodyAngleX = this.clampNormalized(x);
+    this._bodyAngleY = this.clampNormalized(y);
+    this._bodyAngleZ = this.clampNormalized(z);
+  }
+
+  public getBodyAngles(): { x: number; y: number; z: number } {
+    return {
+      x: this._bodyAngleX,
+      y: this._bodyAngleY,
+      z: this._bodyAngleZ
+    };
+  }
+
+  public setDrag(x: number, y: number, z?: number): void {
+    this.setAngles(x, y, z ?? this._dragZ);
+  }
+
+  public getDrag(): { x: number; y: number } {
+    return { x: this._dragX, y: this._dragY };
+  }
+
+  private activeMotionControlsEyes(): boolean {
+    if (!this._motionManager) {
+      return false;
+    }
+    const entries = this._motionManager.getCubismMotionQueueEntries();
+    if (!entries) {
+      return false;
+    }
+    for (let i = 0; i < entries.getSize(); ++i) {
+      const entry: CubismMotionQueueEntry = entries.at(i);
+      if (!entry || entry.isFinished()) {
+        continue;
+      }
+      const motion = entry._motion;
+      if (motion && motion instanceof CubismMotion && motion.hasEyeParameters()) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  public stopAllMotions(): void {
+    if (this._motionManager) {
+      this._motionManager.stopAllMotions();
+    }
+  }
+
   public resetParameters() {
     this._model.loadParameters();
     for (let i = 0; i < this._model.getParameterCount(); ++i) {
@@ -1087,6 +1183,7 @@ export class LAppModel extends CubismUserModel {
    */
   public constructor() {
     super();
+    this._debugMode = true;
 
     this._modelSetting = null;
     this._modelHomeDir = null;
@@ -1122,6 +1219,12 @@ export class LAppModel extends CubismUserModel {
     this._idParamBodyAngleX = CubismFramework.getIdManager().getId(
       CubismDefaultParameterId.ParamBodyAngleX
     );
+    this._idParamBodyAngleY = CubismFramework.getIdManager().getId(
+      CubismDefaultParameterId.ParamBodyAngleY
+    );
+    this._idParamBodyAngleZ = CubismFramework.getIdManager().getId(
+      CubismDefaultParameterId.ParamBodyAngleZ
+    );
 
     if (LAppDefine.MOCConsistencyValidationEnable) {
       this._mocConsistency = true;
@@ -1135,6 +1238,10 @@ export class LAppModel extends CubismUserModel {
     this._wavFileHandler = new LAppWavFileHandler();
     this._consistency = false;
     this._doEyeBlink = true;
+    this._dragZ = 0.0;
+    this._bodyAngleX = 0.0;
+    this._bodyAngleY = 0.0;
+    this._bodyAngleZ = 0.0;
   }
 
   private _subdelegate: LAppSubdelegate;
@@ -1161,6 +1268,8 @@ export class LAppModel extends CubismUserModel {
   _idParamEyeBallX: CubismIdHandle; // パラメータID: ParamEyeBallX
   _idParamEyeBallY: CubismIdHandle; // パラメータID: ParamEyeBAllY
   _idParamBodyAngleX: CubismIdHandle; // パラメータID: ParamBodyAngleX
+  _idParamBodyAngleY: CubismIdHandle;
+  _idParamBodyAngleZ: CubismIdHandle;
 
   _state: LoadStep; // 現在のステータス管理用
   _expressionCount: number; // 表情データカウント
@@ -1170,4 +1279,8 @@ export class LAppModel extends CubismUserModel {
   _wavFileHandler: LAppWavFileHandler; //wavファイルハンドラ
   _consistency: boolean; // MOC3一貫性チェック管理用
   _doEyeBlink: boolean;
+  _dragZ: number;
+  _bodyAngleX: number;
+  _bodyAngleY: number;
+  _bodyAngleZ: number;
 }

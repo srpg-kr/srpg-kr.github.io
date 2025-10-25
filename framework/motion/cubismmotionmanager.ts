@@ -84,7 +84,11 @@ export class CubismMotionManager extends CubismMotionQueueManager {
   public updateMotion(model: CubismModel, deltaTimeSeconds: number): boolean {
     this._userTimeSeconds += deltaTimeSeconds;
 
-    const updated: boolean = super.doUpdateMotion(model, this._userTimeSeconds);
+    const updated: boolean = super.doUpdateMotion(
+      model,
+      this._userTimeSeconds,
+      true
+    );
 
     if (this.isFinished()) {
       this._currentPriority = 0; // 再生中のモーションの優先度を解除

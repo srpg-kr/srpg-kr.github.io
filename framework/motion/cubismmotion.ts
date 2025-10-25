@@ -825,6 +825,7 @@ export class CubismMotion extends ACubismMotion {
     this._eyeBlinkParameterIds = null;
     this._lipSyncParameterIds = null;
     this._modelOpacity = 1.0;
+    this._hasEyeParameters = false;
     this._debugMode = false;
   }
 
@@ -1222,6 +1223,63 @@ export class CubismMotion extends ACubismMotion {
   }
 
   /**
+   * 指定したパラメータIDのカーブを保持するかどうかを返す
+   *
+   * @param parameterId 検索対象のパラメータID
+   */
+  public containsParameterId(parameterId: CubismIdHandle): boolean {
+    if (parameterId == null || this._motionData == null) {
+      return false;
+    }
+
+    const targetId: string =
+      typeof parameterId.getString === 'function'
+        ? parameterId.getString().s
+        : null;
+
+    const curves: csmVector<CubismMotionCurve> = this._motionData.curves;
+    for (let i = 0; i < this._motionData.curveCount; ++i) {
+      const curve: CubismMotionCurve = curves.at(i);
+      if (
+        curve.type === CubismMotionCurveTarget.CubismMotionCurveTarget_Parameter &&
+        curve.id != null
+      ) {
+        if (curve.id === parameterId) {
+          return true;
+        }
+        if (
+          targetId != null &&
+          typeof curve.id.getString === 'function' &&
+          curve.id.getString().s === targetId
+        ) {
+          return true;
+        }
+      }
+    }
+
+    return false;
+  }
+
+  /**
+   * モーションが目のパラメータを含むかどうかを設定する
+   *
+   * @param hasEyeParameters 目のパラメータを含むかどうか
+   */
+  public setHasEyeParameters(hasEyeParameters: boolean): void {
+    this._hasEyeParameters = hasEyeParameters;
+  }
+
+  /**
+   * モーションが目のパラメータを含むかどうかを取得する
+   *
+   * @returns true  目のパラメータを含む
+   *          false 含まない
+   */
+  public hasEyeParameters(): boolean {
+    return this._hasEyeParameters;
+  }
+
+  /**
    * デバッグ用フラグを設定する
    *
    * @param debugMode デバッグモードの有効・無効
@@ -1246,6 +1304,7 @@ export class CubismMotion extends ACubismMotion {
 
   public _modelOpacity: number; // モーションから取得した不透明度
 
+  private _hasEyeParameters: boolean;
   private _debugMode: boolean; // デバッグモードかどうか
 }
 

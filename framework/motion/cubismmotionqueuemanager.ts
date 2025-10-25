@@ -64,6 +64,23 @@ export class CubismMotionQueueManager {
       return InvalidMotionQueueEntryHandleValue;
     }
 
+    for (
+      let ite: iterator<CubismMotionQueueEntry> = this._motions.begin();
+      ite.notEqual(this._motions.end());
+    ) {
+      const entry = ite.ptr();
+      if (entry == null) {
+        ite = this._motions.erase(ite);
+        continue;
+      }
+      if (!entry.isAvailable() && entry.isFinished()) {
+        entry.release();
+        ite = this._motions.erase(ite);
+        continue;
+      }
+      ite.preIncrement();
+    }
+
     let motionQueueEntry: CubismMotionQueueEntry = null;
 
     // 既にモーションがあれば終了フラグを立てる
@@ -244,10 +261,15 @@ export class CubismMotionQueueManager {
    *
    * @param   model   対象のモデル
    * @param   userTimeSeconds   デルタ時間の積算値[秒]
+   * @param   freezeOnFinish    モーション終了後もエントリを保持するかどうか
    * @return  true    モデルへパラメータ値の反映あり
    * @return  false   モデルへパラメータ値の反映なし(モーションの変化なし)
    */
-  public doUpdateMotion(model: CubismModel, userTimeSeconds: number): boolean {
+  public doUpdateMotion(
+    model: CubismModel,
+    userTimeSeconds: number,
+    freezeOnFinish = false
+  ): boolean {
     let updated = false;
 
     // ------- 処理を行う --------
@@ -294,9 +316,14 @@ export class CubismMotionQueueManager {
 
       // ------ 終了済みの処理があれば削除する ------
       if (motionQueueEntry.isFinished()) {
-        motionQueueEntry.release();
-        motionQueueEntry = null;
-        ite = this._motions.erase(ite); // 削除
+        if (freezeOnFinish) {
+          motionQueueEntry.setIsAvailable(false);
+          ite.preIncrement();
+        } else {
+          motionQueueEntry.release();
+          motionQueueEntry = null;
+          ite = this._motions.erase(ite); // 削除
+        }
       } else {
         if (motionQueueEntry.isTriggeredFadeOut()) {
           motionQueueEntry.startFadeOut(
