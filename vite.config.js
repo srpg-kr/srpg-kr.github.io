@@ -11,6 +11,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         live2d: resolve(__dirname, 'live2d/index.html'),
+        'live2d-stellarsora': resolve(__dirname, 'live2d/stellarsora/index.html'),
       },
     },
   },
