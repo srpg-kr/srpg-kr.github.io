@@ -15,19 +15,6 @@
   },
   "Curves": [
     {
-      "Target": "Model",
-      "Id": "LipSync",
-      "FadeInTime": -1.0,
-      "FadeOutTime": -1.0,
-      "Segments": [
-        0,
-        0,
-        0,
-        5.983,
-        0
-      ]
-    },
-    {
       "Target": "Parameter",
       "Id": "ParamAll",
       "FadeInTime": -1.0,
@@ -51,6 +38,19 @@
         -28.703,
         5.983,
         -29.979
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamWhite",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
+      "Segments": [
+        0,
+        0,
+        0,
+        5.983,
+        0
       ]
     },
     {

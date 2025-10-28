@@ -7,9 +7,9 @@
     "AreBeziersRestricted": true,
     "FadeInTime": 1.0,
     "FadeOutTime": 1.0,
-    "CurveCount": 45,
-    "TotalSegmentCount": 152,
-    "TotalPointCount": 265,
+    "CurveCount": 43,
+    "TotalSegmentCount": 149,
+    "TotalPointCount": 260,
     "UserDataCount": 0,
     "TotalUserDataSize": 0
   },
@@ -84,19 +84,6 @@
         -20.439,
         5.983,
         -1.318
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "Param26",
-      "FadeInTime": -1.0,
-      "FadeOutTime": -1.0,
-      "Segments": [
-        0,
-        0,
-        0,
-        5.983,
-        0
       ]
     },
     {
@@ -474,7 +461,7 @@
         -5.983,
         1,
         0.056,
-        -6.186,
+        -6.563,
         0.111,
         -6.3,
         0.167,
@@ -492,9 +479,9 @@
         5.106,
         2.94,
         5.544,
-        -4.179,
+        -1.237,
         5.983,
-        -5.92
+        -5.809
       ]
     },
     {
@@ -947,22 +934,6 @@
         -0.133,
         5.983,
         -0.002
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "Param27",
-      "FadeInTime": -1.0,
-      "FadeOutTime": -1.0,
-      "Segments": [
-        0,
-        0,
-        0,
-        3,
-        0,
-        0,
-        5.983,
-        0
       ]
     },
     {

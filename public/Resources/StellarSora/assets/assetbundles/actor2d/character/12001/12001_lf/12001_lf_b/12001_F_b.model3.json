@@ -1,0 +1,39 @@
+{
+  "Version": 3,
+  "Name": "12001_F_b",
+  "FileReferences": {
+    "Moc": "12001_F_b.moc3",
+    "Textures": [
+      "textures/texture_00.png",
+      "textures/texture_01.png"
+    ],
+    "Physics": "12001_F_b.physics3.json",
+    "Pose": null,
+    "DisplayInfo": "12001_F_b.cdi3.json",
+    "Motions": {
+      "full_2": [
+        {
+          "File": "motions/full_2.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

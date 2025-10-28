@@ -91,16 +91,6 @@
           "File": "motions/idle_g_jp.motion3.json"
         }
       ],
-      "idle_h_cn": [
-        {
-          "File": "motions/idle_h_cn.motion3.json"
-        }
-      ],
-      "idle_h_jp": [
-        {
-          "File": "motions/idle_h_jp.motion3.json"
-        }
-      ],
       "special_a": [
         {
           "File": "motions/special_a.motion3.json"
@@ -179,16 +169,6 @@
       "vo_cgstory_127_g_jp": [
         {
           "File": "motions/vo_cgstory_127_g_jp.motion3.json"
-        }
-      ],
-      "vo_cgstory_127_h_cn": [
-        {
-          "File": "motions/vo_cgstory_127_h_cn.motion3.json"
-        }
-      ],
-      "vo_cgstory_127_h_jp": [
-        {
-          "File": "motions/vo_cgstory_127_h_jp.motion3.json"
         }
       ]
     },

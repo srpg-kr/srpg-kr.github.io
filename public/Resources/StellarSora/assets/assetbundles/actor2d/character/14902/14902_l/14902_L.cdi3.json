@@ -1686,347 +1686,335 @@
   "Parts": [
     {
       "Id": "ArtMesh0_Skinning",
-      "Name": "hanging drop_1(蒙皮)"
-    },
-    {
-      "Id": "ArtMesh5_Skinning",
-      "Name": "hanging drop_2(蒙皮)"
-    },
-    {
-      "Id": "ArtMesh7_Skinning",
-      "Name": "hanging drop_5(蒙皮)"
-    },
-    {
-      "Id": "ArtMesh8_Skinning",
-      "Name": "hanging drop_6(蒙皮)"
-    },
-    {
-      "Id": "BackHairs",
-      "Name": "后发"
-    },
-    {
-      "Id": "backhair_10_Skinning",
-      "Name": "backhair_10(蒙皮)"
-    },
-    {
-      "Id": "backhair_11_Skinning",
-      "Name": "backhair_11(蒙皮)"
-    },
-    {
-      "Id": "backhair_12_Skinning",
-      "Name": "backhair_12(蒙皮)"
-    },
-    {
-      "Id": "backhair_13_Skinning",
-      "Name": "backhair_13(蒙皮)"
-    },
-    {
-      "Id": "backhair_14_Skinning",
-      "Name": "backhair_14(蒙皮)"
-    },
-    {
-      "Id": "backhair_15_Skinning",
-      "Name": "backhair_15(蒙皮)"
-    },
-    {
-      "Id": "backhair_16_Skinning",
-      "Name": "backhair_16(蒙皮)"
-    },
-    {
-      "Id": "backhair_17_Skinning",
-      "Name": "backhair_17(蒙皮)"
-    },
-    {
-      "Id": "backhair_18_Skinning",
-      "Name": "backhair_18(蒙皮)"
-    },
-    {
-      "Id": "backhair_19_Skinning",
-      "Name": "backhair_19(蒙皮)"
-    },
-    {
-      "Id": "backhair_1_Skinning",
-      "Name": "backhair_1(蒙皮)"
-    },
-    {
-      "Id": "backhair_20_Skinning",
-      "Name": "backhair_20(蒙皮)"
-    },
-    {
-      "Id": "backhair_21_Skinning",
-      "Name": "backhair_21(蒙皮)"
-    },
-    {
-      "Id": "backhair_2_Skinning",
-      "Name": "backhair_2(蒙皮)"
-    },
-    {
-      "Id": "backhair_3_Skinning",
-      "Name": "backhair_3(蒙皮)"
-    },
-    {
-      "Id": "backhair_4_Skinning",
-      "Name": "backhair_4(蒙皮)"
-    },
-    {
-      "Id": "backhair_5_Skinning",
-      "Name": "backhair_5(蒙皮)"
-    },
-    {
-      "Id": "backhair_6_Skinning",
-      "Name": "backhair_6(蒙皮)"
-    },
-    {
-      "Id": "backhair_7_Skinning",
-      "Name": "backhair_7(蒙皮)"
-    },
-    {
-      "Id": "backhair_8_Skinning",
-      "Name": "backhair_8(蒙皮)"
-    },
-    {
-      "Id": "backhair_9_Skinning",
-      "Name": "backhair_9(蒙皮)"
-    },
-    {
-      "Id": "Bangs",
-      "Name": "刘海"
-    },
-    {
-      "Id": "bang_1_Skinning",
-      "Name": "bang_1(蒙皮)"
-    },
-    {
-      "Id": "bang_2_Skinning",
-      "Name": "bang_2(蒙皮)"
-    },
-    {
-      "Id": "bang_3_Skinning",
-      "Name": "bang_3(蒙皮)"
-    },
-    {
-      "Id": "bang_4_Skinning",
-      "Name": "bang_4(蒙皮)"
-    },
-    {
-      "Id": "bang_5_Skinning",
-      "Name": "bang_5(蒙皮)"
-    },
-    {
-      "Id": "bang_6_Skinning",
-      "Name": "bang_6(蒙皮)"
-    },
-    {
-      "Id": "bang_6_Skinning2",
-      "Name": "bang_6(蒙皮)"
-    },
-    {
-      "Id": "BodyDown",
-      "Name": "下半身"
-    },
-    {
-      "Id": "BodyUp",
-      "Name": "上半身"
-    },
-    {
-      "Id": "body_up_1_Skinning",
-      "Name": "body_up_1(蒙皮)"
-    },
-    {
-      "Id": "body_up_2_Skinning",
-      "Name": "body_up_2(蒙皮)"
-    },
-    {
-      "Id": "body_up_3_Skinning",
-      "Name": "body_up_3(蒙皮)"
-    },
-    {
-      "Id": "daimao_1_Skinning",
-      "Name": "daimao_1(蒙皮)"
-    },
-    {
-      "Id": "daimao_2_Skinning",
-      "Name": "daimao_2(蒙皮)"
-    },
-    {
-      "Id": "Face",
-      "Name": "脸"
-    },
-    {
-      "Id": "hair_shadow_1_Skinning",
-      "Name": "hair_shadow_1(蒙皮)"
-    },
-    {
-      "Id": "hair_shadow_2_Skinning",
-      "Name": "hair_shadow_2(蒙皮)"
-    },
-    {
-      "Id": "hair_shadow_3_Skinning",
-      "Name": "hair_shadow_3(蒙皮)"
-    },
-    {
-      "Id": "hat_1_Skinning",
-      "Name": "hat_1(蒙皮)"
-    },
-    {
-      "Id": "hat_2_Skinning",
-      "Name": "hat_2(蒙皮)"
-    },
-    {
-      "Id": "hat_3_Skinning",
-      "Name": "hat_3(蒙皮)"
-    },
-    {
-      "Id": "hat_4_Skinning",
-      "Name": "hat_4(蒙皮)"
-    },
-    {
-      "Id": "hat_5_Skinning",
-      "Name": "hat_5(蒙皮)"
-    },
-    {
-      "Id": "jacket_2_Skinning",
-      "Name": "jacket_2(蒙皮)"
-    },
-    {
-      "Id": "jacket_3_Skinning",
-      "Name": "jacket_3(蒙皮)"
-    },
-    {
-      "Id": "LArm",
-      "Name": "左臂"
-    },
-    {
-      "Id": "Legs",
-      "Name": "腿"
-    },
-    {
-      "Id": "LEyes",
-      "Name": "左眼"
-    },
-    {
-      "Id": "L_front_wrist_Skinning",
-      "Name": "L_front_wrist(蒙皮)"
-    },
-    {
-      "Id": "L_leg_Skinning",
-      "Name": "L_leg(蒙皮)"
-    },
-    {
-      "Id": "L_shink_Skinning",
-      "Name": "L_shink(蒙皮)"
-    },
-    {
-      "Id": "L_side_hair_2_Skinning",
-      "Name": "L_side_hair_2(蒙皮)"
-    },
-    {
-      "Id": "L_side_hair_3_Skinning",
-      "Name": "L_side_hair_2(蒙皮)"
-    },
-    {
-      "Id": "L_side_hair_4_Skinning",
-      "Name": "L_side_hair_3(蒙皮)"
-    },
-    {
-      "Id": "L_side_hair_5_Skinning",
-      "Name": "L_side_hair_4(蒙皮)"
-    },
-    {
-      "Id": "L_side_hair_6_Skinning",
-      "Name": "L_side_hair_5(蒙皮)"
-    },
-    {
-      "Id": "Part",
-      "Name": "拆分"
-    },
-    {
-      "Id": "Part2",
-      "Name": "后发"
-    },
-    {
-      "Id": "Part3",
-      "Name": "拆分"
-    },
-    {
-      "Id": "Part4",
-      "Name": "格芮觉醒.psd(未找到对应图层)"
-    },
-    {
-      "Id": "Part6",
-      "Name": "格芮觉醒.psd(未找到对应图层)"
-    },
-    {
-      "Id": "RArm",
-      "Name": "右臂"
-    },
-    {
-      "Id": "REyes",
-      "Name": "右眼"
-    },
-    {
-      "Id": "rope_Skinning",
-      "Name": "rope(蒙皮)"
-    },
-    {
-      "Id": "R_finger_13_Skinning",
-      "Name": "R_finger_13(蒙皮)"
-    },
-    {
-      "Id": "R_front_wrist_1_Skinning",
-      "Name": "R_front_wrist_1(蒙皮)"
-    },
-    {
-      "Id": "R_front_wrist_2_Skinning",
-      "Name": "R_front_wrist_2(蒙皮)"
-    },
-    {
-      "Id": "R_front_wrist_3_Skinning",
-      "Name": "R_front_wrist_3(蒙皮)"
-    },
-    {
-      "Id": "R_front_wrist_4_Skinning",
-      "Name": "R_front_wrist_4(蒙皮)"
-    },
-    {
-      "Id": "R_leg_Skinning",
-      "Name": "R_leg(蒙皮)"
-    },
-    {
-      "Id": "R_shink_Skinning",
-      "Name": "R_shink(蒙皮)"
-    },
-    {
-      "Id": "R_side_hair_1_Skinning",
-      "Name": "R_side_hair_1(蒙皮)"
-    },
-    {
-      "Id": "R_side_hair_2_Skinning",
-      "Name": "R_side_hair_2(蒙皮)"
-    },
-    {
-      "Id": "R_wrist_1_Skinning",
-      "Name": "R_wrist_1(蒙皮)"
-    },
-    {
-      "Id": "R_wrist_2_Skinning",
       "Name": "R_wrist_2(蒙皮)"
     },
     {
-      "Id": "sash_1_Skinning",
-      "Name": "sash_1(蒙皮)"
+      "Id": "ArtMesh5_Skinning",
+      "Name": "hanging drop_1(蒙皮)"
     },
     {
-      "Id": "sash_2_Skinning",
+      "Id": "ArtMesh7_Skinning",
+      "Name": "hanging drop_2(蒙皮)"
+    },
+    {
+      "Id": "ArtMesh8_Skinning",
+      "Name": "hanging drop_5(蒙皮)"
+    },
+    {
+      "Id": "BackHairs",
+      "Name": "腿"
+    },
+    {
+      "Id": "backhair_10_Skinning",
+      "Name": "backhair_9(蒙皮)"
+    },
+    {
+      "Id": "backhair_11_Skinning",
+      "Name": "backhair_10(蒙皮)"
+    },
+    {
+      "Id": "backhair_12_Skinning",
+      "Name": "backhair_11(蒙皮)"
+    },
+    {
+      "Id": "backhair_13_Skinning",
+      "Name": "backhair_12(蒙皮)"
+    },
+    {
+      "Id": "backhair_14_Skinning",
+      "Name": "backhair_13(蒙皮)"
+    },
+    {
+      "Id": "backhair_15_Skinning",
+      "Name": "backhair_14(蒙皮)"
+    },
+    {
+      "Id": "backhair_16_Skinning",
+      "Name": "backhair_15(蒙皮)"
+    },
+    {
+      "Id": "backhair_17_Skinning",
+      "Name": "backhair_16(蒙皮)"
+    },
+    {
+      "Id": "backhair_18_Skinning",
+      "Name": "backhair_17(蒙皮)"
+    },
+    {
+      "Id": "backhair_19_Skinning",
+      "Name": "backhair_18(蒙皮)"
+    },
+    {
+      "Id": "backhair_1_Skinning",
+      "Name": "hat_3(蒙皮)"
+    },
+    {
+      "Id": "backhair_20_Skinning",
+      "Name": "backhair_19(蒙皮)"
+    },
+    {
+      "Id": "backhair_21_Skinning",
+      "Name": "backhair_20(蒙皮)"
+    },
+    {
+      "Id": "backhair_2_Skinning",
+      "Name": "backhair_3(蒙皮)"
+    },
+    {
+      "Id": "backhair_3_Skinning",
+      "Name": "backhair_8(蒙皮)"
+    },
+    {
+      "Id": "backhair_4_Skinning",
+      "Name": "后发"
+    },
+    {
+      "Id": "backhair_5_Skinning",
+      "Name": "backhair_4(蒙皮)"
+    },
+    {
+      "Id": "backhair_6_Skinning",
+      "Name": "backhair_5(蒙皮)"
+    },
+    {
+      "Id": "backhair_7_Skinning",
+      "Name": "backhair_6(蒙皮)"
+    },
+    {
+      "Id": "backhair_8_Skinning",
+      "Name": "backhair_7(蒙皮)"
+    },
+    {
+      "Id": "backhair_9_Skinning",
+      "Name": "backhair_2(蒙皮)"
+    },
+    {
+      "Id": "Bangs",
+      "Name": "右眼"
+    },
+    {
+      "Id": "bang_1_Skinning",
+      "Name": "L_side_hair_2(蒙皮)"
+    },
+    {
+      "Id": "bang_2_Skinning",
+      "Name": "bang_1(蒙皮)"
+    },
+    {
+      "Id": "bang_3_Skinning",
+      "Name": "bang_2(蒙皮)"
+    },
+    {
+      "Id": "bang_4_Skinning",
+      "Name": "bang_3(蒙皮)"
+    },
+    {
+      "Id": "bang_5_Skinning",
+      "Name": "bang_4(蒙皮)"
+    },
+    {
+      "Id": "bang_6_Skinning",
+      "Name": "bang_5(蒙皮)"
+    },
+    {
+      "Id": "bang_6_Skinning2",
+      "Name": "hat_5(蒙皮)"
+    },
+    {
+      "Id": "BodyDown",
+      "Name": "右臂"
+    },
+    {
+      "Id": "BodyUp",
+      "Name": "下半身"
+    },
+    {
+      "Id": "body_up_1_Skinning",
+      "Name": "hanging drop_6(蒙皮)"
+    },
+    {
+      "Id": "body_up_2_Skinning",
       "Name": "sash_2(蒙皮)"
     },
     {
+      "Id": "body_up_3_Skinning",
+      "Name": "body_up_2(蒙皮)"
+    },
+    {
+      "Id": "daimao_1_Skinning",
+      "Name": "L_side_hair_2(蒙皮)"
+    },
+    {
+      "Id": "daimao_2_Skinning",
+      "Name": "daimao_1(蒙皮)"
+    },
+    {
+      "Id": "Face",
+      "Name": "刘海"
+    },
+    {
+      "Id": "hair_shadow_1_Skinning",
+      "Name": "L_side_hair_4(蒙皮)"
+    },
+    {
+      "Id": "hair_shadow_2_Skinning",
+      "Name": "hair_shadow_1(蒙皮)"
+    },
+    {
+      "Id": "hair_shadow_3_Skinning",
+      "Name": "hair_shadow_2(蒙皮)"
+    },
+    {
+      "Id": "hat_1_Skinning",
+      "Name": "bang_6(蒙皮)"
+    },
+    {
+      "Id": "hat_2_Skinning",
+      "Name": "hat_1(蒙皮)"
+    },
+    {
+      "Id": "hat_3_Skinning",
+      "Name": "hat_2(蒙皮)"
+    },
+    {
+      "Id": "hat_4_Skinning",
+      "Name": "backhair_21(蒙皮)"
+    },
+    {
+      "Id": "hat_5_Skinning",
+      "Name": "hat_4(蒙皮)"
+    },
+    {
+      "Id": "jacket_2_Skinning",
+      "Name": "body_up_3(蒙皮)"
+    },
+    {
+      "Id": "jacket_3_Skinning",
+      "Name": "jacket_2(蒙皮)"
+    },
+    {
+      "Id": "LArm",
+      "Name": "上半身"
+    },
+    {
+      "Id": "Legs",
+      "Name": "左臂"
+    },
+    {
+      "Id": "LEyes",
+      "Name": "格芮觉醒.psd(未找到对应图层)"
+    },
+    {
+      "Id": "L_B_front_wrist_Skinning",
+      "Name": "rope(蒙皮)"
+    },
+    {
+      "Id": "L_leg_Skinning",
+      "Name": "L_shink(蒙皮)"
+    },
+    {
+      "Id": "L_shink_Skinning",
+      "Name": "R_leg(蒙皮)"
+    },
+    {
+      "Id": "L_side_hair_2_Skinning",
+      "Name": "拆分"
+    },
+    {
+      "Id": "L_side_hair_3_Skinning",
+      "Name": "R_side_hair_1(蒙皮)"
+    },
+    {
+      "Id": "L_side_hair_4_Skinning",
+      "Name": "R_side_hair_2(蒙皮)"
+    },
+    {
+      "Id": "L_side_hair_5_Skinning",
+      "Name": "L_side_hair_3(蒙皮)"
+    },
+    {
+      "Id": "L_side_hair_6_Skinning",
+      "Name": "jacket_3(蒙皮)"
+    },
+    {
+      "Id": "Part",
+      "Name": "后发"
+    },
+    {
+      "Id": "Part2",
+      "Name": "L_leg(蒙皮)"
+    },
+    {
+      "Id": "RArm",
+      "Name": "脸"
+    },
+    {
+      "Id": "REyes",
+      "Name": "左眼"
+    },
+    {
+      "Id": "rope_Skinning",
+      "Name": "L_side_hair_5(蒙皮)"
+    },
+    {
+      "Id": "R_finger_13_Skinning",
+      "Name": "R_front_wrist_2(蒙皮)"
+    },
+    {
+      "Id": "R_front_wrist_1_Skinning",
+      "Name": "hair_shadow_3(蒙皮)"
+    },
+    {
+      "Id": "R_front_wrist_2_Skinning",
+      "Name": "R_front_wrist_1(蒙皮)"
+    },
+    {
+      "Id": "R_front_wrist_3_Skinning",
+      "Name": "R_finger_13(蒙皮)"
+    },
+    {
+      "Id": "R_front_wrist_4_Skinning",
+      "Name": "R_front_wrist_3(蒙皮)"
+    },
+    {
+      "Id": "R_leg_Skinning",
+      "Name": "R_shink(蒙皮)"
+    },
+    {
+      "Id": "R_shink_Skinning",
+      "Name": "L_B_front_wrist(蒙皮)"
+    },
+    {
+      "Id": "R_side_hair_1_Skinning",
+      "Name": "daimao_2(蒙皮)"
+    },
+    {
+      "Id": "R_side_hair_2_Skinning",
+      "Name": "bang_6(蒙皮)"
+    },
+    {
+      "Id": "R_wrist_1_Skinning",
+      "Name": "R_front_wrist_4(蒙皮)"
+    },
+    {
+      "Id": "R_wrist_2_Skinning",
+      "Name": "R_wrist_1(蒙皮)"
+    },
+    {
+      "Id": "sash_1_Skinning",
+      "Name": "skirt_3(蒙皮)"
+    },
+    {
+      "Id": "sash_2_Skinning",
+      "Name": "sash_1(蒙皮)"
+    },
+    {
       "Id": "skirt_1_Skinning",
-      "Name": "skirt_1(蒙皮)"
+      "Name": "body_up_1(蒙皮)"
     },
     {
       "Id": "skirt_3_Skinning",
-      "Name": "skirt_3(蒙皮)"
+      "Name": "skirt_1(蒙皮)"
     }
   ]
 }
