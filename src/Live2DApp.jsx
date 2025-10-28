@@ -7,7 +7,7 @@ import './styles/sidebar.css';
 import Live2DViewer from './components/Live2DViewer';
 import ControlsPanel from './components/ControlsPanel';
 import ScreenshotModal from './components/ScreenshotModal';
-import { getAvailableModels } from './live2d/lappdefine';
+import { getAvailableModels, getModelDisplayName } from './live2d/lappdefine';
 import { LAppDelegate } from './live2d/lappdelegate';
 
 function Live2DApp({ gameId = 0 }) {
@@ -20,6 +20,11 @@ function Live2DApp({ gameId = 0 }) {
   const [isFullscreen, setIsFullscreen] = useState(false);
   const rightPanelRef = useRef(null);
   const [delegateReadyTick, setDelegateReadyTick] = useState(0);
+  const [locale] = useState(() =>
+    typeof navigator !== 'undefined' && navigator.language
+      ? navigator.language
+      : 'en'
+  );
 
   useEffect(() => {
     const models = getAvailableModels(gameId);
@@ -166,7 +171,7 @@ function Live2DApp({ gameId = 0 }) {
                 key={`${model.id}-${index}`}
                 onClick={() => handleModelSelect(index)}
               >
-                {model.displayName}
+                {getModelDisplayName(model, locale)}
               </button>
             ))}
           </div>

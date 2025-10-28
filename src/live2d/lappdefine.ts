@@ -6,6 +6,7 @@
  */
 
 import { LogLevel } from '@framework/live2dcubismframework';
+import { ModelNameOverrides, normalizeModelId } from './modelnames';
 
 /**
  * Sample Appで使用する定数
@@ -33,7 +34,7 @@ export const ViewLogicalMaxBottom = -2.0;
 export const ViewLogicalMaxTop = 2.0;
 
 // 相対パス
-export const ResourcesPath = '../Resources/';
+export const ResourcesPath = 'https://srpg-kr.github.io/l2d-assets/Resources/';
 
 // モデルの後ろにある背景の画像ファイル
 export const BackImageName = 'back_class_normal.png';
@@ -445,9 +446,6 @@ export const ModelDir_StellarSora: string[] = [
   "StellarSora/assets/assetbundles/actor2d/npc/910202/910202_l/910202_L",
   "StellarSora/assets/assetbundles/actor2d/npc/913101/913101_l/913101_L",
   "StellarSora/assets/assetbundles/actor2d/npc/913301/913301_l/913301_L",
-  "StellarSora/assets/assetbundles/actor2d/npc/915501/15501_l/15501_L",
-  "StellarSora/assets/assetbundles/actor2d/npc/915501/15501_lf/15501_lf_a/15501_F_a",
-  "StellarSora/assets/assetbundles/actor2d/npc/915501/15501_lf/15501_lf_b/15501_F_b",
   "StellarSora/assets/assetbundles/actor2d/npc/915901/915901_l/915901_L",
   "StellarSora/assets/assetbundles/actor2d/npc/917201/917201_l/917201_L",
   "StellarSora/assets/assetbundles/actor2d/npc/917202/917202_l/917202_L",
@@ -477,14 +475,79 @@ export const ModelDir_StellarSora: string[] = [
 
 export type ModelSourceType = 'model3' | 'moc3';
 
+export type LocalizedNameMap = Record<string, string>;
+
 export interface ModelDefinition {
   id: string;
   displayName: string;
   sourceType: ModelSourceType;
+  displayNames?: LocalizedNameMap;
 }
 
 function normalizePath(path: string): string {
   return path.replace(/\\/g, '/');
+}
+
+function normalizeNameMap(map: Record<string, string> | undefined | null): LocalizedNameMap | undefined {
+  if (!map) {
+    return undefined;
+  }
+
+  const normalized: LocalizedNameMap = {};
+  let hasEntries = false;
+
+  for (const [rawKey, value] of Object.entries(map)) {
+    if (!rawKey || value == null) {
+      continue;
+    }
+    const key = rawKey.toLowerCase();
+    normalized[key] = value;
+    hasEntries = true;
+  }
+
+  return hasEntries ? normalized : undefined;
+}
+
+function resolveNameOverrides(id: string): LocalizedNameMap | undefined {
+  if (!id) {
+    return undefined;
+  }
+  const normalizedId = normalizeModelId(id);
+  const override =
+    ModelNameOverrides[normalizedId] ?? ModelNameOverrides[normalizedId.toLowerCase()];
+  return normalizeNameMap(override);
+}
+
+function resolveLocaleFromMap(map: LocalizedNameMap, locale: string | undefined): string | undefined {
+  if (!map || Object.keys(map).length === 0) {
+    return undefined;
+  }
+
+  const normalizedLocale = locale ? locale.toLowerCase() : undefined;
+
+  const directMatch =
+    normalizedLocale != null ? map[normalizedLocale] : undefined;
+  if (directMatch) {
+    return directMatch;
+  }
+
+  if (normalizedLocale != null) {
+    const dashIndex = normalizedLocale.indexOf('-');
+    if (dashIndex > 0) {
+      const languageOnly = normalizedLocale.substring(0, dashIndex);
+      const languageMatch = map[languageOnly];
+      if (languageMatch) {
+        return languageMatch;
+      }
+    }
+  }
+
+  if (map.en) {
+    return map.en;
+  }
+
+  const [, firstValue] = Object.entries(map)[0] ?? [];
+  return firstValue;
 }
 
 function createDisplayNameFromPath(path: string): string {
@@ -501,18 +564,28 @@ function createDisplayNameFromPath(path: string): string {
 export function getAvailableModels(gameIndex = 0): ModelDefinition[] {
   switch (gameIndex) {
     case 1:
-      return ModelDir_StellarSora.map((entry) => ({
-        id: normalizePath(entry),
-        displayName: createDisplayNameFromPath(entry),
-        sourceType: 'moc3' as ModelSourceType,
-      }));
+      return ModelDir_StellarSora.map((entry) => {
+        const normalized = normalizePath(entry);
+        const displayNames = resolveNameOverrides(normalized);
+        return {
+          id: normalized,
+          displayName: createDisplayNameFromPath(entry),
+          sourceType: 'moc3' as ModelSourceType,
+          ...(displayNames ? { displayNames } : {}),
+        };
+      });
     case 0:
     default:
-      return ModelDir_GFL2.map((entry) => ({
-        id: entry,
-        displayName: entry,
-        sourceType: 'model3' as ModelSourceType,
-      }));
+      return ModelDir_GFL2.map((entry) => {
+        const normalized = normalizePath(entry);
+        const displayNames = resolveNameOverrides(normalized);
+        return {
+          id: entry,
+          displayName: entry,
+          sourceType: 'model3' as ModelSourceType,
+          ...(displayNames ? { displayNames } : {}),
+        };
+      });
   }
 }
 
@@ -523,6 +596,24 @@ export function getModelDefinition(gameIndex: number, modelIndex: number): Model
   }
   const safeIndex = ((modelIndex % models.length) + models.length) % models.length;
   return models[safeIndex] ?? null;
+}
+
+export function getModelDisplayName(
+  model: ModelDefinition,
+  locale?: string
+): string {
+  if (!model) {
+    return '';
+  }
+
+  const localized =
+    model.displayNames && resolveLocaleFromMap(model.displayNames, locale);
+
+  if (localized) {
+    return localized;
+  }
+
+  return model.displayName;
 }
 
 // 外部定義ファイル（json）と合わせる

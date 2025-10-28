@@ -292,10 +292,22 @@ export class LAppLive2DManager {
     }
 
     const normalized = id.replace(/\\/g, '/');
+    const basePath = LAppDefine.ResourcesPath.replace(/\/+$/, '');
+
+    const buildDir = (suffix: string): string => {
+      const trimmedSuffix = suffix.replace(/^\/+/, '').replace(/\/+$/, '');
+      if (trimmedSuffix.length === 0) {
+        return `${basePath}/`;
+      }
+      return `${basePath}/${trimmedSuffix}/`;
+    };
 
     if (sourceType === 'model3') {
-      const dir = `${LAppDefine.ResourcesPath}${normalized}/`;
-      const file = `${normalized}.model3.json`;
+      const dir = buildDir(normalized);
+      const lastSlash = normalized.lastIndexOf('/');
+      const filename =
+        lastSlash === -1 ? normalized : normalized.substring(lastSlash + 1);
+      const file = `${filename}.model3.json`;
       return { dir, file };
     }
 
@@ -304,9 +316,9 @@ export class LAppLive2DManager {
       if (lastSlash === -1) {
         return null;
       }
-      const base = normalized.substring(0, lastSlash + 1);
+      const base = normalized.substring(0, lastSlash);
       const filename = normalized.substring(lastSlash + 1);
-      const dir = `../${LAppDefine.ResourcesPath}${base}`;
+      const dir = buildDir(base);
       const file = `${filename}.model3.json`;
       return { dir, file };
     }
