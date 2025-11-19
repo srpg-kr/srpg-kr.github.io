@@ -19,6 +19,8 @@ export const ModelNameOverrides: Record<string, Record<string, string>> = {
   "StellarSora/assets/assetbundles/actor2d/character/10701/10701_lf/10701_F": { "kr": "틸리아-추억" },
   "StellarSora/assets/assetbundles/actor2d/character/10701/10701_lt/10701_T": { "kr": "틸리아-특성" },
   "StellarSora/assets/assetbundles/actor2d/character/10702/10702_l/10702_L": { "kr": "틸리아-각성" },
+  "StellarSora/assets/assetbundles/actor2d/character/10703/10703_l/10703_l_a/10703_L_a": { "kr": "이것이 나의 정의!a" },
+  "StellarSora/assets/assetbundles/actor2d/character/10703/10703_l/10703_l_b/10703_L_b": { "kr": "이것이 나의 정의!b" },
 
   "StellarSora/assets/assetbundles/actor2d/character/10801/10801_l/10801_L": { "kr": "카시미라-기본" },
   "StellarSora/assets/assetbundles/actor2d/character/10801/10801_lf/10801_F": { "kr": "카시미라-추억" },
@@ -62,6 +64,7 @@ export const ModelNameOverrides: Record<string, Record<string, string>> = {
   "StellarSora/assets/assetbundles/actor2d/character/11901/11901_lf/11901_lf_c/11901_F_c": { "kr": "나노하-추억c" },
   "StellarSora/assets/assetbundles/actor2d/character/11901/11901_lt/11901_T": { "kr": "나노하-특성" },
   "StellarSora/assets/assetbundles/actor2d/character/11902/11902_l/11902_L": { "kr": "나노하-각성" },
+  "StellarSora/assets/assetbundles/actor2d/character/11903/11903_l/11903_L": { "kr": "낯선 바람이 불어올 때" },
 
   "StellarSora/assets/assetbundles/actor2d/character/12001/12001_l/12001_L": { "kr": "카나체-기본" },
   "StellarSora/assets/assetbundles/actor2d/character/12001/12001_lf/12001_lf_a/12001_F_a": { "kr": "카나체-추억a" },
@@ -97,6 +100,17 @@ export const ModelNameOverrides: Record<string, Record<string, string>> = {
   "StellarSora/assets/assetbundles/actor2d/character/13202/13202_l/13202_l_a/13202_L_a": { "kr": "미네르바-각성a" },
   "StellarSora/assets/assetbundles/actor2d/character/13202/13202_l/13202_l_b/13202_L_b": { "kr": "미네르바-각성b" },
   "StellarSora/assets/assetbundles/actor2d/character/13203/13203_l/13203_L": { "kr": "나른한 백일몽" },
+
+  "StellarSora/assets/assetbundles/actor2d/character/13301/13301_l/13301_L": { "kr": "나츠카-기본" },
+  "StellarSora/assets/assetbundles/actor2d/character/13301/13301_lf/13301_lf_a/13301_F_a": { "kr": "나츠카-추억a" },
+  "StellarSora/assets/assetbundles/actor2d/character/13301/13301_lf/13301_lf_b/13301_F_b": { "kr": "나츠카-추억b" },
+  "StellarSora/assets/assetbundles/actor2d/character/13301/13301_lt/13301_T": { "kr": "나츠카-기본" },
+
+  "StellarSora/assets/assetbundles/actor2d/character/13401/13401_l/13401_L": { "kr": "후유카-기본" },
+  "StellarSora/assets/assetbundles/actor2d/character/13401/13401_lf/13401_lf_a/13401_F_a": { "kr": "후유카-추억a" },
+  "StellarSora/assets/assetbundles/actor2d/character/13401/13401_lf/13401_lf_b/13401_F_b": { "kr": "후유카-추억b" },
+  "StellarSora/assets/assetbundles/actor2d/character/13401/13401_lt/13401_T": { "kr": "후유카-특성" },
+  "StellarSora/assets/assetbundles/actor2d/character/13402/13402_l/13402_L": { "kr": "후유카-각성" },
 
   "StellarSora/assets/assetbundles/actor2d/character/13501/13501_l/13501_L": { "kr": "미스티-기본" },
   "StellarSora/assets/assetbundles/actor2d/character/13501/13501_lf/13501_lf_a/13501_F_a": { "kr": "미스티-추억a" },
@@ -254,11 +268,13 @@ export const ModelNameOverrides: Record<string, Record<string, string>> = {
   "StellarSora/assets/assetbundles/disc/4005/4005_l/4005_F": { kr: '디스크 - 맑은 하늘의 꽃'},
   "StellarSora/assets/assetbundles/disc/4006/4006_l/4006_F": { kr: '디스크 - 마녀의 그네'},
   "StellarSora/assets/assetbundles/disc/4007/4007_l/4007_F": { kr: '디스크 - 자정의 타락 천사'},
+  "StellarSora/assets/assetbundles/disc/4017/4017_l/4017_F": { kr: '디스크 - 불꽃'},
   "StellarSora/assets/assetbundles/disc/4026/4026_l/4026_F": { kr: '디스크 - 반짝이는 옛 연못'},
   "StellarSora/assets/assetbundles/disc/4027/4027_l/4027_F": { kr: '디스크 - 용과 봉황'},
   "StellarSora/assets/assetbundles/disc/4028/4028_l/4028_F": { kr: '디스크 - 대낮의 화원'},
   "StellarSora/assets/assetbundles/disc/4036/4036_l/4036_F": { kr: '디스크 - 길 잃은 순례자'},
   "StellarSora/assets/assetbundles/disc/4037/4037_l/4037_F": { kr: '디스크 - 전설을 잡아라'},
+  "StellarSora/assets/assetbundles/disc/4038/4038_l/4038_F" : { kr: '디스크 - 파도빛 유랑'},
   "StellarSora/assets/assetbundles/ui/changegender/changegender/avg3_100_a/avg3_100_a": { kr: ''},
   "StellarSora/assets/assetbundles/ui/changegender/changegender/avg3_101_a/avg3_101_a": { kr: ''},
   "StellarSora/assets/assetbundles/ui/createplayer/l2d/createplayer_bg/createplayer_bg_F/createplayer2_F": { kr: ''},
