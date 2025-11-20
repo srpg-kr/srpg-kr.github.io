@@ -274,7 +274,7 @@ export const ModelNameOverrides: Record<string, Record<string, string>> = {
   "StellarSora/assets/assetbundles/disc/4028/4028_l/4028_F": { kr: '디스크 - 대낮의 화원'},
   "StellarSora/assets/assetbundles/disc/4036/4036_l/4036_F": { kr: '디스크 - 길 잃은 순례자'},
   "StellarSora/assets/assetbundles/disc/4037/4037_l/4037_F": { kr: '디스크 - 전설을 잡아라'},
-  "StellarSora/assets/assetbundles/disc/4038/4038_l/4038_F" : { kr: '디스크 - 파도빛 유랑'},
+  "StellarSora/assets/assetbundles/disc/4038/4038_l/4038_F " : { kr: '디스크 - 파도빛 유랑'},
   "StellarSora/assets/assetbundles/ui/changegender/changegender/avg3_100_a/avg3_100_a": { kr: ''},
   "StellarSora/assets/assetbundles/ui/changegender/changegender/avg3_101_a/avg3_101_a": { kr: ''},
   "StellarSora/assets/assetbundles/ui/createplayer/l2d/createplayer_bg/createplayer_bg_F/createplayer2_F": { kr: ''},
