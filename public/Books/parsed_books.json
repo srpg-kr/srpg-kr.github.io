@@ -591,14 +591,6 @@
     "fullName": "일리온 포위전·하편",
     "file": "M24",
     "numMin": 1,
-    "numMax": 16,
-    "numDigits": 3
-  },
-  {
-    "shortName": "제 24장",
-    "fullName": "일리온 포위전·중편",
-    "file": "M24",
-    "numMin": 17,
     "numMax": 18,
     "numDigits": 3
   },
