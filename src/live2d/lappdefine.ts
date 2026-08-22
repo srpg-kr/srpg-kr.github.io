@@ -33,8 +33,13 @@ export const ViewLogicalMaxRight = 2.0;
 export const ViewLogicalMaxBottom = -2.0;
 export const ViewLogicalMaxTop = 2.0;
 
-// 相対パス
-export const ResourcesPath = 'https://srpg-kr.github.io/l2d-assets/Resources/';
+// Resource origin. Development can override this in .env.development.local;
+// production always falls back to the hosted asset repository.
+const configuredResourcesPath =
+  import.meta.env.VITE_LIVE2D_RESOURCES_PATH?.trim();
+export const ResourcesPath =
+  configuredResourcesPath ||
+  'https://srpg-kr.github.io/l2d-assets/Resources/';
 
 // モデルの後ろにある背景の画像ファイル
 export const BackImageName = 'back_class_normal.png';

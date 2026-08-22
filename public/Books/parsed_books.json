@@ -1,0 +1,10615 @@
+[
+  {
+    "shortName": "꿈속의 가족",
+    "fullName": "꿈속의 가족",
+    "file": "M001",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "고양이 대리",
+    "fullName": "고양이 대리",
+    "file": "M001",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "수산물 작전 기록",
+    "fullName": "수산물 작전 기록",
+    "file": "M001",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "겨울의 악연",
+    "fullName": "겨울의 악연",
+    "file": "M002",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "오아시스 동창회",
+    "fullName": "오아시스 동창회",
+    "file": "M003",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "숨겨진 공헌자",
+    "fullName": "숨겨진 공헌자",
+    "file": "M003",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "사랑 가득한 관찰",
+    "fullName": "사랑 가득한 관찰",
+    "file": "M003",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "한 명 부족해",
+    "fullName": "한 명 부족해",
+    "file": "M004",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "빈백 소파 동호회",
+    "fullName": "빈백 소파 동호회",
+    "file": "M004",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "고양이 영업 중",
+    "fullName": "고양이 영업 중",
+    "file": "M004",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "택배원의 고민",
+    "fullName": "택배원의 고민",
+    "file": "M005",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "대연이 집을 비운 날",
+    "fullName": "대연이 집을 비운 날",
+    "file": "M005",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "황새와 뱁새",
+    "fullName": "황새와 뱁새",
+    "file": "M005",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "파티 동료",
+    "fullName": "파티 동료",
+    "file": "M006",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "과감한 놀이",
+    "fullName": "과감한 놀이",
+    "file": "M006",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "겨울의 추억",
+    "fullName": "겨울의 추억",
+    "file": "M006",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "시큼한 시그널",
+    "fullName": "시큼한 시그널",
+    "file": "M006",
+    "numMin": 4,
+    "numMax": 4,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "사교 연습",
+    "fullName": "사교 연습",
+    "file": "M007",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "신성 모집",
+    "fullName": "신성 모집",
+    "file": "M007",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "금기 접촉",
+    "fullName": "금기 접촉",
+    "file": "M007",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "잠깐의 단잠",
+    "fullName": "잠깐의 단잠",
+    "file": "M007",
+    "numMin": 4,
+    "numMax": 4,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "별님의 깜빡임",
+    "fullName": "별님의 깜빡임",
+    "file": "M008",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "편한 자세",
+    "fullName": "편한 자세",
+    "file": "M008",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "암호화 통신",
+    "fullName": "암호화 통신",
+    "file": "M009",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "무형의 힘",
+    "fullName": "무형의 힘",
+    "file": "M009",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "제 1장",
+    "fullName": "쌍추연역",
+    "file": "M01",
+    "numMin": 5,
+    "numMax": 17,
+    "numDigits": 3
+  },
+  {
+    "shortName": "특훈 시간",
+    "fullName": "특훈 시간",
+    "file": "M010",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "진심 조리",
+    "fullName": "진심 조리",
+    "file": "M010",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "전속 배송",
+    "fullName": "전속 배송",
+    "file": "M010",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "헬스장 에티켓",
+    "fullName": "헬스장 에티켓",
+    "file": "M010",
+    "numMin": 4,
+    "numMax": 4,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "누구게~?",
+    "fullName": "누구게~?",
+    "file": "M011",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "엘모호 유령 전설",
+    "fullName": "엘모호 유령 전설",
+    "file": "M011",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "분실물 회수견",
+    "fullName": "분실물 회수견",
+    "file": "M011",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "등불 아래의 거래",
+    "fullName": "등불 아래의 거래",
+    "file": "M011",
+    "numMin": 4,
+    "numMax": 4,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "인형 넷이서 연극",
+    "fullName": "인형 넷이서 연극",
+    "file": "M012",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "류시의 산수 교실",
+    "fullName": "류시의 산수 교실",
+    "file": "M013",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "기사의 약속",
+    "fullName": "기사의 약속",
+    "file": "M013",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "페일린이 꼼짝도 하지 않는다",
+    "fullName": "페일린이 꼼짝도 하지 않는다",
+    "file": "M014",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "리벨리온 집결",
+    "fullName": "리벨리온 집결",
+    "file": "M015",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "수수께끼의 침입자",
+    "fullName": "수수께끼의 침입자",
+    "file": "M015",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "리허설",
+    "fullName": "리허설",
+    "file": "M015",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "동료 의식",
+    "fullName": "동료 의식",
+    "file": "M016",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "폭파 조",
+    "fullName": "폭파 조",
+    "file": "M016",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "침묵의 무게",
+    "fullName": "침묵의 무게",
+    "file": "M016",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "제 2장",
+    "fullName": "제2신호",
+    "file": "M02",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 2장",
+    "fullName": "제2신호",
+    "file": "M02",
+    "numMin": 7,
+    "numMax": 15,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 2장",
+    "fullName": "제2신호",
+    "file": "M02",
+    "numMin": 17,
+    "numMax": 18,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 3장",
+    "fullName": "오버피팅",
+    "file": "M03",
+    "numMin": 1,
+    "numMax": 14,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 4장",
+    "fullName": "역순행렬",
+    "file": "M04",
+    "numMin": 1,
+    "numMax": 24,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 5장",
+    "fullName": "복합공명",
+    "file": "M05",
+    "numMin": 1,
+    "numMax": 16,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 6장",
+    "fullName": "단현주기",
+    "file": "M06",
+    "numMin": 1,
+    "numMax": 16,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 7장",
+    "fullName": "방사감쇠",
+    "file": "M07",
+    "numMin": 1,
+    "numMax": 15,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 8장",
+    "fullName": "잔상 효과",
+    "file": "M08",
+    "numMin": 1,
+    "numMax": 20,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 9장",
+    "fullName": "원일점·상",
+    "file": "M09",
+    "numMin": 1,
+    "numMax": 30,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 10장",
+    "fullName": "원일점·하",
+    "file": "M10",
+    "numMin": 1,
+    "numMax": 53,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 11장",
+    "fullName": "어긋난 앵커·상편",
+    "file": "M11",
+    "numMin": 1,
+    "numMax": 44,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 12장",
+    "fullName": "어긋난 앵커·하편",
+    "file": "M12",
+    "numMin": 1,
+    "numMax": 38,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 13장",
+    "fullName": "불꽃의 죄·상편",
+    "file": "M13",
+    "numMin": 1,
+    "numMax": 16,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 14장",
+    "fullName": "불꽃의 죄·중편",
+    "file": "M14",
+    "numMin": 1,
+    "numMax": 25,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 15장",
+    "fullName": "불꽃의 죄·하편",
+    "file": "M15",
+    "numMin": 1,
+    "numMax": 35,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 16장",
+    "fullName": "갈라진 두 궤도·상편",
+    "file": "M16",
+    "numMin": 1,
+    "numMax": 30,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 17장",
+    "fullName": "갈라진 두 궤도·하편",
+    "file": "M17",
+    "numMin": 1,
+    "numMax": 20,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 18장",
+    "fullName": "여명을 새기는 자·상편",
+    "file": "M18",
+    "numMin": 1,
+    "numMax": 30,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 19장",
+    "fullName": "여명을 새기는 자·하편",
+    "file": "M19",
+    "numMin": 1,
+    "numMax": 28,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 20장",
+    "fullName": "거울상 중복·상편",
+    "file": "M20",
+    "numMin": 1,
+    "numMax": 34,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 21장",
+    "fullName": "거울상 중복·하편",
+    "file": "M21",
+    "numMin": 1,
+    "numMax": 34,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 22장",
+    "fullName": "일리온 포위전·상편",
+    "file": "M22",
+    "numMin": 1,
+    "numMax": 34,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 23장",
+    "fullName": "일리온 포위전·중편",
+    "file": "M23",
+    "numMin": 1,
+    "numMax": 28,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 24장",
+    "fullName": "일리온 포위전·하편",
+    "file": "M24",
+    "numMin": 1,
+    "numMax": 16,
+    "numDigits": 3
+  },
+  {
+    "shortName": "제 24장",
+    "fullName": "일리온 포위전·중편",
+    "file": "M24",
+    "numMin": 17,
+    "numMax": 18,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA00",
+    "fullName": "위상 역제압",
+    "file": "MA00",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA01",
+    "fullName": "책정",
+    "file": "MA01",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA01",
+    "fullName": "MA01",
+    "file": "MA01",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA01",
+    "fullName": "책정",
+    "file": "MA01",
+    "numMin": 3,
+    "numMax": 5,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA02",
+    "fullName": "수렴",
+    "file": "MA02",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA02",
+    "fullName": "패러독스 순환",
+    "file": "MA02",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA02",
+    "fullName": "폐막",
+    "file": "MA02",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA03",
+    "fullName": "물자체",
+    "file": "MA03",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA03",
+    "fullName": "시간 변화",
+    "file": "MA03",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA03",
+    "fullName": "허상 반사",
+    "file": "MA03",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA03",
+    "fullName": "무질서 필드",
+    "file": "MA03",
+    "numMin": 4,
+    "numMax": 4,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA04",
+    "fullName": "근원",
+    "file": "MA04",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA04",
+    "fullName": "완전무장",
+    "file": "MA04",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA04",
+    "fullName": "스트레스",
+    "file": "MA04",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA04",
+    "fullName": "유아론",
+    "file": "MA04",
+    "numMin": 4,
+    "numMax": 4,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA04",
+    "fullName": "도주선",
+    "file": "MA04",
+    "numMin": 5,
+    "numMax": 6,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA04",
+    "fullName": "막다른 길",
+    "file": "MA04",
+    "numMin": 8,
+    "numMax": 9,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA04",
+    "fullName": "안티고네의 죽음",
+    "file": "MA04",
+    "numMin": 10,
+    "numMax": 10,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA04",
+    "fullName": "탈진실",
+    "file": "MA04",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA05",
+    "fullName": "파동 궤도",
+    "file": "MA05",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA05",
+    "fullName": "집합 매개변수",
+    "file": "MA05",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA06",
+    "fullName": "길 잃은 소리",
+    "file": "MA06",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA08",
+    "fullName": "교접 필드",
+    "file": "MA08",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA08",
+    "fullName": "빛",
+    "file": "MA08",
+    "numMin": 2,
+    "numMax": 3,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA09",
+    "fullName": "원일점·상",
+    "file": "MA09",
+    "numMin": 1,
+    "numMax": 2,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA10",
+    "fullName": "원일점·하",
+    "file": "MA10",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA13",
+    "fullName": "불꽃의 죄·상편",
+    "file": "MA13",
+    "numMin": 1,
+    "numMax": 2,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA15",
+    "fullName": "불꽃의 죄·하편",
+    "file": "MA15",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA18",
+    "fullName": "여명을 새기는 자·상편",
+    "file": "MA18",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA19",
+    "fullName": "여명을 새기는 자·하편",
+    "file": "MA19",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA20",
+    "fullName": "거울상 중복·상편",
+    "file": "MA20",
+    "numMin": 1,
+    "numMax": 2,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA22",
+    "fullName": "일리온 포위전·상편",
+    "file": "MA22",
+    "numMin": 1,
+    "numMax": 2,
+    "numDigits": 3
+  },
+  {
+    "shortName": "MA23",
+    "fullName": "일리온 포위전·중편",
+    "file": "MA23",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 3
+  },
+  {
+    "shortName": "그로자",
+    "fullName": "ASMR",
+    "file": "A001",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2,
+    "category": "ASMR"
+  },
+  {
+    "shortName": "로렐라이",
+    "fullName": "ASMR",
+    "file": "A002",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2,
+    "category": "ASMR"
+  },
+  {
+    "shortName": "아스테리아",
+    "fullName": "ASMR",
+    "file": "A003",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2,
+    "category": "ASMR"
+  },
+  {
+    "shortName": "랩소디 콰르텟",
+    "fullName": "랩소디 콰르텟",
+    "file": "A02",
+    "numMin": 1,
+    "numMax": 24,
+    "numDigits": 3
+  },
+  {
+    "shortName": "방랑자·상",
+    "fullName": "방랑자·상",
+    "file": "A03",
+    "numMin": 1,
+    "numMax": 33,
+    "numDigits": 3
+  },
+  {
+    "shortName": "추적 공연",
+    "fullName": "추적 공연",
+    "file": "A04",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 3
+  },
+  {
+    "shortName": "방랑자·하",
+    "fullName": "방랑자·하",
+    "file": "A05",
+    "numMin": 1,
+    "numMax": 9,
+    "numDigits": 3
+  },
+  {
+    "shortName": "교차 돌진",
+    "fullName": "교차 돌진",
+    "file": "A06",
+    "numMin": 1,
+    "numMax": 11,
+    "numDigits": 3
+  },
+  {
+    "shortName": "발 디딜 곳",
+    "fullName": "발 디딜 곳",
+    "file": "A07",
+    "numMin": 1,
+    "numMax": 10,
+    "numDigits": 3
+  },
+  {
+    "shortName": "새벽의 메아리",
+    "fullName": "새벽의 메아리",
+    "file": "A08",
+    "numMin": 1,
+    "numMax": 28,
+    "numDigits": 3
+  },
+  {
+    "shortName": "이스케이프 프롬 사이보그",
+    "fullName": "이스케이프 프롬 사이보그",
+    "file": "A09",
+    "numMin": 1,
+    "numMax": 18,
+    "numDigits": 3
+  },
+  {
+    "shortName": "기념일 예찬",
+    "fullName": "기념일 예찬",
+    "file": "A10",
+    "numMin": 1,
+    "numMax": 10,
+    "numDigits": 3
+  },
+  {
+    "shortName": "함께 진실을 이야기할 때",
+    "fullName": "함께 진실을 이야기할 때",
+    "file": "A11",
+    "numMin": 1,
+    "numMax": 10,
+    "numDigits": 3
+  },
+  {
+    "shortName": "미미르의 재연·상",
+    "fullName": "미미르의 재연·상",
+    "file": "A12",
+    "numMin": 1,
+    "numMax": 37,
+    "numDigits": 3
+  },
+  {
+    "shortName": "잿빛의 날개 속에서",
+    "fullName": "잿빛의 날개 속에서",
+    "file": "A13",
+    "numMin": 1,
+    "numMax": 10,
+    "numDigits": 3
+  },
+  {
+    "shortName": "잿빛의 날개 속에서",
+    "fullName": "잿빛의 날개 속에서",
+    "file": "A13",
+    "numMin": 12,
+    "numMax": 14,
+    "numDigits": 3
+  },
+  {
+    "shortName": "잿빛의 날개 속에서",
+    "fullName": "잿빛의 날개 속에서",
+    "file": "A13",
+    "numMin": 16,
+    "numMax": 18,
+    "numDigits": 3
+  },
+  {
+    "shortName": "미미르의 재연·하",
+    "fullName": "미미르의 재연·하",
+    "file": "A14",
+    "numMin": 1,
+    "numMax": 65,
+    "numDigits": 3
+  },
+  {
+    "shortName": "미미르의 재연·하",
+    "fullName": "미미르의 재연·하",
+    "file": "A14",
+    "numMin": 73,
+    "numMax": 77,
+    "numDigits": 3
+  },
+  {
+    "shortName": "돌아온 봄을 맞는 불꽃놀이",
+    "fullName": "돌아온 봄을 맞는 불꽃놀이",
+    "file": "A15",
+    "numMin": 1,
+    "numMax": 24,
+    "numDigits": 3
+  },
+  {
+    "shortName": "씁쓸한 가시덩굴과 수레국화",
+    "fullName": "씁쓸한 가시덩굴과 수레국화",
+    "file": "A16",
+    "numMin": 1,
+    "numMax": 17,
+    "numDigits": 3
+  },
+  {
+    "shortName": "은빛에 숨겨진 편지",
+    "fullName": "은빛에 숨겨진 편지",
+    "file": "A17",
+    "numMin": 1,
+    "numMax": 13,
+    "numDigits": 3
+  },
+  {
+    "shortName": "EX UMBRA",
+    "fullName": "EX UMBRA",
+    "file": "A18",
+    "numMin": 1,
+    "numMax": 21,
+    "numDigits": 3
+  },
+  {
+    "shortName": "거울 고치와 죄수 나비",
+    "fullName": "거울 고치와 죄수 나비",
+    "file": "A20",
+    "numMin": 1,
+    "numMax": 33,
+    "numDigits": 3
+  },
+  {
+    "shortName": "두근두근 놀이공원",
+    "fullName": "두근두근 놀이공원",
+    "file": "A21",
+    "numMin": 1,
+    "numMax": 23,
+    "numDigits": 3
+  },
+  {
+    "shortName": "밤에 잠기다",
+    "fullName": "밤에 잠기다",
+    "file": "A22",
+    "numMin": 1,
+    "numMax": 21,
+    "numDigits": 3
+  },
+  {
+    "shortName": "교차 돌진",
+    "fullName": "교차 돌진",
+    "file": "A23",
+    "numMin": 1,
+    "numMax": 20,
+    "numDigits": 3
+  },
+  {
+    "shortName": "전진하라, 에이스 택배원!",
+    "fullName": "전진하라, 에이스 택배원!",
+    "file": "A24",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 3
+  },
+  {
+    "shortName": "전진하라, 에이스 택배원!",
+    "fullName": "전진하라, 에이스 택배원!",
+    "file": "A24",
+    "numMin": 8,
+    "numMax": 19,
+    "numDigits": 3
+  },
+  {
+    "shortName": "허구에서의 새 시작",
+    "fullName": "허구에서의 새 시작",
+    "file": "A25",
+    "numMin": 1,
+    "numMax": 27,
+    "numDigits": 3
+  },
+  {
+    "shortName": "니디 캣 걸 오버로드",
+    "fullName": "니디 캣 걸 오버로드",
+    "file": "A26",
+    "numMin": 1,
+    "numMax": 24,
+    "numDigits": 3
+  },
+  {
+    "shortName": "준마가 빛 밟을 때",
+    "fullName": "준마가 빛 밟을 때",
+    "file": "A27",
+    "numMin": 1,
+    "numMax": 24,
+    "numDigits": 3
+  },
+  {
+    "shortName": "월하의 진혼곡",
+    "fullName": "월하의 진혼곡",
+    "file": "A28",
+    "numMin": 1,
+    "numMax": 25,
+    "numDigits": 3
+  },
+  {
+    "shortName": "테미스의 대국",
+    "fullName": "테미스의 대국",
+    "file": "A29",
+    "numMin": 1,
+    "numMax": 23,
+    "numDigits": 3
+  },
+  {
+    "shortName": "호박색 달빛",
+    "fullName": "호박색 달빛",
+    "file": "A30",
+    "numMin": 1,
+    "numMax": 22,
+    "numDigits": 3
+  },
+  {
+    "shortName": "꿈속의 네버랜드",
+    "fullName": "꿈속의 네버랜드",
+    "file": "A31",
+    "numMin": 1,
+    "numMax": 29,
+    "numDigits": 3
+  },
+  {
+    "shortName": "정적의 피스티",
+    "fullName": "정적의 피스티",
+    "file": "A32",
+    "numMin": 1,
+    "numMax": 27,
+    "numDigits": 3
+  },
+  {
+    "shortName": "정적의 피스티",
+    "fullName": "정적의 피스티",
+    "file": "A32",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 3
+  },
+  {
+    "shortName": "A99",
+    "fullName": "A99",
+    "file": "A99",
+    "numMin": 1,
+    "numMax": 8,
+    "numDigits": 3
+  },
+  {
+    "shortName": "A99",
+    "fullName": "A99",
+    "file": "A99",
+    "numMin": 11,
+    "numMax": 17,
+    "numDigits": 3
+  },
+  {
+    "shortName": "AA03",
+    "fullName": "방랑자·상",
+    "file": "AA03",
+    "numMin": 1,
+    "numMax": 2,
+    "numDigits": 3
+  },
+  {
+    "shortName": "그로자",
+    "fullName": "F001",
+    "file": "F001",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "캐롤릭",
+    "fullName": "F002",
+    "file": "F002",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "콜펜",
+    "fullName": "F003",
+    "file": "F003",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "네메시스",
+    "fullName": "F004",
+    "file": "F004",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "페리티아",
+    "fullName": "F005",
+    "file": "F005",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "베프리",
+    "fullName": "F006",
+    "file": "F006",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "레나",
+    "fullName": "F007",
+    "file": "F007",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "메이링",
+    "fullName": "F008",
+    "file": "F008",
+    "numMin": 1,
+    "numMax": 7,
+    "numDigits": 2
+  },
+  {
+    "shortName": "수오미",
+    "fullName": "F009",
+    "file": "F009",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "샤크리",
+    "fullName": "F012",
+    "file": "F012",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "마키아토",
+    "fullName": "F013",
+    "file": "F013",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "드셰브니",
+    "fullName": "F014",
+    "file": "F014",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "나강",
+    "fullName": "F015",
+    "file": "F015",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "토로로",
+    "fullName": "F016",
+    "file": "F016",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "치타",
+    "fullName": "F017",
+    "file": "F017",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "경구",
+    "fullName": "F018",
+    "file": "F018",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "리타라",
+    "fullName": "F019",
+    "file": "F019",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "F020",
+    "fullName": "F020",
+    "file": "F020",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "대연",
+    "fullName": "F021",
+    "file": "F021",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "센타우레이시",
+    "fullName": "F023",
+    "file": "F023",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "사브리나",
+    "fullName": "F026",
+    "file": "F026",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "크세니아",
+    "fullName": "F028",
+    "file": "F028",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "강우",
+    "fullName": "F029",
+    "file": "F029",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "모신나강",
+    "fullName": "F031",
+    "file": "F031",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "롯타",
+    "fullName": "F038",
+    "file": "F038",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "캠핑, 눈을 감아주세요",
+    "fullName": "캠핑, 눈을 감아주세요",
+    "file": "F070",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "연주 연습",
+    "fullName": "연주 연습",
+    "file": "F074",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "2026 생일",
+    "fullName": "2026 생일",
+    "file": "FE001",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "기념일"
+  },
+  {
+    "shortName": "캐롤릭",
+    "fullName": "엘모 서버룸",
+    "file": "P00",
+    "numMin": 206,
+    "numMax": 206,
+    "numDigits": 3
+  },
+  {
+    "shortName": "콜펜",
+    "fullName": "엘모 서버룸",
+    "file": "P00",
+    "numMin": 306,
+    "numMax": 306,
+    "numDigits": 3
+  },
+  {
+    "shortName": "P00",
+    "fullName": "엘모 서버룸",
+    "file": "P00",
+    "numMin": 808,
+    "numMax": 808,
+    "numDigits": 3
+  },
+  {
+    "shortName": "P001",
+    "fullName": "P001",
+    "file": "P001",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "P002",
+    "fullName": "P002",
+    "file": "P002",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "P003",
+    "fullName": "P003",
+    "file": "P003",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "P004",
+    "fullName": "P004",
+    "file": "P004",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "P005",
+    "fullName": "P005",
+    "file": "P005",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "P006",
+    "fullName": "P006",
+    "file": "P006",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "P007",
+    "fullName": "P007",
+    "file": "P007",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "P008",
+    "fullName": "P008",
+    "file": "P008",
+    "numMin": 1,
+    "numMax": 7,
+    "numDigits": 2
+  },
+  {
+    "shortName": "P009",
+    "fullName": "P009",
+    "file": "P009",
+    "numMin": 1,
+    "numMax": 9,
+    "numDigits": 2
+  },
+  {
+    "shortName": "샤크리",
+    "fullName": "엘모 서버룸",
+    "file": "P01",
+    "numMin": 210,
+    "numMax": 210,
+    "numDigits": 3
+  },
+  {
+    "shortName": "나강",
+    "fullName": "엘모 서버룸",
+    "file": "P01",
+    "numMin": 510,
+    "numMax": 510,
+    "numDigits": 3
+  },
+  {
+    "shortName": "토로로",
+    "fullName": "엘모 서버룸",
+    "file": "P01",
+    "numMin": 606,
+    "numMax": 606,
+    "numDigits": 3
+  },
+  {
+    "shortName": "경구",
+    "fullName": "엘모 서버룸",
+    "file": "P01",
+    "numMin": 808,
+    "numMax": 808,
+    "numDigits": 3
+  },
+  {
+    "shortName": "P012",
+    "fullName": "P012",
+    "file": "P012",
+    "numMin": 1,
+    "numMax": 9,
+    "numDigits": 2
+  },
+  {
+    "shortName": "P013",
+    "fullName": "P013",
+    "file": "P013",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "P014",
+    "fullName": "P014",
+    "file": "P014",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "P015",
+    "fullName": "P015",
+    "file": "P015",
+    "numMin": 1,
+    "numMax": 9,
+    "numDigits": 2
+  },
+  {
+    "shortName": "P016",
+    "fullName": "P016",
+    "file": "P016",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "P017",
+    "fullName": "P017",
+    "file": "P017",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "P018",
+    "fullName": "P018",
+    "file": "P018",
+    "numMin": 1,
+    "numMax": 7,
+    "numDigits": 2
+  },
+  {
+    "shortName": "P019",
+    "fullName": "P019",
+    "file": "P019",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "센타우레이시",
+    "fullName": "엘모 서버룸",
+    "file": "P02",
+    "numMin": 309,
+    "numMax": 309,
+    "numDigits": 3
+  },
+  {
+    "shortName": "사브리나",
+    "fullName": "엘모 서버룸",
+    "file": "P02",
+    "numMin": 607,
+    "numMax": 607,
+    "numDigits": 3
+  },
+  {
+    "shortName": "울리드",
+    "fullName": "엘모 서버룸",
+    "file": "P020",
+    "numMin": 1,
+    "numMax": 2,
+    "numDigits": 2
+  },
+  {
+    "shortName": "울리드",
+    "fullName": "라운지 스토리",
+    "file": "P020",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "울리드",
+    "fullName": "엘모 서버룸",
+    "file": "P020",
+    "numMin": 4,
+    "numMax": 7,
+    "numDigits": 2
+  },
+  {
+    "shortName": "P021",
+    "fullName": "P021",
+    "file": "P021",
+    "numMin": 1,
+    "numMax": 7,
+    "numDigits": 2
+  },
+  {
+    "shortName": "특별 사인",
+    "fullName": "특별 사인",
+    "file": "P022",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "아이돌 스페셜 블렌드",
+    "fullName": "아이돌 스페셜 블렌드",
+    "file": "P022",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "샤크리",
+    "fullName": "엘모 서버룸",
+    "file": "P022",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "P023",
+    "fullName": "P023",
+    "file": "P023",
+    "numMin": 1,
+    "numMax": 8,
+    "numDigits": 2
+  },
+  {
+    "shortName": "새로운 실험 대책",
+    "fullName": "새로운 실험 대책",
+    "file": "P024",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "신형 소체 구입 계획",
+    "fullName": "신형 소체 구입 계획",
+    "file": "P024",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "치타",
+    "fullName": "엘모 서버룸",
+    "file": "P024",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "희귀한 레코드",
+    "fullName": "희귀한 레코드",
+    "file": "P025",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "천체관측",
+    "fullName": "천체관측",
+    "file": "P025",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "토로로",
+    "fullName": "엘모 서버룸",
+    "file": "P025",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "P026",
+    "fullName": "P026",
+    "file": "P026",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "전략적 휴식",
+    "fullName": "전략적 휴식",
+    "file": "P027",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "명절 맞이",
+    "fullName": "명절 맞이",
+    "file": "P027",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "경구",
+    "fullName": "엘모 서버룸",
+    "file": "P027",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "P028",
+    "fullName": "P028",
+    "file": "P028",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "P029",
+    "fullName": "P029",
+    "file": "P029",
+    "numMin": 1,
+    "numMax": 7,
+    "numDigits": 2
+  },
+  {
+    "shortName": "P031",
+    "fullName": "P031",
+    "file": "P031",
+    "numMin": 1,
+    "numMax": 8,
+    "numDigits": 2
+  },
+  {
+    "shortName": "감도는 현음",
+    "fullName": "감도는 현음",
+    "file": "P032",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "설탕 절임 계향",
+    "fullName": "설탕 절임 계향",
+    "file": "P032",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "대연",
+    "fullName": "엘모 서버룸",
+    "file": "P032",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "스키 초보",
+    "fullName": "스키 초보",
+    "file": "P033",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "게임 종결자",
+    "fullName": "게임 종결자",
+    "file": "P033",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "모신나강",
+    "fullName": "엘모 서버룸",
+    "file": "P033",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "흑백의 약속",
+    "fullName": "흑백의 약속",
+    "file": "P034",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "정성 담은 커피",
+    "fullName": "정성 담은 커피",
+    "file": "P034",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "마키아토",
+    "fullName": "엘모 서버룸",
+    "file": "P034",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "공연 프로그램",
+    "fullName": "공연 프로그램",
+    "file": "P035",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "잠깐 쉬자",
+    "fullName": "잠깐 쉬자",
+    "file": "P035",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "강우",
+    "fullName": "엘모 서버룸",
+    "file": "P035",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "믿음직한 매니저",
+    "fullName": "믿음직한 매니저",
+    "file": "P036",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "지갑 대위기",
+    "fullName": "지갑 대위기",
+    "file": "P036",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "크세니아",
+    "fullName": "엘모 서버룸",
+    "file": "P036",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "스트레스 해소",
+    "fullName": "스트레스 해소",
+    "file": "P037",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "리더의 기품",
+    "fullName": "리더의 기품",
+    "file": "P037",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "울리드",
+    "fullName": "엘모 서버룸",
+    "file": "P037",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "P038",
+    "fullName": "P038",
+    "file": "P038",
+    "numMin": 1,
+    "numMax": 8,
+    "numDigits": 2
+  },
+  {
+    "shortName": "훈련 계획",
+    "fullName": "훈련 계획",
+    "file": "P039",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "로큰롤 웨이브",
+    "fullName": "로큰롤 웨이브",
+    "file": "P039",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "수오미",
+    "fullName": "엘모 서버룸",
+    "file": "P039",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "도움의 한계",
+    "fullName": "도움의 한계",
+    "file": "P040",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "정진하자!",
+    "fullName": "정진하자!",
+    "file": "P040",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "파파샤",
+    "fullName": "엘모 서버룸",
+    "file": "P040",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "식물의 성장 상태",
+    "fullName": "식물의 성장 상태",
+    "file": "P041",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "풀어지는 방법",
+    "fullName": "풀어지는 방법",
+    "file": "P041",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "롯타",
+    "fullName": "엘모 서버룸",
+    "file": "P041",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "무기 관리",
+    "fullName": "무기 관리",
+    "file": "P042",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "작업 처리",
+    "fullName": "작업 처리",
+    "file": "P042",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "안도리스",
+    "fullName": "엘모 서버룸",
+    "file": "P042",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "특별 식단",
+    "fullName": "특별 식단",
+    "file": "P043",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "스파링 파트너",
+    "fullName": "스파링 파트너",
+    "file": "P043",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "페이",
+    "fullName": "엘모 서버룸",
+    "file": "P043",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "음소거 모드",
+    "fullName": "음소거 모드",
+    "file": "P044",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "그림",
+    "fullName": "그림",
+    "file": "P044",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "벡터",
+    "fullName": "엘모 서버룸",
+    "file": "P044",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "일일 관찰",
+    "fullName": "일일 관찰",
+    "file": "P045",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "달콤한 부상",
+    "fullName": "달콤한 부상",
+    "file": "P045",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "비욜카",
+    "fullName": "엘모 서버룸",
+    "file": "P045",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "커피 타임",
+    "fullName": "커피 타임",
+    "file": "P047",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "달콤한 부담",
+    "fullName": "달콤한 부담",
+    "file": "P047",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "스프링필드",
+    "fullName": "엘모 서버룸",
+    "file": "P047",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "식재 분재",
+    "fullName": "식재 분재",
+    "file": "P048",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "독극물 개발 중",
+    "fullName": "독극물 개발 중",
+    "file": "P048",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "추화",
+    "fullName": "엘모 서버룸",
+    "file": "P048",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "문명적인 발언",
+    "fullName": "문명적인 발언",
+    "file": "P049",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "변장 해커",
+    "fullName": "변장 해커",
+    "file": "P049",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "하프시",
+    "fullName": "엘모 서버룸",
+    "file": "P049",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "병기 감상",
+    "fullName": "병기 감상",
+    "file": "P050",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "초청 고민",
+    "fullName": "초청 고민",
+    "file": "P050",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "조휘",
+    "fullName": "엘모 서버룸",
+    "file": "P050",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "휴식 시간",
+    "fullName": "휴식 시간",
+    "file": "P051",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "일과 훈련",
+    "fullName": "일과 훈련",
+    "file": "P051",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "미슈티",
+    "fullName": "엘모 서버룸",
+    "file": "P051",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "추가 발주",
+    "fullName": "추가 발주",
+    "file": "P052",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "햇빛 편지",
+    "fullName": "햇빛 편지",
+    "file": "P052",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "클루카이",
+    "fullName": "엘모 서버룸",
+    "file": "P052",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "높이의 난제",
+    "fullName": "높이의 난제",
+    "file": "P053",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "신뢰에 부응",
+    "fullName": "신뢰에 부응",
+    "file": "P053",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "페리",
+    "fullName": "엘모 서버룸",
+    "file": "P053",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "공연 코디 선택",
+    "fullName": "공연 코디 선택",
+    "file": "P054",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "인형의 새옷",
+    "fullName": "인형의 새옷",
+    "file": "P054",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "유희",
+    "fullName": "엘모 서버룸",
+    "file": "P054",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "달려라 운동회",
+    "fullName": "달려라 운동회",
+    "file": "P055",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "고민투성",
+    "fullName": "고민투성",
+    "file": "P055",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "니키타",
+    "fullName": "엘모 서버룸",
+    "file": "P055",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "요리 연구",
+    "fullName": "요리 연구",
+    "file": "P056",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "잠입 복장",
+    "fullName": "잠입 복장",
+    "file": "P056",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "리바",
+    "fullName": "엘모 서버룸",
+    "file": "P056",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "내 곁의 히어로",
+    "fullName": "내 곁의 히어로",
+    "file": "P057",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "영화 굿즈",
+    "fullName": "영화 굿즈",
+    "file": "P057",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "로벨라",
+    "fullName": "엘모 서버룸",
+    "file": "P057",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "여름의 드링크",
+    "fullName": "여름의 드링크",
+    "file": "P058",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "일광욕이야!",
+    "fullName": "일광욕이야!",
+    "file": "P058",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "레이니",
+    "fullName": "엘모 서버룸",
+    "file": "P058",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "당분 보급",
+    "fullName": "당분 보급",
+    "file": "P059",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "쫓아오는 시선",
+    "fullName": "쫓아오는 시선",
+    "file": "P059",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "린드",
+    "fullName": "엘모 서버룸",
+    "file": "P059",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "심술궂은 까망이",
+    "fullName": "심술궂은 까망이",
+    "file": "P060",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "교환 일기",
+    "fullName": "교환 일기",
+    "file": "P060",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "파에투사",
+    "fullName": "엘모 서버룸",
+    "file": "P060",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "시설 정비",
+    "fullName": "시설 정비",
+    "file": "P061",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "첫 오락 경험",
+    "fullName": "첫 오락 경험",
+    "file": "P061",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "바틸다",
+    "fullName": "엘모 서버룸",
+    "file": "P061",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "예쁜 케이크",
+    "fullName": "예쁜 케이크",
+    "file": "P062",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "천진난만",
+    "fullName": "천진난만",
+    "file": "P062",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "루이스",
+    "fullName": "엘모 서버룸",
+    "file": "P062",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "정의 집행",
+    "fullName": "정의 집행",
+    "file": "P063",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "탐정 복장",
+    "fullName": "탐정 복장",
+    "file": "P063",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "웰로드",
+    "fullName": "엘모 서버룸",
+    "file": "P063",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "스릴 있는 일",
+    "fullName": "스릴 있는 일",
+    "file": "P064",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "개선 방안",
+    "fullName": "개선 방안",
+    "file": "P064",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "플로렌스",
+    "fullName": "엘모 서버룸",
+    "file": "P064",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "생명의 빛",
+    "fullName": "생명의 빛",
+    "file": "P065",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "고전 음악",
+    "fullName": "고전 음악",
+    "file": "P065",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "앨바",
+    "fullName": "엘모 서버룸",
+    "file": "P065",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "취미 연구",
+    "fullName": "취미 연구",
+    "file": "P066",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "일과 훈련",
+    "fullName": "일과 훈련",
+    "file": "P066",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "보이마스티나",
+    "fullName": "엘모 서버룸",
+    "file": "P066",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "단란함",
+    "fullName": "단란함",
+    "file": "P067",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "성장 케어",
+    "fullName": "성장 케어",
+    "file": "P067",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "헬렌",
+    "fullName": "엘모 서버룸",
+    "file": "P067",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "두근두근 포장",
+    "fullName": "두근두근 포장",
+    "file": "P068",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "좌우 트릭",
+    "fullName": "좌우 트릭",
+    "file": "P068",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "사쿠라",
+    "fullName": "엘모 서버룸",
+    "file": "P068",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "특별 장식",
+    "fullName": "특별 장식",
+    "file": "P069",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "기운을 북돋는 방법",
+    "fullName": "기운을 북돋는 방법",
+    "file": "P069",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "로렐라이",
+    "fullName": "엘모 서버룸",
+    "file": "P069",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "투명인간의 고민",
+    "fullName": "투명인간의 고민",
+    "file": "P070",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "옐로우존 바이오 다큐",
+    "fullName": "옐로우존 바이오 다큐",
+    "file": "P070",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "샤이엔",
+    "fullName": "엘모 서버룸",
+    "file": "P070",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "중요한 정보",
+    "fullName": "중요한 정보",
+    "file": "P071",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "조금만 더 참자…",
+    "fullName": "조금만 더 참자…",
+    "file": "P071",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "바스티",
+    "fullName": "엘모 서버룸",
+    "file": "P071",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "추가 발주",
+    "fullName": "추가 발주",
+    "file": "P072",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "따뜻한 집",
+    "fullName": "따뜻한 집",
+    "file": "P072",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "류시",
+    "fullName": "엘모 서버룸",
+    "file": "P072",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "가까워지고 싶어",
+    "fullName": "가까워지고 싶어",
+    "file": "P073",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "자아의지",
+    "fullName": "자아의지",
+    "file": "P073",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "섹스턴스",
+    "fullName": "엘모 서버룸",
+    "file": "P073",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "특별 반찬",
+    "fullName": "특별 반찬",
+    "file": "P074",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "달아오르는 밤",
+    "fullName": "달아오르는 밤",
+    "file": "P074",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "OTs-14",
+    "fullName": "엘모 서버룸",
+    "file": "P074",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "헤어 디자인",
+    "fullName": "헤어 디자인",
+    "file": "P075",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "프리즘의 인도?",
+    "fullName": "프리즘의 인도?",
+    "file": "P075",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "네메시스·연광",
+    "fullName": "엘모 서버룸",
+    "file": "P075",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "기묘한 수집",
+    "fullName": "기묘한 수집",
+    "file": "P076",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "냄새의 비밀",
+    "fullName": "냄새의 비밀",
+    "file": "P076",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "소프",
+    "fullName": "엘모 서버룸",
+    "file": "P076",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "패션쇼",
+    "fullName": "패션쇼",
+    "file": "P077",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "합동 공연",
+    "fullName": "합동 공연",
+    "file": "P077",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "미틸",
+    "fullName": "엘모 서버룸",
+    "file": "P077",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "여우 덕분에 얻은 옷",
+    "fullName": "여우 덕분에 얻은 옷",
+    "file": "P078",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "긴 머리 여우……관리의 날",
+    "fullName": "긴 머리 여우……관리의 날",
+    "file": "P078",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "페일린",
+    "fullName": "엘모 서버룸",
+    "file": "P078",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "초거대 '하이브'",
+    "fullName": "초거대 '하이브'",
+    "file": "P079",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "겨울이 가고 봄이 오다",
+    "fullName": "겨울이 가고 봄이 오다",
+    "file": "P079",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "콜레다",
+    "fullName": "엘모 서버룸",
+    "file": "P079",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "밀착 경호",
+    "fullName": "밀착 경호",
+    "file": "P080",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "폭탄주",
+    "fullName": "폭탄주",
+    "file": "P080",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "아스테리아",
+    "fullName": "엘모 서버룸",
+    "file": "P080",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "급여 분배",
+    "fullName": "급여 분배",
+    "file": "P081",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "연기 연습",
+    "fullName": "연기 연습",
+    "file": "P081",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "이글레타",
+    "fullName": "엘모 서버룸",
+    "file": "P081",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "P101",
+    "fullName": "엘모 서버룸",
+    "file": "P101",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2
+  },
+  {
+    "shortName": "P99",
+    "fullName": "P99",
+    "file": "P99",
+    "numMin": 801,
+    "numMax": 802,
+    "numDigits": 3
+  },
+  {
+    "shortName": "P99",
+    "fullName": "P99",
+    "file": "P99",
+    "numMin": 901,
+    "numMax": 901,
+    "numDigits": 3
+  },
+  {
+    "shortName": "전원 소집",
+    "fullName": "전원 소집",
+    "file": "PD001",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "불가사의한 목격담 I",
+    "fullName": "불가사의한 목격담 I",
+    "file": "PD001",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "불가사의한 목격담 II",
+    "fullName": "불가사의한 목격담 II",
+    "file": "PD001",
+    "numMin": 12,
+    "numMax": 12,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "불가사의한 목격담 III",
+    "fullName": "불가사의한 목격담 III",
+    "file": "PD001",
+    "numMin": 13,
+    "numMax": 13,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "불가사의한 목격담 IV",
+    "fullName": "불가사의한 목격담 IV",
+    "file": "PD001",
+    "numMin": 14,
+    "numMax": 14,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "불가사의한 목격담 V",
+    "fullName": "불가사의한 목격담 V",
+    "file": "PD001",
+    "numMin": 15,
+    "numMax": 15,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "다시 이어지는 악연 I",
+    "fullName": "다시 이어지는 악연 I",
+    "file": "PD001",
+    "numMin": 21,
+    "numMax": 21,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "감쪽같은",
+    "fullName": "감쪽같은",
+    "file": "PD001",
+    "numMin": 22,
+    "numMax": 22,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "다시 이어지는 악연 II",
+    "fullName": "다시 이어지는 악연 II",
+    "file": "PD001",
+    "numMin": 23,
+    "numMax": 23,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "외롭지 않아",
+    "fullName": "외롭지 않아",
+    "file": "PD008",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "혀의 시련",
+    "fullName": "혀의 시련",
+    "file": "PD009",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "소악마의 미소",
+    "fullName": "소악마의 미소",
+    "file": "PD009",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "체험 피드백",
+    "fullName": "체험 피드백",
+    "file": "PD009",
+    "numMin": 12,
+    "numMax": 12,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "건강 흡입법",
+    "fullName": "건강 흡입법",
+    "file": "PD009",
+    "numMin": 21,
+    "numMax": 21,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "마사지 가이드",
+    "fullName": "마사지 가이드",
+    "file": "PD009",
+    "numMin": 22,
+    "numMax": 22,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "만약을 위해",
+    "fullName": "만약을 위해",
+    "file": "PD009",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "케이크 취향",
+    "fullName": "케이크 취향",
+    "file": "PD013",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "예복 공유",
+    "fullName": "예복 공유",
+    "file": "PD013",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "편안함 테스트 I",
+    "fullName": "편안함 테스트 I",
+    "file": "PD013",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "편안함 테스트 II",
+    "fullName": "편안함 테스트 II",
+    "file": "PD013",
+    "numMin": 32,
+    "numMax": 32,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "장르 문의",
+    "fullName": "장르 문의",
+    "file": "PD015",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "최고 컨디션",
+    "fullName": "최고 컨디션",
+    "file": "PD015",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "베프리는 궁금해I",
+    "fullName": "베프리는 궁금해I",
+    "file": "PD015",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "베프리는 궁금해II",
+    "fullName": "베프리는 궁금해II",
+    "file": "PD015",
+    "numMin": 12,
+    "numMax": 12,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "댄스 타임 II",
+    "fullName": "댄스 타임 II",
+    "file": "PD015",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "댄스 타임 III",
+    "fullName": "댄스 타임 III",
+    "file": "PD015",
+    "numMin": 32,
+    "numMax": 32,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "취향 살피기",
+    "fullName": "취향 살피기",
+    "file": "PD017",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "파티 요리사 I",
+    "fullName": "파티 요리사 I",
+    "file": "PD017",
+    "numMin": 21,
+    "numMax": 21,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "마음속 한구석 III",
+    "fullName": "마음속 한구석 III",
+    "file": "PD017",
+    "numMin": 22,
+    "numMax": 22,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "소원 성취",
+    "fullName": "소원 성취",
+    "file": "PD017",
+    "numMin": 23,
+    "numMax": 23,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "포개진 마음 I",
+    "fullName": "포개진 마음 I",
+    "file": "PD017",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "포개진 마음 III",
+    "fullName": "포개진 마음 III",
+    "file": "PD017",
+    "numMin": 32,
+    "numMax": 32,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "포커싱 룰",
+    "fullName": "포커싱 룰",
+    "file": "PD021",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "어울리는 공연",
+    "fullName": "어울리는 공연",
+    "file": "PD022",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "댄스 타임 IV",
+    "fullName": "댄스 타임 IV",
+    "file": "PD022",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "용사의 카니발",
+    "fullName": "용사의 카니발",
+    "file": "PD023",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "용사의 옷차림",
+    "fullName": "용사의 옷차림",
+    "file": "PD023",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "키워드 건드리기 I",
+    "fullName": "키워드 건드리기 I",
+    "file": "PD023",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "키워드 건드리기 II",
+    "fullName": "키워드 건드리기 II",
+    "file": "PD023",
+    "numMin": 12,
+    "numMax": 12,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "키워드 건드리기 III",
+    "fullName": "키워드 건드리기 III",
+    "file": "PD023",
+    "numMin": 13,
+    "numMax": 13,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "떠올리지 못한 키워드",
+    "fullName": "떠올리지 못한 키워드",
+    "file": "PD023",
+    "numMin": 14,
+    "numMax": 14,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "신에게 기원하기 I",
+    "fullName": "신에게 기원하기 I",
+    "file": "PD023",
+    "numMin": 21,
+    "numMax": 21,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "신에게 기원하기 II",
+    "fullName": "신에게 기원하기 II",
+    "file": "PD023",
+    "numMin": 22,
+    "numMax": 22,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "신에게 기원하기 III",
+    "fullName": "신에게 기원하기 III",
+    "file": "PD023",
+    "numMin": 23,
+    "numMax": 23,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "신에게 기원하기 IV",
+    "fullName": "신에게 기원하기 IV",
+    "file": "PD023",
+    "numMin": 24,
+    "numMax": 24,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "신에게 기원하기 V",
+    "fullName": "신에게 기원하기 V",
+    "file": "PD023",
+    "numMin": 25,
+    "numMax": 25,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "완벽한 자세",
+    "fullName": "완벽한 자세",
+    "file": "PD023",
+    "numMin": 26,
+    "numMax": 26,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "용사와 낙원 I",
+    "fullName": "용사와 낙원 I",
+    "file": "PD023",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "용사와 낙원 II",
+    "fullName": "용사와 낙원 II",
+    "file": "PD023",
+    "numMin": 32,
+    "numMax": 32,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "용사와 낙원 III",
+    "fullName": "용사와 낙원 III",
+    "file": "PD023",
+    "numMin": 33,
+    "numMax": 33,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "치타 조심 II",
+    "fullName": "치타 조심 II",
+    "file": "PD024",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "폭죽이 어디 갔지 I",
+    "fullName": "폭죽이 어디 갔지 I",
+    "file": "PD024",
+    "numMin": 32,
+    "numMax": 32,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "별빛 소원",
+    "fullName": "별빛 소원",
+    "file": "PD025",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "선배의 관심",
+    "fullName": "선배의 관심",
+    "file": "PD026",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "유행 따라잡기 I",
+    "fullName": "유행 따라잡기 I",
+    "file": "PD026",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "유행 따라잡기 II",
+    "fullName": "유행 따라잡기 II",
+    "file": "PD026",
+    "numMin": 32,
+    "numMax": 32,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "책임 교대",
+    "fullName": "책임 교대",
+    "file": "PD027",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "예산 기획 I",
+    "fullName": "예산 기획 I",
+    "file": "PD027",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "예산 기획 II",
+    "fullName": "예산 기획 II",
+    "file": "PD027",
+    "numMin": 32,
+    "numMax": 33,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "폭죽이 어디 갔지 II",
+    "fullName": "폭죽이 어디 갔지 II",
+    "file": "PD027",
+    "numMin": 34,
+    "numMax": 34,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "전속 위문",
+    "fullName": "전속 위문",
+    "file": "PD027",
+    "numMin": 35,
+    "numMax": 35,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "입맛 조사",
+    "fullName": "입맛 조사",
+    "file": "PD028",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "메이드의 책무 I",
+    "fullName": "메이드의 책무 I",
+    "file": "PD028",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "메이드의 책무 II",
+    "fullName": "메이드의 책무 II",
+    "file": "PD028",
+    "numMin": 32,
+    "numMax": 32,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "메이드의 책무 III",
+    "fullName": "메이드의 책무 III",
+    "file": "PD028",
+    "numMin": 33,
+    "numMax": 33,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "파티 요리사 II",
+    "fullName": "파티 요리사 II",
+    "file": "PD029",
+    "numMin": 21,
+    "numMax": 21,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "파티 요리사 III",
+    "fullName": "파티 요리사 III",
+    "file": "PD029",
+    "numMin": 22,
+    "numMax": 22,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "파티 요리사 IV",
+    "fullName": "파티 요리사 IV",
+    "file": "PD029",
+    "numMin": 23,
+    "numMax": 23,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "영화 짝꿍",
+    "fullName": "영화 짝꿍",
+    "file": "PD029",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "나눠 먹고픈 맛 I",
+    "fullName": "나눠 먹고픈 맛 I",
+    "file": "PD029",
+    "numMin": 32,
+    "numMax": 32,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "나눠 먹고픈 맛 III",
+    "fullName": "나눠 먹고픈 맛 III",
+    "file": "PD029",
+    "numMin": 33,
+    "numMax": 33,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "나눠 먹고픈 맛 V",
+    "fullName": "나눠 먹고픈 맛 V",
+    "file": "PD029",
+    "numMin": 34,
+    "numMax": 34,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "걱정 많은 언니 I",
+    "fullName": "걱정 많은 언니 I",
+    "file": "PD032",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "걱정 많은 언니 II",
+    "fullName": "걱정 많은 언니 II",
+    "file": "PD032",
+    "numMin": 12,
+    "numMax": 12,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "기대하는 마음II",
+    "fullName": "기대하는 마음II",
+    "file": "PD032",
+    "numMin": 13,
+    "numMax": 13,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "믿음직한 대연",
+    "fullName": "믿음직한 대연",
+    "file": "PD032",
+    "numMin": 14,
+    "numMax": 14,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "응집력",
+    "fullName": "응집력",
+    "file": "PD033",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "실패는 두렵지 않아",
+    "fullName": "실패는 두렵지 않아",
+    "file": "PD034",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "자신만만 마키아토",
+    "fullName": "자신만만 마키아토",
+    "file": "PD034",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "장르 관찰",
+    "fullName": "장르 관찰",
+    "file": "PD035",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "교자? 상자?",
+    "fullName": "교자? 상자?",
+    "file": "PD035",
+    "numMin": 10,
+    "numMax": 10,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "사고뭉치 동생 I",
+    "fullName": "사고뭉치 동생 I",
+    "file": "PD035",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "사고뭉치 동생 II",
+    "fullName": "사고뭉치 동생 II",
+    "file": "PD035",
+    "numMin": 12,
+    "numMax": 12,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "훔쳐보면 안 돼 I",
+    "fullName": "훔쳐보면 안 돼 I",
+    "file": "PD035",
+    "numMin": 13,
+    "numMax": 13,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "훔쳐보면 안 돼 II",
+    "fullName": "훔쳐보면 안 돼 II",
+    "file": "PD035",
+    "numMin": 14,
+    "numMax": 14,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "기대하는 마음I",
+    "fullName": "기대하는 마음I",
+    "file": "PD035",
+    "numMin": 15,
+    "numMax": 15,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "고전하는 강우",
+    "fullName": "고전하는 강우",
+    "file": "PD035",
+    "numMin": 16,
+    "numMax": 16,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "보이마스티나의 아령",
+    "fullName": "보이마스티나의 아령",
+    "file": "PD035",
+    "numMin": 17,
+    "numMax": 17,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "용처럼 지른다!",
+    "fullName": "용처럼 지른다!",
+    "file": "PD035",
+    "numMin": 18,
+    "numMax": 18,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "수련 후",
+    "fullName": "수련 후",
+    "file": "PD035",
+    "numMin": 19,
+    "numMax": 19,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "의무 노동",
+    "fullName": "의무 노동",
+    "file": "PD036",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "가성비 갑 I",
+    "fullName": "가성비 갑 I",
+    "file": "PD036",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "가성비 갑 II",
+    "fullName": "가성비 갑 II",
+    "file": "PD036",
+    "numMin": 32,
+    "numMax": 32,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "가성비 갑 III",
+    "fullName": "가성비 갑 III",
+    "file": "PD036",
+    "numMin": 33,
+    "numMax": 33,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "상주 도우미",
+    "fullName": "상주 도우미",
+    "file": "PD037",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "술 추천",
+    "fullName": "술 추천",
+    "file": "PD037",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "응원 준비",
+    "fullName": "응원 준비",
+    "file": "PD039",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "계속되는 악연I",
+    "fullName": "계속되는 악연I",
+    "file": "PD039",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "다시 이어지는 악연 II",
+    "fullName": "다시 이어지는 악연 II",
+    "file": "PD039",
+    "numMin": 12,
+    "numMax": 12,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "계속되는 악연III",
+    "fullName": "계속되는 악연III",
+    "file": "PD039",
+    "numMin": 13,
+    "numMax": 13,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "계속되는 악연IV",
+    "fullName": "계속되는 악연IV",
+    "file": "PD039",
+    "numMin": 14,
+    "numMax": 14,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "계속되는 악연V",
+    "fullName": "계속되는 악연V",
+    "file": "PD039",
+    "numMin": 15,
+    "numMax": 15,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "계속되는 악연VI",
+    "fullName": "계속되는 악연VI",
+    "file": "PD039",
+    "numMin": 16,
+    "numMax": 16,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "계속되는 악연VII",
+    "fullName": "계속되는 악연VII",
+    "file": "PD039",
+    "numMin": 17,
+    "numMax": 17,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "분위기 띄우기 I",
+    "fullName": "분위기 띄우기 I",
+    "file": "PD039",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "분위기 띄우기 II",
+    "fullName": "분위기 띄우기 II",
+    "file": "PD039",
+    "numMin": 32,
+    "numMax": 32,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "따듯한 일상",
+    "fullName": "따듯한 일상",
+    "file": "PD040",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "겨울 다툼 I",
+    "fullName": "겨울 다툼 I",
+    "file": "PD040",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "겨울 다툼 II",
+    "fullName": "겨울 다툼 II",
+    "file": "PD040",
+    "numMin": 12,
+    "numMax": 12,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "겨울 다툼 III",
+    "fullName": "겨울 다툼 III",
+    "file": "PD040",
+    "numMin": 13,
+    "numMax": 13,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "겨울 다툼 IV",
+    "fullName": "겨울 다툼 IV",
+    "file": "PD040",
+    "numMin": 14,
+    "numMax": 14,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "겨울 다툼 V",
+    "fullName": "겨울 다툼 V",
+    "file": "PD040",
+    "numMin": 15,
+    "numMax": 15,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "겨울 다툼 VI",
+    "fullName": "겨울 다툼 VI",
+    "file": "PD040",
+    "numMin": 16,
+    "numMax": 16,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "겨울 다툼 VII",
+    "fullName": "겨울 다툼 VII",
+    "file": "PD040",
+    "numMin": 17,
+    "numMax": 17,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "준비 스트레스",
+    "fullName": "준비 스트레스",
+    "file": "PD041",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "준비 작업",
+    "fullName": "준비 작업",
+    "file": "PD042",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "은밀한 소원",
+    "fullName": "은밀한 소원",
+    "file": "PD042",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "청순한 시선",
+    "fullName": "청순한 시선",
+    "file": "PD042",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "미슈티의 평가?",
+    "fullName": "미슈티의 평가?",
+    "file": "PD042",
+    "numMin": 12,
+    "numMax": 12,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "마음 감평",
+    "fullName": "마음 감평",
+    "file": "PD043",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "비무 논쟁",
+    "fullName": "비무 논쟁",
+    "file": "PD043",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "무력 시위 I",
+    "fullName": "무력 시위 I",
+    "file": "PD043",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "실용주의",
+    "fullName": "실용주의",
+    "file": "PD044",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "소심한 초대",
+    "fullName": "소심한 초대",
+    "file": "PD044",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "미혹의 불운 용사",
+    "fullName": "미혹의 불운 용사",
+    "file": "PD044",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "행운과 불행",
+    "fullName": "행운과 불행",
+    "file": "PD044",
+    "numMin": 12,
+    "numMax": 12,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "최악의 상황 I",
+    "fullName": "최악의 상황 I",
+    "file": "PD044",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "최악의 상황 II",
+    "fullName": "최악의 상황 II",
+    "file": "PD044",
+    "numMin": 32,
+    "numMax": 32,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "상황 예측",
+    "fullName": "상황 예측",
+    "file": "PD045",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "마음에 둔 파트너",
+    "fullName": "마음에 둔 파트너",
+    "file": "PD045",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "댄스 파트너 초대",
+    "fullName": "댄스 파트너 초대",
+    "file": "PD047",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "향긋한 기대",
+    "fullName": "향긋한 기대",
+    "file": "PD047",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "포개진 마음 I",
+    "fullName": "포개진 마음 I",
+    "file": "PD047",
+    "numMin": 32,
+    "numMax": 32,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "짧은 글 긴 여운 II",
+    "fullName": "짧은 글 긴 여운 II",
+    "file": "PD047",
+    "numMin": 33,
+    "numMax": 33,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "호화로운 요리",
+    "fullName": "호화로운 요리",
+    "file": "PD048",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "파티 취기 I",
+    "fullName": "파티 취기 I",
+    "file": "PD048",
+    "numMin": 21,
+    "numMax": 21,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "파티 취기 II",
+    "fullName": "파티 취기 II",
+    "file": "PD048",
+    "numMin": 22,
+    "numMax": 22,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "파티 취기 III",
+    "fullName": "파티 취기 III",
+    "file": "PD048",
+    "numMin": 23,
+    "numMax": 23,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "단풍의 이름",
+    "fullName": "단풍의 이름",
+    "file": "PD048",
+    "numMin": 24,
+    "numMax": 24,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "나눠 먹고픈 맛 II",
+    "fullName": "나눠 먹고픈 맛 II",
+    "file": "PD048",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "나눠 먹고픈 맛 IV",
+    "fullName": "나눠 먹고픈 맛 IV",
+    "file": "PD048",
+    "numMin": 32,
+    "numMax": 32,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "편곡 난이도",
+    "fullName": "편곡 난이도",
+    "file": "PD050",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "휴식 시간",
+    "fullName": "휴식 시간",
+    "file": "PD051",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "명확한 목표",
+    "fullName": "명확한 목표",
+    "file": "PD051",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "수면의 중요성 I",
+    "fullName": "수면의 중요성 I",
+    "file": "PD051",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "특별석",
+    "fullName": "특별석",
+    "file": "PD052",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "에누리",
+    "fullName": "에누리",
+    "file": "PD053",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "알뜰한 어필",
+    "fullName": "알뜰한 어필",
+    "file": "PD053",
+    "numMin": 21,
+    "numMax": 21,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "상업적 기회 I",
+    "fullName": "상업적 기회 I",
+    "file": "PD053",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "상업적 기회 II",
+    "fullName": "상업적 기회 II",
+    "file": "PD053",
+    "numMin": 32,
+    "numMax": 32,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "전력임전",
+    "fullName": "전력임전",
+    "file": "PD054",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "완벽 추구",
+    "fullName": "완벽 추구",
+    "file": "PD054",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "댄스 타임 I",
+    "fullName": "댄스 타임 I",
+    "file": "PD054",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "댄스 타임 V",
+    "fullName": "댄스 타임 V",
+    "file": "PD054",
+    "numMin": 32,
+    "numMax": 32,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "수호자",
+    "fullName": "수호자",
+    "file": "PD055",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "더블 서프라이즈",
+    "fullName": "더블 서프라이즈",
+    "file": "PD056",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "과소비",
+    "fullName": "과소비",
+    "file": "PD056",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "응시하는 시선 I",
+    "fullName": "응시하는 시선 I",
+    "file": "PD056",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "응시하는 시선 II",
+    "fullName": "응시하는 시선 II",
+    "file": "PD056",
+    "numMin": 32,
+    "numMax": 32,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "응시하는 시선 III",
+    "fullName": "응시하는 시선 III",
+    "file": "PD056",
+    "numMin": 33,
+    "numMax": 33,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "평범함을 수호",
+    "fullName": "평범함을 수호",
+    "file": "PD057",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "지나가던 마스크 히어로",
+    "fullName": "지나가던 마스크 히어로",
+    "file": "PD057",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "게임 애호가 I",
+    "fullName": "게임 애호가 I",
+    "file": "PD057",
+    "numMin": 12,
+    "numMax": 12,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "게임 애호가 II",
+    "fullName": "게임 애호가 II",
+    "file": "PD057",
+    "numMin": 13,
+    "numMax": 13,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "《이질전사》 상영회",
+    "fullName": "《이질전사》 상영회",
+    "file": "PD057",
+    "numMin": 14,
+    "numMax": 14,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "축제 분위기",
+    "fullName": "축제 분위기",
+    "file": "PD057",
+    "numMin": 21,
+    "numMax": 21,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "꿈 수호",
+    "fullName": "꿈 수호",
+    "file": "PD057",
+    "numMin": 22,
+    "numMax": 22,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "무시무시한 장식",
+    "fullName": "무시무시한 장식",
+    "file": "PD057",
+    "numMin": 23,
+    "numMax": 23,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "공동의 염원",
+    "fullName": "공동의 염원",
+    "file": "PD057",
+    "numMin": 24,
+    "numMax": 24,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "스위트 감평",
+    "fullName": "스위트 감평",
+    "file": "PD059",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "달콤한 부담",
+    "fullName": "달콤한 부담",
+    "file": "PD059",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "작은 소원 I",
+    "fullName": "작은 소원 I",
+    "file": "PD059",
+    "numMin": 21,
+    "numMax": 21,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "작은 소원 II",
+    "fullName": "작은 소원 II",
+    "file": "PD059",
+    "numMin": 22,
+    "numMax": 22,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "작은 소원 III",
+    "fullName": "작은 소원 III",
+    "file": "PD059",
+    "numMin": 23,
+    "numMax": 23,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "작은 소원 IV",
+    "fullName": "작은 소원 IV",
+    "file": "PD059",
+    "numMin": 24,
+    "numMax": 24,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "치타 조심 I",
+    "fullName": "치타 조심 I",
+    "file": "PD059",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "쌍둥이 용사의 침묵 I",
+    "fullName": "쌍둥이 용사의 침묵 I",
+    "file": "PD060",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "쌍둥이 용사의 침묵 II",
+    "fullName": "쌍둥이 용사의 침묵 II",
+    "file": "PD060",
+    "numMin": 12,
+    "numMax": 12,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "빛의 용사?",
+    "fullName": "빛의 용사?",
+    "file": "PD060",
+    "numMin": 13,
+    "numMax": 13,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "쌍둥이 용사의 초대",
+    "fullName": "쌍둥이 용사의 초대",
+    "file": "PD060",
+    "numMin": 14,
+    "numMax": 14,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "재고 감상",
+    "fullName": "재고 감상",
+    "file": "PD061",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "한정 컬렉션",
+    "fullName": "한정 컬렉션",
+    "file": "PD062",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "용사 모집",
+    "fullName": "용사 모집",
+    "file": "PD062",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "귀여운 아령?",
+    "fullName": "귀여운 아령?",
+    "file": "PD062",
+    "numMin": 12,
+    "numMax": 12,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "열혈 소녀 류 I",
+    "fullName": "열혈 소녀 류 I",
+    "file": "PD062",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "열혈 소녀 류 II",
+    "fullName": "열혈 소녀 류 II",
+    "file": "PD062",
+    "numMin": 32,
+    "numMax": 32,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "특별 요리",
+    "fullName": "특별 요리",
+    "file": "PD064",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "달콤한 진료",
+    "fullName": "달콤한 진료",
+    "file": "PD064",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "“청순”한 시선",
+    "fullName": "“청순”한 시선",
+    "file": "PD064",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "자극 어필",
+    "fullName": "자극 어필",
+    "file": "PD064",
+    "numMin": 21,
+    "numMax": 21,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "사고 치기 계획",
+    "fullName": "사고 치기 계획",
+    "file": "PD064",
+    "numMin": 22,
+    "numMax": 22,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "소리 없는 관심",
+    "fullName": "소리 없는 관심",
+    "file": "PD065",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "특별 체험",
+    "fullName": "특별 체험",
+    "file": "PD065",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "체단실 소동 I",
+    "fullName": "체단실 소동 I",
+    "file": "PD065",
+    "numMin": 12,
+    "numMax": 12,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "체단실 소동 II",
+    "fullName": "체단실 소동 II",
+    "file": "PD065",
+    "numMin": 13,
+    "numMax": 13,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "체단실 소동 III",
+    "fullName": "체단실 소동 III",
+    "file": "PD065",
+    "numMin": 14,
+    "numMax": 14,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "앨바의 마음",
+    "fullName": "앨바의 마음",
+    "file": "PD065",
+    "numMin": 15,
+    "numMax": 15,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "꾸준한 단련",
+    "fullName": "꾸준한 단련",
+    "file": "PD066",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "체단실 체험 최종 보고서",
+    "fullName": "체단실 체험 최종 보고서",
+    "file": "PD066",
+    "numMin": 10,
+    "numMax": 10,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "체단실 체험 기록 I",
+    "fullName": "체단실 체험 기록 I",
+    "file": "PD066",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "체단실 체험 기록 II",
+    "fullName": "체단실 체험 기록 II",
+    "file": "PD066",
+    "numMin": 12,
+    "numMax": 12,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "체단실 체험 기록 III",
+    "fullName": "체단실 체험 기록 III",
+    "file": "PD066",
+    "numMin": 13,
+    "numMax": 13,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "체단실 체험 기록 IV",
+    "fullName": "체단실 체험 기록 IV",
+    "file": "PD066",
+    "numMin": 14,
+    "numMax": 14,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "체단실 체험 기록 V",
+    "fullName": "체단실 체험 기록 V",
+    "file": "PD066",
+    "numMin": 15,
+    "numMax": 15,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "체단실 체험 기록 VI",
+    "fullName": "체단실 체험 기록 VI",
+    "file": "PD066",
+    "numMin": 16,
+    "numMax": 16,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "체단실 체험 기록 VII",
+    "fullName": "체단실 체험 기록 VII",
+    "file": "PD066",
+    "numMin": 17,
+    "numMax": 17,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "체단실 체험 기록 VIII",
+    "fullName": "체단실 체험 기록 VIII",
+    "file": "PD066",
+    "numMin": 18,
+    "numMax": 18,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "체단실 체험 기록 IX",
+    "fullName": "체단실 체험 기록 IX",
+    "file": "PD066",
+    "numMin": 19,
+    "numMax": 19,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "지켜보는 시선 I",
+    "fullName": "지켜보는 시선 I",
+    "file": "PD067",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "지켜보는 시선 II",
+    "fullName": "지켜보는 시선 II",
+    "file": "PD067",
+    "numMin": 12,
+    "numMax": 12,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "새로운 위원회",
+    "fullName": "새로운 위원회",
+    "file": "PD067",
+    "numMin": 13,
+    "numMax": 13,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "돌아갈 곳을 지키는 I",
+    "fullName": "돌아갈 곳을 지키는 I",
+    "file": "PD067",
+    "numMin": 21,
+    "numMax": 21,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "돌아갈 곳을 지키는 II",
+    "fullName": "돌아갈 곳을 지키는 II",
+    "file": "PD067",
+    "numMin": 22,
+    "numMax": 22,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "돌아갈 곳을 지키는 III",
+    "fullName": "돌아갈 곳을 지키는 III",
+    "file": "PD067",
+    "numMin": 23,
+    "numMax": 23,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "돌아갈 곳을 지키는 IV",
+    "fullName": "돌아갈 곳을 지키는 IV",
+    "file": "PD067",
+    "numMin": 24,
+    "numMax": 24,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "돌아갈 곳을 지키는 V",
+    "fullName": "돌아갈 곳을 지키는 V",
+    "file": "PD067",
+    "numMin": 25,
+    "numMax": 25,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "온천 상상 I",
+    "fullName": "온천 상상 I",
+    "file": "PD068",
+    "numMin": 21,
+    "numMax": 21,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "온천 상상 II",
+    "fullName": "온천 상상 II",
+    "file": "PD068",
+    "numMin": 22,
+    "numMax": 22,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "단풍의 효능",
+    "fullName": "단풍의 효능",
+    "file": "PD068",
+    "numMin": 23,
+    "numMax": 23,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "행운아",
+    "fullName": "행운아",
+    "file": "PD068",
+    "numMin": 24,
+    "numMax": 24,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "기도 복장",
+    "fullName": "기도 복장",
+    "file": "PD068",
+    "numMin": 25,
+    "numMax": 25,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "똑같아지고 싶어",
+    "fullName": "똑같아지고 싶어",
+    "file": "PD068",
+    "numMin": 26,
+    "numMax": 26,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "은밀한 관찰 I",
+    "fullName": "은밀한 관찰 I",
+    "file": "PD068",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "은밀한 관찰 II",
+    "fullName": "은밀한 관찰 II",
+    "file": "PD068",
+    "numMin": 32,
+    "numMax": 32,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "은밀한 관찰 III",
+    "fullName": "은밀한 관찰 III",
+    "file": "PD068",
+    "numMin": 33,
+    "numMax": 33,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "은밀한 관찰 IV",
+    "fullName": "은밀한 관찰 IV",
+    "file": "PD068",
+    "numMin": 34,
+    "numMax": 34,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "기원",
+    "fullName": "기원",
+    "file": "PD068",
+    "numMin": 35,
+    "numMax": 35,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "깜짝 선물 준비 중 I",
+    "fullName": "깜짝 선물 준비 중 I",
+    "file": "PD069",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "깜짝 선물 준비 중 II",
+    "fullName": "깜짝 선물 준비 중 II",
+    "file": "PD069",
+    "numMin": 12,
+    "numMax": 12,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "활동층 견학 I",
+    "fullName": "활동층 견학 I",
+    "file": "PD070",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "활동층 견학 II",
+    "fullName": "활동층 견학 II",
+    "file": "PD070",
+    "numMin": 12,
+    "numMax": 12,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "색다른 밤 I",
+    "fullName": "색다른 밤 I",
+    "file": "PD070",
+    "numMin": 13,
+    "numMax": 13,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "색다른 밤 II",
+    "fullName": "색다른 밤 II",
+    "file": "PD070",
+    "numMin": 14,
+    "numMax": 14,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "새로운 야경",
+    "fullName": "새로운 야경",
+    "file": "PD070",
+    "numMin": 15,
+    "numMax": 15,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "축제 사진작가 I",
+    "fullName": "축제 사진작가 I",
+    "file": "PD070",
+    "numMin": 21,
+    "numMax": 21,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "축제 사진작가 II",
+    "fullName": "축제 사진작가 II",
+    "file": "PD070",
+    "numMin": 22,
+    "numMax": 22,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "캠핑 상상",
+    "fullName": "캠핑 상상",
+    "file": "PD070",
+    "numMin": 23,
+    "numMax": 23,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "축제 사진작가 III",
+    "fullName": "축제 사진작가 III",
+    "file": "PD070",
+    "numMin": 24,
+    "numMax": 24,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "렌즈 속의 미소",
+    "fullName": "렌즈 속의 미소",
+    "file": "PD070",
+    "numMin": 25,
+    "numMax": 25,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "명당자리 I",
+    "fullName": "명당자리 I",
+    "file": "PD070",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "명당자리 II",
+    "fullName": "명당자리 II",
+    "file": "PD070",
+    "numMin": 32,
+    "numMax": 32,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "전용 주시 I",
+    "fullName": "전용 주시 I",
+    "file": "PD071",
+    "numMin": 21,
+    "numMax": 21,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "전용 주시 II",
+    "fullName": "전용 주시 II",
+    "file": "PD071",
+    "numMin": 22,
+    "numMax": 22,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "전용 주시 III",
+    "fullName": "전용 주시 III",
+    "file": "PD071",
+    "numMin": 23,
+    "numMax": 23,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "전용 주시 IV",
+    "fullName": "전용 주시 IV",
+    "file": "PD071",
+    "numMin": 24,
+    "numMax": 24,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "전용 주시 V",
+    "fullName": "전용 주시 V",
+    "file": "PD071",
+    "numMin": 25,
+    "numMax": 25,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "전용 주시 VI",
+    "fullName": "전용 주시 VI",
+    "file": "PD071",
+    "numMin": 26,
+    "numMax": 26,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "사례I",
+    "fullName": "사례I",
+    "file": "PD072",
+    "numMin": 21,
+    "numMax": 21,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "사례II",
+    "fullName": "사례II",
+    "file": "PD072",
+    "numMin": 22,
+    "numMax": 22,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "사례III",
+    "fullName": "사례III",
+    "file": "PD072",
+    "numMin": 23,
+    "numMax": 23,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "사례IV",
+    "fullName": "사례IV",
+    "file": "PD072",
+    "numMin": 24,
+    "numMax": 24,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "짧은 글 긴 여운",
+    "fullName": "짧은 글 긴 여운",
+    "file": "PD072",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "고요한 체험 I",
+    "fullName": "고요한 체험 I",
+    "file": "PD073",
+    "numMin": 21,
+    "numMax": 21,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "고요한 체험 II",
+    "fullName": "고요한 체험 II",
+    "file": "PD073",
+    "numMin": 22,
+    "numMax": 22,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "고요한 체험 III",
+    "fullName": "고요한 체험 III",
+    "file": "PD073",
+    "numMin": 23,
+    "numMax": 23,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "고요한 체험 IV",
+    "fullName": "고요한 체험 IV",
+    "file": "PD073",
+    "numMin": 24,
+    "numMax": 24,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "지나가는 사람",
+    "fullName": "지나가는 사람",
+    "file": "PD073",
+    "numMin": 25,
+    "numMax": 25,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "고요한 체험 V",
+    "fullName": "고요한 체험 V",
+    "file": "PD073",
+    "numMin": 26,
+    "numMax": 26,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "마음속 한구석 I",
+    "fullName": "마음속 한구석 I",
+    "file": "PD074",
+    "numMin": 21,
+    "numMax": 21,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "마음속 한구석 II",
+    "fullName": "마음속 한구석 II",
+    "file": "PD074",
+    "numMin": 22,
+    "numMax": 22,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "마음속 한구석 IV",
+    "fullName": "마음속 한구석 IV",
+    "file": "PD074",
+    "numMin": 23,
+    "numMax": 23,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "마음속 한구석 V",
+    "fullName": "마음속 한구석 V",
+    "file": "PD074",
+    "numMin": 24,
+    "numMax": 24,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "품격 있는 생활",
+    "fullName": "품격 있는 생활",
+    "file": "PD074",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "포개진 마음 II",
+    "fullName": "포개진 마음 II",
+    "file": "PD074",
+    "numMin": 32,
+    "numMax": 32,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "집의 온기",
+    "fullName": "집의 온기",
+    "file": "PD074",
+    "numMin": 33,
+    "numMax": 33,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "다가오는 어둠",
+    "fullName": "다가오는 어둠",
+    "file": "PD075",
+    "numMin": 21,
+    "numMax": 21,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "사례V",
+    "fullName": "사례V",
+    "file": "PD075",
+    "numMin": 22,
+    "numMax": 22,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "탐색자 I",
+    "fullName": "탐색자 I",
+    "file": "PD076",
+    "numMin": 21,
+    "numMax": 21,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "탐색자 II",
+    "fullName": "탐색자 II",
+    "file": "PD076",
+    "numMin": 22,
+    "numMax": 22,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "탐색자 III",
+    "fullName": "탐색자 III",
+    "file": "PD076",
+    "numMin": 23,
+    "numMax": 23,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "탐색자 IV",
+    "fullName": "탐색자 IV",
+    "file": "PD076",
+    "numMin": 24,
+    "numMax": 24,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "탐색자 V",
+    "fullName": "탐색자 V",
+    "file": "PD076",
+    "numMin": 25,
+    "numMax": 25,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "탐색자 VI",
+    "fullName": "탐색자 VI",
+    "file": "PD076",
+    "numMin": 26,
+    "numMax": 26,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "탐색자 VII",
+    "fullName": "탐색자 VII",
+    "file": "PD076",
+    "numMin": 27,
+    "numMax": 27,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "폭죽이 어디 갔지 III",
+    "fullName": "폭죽이 어디 갔지 III",
+    "file": "PD078",
+    "numMin": 31,
+    "numMax": 31,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "포개진 마음 II",
+    "fullName": "포개진 마음 II",
+    "file": "PD078",
+    "numMin": 32,
+    "numMax": 32,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "식물 재배",
+    "fullName": "식물 재배",
+    "file": "PL001",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "치타",
+    "fullName": "식물 재배",
+    "file": "PL001",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "섹스턴스",
+    "fullName": "식물 재배",
+    "file": "PL001",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "로렐라이",
+    "fullName": "식물 재배",
+    "file": "PL001",
+    "numMin": 4,
+    "numMax": 4,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "토로로",
+    "fullName": "식물 재배",
+    "file": "PL001",
+    "numMin": 5,
+    "numMax": 5,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "OTs-14",
+    "fullName": "식물 재배",
+    "file": "PL001",
+    "numMin": 6,
+    "numMax": 6,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "클루카이",
+    "fullName": "식물 재배",
+    "file": "PL001",
+    "numMin": 7,
+    "numMax": 7,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "그로자",
+    "fullName": "식물 재배",
+    "file": "PL001",
+    "numMin": 8,
+    "numMax": 8,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "헬렌",
+    "fullName": "식물 재배",
+    "file": "PL001",
+    "numMin": 9,
+    "numMax": 9,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "스프링필드",
+    "fullName": "식물 재배",
+    "file": "PL001",
+    "numMin": 10,
+    "numMax": 10,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "식물 재배",
+    "fullName": "식물 재배",
+    "file": "PL001",
+    "numMin": 11,
+    "numMax": 17,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "치타",
+    "fullName": "식물 재배",
+    "file": "PL001",
+    "numMin": 18,
+    "numMax": 18,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "섹스턴스",
+    "fullName": "식물 재배",
+    "file": "PL001",
+    "numMin": 19,
+    "numMax": 19,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "로렐라이",
+    "fullName": "식물 재배",
+    "file": "PL001",
+    "numMin": 20,
+    "numMax": 20,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "토로로",
+    "fullName": "식물 재배",
+    "file": "PL001",
+    "numMin": 21,
+    "numMax": 21,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "OTs-14",
+    "fullName": "식물 재배",
+    "file": "PL001",
+    "numMin": 22,
+    "numMax": 22,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "클루카이",
+    "fullName": "식물 재배",
+    "file": "PL001",
+    "numMin": 23,
+    "numMax": 23,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "그로자",
+    "fullName": "식물 재배",
+    "file": "PL001",
+    "numMin": 24,
+    "numMax": 24,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "헬렌",
+    "fullName": "식물 재배",
+    "file": "PL001",
+    "numMin": 25,
+    "numMax": 25,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "스프링필드",
+    "fullName": "식물 재배",
+    "file": "PL001",
+    "numMin": 26,
+    "numMax": 26,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "식물 재배",
+    "fullName": "식물 재배",
+    "file": "PL001",
+    "numMin": 27,
+    "numMax": 27,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "드셰브니",
+    "fullName": "식물 재배",
+    "file": "PL002",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "수오미",
+    "fullName": "식물 재배",
+    "file": "PL002",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "페일린",
+    "fullName": "식물 재배",
+    "file": "PL002",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "파에투사",
+    "fullName": "식물 재배",
+    "file": "PL002",
+    "numMin": 4,
+    "numMax": 4,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "사브리나",
+    "fullName": "식물 재배",
+    "file": "PL002",
+    "numMin": 5,
+    "numMax": 5,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "드셰브니",
+    "fullName": "식물 재배",
+    "file": "PL002",
+    "numMin": 6,
+    "numMax": 6,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "수오미",
+    "fullName": "식물 재배",
+    "file": "PL002",
+    "numMin": 7,
+    "numMax": 7,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "페일린",
+    "fullName": "식물 재배",
+    "file": "PL002",
+    "numMin": 8,
+    "numMax": 8,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "파에투사",
+    "fullName": "식물 재배",
+    "file": "PL002",
+    "numMin": 9,
+    "numMax": 9,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "사브리나",
+    "fullName": "식물 재배",
+    "file": "PL002",
+    "numMin": 10,
+    "numMax": 10,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "그로자",
+    "fullName": "T001",
+    "file": "T001",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "캐롤릭",
+    "fullName": "호감도 스토리",
+    "file": "T002",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "콜펜",
+    "fullName": "호감도 스토리",
+    "file": "T003",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "네메시스·연광",
+    "fullName": "호감도 스토리",
+    "file": "T004",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2
+  },
+  {
+    "shortName": "네메시스",
+    "fullName": "호감도 스토리",
+    "file": "T004",
+    "numMin": 2,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "네메시스·연광",
+    "fullName": "호감도 스토리",
+    "file": "T004",
+    "numMin": 4,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "네메시스",
+    "fullName": "호감도 스토리",
+    "file": "T004",
+    "numMin": 5,
+    "numMax": 5,
+    "numDigits": 2
+  },
+  {
+    "shortName": "네메시스·연광",
+    "fullName": "호감도 스토리",
+    "file": "T004",
+    "numMin": 6,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "페리티아",
+    "fullName": "호감도 스토리",
+    "file": "T005",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "베프리",
+    "fullName": "T006",
+    "file": "T006",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "레나",
+    "fullName": "호감도 스토리",
+    "file": "T007",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "수오미",
+    "fullName": "T009",
+    "file": "T009",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "클루카이",
+    "fullName": "호감도 스토리",
+    "file": "T010",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "안도리스",
+    "fullName": "T011",
+    "file": "T011",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "마키아토",
+    "fullName": "T013",
+    "file": "T013",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "드셰브니",
+    "fullName": "T014",
+    "file": "T014",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "나강",
+    "fullName": "호감도 스토리",
+    "file": "T015",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "토로로",
+    "fullName": "T016",
+    "file": "T016",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "치타",
+    "fullName": "호감도 스토리",
+    "file": "T017",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "경구",
+    "fullName": "T018",
+    "file": "T018",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "리타라",
+    "fullName": "호감도 스토리",
+    "file": "T019",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "울리드",
+    "fullName": "T020",
+    "file": "T020",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "대연",
+    "fullName": "T021",
+    "file": "T021",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "니키타",
+    "fullName": "호감도 스토리",
+    "file": "T022",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "니키타",
+    "fullName": "호감도 스토리",
+    "file": "T022",
+    "numMin": 5,
+    "numMax": 7,
+    "numDigits": 2
+  },
+  {
+    "shortName": "센타우레이시",
+    "fullName": "호감도 스토리",
+    "file": "T023",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "벡터",
+    "fullName": "T024",
+    "file": "T024",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "미치티",
+    "fullName": "T025",
+    "file": "T025",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "사브리나",
+    "fullName": "호감도 스토리",
+    "file": "T026",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "유희",
+    "fullName": "T027",
+    "file": "T027",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "크세니아",
+    "fullName": "호감도 스토리",
+    "file": "T028",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "강우",
+    "fullName": "호감도 스토리",
+    "file": "T029",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "파파샤",
+    "fullName": "호감도 스토리",
+    "file": "T030",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "모신나강",
+    "fullName": "호감도 스토리",
+    "file": "T031",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "페이",
+    "fullName": "호감도 스토리",
+    "file": "T033",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "벨카",
+    "fullName": "T034",
+    "file": "T034",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "하프시",
+    "fullName": "호감도 스토리",
+    "file": "T035",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "스프링필드",
+    "fullName": "T036",
+    "file": "T036",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "롯타",
+    "fullName": "호감도 스토리",
+    "file": "T038",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "리바",
+    "fullName": "호감도 스토리",
+    "file": "T040",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "페리",
+    "fullName": "T042",
+    "file": "T042",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "조휘",
+    "fullName": "T044",
+    "file": "T044",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "로벨라",
+    "fullName": "호감도 스토리",
+    "file": "T045",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "추화",
+    "fullName": "T046",
+    "file": "T046",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "플로렌스",
+    "fullName": "호감도 스토리",
+    "file": "T047",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "레이니",
+    "fullName": "호감도 스토리",
+    "file": "T049",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "사쿠라",
+    "fullName": "호감도 스토리",
+    "file": "T050",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "린드",
+    "fullName": "호감도 스토리",
+    "file": "T051",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "앨바",
+    "fullName": "호감도 스토리",
+    "file": "T052",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "바틸다",
+    "fullName": "호감도 스토리",
+    "file": "T053",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "보이마스티나",
+    "fullName": "호감도 스토리",
+    "file": "T054",
+    "numMin": 1,
+    "numMax": 7,
+    "numDigits": 2
+  },
+  {
+    "shortName": "샤크리",
+    "fullName": "호감도 스토리",
+    "file": "T055",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "루이스",
+    "fullName": "호감도 스토리",
+    "file": "T056",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "헬렌",
+    "fullName": "호감도 스토리",
+    "file": "T057",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "웰로드",
+    "fullName": "호감도 스토리",
+    "file": "T058",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "파에투사",
+    "fullName": "호감도 스토리",
+    "file": "T059",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "로렐라이",
+    "fullName": "호감도 스토리",
+    "file": "T060",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "샤이엔",
+    "fullName": "호감도 스토리",
+    "file": "T061",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "바스티",
+    "fullName": "호감도 스토리",
+    "file": "T062",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "미틸",
+    "fullName": "호감도 스토리",
+    "file": "T063",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "섹스턴스",
+    "fullName": "호감도 스토리",
+    "file": "T064",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "류시",
+    "fullName": "호감도 스토리",
+    "file": "T065",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "OTs-14",
+    "fullName": "호감도 스토리",
+    "file": "T066",
+    "numMin": 1,
+    "numMax": 2,
+    "numDigits": 2
+  },
+  {
+    "shortName": "OTs-14",
+    "fullName": "라운지 스토리",
+    "file": "T066",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "OTs-14",
+    "fullName": "호감도 스토리",
+    "file": "T066",
+    "numMin": 4,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "소프",
+    "fullName": "호감도 스토리",
+    "file": "T067",
+    "numMin": 1,
+    "numMax": 2,
+    "numDigits": 2
+  },
+  {
+    "shortName": "소프",
+    "fullName": "라운지 스토리",
+    "file": "T067",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2
+  },
+  {
+    "shortName": "소프",
+    "fullName": "호감도 스토리",
+    "file": "T067",
+    "numMin": 4,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "페일린",
+    "fullName": "호감도 스토리",
+    "file": "T068",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "아스테리아",
+    "fullName": "호감도 스토리",
+    "file": "T069",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "콜레다",
+    "fullName": "호감도 스토리",
+    "file": "T070",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "이글레타",
+    "fullName": "호감도 스토리",
+    "file": "T072",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 2
+  },
+  {
+    "shortName": "캐롤릭",
+    "fullName": "C001",
+    "file": "C001",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "네메시스",
+    "fullName": "C008",
+    "file": "C008",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "콜펜",
+    "fullName": "C009",
+    "file": "C009",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "레나",
+    "fullName": "C013",
+    "file": "C013",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "베프리",
+    "fullName": "C015",
+    "file": "C015",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "그로자",
+    "fullName": "C017",
+    "file": "C017",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "페리티아",
+    "fullName": "C021",
+    "file": "C021",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "샤크리",
+    "fullName": "C022",
+    "file": "C022",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "드셰브니",
+    "fullName": "C023",
+    "file": "C023",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "치타",
+    "fullName": "C024",
+    "file": "C024",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "토로로",
+    "fullName": "C025",
+    "file": "C025",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "나강",
+    "fullName": "C026",
+    "file": "C026",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "경구",
+    "fullName": "C027",
+    "file": "C027",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "센타우레이시",
+    "fullName": "C028",
+    "file": "C028",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "사브리나",
+    "fullName": "C029",
+    "file": "C029",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "대연",
+    "fullName": "C032",
+    "file": "C032",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "모신나강",
+    "fullName": "C033",
+    "file": "C033",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "마키아토",
+    "fullName": "C034",
+    "file": "C034",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "강우",
+    "fullName": "C035",
+    "file": "C035",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "크세니아",
+    "fullName": "C036",
+    "file": "C036",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "울리드",
+    "fullName": "C037",
+    "file": "C037",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "리타라",
+    "fullName": "C038",
+    "file": "C038",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "수오미",
+    "fullName": "C039",
+    "file": "C039",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "파파샤",
+    "fullName": "C040",
+    "file": "C040",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "롯타",
+    "fullName": "C041",
+    "file": "C041",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "안도리스",
+    "fullName": "C042",
+    "file": "C042",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "페이",
+    "fullName": "C043",
+    "file": "C043",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "벡터",
+    "fullName": "C044",
+    "file": "C044",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "비욜카",
+    "fullName": "C045",
+    "file": "C045",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "스프링필드",
+    "fullName": "C047",
+    "file": "C047",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "추화",
+    "fullName": "C048",
+    "file": "C048",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "하프시",
+    "fullName": "C049",
+    "file": "C049",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "조휘",
+    "fullName": "C050",
+    "file": "C050",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "미슈티",
+    "fullName": "C051",
+    "file": "C051",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "클루카이",
+    "fullName": "C052",
+    "file": "C052",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "페리",
+    "fullName": "C053",
+    "file": "C053",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "유희",
+    "fullName": "C054",
+    "file": "C054",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "니키타",
+    "fullName": "C055",
+    "file": "C055",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "리바",
+    "fullName": "C056",
+    "file": "C056",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "로벨라",
+    "fullName": "C057",
+    "file": "C057",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "레이니",
+    "fullName": "C058",
+    "file": "C058",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "린드",
+    "fullName": "C059",
+    "file": "C059",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "파에투사",
+    "fullName": "C060",
+    "file": "C060",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "바틸다",
+    "fullName": "C061",
+    "file": "C061",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "루이스",
+    "fullName": "C062",
+    "file": "C062",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "웰로드",
+    "fullName": "C063",
+    "file": "C063",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "플로렌스",
+    "fullName": "C064",
+    "file": "C064",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "앨바",
+    "fullName": "C065",
+    "file": "C065",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "보이마스티나",
+    "fullName": "C066",
+    "file": "C066",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "헬렌",
+    "fullName": "C067",
+    "file": "C067",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "사쿠라",
+    "fullName": "C068",
+    "file": "C068",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "로렐라이",
+    "fullName": "C069",
+    "file": "C069",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "샤이엔",
+    "fullName": "C070",
+    "file": "C070",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "바스티",
+    "fullName": "C071",
+    "file": "C071",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "류시",
+    "fullName": "C072",
+    "file": "C072",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "섹스턴스",
+    "fullName": "C073",
+    "file": "C073",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "OTs-14",
+    "fullName": "C074",
+    "file": "C074",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "네메시스·연광",
+    "fullName": "C075",
+    "file": "C075",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "소프",
+    "fullName": "C076",
+    "file": "C076",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "미틸",
+    "fullName": "C077",
+    "file": "C077",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "페일린",
+    "fullName": "C078",
+    "file": "C078",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "콜레다",
+    "fullName": "C079",
+    "file": "C079",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "아스테리아",
+    "fullName": "C080",
+    "file": "C080",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "이글레타",
+    "fullName": "C081",
+    "file": "C081",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "티타임"
+  },
+  {
+    "shortName": "바스티",
+    "fullName": "도사린 위기",
+    "file": "CL001",
+    "numMin": 1,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "로렐라이",
+    "fullName": "스스로 함정에 빠지다",
+    "file": "CL002",
+    "numMin": 1,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "린드",
+    "fullName": "당분 보충",
+    "file": "CL003",
+    "numMin": 1,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "샤이엔",
+    "fullName": "소중한 인형",
+    "file": "CL004",
+    "numMin": 1,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "로벨라",
+    "fullName": "빛을 믿나요?",
+    "file": "CL005",
+    "numMin": 1,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "수오미",
+    "fullName": "탑승 대결",
+    "file": "CL006",
+    "numMin": 1,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "벡터",
+    "fullName": "가장 위대한 작품",
+    "file": "CL007",
+    "numMin": 1,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "사브리나",
+    "fullName": "쓰레기가 아니야",
+    "file": "CL008",
+    "numMin": 1,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "CN_A02",
+    "fullName": "CN_A02",
+    "file": "CN_A02",
+    "numMin": 1,
+    "numMax": 24,
+    "numDigits": 3
+  },
+  {
+    "shortName": "CN_A03",
+    "fullName": "CN_A03",
+    "file": "CN_A03",
+    "numMin": 1,
+    "numMax": 33,
+    "numDigits": 3
+  },
+  {
+    "shortName": "CN_A05",
+    "fullName": "CN_A05",
+    "file": "CN_A05",
+    "numMin": 1,
+    "numMax": 9,
+    "numDigits": 3
+  },
+  {
+    "shortName": "CN_A12",
+    "fullName": "CN_A12",
+    "file": "CN_A12",
+    "numMin": 1,
+    "numMax": 37,
+    "numDigits": 3
+  },
+  {
+    "shortName": "CN_A14",
+    "fullName": "CN_A14",
+    "file": "CN_A14",
+    "numMin": 1,
+    "numMax": 65,
+    "numDigits": 3
+  },
+  {
+    "shortName": "CN_A14",
+    "fullName": "CN_A14",
+    "file": "CN_A14",
+    "numMin": 73,
+    "numMax": 77,
+    "numDigits": 3
+  },
+  {
+    "shortName": "CN_M01",
+    "fullName": "CN_M01",
+    "file": "CN_M01",
+    "numMin": 1,
+    "numMax": 17,
+    "numDigits": 3
+  },
+  {
+    "shortName": "CN_M02",
+    "fullName": "CN_M02",
+    "file": "CN_M02",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 3
+  },
+  {
+    "shortName": "CN_M02",
+    "fullName": "CN_M02",
+    "file": "CN_M02",
+    "numMin": 7,
+    "numMax": 15,
+    "numDigits": 3
+  },
+  {
+    "shortName": "CN_M02",
+    "fullName": "CN_M02",
+    "file": "CN_M02",
+    "numMin": 17,
+    "numMax": 18,
+    "numDigits": 3
+  },
+  {
+    "shortName": "CN_M03",
+    "fullName": "CN_M03",
+    "file": "CN_M03",
+    "numMin": 1,
+    "numMax": 14,
+    "numDigits": 3
+  },
+  {
+    "shortName": "CN_M04",
+    "fullName": "CN_M04",
+    "file": "CN_M04",
+    "numMin": 1,
+    "numMax": 24,
+    "numDigits": 3
+  },
+  {
+    "shortName": "CN_M05",
+    "fullName": "CN_M05",
+    "file": "CN_M05",
+    "numMin": 1,
+    "numMax": 16,
+    "numDigits": 3
+  },
+  {
+    "shortName": "CN_M06",
+    "fullName": "CN_M06",
+    "file": "CN_M06",
+    "numMin": 1,
+    "numMax": 16,
+    "numDigits": 3
+  },
+  {
+    "shortName": "CN_M07",
+    "fullName": "CN_M07",
+    "file": "CN_M07",
+    "numMin": 1,
+    "numMax": 15,
+    "numDigits": 3
+  },
+  {
+    "shortName": "CN_M08",
+    "fullName": "CN_M08",
+    "file": "CN_M08",
+    "numMin": 1,
+    "numMax": 20,
+    "numDigits": 3
+  },
+  {
+    "shortName": "CN_M09",
+    "fullName": "CN_M09",
+    "file": "CN_M09",
+    "numMin": 1,
+    "numMax": 30,
+    "numDigits": 3
+  },
+  {
+    "shortName": "CN_M10",
+    "fullName": "CN_M10",
+    "file": "CN_M10",
+    "numMin": 1,
+    "numMax": 53,
+    "numDigits": 3
+  },
+  {
+    "shortName": "CN_M11",
+    "fullName": "CN_M11",
+    "file": "CN_M11",
+    "numMin": 1,
+    "numMax": 44,
+    "numDigits": 3
+  },
+  {
+    "shortName": "CN_M12",
+    "fullName": "CN_M12",
+    "file": "CN_M12",
+    "numMin": 1,
+    "numMax": 38,
+    "numDigits": 3
+  },
+  {
+    "shortName": "CN_M13",
+    "fullName": "CN_M13",
+    "file": "CN_M13",
+    "numMin": 1,
+    "numMax": 16,
+    "numDigits": 3
+  },
+  {
+    "shortName": "CN_M14",
+    "fullName": "CN_M14",
+    "file": "CN_M14",
+    "numMin": 1,
+    "numMax": 25,
+    "numDigits": 3
+  },
+  {
+    "shortName": "CN_M15",
+    "fullName": "CN_M15",
+    "file": "CN_M15",
+    "numMin": 1,
+    "numMax": 35,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E01",
+    "fullName": "E01",
+    "file": "E01",
+    "numMin": 1,
+    "numMax": 8,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E02",
+    "fullName": "협곡의 광풍",
+    "file": "E02",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E02",
+    "fullName": "엇갈린 마음",
+    "file": "E02",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E02",
+    "fullName": "파손과 수복",
+    "file": "E02",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E02",
+    "fullName": "긴급 회피",
+    "file": "E02",
+    "numMin": 4,
+    "numMax": 4,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E02",
+    "fullName": "알록달록한 축제",
+    "file": "E02",
+    "numMin": 5,
+    "numMax": 6,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E03",
+    "fullName": "불꽃의 죄·하편",
+    "file": "E03",
+    "numMin": 1,
+    "numMax": 8,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E04",
+    "fullName": "E04",
+    "file": "E04",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E05",
+    "fullName": "E05",
+    "file": "E05",
+    "numMin": 1,
+    "numMax": 2,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E06",
+    "fullName": "스타일은 제각각",
+    "file": "E06",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E06",
+    "fullName": "과감한 전진",
+    "file": "E06",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E06",
+    "fullName": "신중한 대응",
+    "file": "E06",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E06",
+    "fullName": "최적의 균형",
+    "file": "E06",
+    "numMin": 4,
+    "numMax": 4,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E06",
+    "fullName": "종합 제대",
+    "file": "E06",
+    "numMin": 5,
+    "numMax": 5,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E07",
+    "fullName": "E07",
+    "file": "E07",
+    "numMin": 1,
+    "numMax": 5,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E08",
+    "fullName": "E08",
+    "file": "E08",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E09",
+    "fullName": "E09",
+    "file": "E09",
+    "numMin": 1,
+    "numMax": 2,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E10",
+    "fullName": "E10",
+    "file": "E10",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E11",
+    "fullName": "E11",
+    "file": "E11",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E12",
+    "fullName": "E12",
+    "file": "E12",
+    "numMin": 1,
+    "numMax": 7,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E13",
+    "fullName": "E13",
+    "file": "E13",
+    "numMin": 1,
+    "numMax": 6,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E14",
+    "fullName": "E14",
+    "file": "E14",
+    "numMin": 1,
+    "numMax": 13,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E15",
+    "fullName": "E15",
+    "file": "E15",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E16",
+    "fullName": "E16",
+    "file": "E16",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E17",
+    "fullName": "E17",
+    "file": "E17",
+    "numMin": 1,
+    "numMax": 7,
+    "numDigits": 3
+  },
+  {
+    "shortName": "E99",
+    "fullName": "E99",
+    "file": "E99",
+    "numMin": 1,
+    "numMax": 17,
+    "numDigits": 3
+  },
+  {
+    "shortName": "EA99",
+    "fullName": "timeline",
+    "file": "EA99",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 3
+  },
+  {
+    "shortName": "캐롤릭",
+    "fullName": "라운지 스토리",
+    "file": "G001",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "캐롤릭",
+    "fullName": "라운지 스토리",
+    "file": "G001",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "네메시스",
+    "fullName": "라운지 스토리",
+    "file": "G008",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "네메시스",
+    "fullName": "라운지 스토리",
+    "file": "G008",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "콜펜",
+    "fullName": "라운지 스토리",
+    "file": "G009",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "콜펜",
+    "fullName": "라운지 스토리",
+    "file": "G009",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "레나",
+    "fullName": "라운지 스토리",
+    "file": "G013",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "레나",
+    "fullName": "라운지 스토리",
+    "file": "G013",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "베프리",
+    "fullName": "라운지 스토리",
+    "file": "G015",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "베프리",
+    "fullName": "라운지 스토리",
+    "file": "G015",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "그로자",
+    "fullName": "라운지 스토리",
+    "file": "G017",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "그로자",
+    "fullName": "라운지 스토리",
+    "file": "G017",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "페리티아",
+    "fullName": "라운지 스토리",
+    "file": "G021",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "페리티아",
+    "fullName": "라운지 스토리",
+    "file": "G021",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "샤크리",
+    "fullName": "라운지 스토리",
+    "file": "G022",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "샤크리",
+    "fullName": "라운지 스토리",
+    "file": "G022",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "드셰브니",
+    "fullName": "라운지 스토리",
+    "file": "G023",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "드셰브니",
+    "fullName": "라운지 스토리",
+    "file": "G023",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "치타",
+    "fullName": "라운지 스토리",
+    "file": "G024",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "치타",
+    "fullName": "라운지 스토리",
+    "file": "G024",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "토로로",
+    "fullName": "라운지 스토리",
+    "file": "G025",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "토로로",
+    "fullName": "라운지 스토리",
+    "file": "G025",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "나강",
+    "fullName": "라운지 스토리",
+    "file": "G026",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "나강",
+    "fullName": "라운지 스토리",
+    "file": "G026",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "경구",
+    "fullName": "라운지 스토리",
+    "file": "G027",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "경구",
+    "fullName": "라운지 스토리",
+    "file": "G027",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "센타우레이시",
+    "fullName": "라운지 스토리",
+    "file": "G028",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "센타우레이시",
+    "fullName": "라운지 스토리",
+    "file": "G028",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "사브리나",
+    "fullName": "라운지 스토리",
+    "file": "G029",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "사브리나",
+    "fullName": "라운지 스토리",
+    "file": "G029",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "대연",
+    "fullName": "라운지 스토리",
+    "file": "G032",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "대연",
+    "fullName": "라운지 스토리",
+    "file": "G032",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "모신나강",
+    "fullName": "라운지 스토리",
+    "file": "G033",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "모신나강",
+    "fullName": "라운지 스토리",
+    "file": "G033",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "마키아토",
+    "fullName": "라운지 스토리",
+    "file": "G034",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "마키아토",
+    "fullName": "라운지 스토리",
+    "file": "G034",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "강우",
+    "fullName": "라운지 스토리",
+    "file": "G035",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "강우",
+    "fullName": "라운지 스토리",
+    "file": "G035",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "크세니아",
+    "fullName": "라운지 스토리",
+    "file": "G036",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "크세니아",
+    "fullName": "라운지 스토리",
+    "file": "G036",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "울리드",
+    "fullName": "라운지 스토리",
+    "file": "G037",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "울리드",
+    "fullName": "라운지 스토리",
+    "file": "G037",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "리타라",
+    "fullName": "라운지 스토리",
+    "file": "G038",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "리타라",
+    "fullName": "라운지 스토리",
+    "file": "G038",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "수오미",
+    "fullName": "라운지 스토리",
+    "file": "G039",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "수오미",
+    "fullName": "라운지 스토리",
+    "file": "G039",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "파파샤",
+    "fullName": "라운지 스토리",
+    "file": "G040",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "파파샤",
+    "fullName": "라운지 스토리",
+    "file": "G040",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "롯타",
+    "fullName": "라운지 스토리",
+    "file": "G041",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "롯타",
+    "fullName": "라운지 스토리",
+    "file": "G041",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "안도리스",
+    "fullName": "라운지 스토리",
+    "file": "G042",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "안도리스",
+    "fullName": "라운지 스토리",
+    "file": "G042",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "페이",
+    "fullName": "라운지 스토리",
+    "file": "G043",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "페이",
+    "fullName": "라운지 스토리",
+    "file": "G043",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "벡터",
+    "fullName": "라운지 스토리",
+    "file": "G044",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "벡터",
+    "fullName": "라운지 스토리",
+    "file": "G044",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "비욜카",
+    "fullName": "라운지 스토리",
+    "file": "G045",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "비욜카",
+    "fullName": "라운지 스토리",
+    "file": "G045",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "스프링필드",
+    "fullName": "라운지 스토리",
+    "file": "G047",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "스프링필드",
+    "fullName": "라운지 스토리",
+    "file": "G047",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "추화",
+    "fullName": "라운지 스토리",
+    "file": "G048",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "추화",
+    "fullName": "라운지 스토리",
+    "file": "G048",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "하프시",
+    "fullName": "라운지 스토리",
+    "file": "G049",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "하프시",
+    "fullName": "라운지 스토리",
+    "file": "G049",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "조휘",
+    "fullName": "라운지 스토리",
+    "file": "G050",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "조휘",
+    "fullName": "라운지 스토리",
+    "file": "G050",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "미슈티",
+    "fullName": "라운지 스토리",
+    "file": "G051",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "미슈티",
+    "fullName": "라운지 스토리",
+    "file": "G051",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "클루카이",
+    "fullName": "라운지 스토리",
+    "file": "G052",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "클루카이",
+    "fullName": "라운지 스토리",
+    "file": "G052",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "페리",
+    "fullName": "라운지 스토리",
+    "file": "G053",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "페리",
+    "fullName": "라운지 스토리",
+    "file": "G053",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "유희",
+    "fullName": "라운지 스토리",
+    "file": "G054",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "유희",
+    "fullName": "라운지 스토리",
+    "file": "G054",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "니키타",
+    "fullName": "라운지 스토리",
+    "file": "G055",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "니키타",
+    "fullName": "라운지 스토리",
+    "file": "G055",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "리바",
+    "fullName": "라운지 스토리",
+    "file": "G056",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "리바",
+    "fullName": "라운지 스토리",
+    "file": "G056",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "로벨라",
+    "fullName": "라운지 스토리",
+    "file": "G057",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "로벨라",
+    "fullName": "라운지 스토리",
+    "file": "G057",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "레이니",
+    "fullName": "라운지 스토리",
+    "file": "G058",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "레이니",
+    "fullName": "라운지 스토리",
+    "file": "G058",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "린드",
+    "fullName": "라운지 스토리",
+    "file": "G059",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "린드",
+    "fullName": "라운지 스토리",
+    "file": "G059",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "파에투사",
+    "fullName": "라운지 스토리",
+    "file": "G060",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "파에투사",
+    "fullName": "라운지 스토리",
+    "file": "G060",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "바틸다",
+    "fullName": "라운지 스토리",
+    "file": "G061",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "바틸다",
+    "fullName": "라운지 스토리",
+    "file": "G061",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "루이스",
+    "fullName": "라운지 스토리",
+    "file": "G062",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "루이스",
+    "fullName": "라운지 스토리",
+    "file": "G062",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "웰로드",
+    "fullName": "라운지 스토리",
+    "file": "G063",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "웰로드",
+    "fullName": "라운지 스토리",
+    "file": "G063",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "플로렌스",
+    "fullName": "라운지 스토리",
+    "file": "G064",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "플로렌스",
+    "fullName": "라운지 스토리",
+    "file": "G064",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "앨바",
+    "fullName": "라운지 스토리",
+    "file": "G065",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "앨바",
+    "fullName": "라운지 스토리",
+    "file": "G065",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "보이마스티나",
+    "fullName": "라운지 스토리",
+    "file": "G066",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "보이마스티나",
+    "fullName": "라운지 스토리",
+    "file": "G066",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "헬렌",
+    "fullName": "라운지 스토리",
+    "file": "G067",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "헬렌",
+    "fullName": "라운지 스토리",
+    "file": "G067",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "사쿠라",
+    "fullName": "라운지 스토리",
+    "file": "G068",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "사쿠라",
+    "fullName": "라운지 스토리",
+    "file": "G068",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "로렐라이",
+    "fullName": "라운지 스토리",
+    "file": "G069",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "로렐라이",
+    "fullName": "라운지 스토리",
+    "file": "G069",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "샤이엔",
+    "fullName": "라운지 스토리",
+    "file": "G070",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "샤이엔",
+    "fullName": "라운지 스토리",
+    "file": "G070",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "바스티",
+    "fullName": "라운지 스토리",
+    "file": "G071",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "바스티",
+    "fullName": "라운지 스토리",
+    "file": "G071",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "류시",
+    "fullName": "라운지 스토리",
+    "file": "G072",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "류시",
+    "fullName": "라운지 스토리",
+    "file": "G072",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "섹스턴스",
+    "fullName": "라운지 스토리",
+    "file": "G073",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "섹스턴스",
+    "fullName": "라운지 스토리",
+    "file": "G073",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "OTs-14",
+    "fullName": "라운지 스토리",
+    "file": "G074",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "OTs-14",
+    "fullName": "라운지 스토리",
+    "file": "G074",
+    "numMin": 96,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "네메시스·연광",
+    "fullName": "라운지 스토리",
+    "file": "G075",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "네메시스·연광",
+    "fullName": "라운지 스토리",
+    "file": "G075",
+    "numMin": 96,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "소프",
+    "fullName": "라운지 스토리",
+    "file": "G076",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "소프",
+    "fullName": "라운지 스토리",
+    "file": "G076",
+    "numMin": 96,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "미틸",
+    "fullName": "라운지 스토리",
+    "file": "G077",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "미틸",
+    "fullName": "라운지 스토리",
+    "file": "G077",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "페일린",
+    "fullName": "라운지 스토리",
+    "file": "G078",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "페일린",
+    "fullName": "라운지 스토리",
+    "file": "G078",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "콜레다",
+    "fullName": "라운지 스토리",
+    "file": "G079",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "콜레다",
+    "fullName": "라운지 스토리",
+    "file": "G079",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "아스테리아",
+    "fullName": "라운지 스토리",
+    "file": "G080",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "아스테리아",
+    "fullName": "라운지 스토리",
+    "file": "G080",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "이글레타",
+    "fullName": "라운지 스토리",
+    "file": "G081",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2
+  },
+  {
+    "shortName": "이글레타",
+    "fullName": "라운지 스토리",
+    "file": "G081",
+    "numMin": 99,
+    "numMax": 99,
+    "numDigits": 2
+  },
+  {
+    "shortName": "캐롤릭",
+    "fullName": "K001",
+    "file": "K001",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "네메시스",
+    "fullName": "K008",
+    "file": "K008",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "콜펜",
+    "fullName": "K009",
+    "file": "K009",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "레나",
+    "fullName": "K013",
+    "file": "K013",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "베프리",
+    "fullName": "K015",
+    "file": "K015",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "그로자",
+    "fullName": "K017",
+    "file": "K017",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "페리티아",
+    "fullName": "K021",
+    "file": "K021",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "샤크리",
+    "fullName": "K022",
+    "file": "K022",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "드셰브니",
+    "fullName": "K023",
+    "file": "K023",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "치타",
+    "fullName": "K024",
+    "file": "K024",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "토로로",
+    "fullName": "K025",
+    "file": "K025",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "나강",
+    "fullName": "K026",
+    "file": "K026",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "경구",
+    "fullName": "K027",
+    "file": "K027",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "센타우레이시",
+    "fullName": "K028",
+    "file": "K028",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "사브리나",
+    "fullName": "K029",
+    "file": "K029",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "대연",
+    "fullName": "K032",
+    "file": "K032",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "모신나강",
+    "fullName": "K033",
+    "file": "K033",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "마키아토",
+    "fullName": "K034",
+    "file": "K034",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "강우",
+    "fullName": "K035",
+    "file": "K035",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "크세니아",
+    "fullName": "K036",
+    "file": "K036",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "울리드",
+    "fullName": "K037",
+    "file": "K037",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "리타라",
+    "fullName": "K038",
+    "file": "K038",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "수오미",
+    "fullName": "K039",
+    "file": "K039",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "파파샤",
+    "fullName": "K040",
+    "file": "K040",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "롯타",
+    "fullName": "K041",
+    "file": "K041",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "안도리스",
+    "fullName": "K042",
+    "file": "K042",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "페이",
+    "fullName": "K043",
+    "file": "K043",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "벡터",
+    "fullName": "K044",
+    "file": "K044",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "비욜카",
+    "fullName": "K045",
+    "file": "K045",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "스프링필드",
+    "fullName": "K047",
+    "file": "K047",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "추화",
+    "fullName": "K048",
+    "file": "K048",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "하프시",
+    "fullName": "K049",
+    "file": "K049",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "조휘",
+    "fullName": "K050",
+    "file": "K050",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "미슈티",
+    "fullName": "K051",
+    "file": "K051",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "클루카이",
+    "fullName": "K052",
+    "file": "K052",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "페리",
+    "fullName": "K053",
+    "file": "K053",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "유희",
+    "fullName": "K054",
+    "file": "K054",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "니키타",
+    "fullName": "K055",
+    "file": "K055",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "리바",
+    "fullName": "K056",
+    "file": "K056",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "로벨라",
+    "fullName": "K057",
+    "file": "K057",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "레이니",
+    "fullName": "K058",
+    "file": "K058",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "린드",
+    "fullName": "K059",
+    "file": "K059",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "파에투사",
+    "fullName": "K060",
+    "file": "K060",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "바틸다",
+    "fullName": "K061",
+    "file": "K061",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "루이스",
+    "fullName": "K062",
+    "file": "K062",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "웰로드",
+    "fullName": "K063",
+    "file": "K063",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "플로렌스",
+    "fullName": "K064",
+    "file": "K064",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "앨바",
+    "fullName": "K065",
+    "file": "K065",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "보이마스티나",
+    "fullName": "K066",
+    "file": "K066",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "헬렌",
+    "fullName": "K067",
+    "file": "K067",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "사쿠라",
+    "fullName": "K068",
+    "file": "K068",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "로렐라이",
+    "fullName": "K069",
+    "file": "K069",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "샤이엔",
+    "fullName": "K070",
+    "file": "K070",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "바스티",
+    "fullName": "K071",
+    "file": "K071",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "류시",
+    "fullName": "K072",
+    "file": "K072",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "섹스턴스",
+    "fullName": "K073",
+    "file": "K073",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "OTs-14",
+    "fullName": "K074",
+    "file": "K074",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "네메시스·연광",
+    "fullName": "K075",
+    "file": "K075",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "소프",
+    "fullName": "K076",
+    "file": "K076",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "미틸",
+    "fullName": "K077",
+    "file": "K077",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "페일린",
+    "fullName": "K078",
+    "file": "K078",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "콜레다",
+    "fullName": "K079",
+    "file": "K079",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "아스테리아",
+    "fullName": "K080",
+    "file": "K080",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "이글레타",
+    "fullName": "K081",
+    "file": "K081",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "요리"
+  },
+  {
+    "shortName": "그로자",
+    "fullName": "N001",
+    "file": "N001",
+    "numMin": 1,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "네메시스",
+    "fullName": "N001",
+    "file": "N001",
+    "numMin": 4,
+    "numMax": 5,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "그로자",
+    "fullName": "N001",
+    "file": "N001",
+    "numMin": 6,
+    "numMax": 8,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "미식 조리?",
+    "fullName": "미식 조리?",
+    "file": "N001",
+    "numMin": 9,
+    "numMax": 9,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "빠른 이동?",
+    "fullName": "빠른 이동?",
+    "file": "N001",
+    "numMin": 10,
+    "numMax": 10,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "관리실?",
+    "fullName": "관리실?",
+    "file": "N001",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "새단장 발주?",
+    "fullName": "새단장 발주?",
+    "file": "N001",
+    "numMin": 12,
+    "numMax": 12,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "루비 아케이드?",
+    "fullName": "루비 아케이드?",
+    "file": "N001",
+    "numMin": 13,
+    "numMax": 13,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "장식품 배치?",
+    "fullName": "장식품 배치?",
+    "file": "N001",
+    "numMin": 14,
+    "numMax": 14,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "필로우 하모니?",
+    "fullName": "필로우 하모니?",
+    "file": "N001",
+    "numMin": 15,
+    "numMax": 15,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "조각상 진열?",
+    "fullName": "조각상 진열?",
+    "file": "N001",
+    "numMin": 16,
+    "numMax": 16,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "갤러리?",
+    "fullName": "갤러리?",
+    "file": "N001",
+    "numMin": 17,
+    "numMax": 17,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "한 잔의 여유?",
+    "fullName": "한 잔의 여유?",
+    "file": "N001",
+    "numMin": 18,
+    "numMax": 18,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "무기 진열장?",
+    "fullName": "무기 진열장?",
+    "file": "N001",
+    "numMin": 19,
+    "numMax": 19,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "지휘관 핫라인?",
+    "fullName": "지휘관 핫라인?",
+    "file": "N001",
+    "numMin": 20,
+    "numMax": 20,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "스위트 토크?",
+    "fullName": "스위트 토크?",
+    "file": "N001",
+    "numMin": 21,
+    "numMax": 21,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "초특급 재건 기획 중",
+    "fullName": "초특급 재건 기획 중",
+    "file": "N002",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "N002",
+    "fullName": "N002",
+    "file": "N002",
+    "numMin": 2,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "바스티",
+    "fullName": "N002",
+    "file": "N002",
+    "numMin": 4,
+    "numMax": 4,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "마키아토",
+    "fullName": "N002",
+    "file": "N002",
+    "numMin": 5,
+    "numMax": 6,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "침실 리뉴얼 대작전",
+    "fullName": "침실 리뉴얼 대작전",
+    "file": "N002",
+    "numMin": 7,
+    "numMax": 7,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "클루카이",
+    "fullName": "S001",
+    "file": "S001",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2
+  },
+  {
+    "shortName": "마키아토",
+    "fullName": "S002",
+    "file": "S002",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2
+  },
+  {
+    "shortName": "헬렌",
+    "fullName": "S003",
+    "file": "S003",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2
+  },
+  {
+    "shortName": "로렐라이",
+    "fullName": "S004",
+    "file": "S004",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2
+  },
+  {
+    "shortName": "대연",
+    "fullName": "S005",
+    "file": "S005",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2
+  },
+  {
+    "shortName": "리바",
+    "fullName": "S006",
+    "file": "S006",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2
+  },
+  {
+    "shortName": "네메시스·연광",
+    "fullName": "S007",
+    "file": "S007",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2
+  },
+  {
+    "shortName": "콜레다",
+    "fullName": "S008",
+    "file": "S008",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2
+  },
+  {
+    "shortName": "로벨라",
+    "fullName": "S009",
+    "file": "S009",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2
+  },
+  {
+    "shortName": "SA01",
+    "fullName": "책정",
+    "file": "SA01",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 3
+  },
+  {
+    "shortName": "SA010",
+    "fullName": "SA010",
+    "file": "SA010",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2
+  },
+  {
+    "shortName": "기원의 문",
+    "fullName": "기원의 문",
+    "file": "W001",
+    "numMin": 1,
+    "numMax": 15,
+    "numDigits": 2,
+    "category": "이벤트"
+  },
+  {
+    "shortName": "클루카이",
+    "fullName": "클루카이·감벽빛 별의 서약",
+    "file": "WE001",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2,
+    "category": "서약"
+  },
+  {
+    "shortName": "오퍼레이션-B",
+    "fullName": "오퍼레이션-B",
+    "file": "WE002",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "소원의 해석",
+    "fullName": "소원의 해석",
+    "file": "WE002",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "즐겨찾는 친구",
+    "fullName": "즐겨찾는 친구",
+    "file": "WE002",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "여름과 수영장과 그녀",
+    "fullName": "여름과 수영장과 그녀",
+    "file": "WE003",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "사랑받는 빙수",
+    "fullName": "사랑받는 빙수",
+    "file": "WE003",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "매력 테스트",
+    "fullName": "매력 테스트",
+    "file": "WE003",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "파티 시동",
+    "fullName": "파티 시동",
+    "file": "Y001",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "스프링필드",
+    "fullName": "Y001",
+    "file": "Y001",
+    "numMin": 2,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "센타우레이시",
+    "fullName": "Y001",
+    "file": "Y001",
+    "numMin": 4,
+    "numMax": 4,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "마키아토",
+    "fullName": "Y001",
+    "file": "Y001",
+    "numMin": 5,
+    "numMax": 5,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "센타우레이시",
+    "fullName": "Y001",
+    "file": "Y001",
+    "numMin": 6,
+    "numMax": 6,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "스프링필드",
+    "fullName": "Y001",
+    "file": "Y001",
+    "numMin": 7,
+    "numMax": 7,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "마키아토",
+    "fullName": "Y001",
+    "file": "Y001",
+    "numMin": 8,
+    "numMax": 9,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "추화",
+    "fullName": "Y001",
+    "file": "Y001",
+    "numMin": 10,
+    "numMax": 10,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "마키아토",
+    "fullName": "Y001",
+    "file": "Y001",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "플로렌스",
+    "fullName": "Y002",
+    "file": "Y002",
+    "numMin": 1,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "콜펜",
+    "fullName": "Y002",
+    "file": "Y002",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "그로자",
+    "fullName": "Y002",
+    "file": "Y002",
+    "numMin": 4,
+    "numMax": 5,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "미슈티",
+    "fullName": "Y002",
+    "file": "Y002",
+    "numMin": 6,
+    "numMax": 6,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "베프리",
+    "fullName": "Y002",
+    "file": "Y002",
+    "numMin": 7,
+    "numMax": 7,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "유희",
+    "fullName": "Y003",
+    "file": "Y003",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "베프리",
+    "fullName": "Y003",
+    "file": "Y003",
+    "numMin": 2,
+    "numMax": 4,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "유희",
+    "fullName": "Y003",
+    "file": "Y003",
+    "numMin": 5,
+    "numMax": 5,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "샤크리",
+    "fullName": "Y003",
+    "file": "Y003",
+    "numMin": 6,
+    "numMax": 7,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "조휘",
+    "fullName": "Y004",
+    "file": "Y004",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "헬렌",
+    "fullName": "Y004",
+    "file": "Y004",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "대연",
+    "fullName": "Y004",
+    "file": "Y004",
+    "numMin": 3,
+    "numMax": 4,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "헬렌",
+    "fullName": "Y004",
+    "file": "Y004",
+    "numMin": 5,
+    "numMax": 6,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "그로자",
+    "fullName": "Y005",
+    "file": "Y005",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "스프링필드",
+    "fullName": "Y005",
+    "file": "Y005",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "헬렌",
+    "fullName": "Y005",
+    "file": "Y005",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "샤크리",
+    "fullName": "Y005",
+    "file": "Y005",
+    "numMin": 4,
+    "numMax": 4,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "스프링필드",
+    "fullName": "Y005",
+    "file": "Y005",
+    "numMin": 5,
+    "numMax": 5,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "클루카이",
+    "fullName": "Y005",
+    "file": "Y005",
+    "numMin": 6,
+    "numMax": 6,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "레나",
+    "fullName": "Y005",
+    "file": "Y005",
+    "numMin": 7,
+    "numMax": 7,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "심야 동반 위원회",
+    "fullName": "심야 동반 위원회",
+    "file": "Y011",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "루이스",
+    "fullName": "Y011",
+    "file": "Y011",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "벡터",
+    "fullName": "Y011",
+    "file": "Y011",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "루이스",
+    "fullName": "Y011",
+    "file": "Y011",
+    "numMin": 4,
+    "numMax": 5,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "파에투사",
+    "fullName": "Y011",
+    "file": "Y011",
+    "numMin": 6,
+    "numMax": 6,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "벡터",
+    "fullName": "Y011",
+    "file": "Y011",
+    "numMin": 7,
+    "numMax": 8,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "파에투사",
+    "fullName": "Y011",
+    "file": "Y011",
+    "numMin": 9,
+    "numMax": 10,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "루이스",
+    "fullName": "발 디딜 곳",
+    "file": "Y011",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "벡터",
+    "fullName": "Y011",
+    "file": "Y011",
+    "numMin": 12,
+    "numMax": 12,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "콜펜",
+    "fullName": "Y012",
+    "file": "Y012",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "플로렌스",
+    "fullName": "Y012",
+    "file": "Y012",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "안도리스",
+    "fullName": "Y012",
+    "file": "Y012",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "콜펜",
+    "fullName": "Y012",
+    "file": "Y012",
+    "numMin": 4,
+    "numMax": 5,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "플로렌스",
+    "fullName": "Y012",
+    "file": "Y012",
+    "numMin": 6,
+    "numMax": 6,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "안도리스",
+    "fullName": "Y012",
+    "file": "Y012",
+    "numMin": 7,
+    "numMax": 7,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "콜펜",
+    "fullName": "Y012",
+    "file": "Y012",
+    "numMin": 8,
+    "numMax": 8,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "콜펜",
+    "fullName": "발 디딜 곳",
+    "file": "Y012",
+    "numMin": 9,
+    "numMax": 9,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "대연",
+    "fullName": "Y013",
+    "file": "Y013",
+    "numMin": 1,
+    "numMax": 4,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "강우",
+    "fullName": "Y013",
+    "file": "Y013",
+    "numMin": 5,
+    "numMax": 6,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "로렐라이",
+    "fullName": "Y014",
+    "file": "Y014",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "보이마스티나",
+    "fullName": "Y014",
+    "file": "Y014",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "샤이엔",
+    "fullName": "Y014",
+    "file": "Y014",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "로벨라",
+    "fullName": "Y014",
+    "file": "Y014",
+    "numMin": 4,
+    "numMax": 4,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "로렐라이",
+    "fullName": "Y014",
+    "file": "Y014",
+    "numMin": 5,
+    "numMax": 6,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "대연",
+    "fullName": "Y015",
+    "file": "Y015",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "루이스",
+    "fullName": "Y015",
+    "file": "Y015",
+    "numMin": 2,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "벡터",
+    "fullName": "Y015",
+    "file": "Y015",
+    "numMin": 4,
+    "numMax": 4,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "플로렌스",
+    "fullName": "Y015",
+    "file": "Y015",
+    "numMin": 5,
+    "numMax": 5,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "대연",
+    "fullName": "Y015",
+    "file": "Y015",
+    "numMin": 6,
+    "numMax": 6,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "강우",
+    "fullName": "Y015",
+    "file": "Y015",
+    "numMin": 7,
+    "numMax": 7,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "로렐라이",
+    "fullName": "Y015",
+    "file": "Y015",
+    "numMin": 8,
+    "numMax": 8,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "콜펜",
+    "fullName": "Y015",
+    "file": "Y015",
+    "numMin": 9,
+    "numMax": 9,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "축제 개막",
+    "fullName": "축제 개막",
+    "file": "Y021",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "로벨라",
+    "fullName": "Y021",
+    "file": "Y021",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "그로자",
+    "fullName": "Y021",
+    "file": "Y021",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "샤이엔",
+    "fullName": "Y021",
+    "file": "Y021",
+    "numMin": 4,
+    "numMax": 4,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "캐롤릭",
+    "fullName": "Y021",
+    "file": "Y021",
+    "numMin": 5,
+    "numMax": 5,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "추화",
+    "fullName": "Y021",
+    "file": "Y021",
+    "numMin": 6,
+    "numMax": 6,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "OTs-14",
+    "fullName": "Y021",
+    "file": "Y021",
+    "numMin": 7,
+    "numMax": 7,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "로벨라",
+    "fullName": "Y021",
+    "file": "Y021",
+    "numMin": 8,
+    "numMax": 8,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "사브리나",
+    "fullName": "Y021",
+    "file": "Y021",
+    "numMin": 9,
+    "numMax": 9,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "네메시스·연광",
+    "fullName": "Y021",
+    "file": "Y021",
+    "numMin": 10,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "캐롤릭",
+    "fullName": "Y021",
+    "file": "Y021",
+    "numMin": 12,
+    "numMax": 12,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "네메시스·연광",
+    "fullName": "Y021",
+    "file": "Y021",
+    "numMin": 13,
+    "numMax": 13,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "추화",
+    "fullName": "Y022",
+    "file": "Y022",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "사브리나",
+    "fullName": "Y022",
+    "file": "Y022",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "추화",
+    "fullName": "Y022",
+    "file": "Y022",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "사브리나",
+    "fullName": "Y022",
+    "file": "Y022",
+    "numMin": 4,
+    "numMax": 4,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "드셰브니",
+    "fullName": "Y022",
+    "file": "Y022",
+    "numMin": 5,
+    "numMax": 5,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "사쿠라",
+    "fullName": "Y022",
+    "file": "Y022",
+    "numMin": 6,
+    "numMax": 7,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "드셰브니",
+    "fullName": "기념일 예찬",
+    "file": "Y022",
+    "numMin": 8,
+    "numMax": 8,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "샤이엔",
+    "fullName": "Y022",
+    "file": "Y022",
+    "numMin": 9,
+    "numMax": 9,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "캐롤릭",
+    "fullName": "Y023",
+    "file": "Y023",
+    "numMin": 1,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "네메시스·연광",
+    "fullName": "Y023",
+    "file": "Y023",
+    "numMin": 3,
+    "numMax": 7,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "로벨라",
+    "fullName": "Y024",
+    "file": "Y024",
+    "numMin": 1,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "OTs-14",
+    "fullName": "Y024",
+    "file": "Y024",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "그로자",
+    "fullName": "Y024",
+    "file": "Y024",
+    "numMin": 4,
+    "numMax": 4,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "OTs-14",
+    "fullName": "Y025",
+    "file": "Y025",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "추화",
+    "fullName": "Y025",
+    "file": "Y025",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "로벨라",
+    "fullName": "Y025",
+    "file": "Y025",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "네메시스·연광",
+    "fullName": "Y025",
+    "file": "Y025",
+    "numMin": 4,
+    "numMax": 4,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "로벨라",
+    "fullName": "Y025",
+    "file": "Y025",
+    "numMin": 5,
+    "numMax": 5,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "사쿠라",
+    "fullName": "Y025",
+    "file": "Y025",
+    "numMin": 6,
+    "numMax": 6,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "엘모호의 난관",
+    "fullName": "엘모호의 난관",
+    "file": "Y031",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "그로자",
+    "fullName": "Y031",
+    "file": "Y031",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "사브리나",
+    "fullName": "Y031",
+    "file": "Y031",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "스프링필드",
+    "fullName": "Y031",
+    "file": "Y031",
+    "numMin": 4,
+    "numMax": 4,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "류시",
+    "fullName": "Y031",
+    "file": "Y031",
+    "numMin": 5,
+    "numMax": 5,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "샤이엔",
+    "fullName": "Y031",
+    "file": "Y031",
+    "numMin": 6,
+    "numMax": 6,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "그로자",
+    "fullName": "Y031",
+    "file": "Y031",
+    "numMin": 7,
+    "numMax": 7,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "사브리나",
+    "fullName": "Y031",
+    "file": "Y031",
+    "numMin": 8,
+    "numMax": 8,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "추화",
+    "fullName": "Y031",
+    "file": "Y031",
+    "numMin": 9,
+    "numMax": 10,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "류시",
+    "fullName": "Y031",
+    "file": "Y031",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "추화",
+    "fullName": "Y031",
+    "file": "Y031",
+    "numMin": 12,
+    "numMax": 12,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "그로자",
+    "fullName": "Y032",
+    "file": "Y032",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "레나",
+    "fullName": "Y032",
+    "file": "Y032",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "마키아토",
+    "fullName": "Y032",
+    "file": "Y032",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "토로로",
+    "fullName": "Y032",
+    "file": "Y032",
+    "numMin": 4,
+    "numMax": 4,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "치타",
+    "fullName": "Y032",
+    "file": "Y032",
+    "numMin": 5,
+    "numMax": 5,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "마키아토",
+    "fullName": "Y032",
+    "file": "Y032",
+    "numMin": 6,
+    "numMax": 6,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "토로로",
+    "fullName": "Y032",
+    "file": "Y032",
+    "numMin": 7,
+    "numMax": 7,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "그로자",
+    "fullName": "Y032",
+    "file": "Y032",
+    "numMin": 8,
+    "numMax": 8,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "그로자",
+    "fullName": "흰눈에 감춘 편지",
+    "file": "Y032",
+    "numMin": 9,
+    "numMax": 9,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "OTs-14",
+    "fullName": "Y032",
+    "file": "Y032",
+    "numMin": 10,
+    "numMax": 10,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "그로자",
+    "fullName": "Y032",
+    "file": "Y032",
+    "numMin": 11,
+    "numMax": 11,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "그로자",
+    "fullName": "Y033",
+    "file": "Y033",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "캐롤릭",
+    "fullName": "Y033",
+    "file": "Y033",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "페일린",
+    "fullName": "Y033",
+    "file": "Y033",
+    "numMin": 3,
+    "numMax": 3,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "네메시스·연광",
+    "fullName": "Y033",
+    "file": "Y033",
+    "numMin": 4,
+    "numMax": 4,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "페일린",
+    "fullName": "Y033",
+    "file": "Y033",
+    "numMin": 5,
+    "numMax": 5,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "캐롤릭",
+    "fullName": "Y033",
+    "file": "Y033",
+    "numMin": 6,
+    "numMax": 6,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "바스티",
+    "fullName": "Y033",
+    "file": "Y033",
+    "numMin": 7,
+    "numMax": 7,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "캐롤릭",
+    "fullName": "Y033",
+    "file": "Y033",
+    "numMin": 8,
+    "numMax": 8,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "바스티",
+    "fullName": "Y033",
+    "file": "Y033",
+    "numMin": 9,
+    "numMax": 9,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "그로자",
+    "fullName": "Y034",
+    "file": "Y034",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "플로렌스",
+    "fullName": "Y034",
+    "file": "Y034",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "마키아토",
+    "fullName": "Y034",
+    "file": "Y034",
+    "numMin": 3,
+    "numMax": 4,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "바스티",
+    "fullName": "Y034",
+    "file": "Y034",
+    "numMin": 5,
+    "numMax": 6,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "네메시스·연광",
+    "fullName": "Y034",
+    "file": "Y034",
+    "numMin": 7,
+    "numMax": 7,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "OTs-14",
+    "fullName": "Y034",
+    "file": "Y034",
+    "numMin": 8,
+    "numMax": 8,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "스프링필드",
+    "fullName": "Y035",
+    "file": "Y035",
+    "numMin": 1,
+    "numMax": 1,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "바스티",
+    "fullName": "Y035",
+    "file": "Y035",
+    "numMin": 2,
+    "numMax": 2,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  },
+  {
+    "shortName": "그로자",
+    "fullName": "Y035",
+    "file": "Y035",
+    "numMin": 3,
+    "numMax": 5,
+    "numDigits": 2,
+    "category": "라운지 스토리"
+  }
+]

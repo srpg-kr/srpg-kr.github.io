@@ -11,6 +11,12 @@ node_modules
 dist
 dist-ssr
 *.local
+scripts/live2d_pipeline.local.toml
+scripts/books_pipeline.local.toml
+__pycache__/
+*.py[cod]
+scripts/nrbf_book_converter/bin/
+scripts/nrbf_book_converter/obj/
 
 # Editor directories and files
 .vscode/*

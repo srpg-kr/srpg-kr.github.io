@@ -3,7 +3,7 @@ import Papa from 'papaparse';
 import Sidebar from './components/Sidebar';
 import DataTable from './components/DataTable';
 import NavigationControls from './components/NavigationControls';
-import { CATEGORIES, DEFAULT_CATEGORY, categorizeFiles } from './components/categories';
+import { CATEGORY_ORDER, DEFAULT_CATEGORY, categorizeFiles } from './components/categories';
 import "./App.css";
 
 function App() {
@@ -20,8 +20,7 @@ function App() {
 
   // Fetch file list from JSON
   useEffect(() => {
-    fetch('https://raw.githubusercontent.com/jarari/anime-shooting-cn/refs/heads/main/Books/parsed_books.json')
-    //fetch('./parsed_books.json')
+    fetch('/Books/parsed_books.json')
       .then((res) => res.json())
       .then((data) => {
         const files = data.reduce((arr, item) => {
@@ -29,7 +28,8 @@ function App() {
             arr.push({
               "shortName": `${item.shortName} - ${i}`,
               "fullName": `${item.fullName} - ${i}`,
-              "file": item.file + i.toString().padStart(item.numDigits, "0")
+              "file": item.file + i.toString().padStart(item.numDigits, "0"),
+              "category": item.category
             });
           }
           return arr;
@@ -64,7 +64,7 @@ function App() {
     
     // Create flat navigation list respecting category order
     const orderedList = [];
-    CATEGORIES.forEach(([_, categoryName]) => {
+    CATEGORY_ORDER.forEach((categoryName) => {
       if (categorized[categoryName]) {
         orderedList.push(...categorized[categoryName]);
       }
@@ -78,7 +78,7 @@ function App() {
     setLoading(true); // Start loading
     const headers = ["화자", "대사"];
     setTitle(title)
-    Papa.parse("https://raw.githubusercontent.com/jarari/anime-shooting-cn/refs/heads/main/Books/Parsed/" + fileUrl, {
+    Papa.parse("/Books/Parsed/" + fileUrl, {
       download: true,
       header: false, // if your CSV has headers
       skipEmptyLines: true,
