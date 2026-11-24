@@ -56,6 +56,111 @@
     text-align: right;
   }
   
+
+  .gfl2-model-picker input[type='search'] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #777;
+    border-radius: 4px;
+    background-color: #202020;
+    color: white;
+    color-scheme: dark;
+  }
+
+  .gfl2-model-picker .l2d-model-group + .l2d-model-group {
+    margin-top: 6px;
+  }
+
+  .gfl2-model-picker :is(.l2d-group-toggle, .gfl2-character > summary) {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 8px;
+    width: 100%;
+    padding: 7px 8px;
+    border-radius: 7px;
+    font-size: 14px;
+    line-height: 1.45;
+    text-align: left;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  .gfl2-model-picker .l2d-group-toggle {
+    background: #3b3b3b;
+    font-weight: 600;
+  }
+
+  .gfl2-model-picker .gfl2-character > summary {
+    list-style: none;
+    overflow-wrap: anywhere;
+  }
+
+  .gfl2-model-picker summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .gfl2-model-picker :is(.l2d-group-toggle, summary):hover {
+    background: #484848;
+  }
+
+  .gfl2-model-picker :is(.l2d-group-toggle, summary):focus-visible {
+    outline: 2px solid #b9c6ef;
+    outline-offset: -2px;
+  }
+
+  .gfl2-model-picker :is(.l2d-group-toggle, summary) > svg {
+    width: 16px;
+    height: 16px;
+    flex: none;
+    color: #c8c8c8;
+  }
+
+  .gfl2-model-picker :is(.l2d-group-toggle[aria-expanded='true'], details[open] > summary) > svg {
+    transform: rotate(90deg);
+  }
+
+  .gfl2-model-picker .l2d-count {
+    flex: none;
+    margin-inline-start: auto;
+    min-width: 1.35em;
+    padding: 1px 6px;
+    border-radius: 999px;
+    background: #202020;
+    color: #ddd;
+    font-size: 11px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    text-align: center;
+  }
+
+  .gfl2-model-picker .l2d-model-list {
+    padding: 4px 0;
+    padding-inline-start: 12px;
+  }
+
+  .gfl2-model-picker .l2d-model-variants {
+    display: grid;
+    gap: 4px;
+    margin: 0 4px 5px 15px;
+    padding: 2px 0 2px 8px;
+    border-inline-start: 1px solid #515151;
+  }
+
+  .gfl2-model-picker button.l2d-model-option {
+    padding: 6px 8px;
+    border-radius: 6px;
+    background: #353535;
+    font-size: 13px;
+    overflow-wrap: anywhere;
+  }
+
+  .gfl2-model-picker button.l2d-model-option:hover {
+    background: #505050;
+  }
+
   /* Right panel: fixed width, scrollable if needed */
   .l2d-panel.right {
     right: 0;

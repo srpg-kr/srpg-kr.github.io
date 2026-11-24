@@ -8,6 +8,7 @@ import Live2DViewer from './components/Live2DViewer';
 import ControlsPanel from './components/ControlsPanel';
 import ScreenshotModal from './components/ScreenshotModal';
 import { getAvailableModels, getModelDisplayName } from './live2d/lappdefine';
+import Gfl2ModelPicker from './components/Gfl2ModelPicker.tsx';
 import { LAppDelegate } from './live2d/lappdelegate';
 
 function Live2DApp({ gameId = 0 }) {
@@ -158,14 +159,24 @@ function Live2DApp({ gameId = 0 }) {
     <div className="app-container">
       {/* Left Panel: Models Sidebar */}
       <div className={`l2d-panel ${isLPanelOpen ? "open" : "closed"}`}>
-        <button className="toggle-btn" onClick={() => setIsLPanelOpen(!isLPanelOpen)}>
+        <button className="toggle-btn" aria-label="Models" aria-expanded={isLPanelOpen}
+          onClick={() => setIsLPanelOpen(!isLPanelOpen)}>
           <FaPerson />
         </button>
         <div className="l2d-panel-control">
           <h2>Models</h2>
         </div>
         <div className="sidebar-content">
-          <div className="category-list">
+          {gameId === 0 ? (
+            <Gfl2ModelPicker
+              models={modelList}
+              locale={locale}
+              onSelect={(id) => {
+                const index = modelList.findIndex((model) => model.id === id);
+                if (index >= 0) handleModelSelect(index);
+              }}
+            />
+          ) : <div className="category-list">
             {modelList.map((model, index) => (
               <button
                 key={`${model.id}-${index}`}
@@ -174,7 +185,7 @@ function Live2DApp({ gameId = 0 }) {
                 {getModelDisplayName(model, locale)}
               </button>
             ))}
-          </div>
+          </div>}
         </div>
       </div>
 
